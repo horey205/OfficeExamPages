@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>지적공무원 기출정복</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="dark-mode" style="overflow:hidden"> <!-- 로그인 전 스크롤 방지 -->
+    <!-- User Login Overlay -->
+    <div id="user-login-overlay" class="screen"
+        style="display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; background: var(--background);">
+        <div class="glass card" style="width: 90%; max-width: 320px; padding: 30px; text-align: center;">
+            <h1 style="margin-bottom: 15px; font-size: 1.5rem; font-weight: bold;">지적공무원 기출문제</h1>
+            <h2 style="margin-bottom: 30px; font-size: 1.2rem; opacity: 0.8;">로그인</h2>
+            <div class="form-group" style="text-align: left; margin-bottom:15px">
+                <label style="display:block; color:var(--text-muted); font-size:0.8rem; margin-bottom:5px">ID</label>
+                <input type="text" id="user-id" placeholder="ID 입력"
+                    style="width:100%; padding:10px; border-radius:8px; background:rgba(255,255,255,0.05); border:1px solid var(--glass-border); color:white; font-size: 16px;">
+            </div>
+            <div class="form-group" style="text-align: left; margin-bottom: 30px;">
+                <label
+                    style="display:block; color:var(--text-muted); font-size:0.8rem; margin-bottom:5px">Password</label>
+                <input type="password" id="user-pw" placeholder="비밀번호 입력"
+                    style="width:100%; padding:10px; border-radius:8px; background:rgba(255,255,255,0.05); border:1px solid var(--glass-border); color:white; font-size: 16px;">
+            </div>
+            <button class="primary-btn" style="width: 100%;" onclick="checkUserLogin()">접속하기</button>
+            <p id="user-login-error" style="color: #ef4444; font-size: 0.8rem; margin-top: 15px; min-height:1.2em;"></p>
+        </div>
+    </div>
+
+    <div id="app" class="hidden"> <!-- 초기에는 숨김 처리 -->
+        <!-- Landing Section -->
+        <section id="landing" class="screen">
+            <div class="hero">
+                <h1>지적공무원 <span class="gradient-text">기출정복</span></h1>
+                <p>2016 - 2025 최신 기출문제를 완벽하게 마스터하세요.</p>
+
+                <div class="source-selector glass"
+                    style="display: inline-flex; padding: 5px; margin-bottom: 30px; border-radius: 12px;">
+                    <button id="src-official" class="tab-btn active" onclick="setSource('기출')">기출문제</button>
+                    <button id="src-all" class="tab-btn" onclick="setSource('all')">전체(AI포함)</button>
+                </div>
+
+                <div class="subject-grid">
+                    <!-- 지적측량 -->
+                    <div class="subject-card glass">
+                        <h4>📐 지적측량</h4>
+                        <div class="button-group">
+                            <button class="primary-btn" onclick="startQuiz('지적측량', 'study')">한 문제씩 학습하기</button>
+                            <button class="glass-btn" onclick="startQuiz('지적측량', 'exam')">20문항 모의고사</button>
+                        </div>
+                    </div>
+
+                    <!-- 지적전산학 -->
+                    <div class="subject-card glass">
+                        <h4>💻 지적전산학개론</h4>
+                        <div class="button-group">
+                            <button class="primary-btn" onclick="startQuiz('지적전산학개론', 'study')">한 문제씩 학습하기</button>
+                            <button class="glass-btn" onclick="startQuiz('지적전산학개론', 'exam')">20문항 모의고사</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-overview">
+                <div class="stat-card glass">
+                    <span class="val" id="total-q-count">320+</span>
+                    <span class="lbl">총 문항 수</span>
+                </div>
+                <div class="stat-card glass">
+                    <span class="val">1분</span>
+                    <span class="lbl">시험 모드 제한시간</span>
+                </div>
+            </div>
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="admin.html"
+                    style="color: var(--text-muted); font-size: 0.8rem; text-decoration: none; opacity: 0.5;">관리자 모드</a>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz" class="screen hidden">
+            <div class="quiz-header glass">
+                <button class="back-btn" onclick="showLanding()">✕</button>
+                <div class="progress-box">
+                    <div class="progress-container">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <span id="q-counter" class="counter">1 / 20</span>
+                </div>
+                <div class="timer" id="timer">01:00</div>
+            </div>
+
+            <div class="question-container">
+                <div id="question-card" class="glass card">
+                    <div class="q-meta">
+                        <span id="curr-subject" class="tag">범위</span>
+                        <span id="curr-num" class="q-id">문 1.</span>
+                    </div>
+                    <div id="q-text" class="q-content">
+                        질문 내용
+                    </div>
+                    <div id="q-image" class="q-image hidden">
+                        <!-- Image injected here -->
+                    </div>
+                    <div class="options" id="options">
+                        <!-- Options injected here -->
+                    </div>
+
+                    <!-- Explanation Box -->
+                    <div id="explanation" class="explanation-box hidden">
+                        <div class="exp-header">💡 해설</div>
+                        <div id="exp-text" class="exp-content"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-footer">
+                <button id="next-btn" class="primary-btn hidden" onclick="nextQuestion()">다음 문제</button>
+            </div>
+        </section>
+
+        <!-- Result Section -->
+        <section id="result" class="screen hidden">
+            <div class="result-card glass">
+                <h2 id="result-title">평가 완료!</h2>
+                <div class="score-display">
+                    <div class="donut-chart">
+                        <span id="final-score">0</span>
+                        <small>/ 100</small>
+                    </div>
+                </div>
+                <div class="result-stats">
+                    <p>정답: <span id="correct-count">0</span> / <span id="total-questions">0</span> 문항</p>
+                </div>
+                <div class="result-actions">
+                    <button class="glass-btn btn-full" onclick="showLanding()">홈으로</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+    <script>
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function checkUserLogin() {
+            const id = document.getElementById('user-id').value;
+            const pw = document.getElementById('user-pw').value;
+            const err = document.getElementById('user-login-error');
+
+            // 해시값 (ID: user, PW: user2685)
+            const validIdHash = "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb";
+            const validPwHash = "2ce7c4e813cdec5d49d684e60c591c24f5ad0c3d1e174fe9fd5cb7161047983d";
+
+            try {
+                const idHash = await sha256(id);
+                const pwHash = await sha256(pw);
+
+                if (idHash === validIdHash && pwHash === validPwHash) {
+                    document.getElementById('user-login-overlay').classList.add('hidden');
+                    document.getElementById('app').classList.remove('hidden');
+                    document.body.style.overflow = ''; // 스크롤 복원
+                } else {
+                    err.innerText = "정보가 올바르지 않습니다.";
+                    document.getElementById('user-pw').value = '';
+                    document.getElementById('user-pw').focus();
+                }
+            } catch (e) {
+                console.error("Login Error:", e);
+                err.innerText = "로그인 처리 중 오류가 발생했습니다. (HTTPS 환경 필요)";
+            }
+        }
+
+        // 엔터키 로그인 지원
+        document.getElementById('user-pw').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') checkUserLogin();
+        });
+        document.getElementById('user-id').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') document.getElementById('user-pw').focus();
+        });
+    </script>
+</body>
+
+</html>

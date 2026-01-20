@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 모드 - 지적공무원 문제은행</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="questions.js"></script>
+    <style>
+        :root {
+            --admin-primary: #ec4899;
+        }
+
+        .admin-nav {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .admin-container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-left: 100px;
+            /* Sidebar space */
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 20px;
+        }
+
+        .q-list {
+            height: 80vh;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .category-header {
+            padding: 10px;
+            font-weight: bold;
+            color: var(--admin-primary);
+            border-bottom: 2px solid var(--admin-primary);
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .admin-card {
+            padding: 15px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .admin-card:hover {
+            border-color: var(--admin-primary);
+            background: rgba(236, 72, 153, 0.05);
+        }
+
+        .admin-card.active {
+            border-color: var(--admin-primary);
+            background: rgba(236, 72, 153, 0.1);
+        }
+
+        .editor-panel {
+            position: sticky;
+            top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: white;
+            padding: 10px;
+        }
+
+        .badge {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+
+        .badge.상 {
+            background: #ef4444;
+        }
+
+        .badge.중 {
+            background: #f59e0b;
+        }
+
+        .badge.하 {
+            background: #10b981;
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        #save-status {
+            font-size: 0.8rem;
+            color: #10b981;
+            margin-top: 10px;
+        }
+
+        .edit-q-image {
+            margin: 10px 0;
+            text-align: center;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px dashed var(--glass-border);
+        }
+
+        .edit-q-image img {
+            max-width: 100%;
+            max-height: 200px;
+        }
+
+        .no-img-msg {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        .save-btn-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body class="dark-mode">
+    <div id="login-overlay" class="screen"
+        style="display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1000; background: var(--background);">
+        <div class="glass card" style="width: 320px; padding: 40px; text-align: center;">
+            <h2 style="margin-bottom: 30px;">Admin Login</h2>
+            <div class="form-group" style="text-align: left;">
+                <label>ID</label>
+                <input type="text" id="admin-id" placeholder="ID 입력">
+            </div>
+            <div class="form-group" style="text-align: left; margin-bottom: 30px;">
+                <label>Password</label>
+                <input type="password" id="admin-pw" placeholder="비밀번호 입력">
+            </div>
+            <button class="primary-btn" style="background:var(--admin-primary); width: 100%;"
+                onclick="checkLogin()">로그인</button>
+            <p id="login-error" style="color: var(--wrong); font-size: 0.8rem; margin-top: 15px;"></p>
+        </div>
+    </div>
+
+    <!-- Wrap existing content in a dashboard div -->
+    <div id="admin-dashboard" class="hidden">
+        <nav class="admin-nav glass">
+            <h2 style="font-size:1.2rem;">Admin <span style="color:var(--admin-primary)">Dashboard</span></h2>
+            <div class="nav-actions" style="display:flex; gap: 10px; align-items: center;">
+                <button class="primary-btn"
+                    style="background:var(--admin-primary); padding: 8px 12px; font-size: 0.8rem;"
+                    onclick="document.getElementById('import-modal').classList.remove('hidden')">🚀 AI 대량 가져오기</button>
+                <button class="primary-btn"
+                    style="background:var(--admin-primary); padding: 8px 12px; font-size: 0.8rem;"
+                    onclick="addNewQuestion()">+ 1건 추가</button>
+                <button class="glass-btn" style="padding: 10px 15px;" onclick="location.href='index.html'">종료</button>
+            </div>
+        </nav>
+
+        <!-- Quick Menu Sidebar -->
+        <div class="sidebar-menu glass"
+            style="position:fixed; left:20px; top:100px; bottom:20px; width:60px; display:flex; flex-direction:column; gap:10px; padding:10px; align-items:center; z-index:90;">
+            <div title="기출(측량)" onclick="scrollToCategory('off_survey')"
+                style="width:40px; height:40px; border-radius:50%; background:#10b981; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
+                측량</div>
+            <div title="기출(전산)" onclick="scrollToCategory('off_cs')"
+                style="width:40px; height:40px; border-radius:50%; background:#3b82f6; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
+                전산</div>
+            <div title="신규(측량)" onclick="scrollToCategory('cust_survey')"
+                style="width:40px; height:40px; border-radius:50%; background:#ec4899; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
+                AI측</div>
+            <div title="신규(전산)" onclick="scrollToCategory('cust_cs')"
+                style="width:40px; height:40px; border-radius:50%; background:#f59e0b; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
+                AI전</div>
+        </div>
+
+        <div class="admin-container">
+            <div class="q-list" id="question-list">
+                <!-- Sorted Categories Injected Here -->
+            </div>
+
+            <div class="editor-panel glass card">
+                <h3>문제 편집기</h3>
+                <div id="editor-form" class="hidden">
+                    <input type="hidden" id="edit-id">
+                    <div class="form-group">
+                        <label>질문 텍스트</label>
+                        <textarea id="edit-text" rows="4"></textarea>
+                    </div>
+                    <div class="form-group" style="display:flex; gap:10px;">
+                        <div style="flex:1">
+                            <label>과목</label>
+                            <select id="edit-subject">
+                                <option value="지적측량">지적측량</option>
+                                <option value="지적전산학개론">지적전산학개론</option>
+                            </select>
+                        </div>
+                        <div style="flex:1">
+                            <label>출처</label>
+                            <select id="edit-source">
+                                <option value="기출">기출문제</option>
+                                <option value="AI">AI 생성</option>
+                                <option value="예상">직접 예상문제</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>이미지 확인 및 수정</label>
+                        <div id="edit-img-preview" class="edit-q-image"></div>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="text" id="edit-image" placeholder="images/..." style="flex: 1;">
+                            <input type="file" id="file-uploader" style="display: none;"
+                                onchange="handleFileSelect(this)">
+                            <button class="glass-btn" style="font-size:0.8rem;"
+                                onclick="document.getElementById('file-uploader').click()">파일</button>
+                        </div>
+                    </div>
+                    <div class="form-group" style="display:flex; gap:10px;">
+                        <div style="flex:1"><label>난이도</label>
+                            <select id="edit-difficulty">
+                                <option value="상">상</option>
+                                <option value="중">중</option>
+                                <option value="하">하</option>
+                            </select>
+                        </div>
+                        <div style="flex:1"><label>정답 (1-4)</label><input type="number" id="edit-answer" min="1"
+                                max="4"></div>
+                    </div>
+                    <div class="form-group">
+                        <label>해설</label>
+                        <textarea id="edit-explanation" rows="6"></textarea>
+                    </div>
+                    <button class="primary-btn" style="background:var(--admin-primary)" onclick="saveChanges()">변경사항
+                        저장</button>
+                    <div id="save-status"></div>
+                </div>
+                <div id="no-selection" style="text-align:center; color:var(--text-muted); margin-top:50px;">문제를 선택하세요.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bulk Import Modal -->
+    <div id="import-modal" class="screen hidden"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2000; background: rgba(0,0,0,0.8); display: flex; align-items: center; justify-content: center;">
+        <div class="glass card"
+            style="width: 90%; max-width: 800px; padding: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+            <div style="border-right: 1px solid var(--glass-border); padding-right: 20px;">
+                <h3 style="color: var(--admin-primary); margin-bottom: 20px;">🤖 AI 가져오기 (과목 지정)</h3>
+                <div class="form-group">
+                    <label>가져올 문제의 과목 선택</label>
+                    <select id="import-subject" style="background:#000;">
+                        <option value="지적측량">지적측량</option>
+                        <option value="지적전산학개론">지적전산학개론</option>
+                    </select>
+                </div>
+                <div
+                    style="background: rgba(255,255,255,0.05); padding: 15px; border-radius: 12px; margin-bottom: 20px; font-size:0.75rem;">
+                    <p style="font-weight:700; color:#10b981;">[JSON 프롬프트 예시]</p>
+                    <p>내용을 JSON 배열 형식으로 요청하세요. "answer"는 1~4 숫자여야 합니다.</p>
+                </div>
+                <button class="glass-btn"
+                    onclick="document.getElementById('import-modal').classList.add('hidden')">취소</button>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <h3>🚀 JSON 붙여넣기</h3>
+                <textarea id="import-area"
+                    style="flex: 1; min-height: 250px; background: rgba(0,0,0,0.3); color: #10b981; font-family: monospace; padding: 10px; border-radius: 8px;"
+                    placeholder="[...]"></textarea>
+                <button class="primary-btn" style="background: var(--admin-primary); margin-top:10px;"
+                    onclick="processImport()">가져오기 실행</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let data = {
+            off_survey: [], off_cs: [], cust_survey: [], cust_cs: []
+        };
+        let currentEdit = { cat: '', idx: -1 };
+
+        if (typeof questionData !== 'undefined') {
+            data.off_survey = questionData.filter(q => q.source === '기출' && q.subject === '지적측량');
+            data.off_cs = questionData.filter(q => q.source === '기출' && q.subject === '지적전산학개론');
+            data.cust_survey = questionData.filter(q => q.source !== '기출' && q.subject === '지적측량');
+            data.cust_cs = questionData.filter(q => q.source !== '기출' && q.subject === '지적전산학개론');
+            renderList();
+        }
+
+        function renderList() {
+            const list = document.getElementById('question-list');
+            let html = '';
+            const configs = [
+                { id: 'off_survey', title: '🏛️ 기출 (지적측량)', color: '#10b981' },
+                { id: 'off_cs', title: '🏛️ 기출 (지적전산)', color: '#3b82f6' },
+                { id: 'cust_survey', title: '🚀 신규 (지적측량)', color: '#ec4899' },
+                { id: 'cust_cs', title: '🚀 신규 (지적전산)', color: '#f59e0b' }
+            ];
+
+            configs.forEach(conf => {
+                html += `<div id="header-${conf.id}" class="category-header" style="color:${conf.color}; border-color:${conf.color}">
+                    ${conf.title} <span>${data[conf.id].length}</span>
+                    <button onclick="saveToServer('${conf.id}')" style="font-size:0.7rem; padding:3px 8px; border:1px solid ${conf.color}; background:transparent; color:${conf.color}; border-radius:4px; cursor:pointer;">지금 저장</button>
+                </div>`;
+                html += data[conf.id].map((q, idx) => `
+                    <div class="admin-card glass ${currentEdit.cat === conf.id && currentEdit.idx === idx ? 'active' : ''}" onclick="loadQuestion('${conf.id}', ${idx})">
+                        <div style="font-size:0.85rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
+                            <span class="badge ${q.difficulty}">${q.difficulty}</span> ${q.text}
+                        </div>
+                    </div>
+                `).join('');
+            });
+            list.innerHTML = html;
+        }
+
+        function loadQuestion(cat, idx) {
+            currentEdit = { cat, idx };
+            const q = data[cat][idx];
+            document.getElementById('no-selection').classList.add('hidden');
+            document.getElementById('editor-form').classList.remove('hidden');
+            document.getElementById('edit-id').value = q.id;
+            document.getElementById('edit-text').value = q.text;
+            document.getElementById('edit-subject').value = q.subject;
+            document.getElementById('edit-source').value = q.source || (cat.startsWith('off') ? '기출' : 'AI');
+            document.getElementById('edit-image').value = q.image || '';
+            updatePreview(q.image);
+            document.getElementById('edit-difficulty').value = q.difficulty || '하';
+            document.getElementById('edit-answer').value = q.answer;
+            document.getElementById('edit-explanation').value = q.explanation || '';
+            renderList();
+        }
+
+        function saveChanges() {
+            if (currentEdit.idx === -1) return;
+            const q = data[currentEdit.cat][currentEdit.idx];
+            q.text = document.getElementById('edit-text').value;
+            q.subject = document.getElementById('edit-subject').value;
+            q.source = document.getElementById('edit-source').value;
+            q.image = document.getElementById('edit-image').value || null;
+            q.difficulty = document.getElementById('edit-difficulty').value;
+            q.answer = parseInt(document.getElementById('edit-answer').value);
+            q.explanation = document.getElementById('edit-explanation').value;
+            document.getElementById('save-status').innerText = "메모리에 저장되었습니다. 상단의 [저장] 버튼을 눌러 서버에 반영하세요.";
+            renderList();
+        }
+
+        function addNewQuestion() {
+            const subject = prompt("과목을 선택하세요 (1:지적측량, 2:지적전산학개론)", "1") === "2" ? "지적전산학개론" : "지적측량";
+            const cat = subject === "지적측량" ? "cust_survey" : "cust_cs";
+            const newQ = { id: `new_${Date.now()}`, num: "신규", text: "내용입력", options: ["1", "2", "3", "4"], answer: 1, explanation: "", subject, source: "예상", difficulty: "중", image: null };
+            data[cat].unshift(newQ);
+            loadQuestion(cat, 0);
+
+            const status = document.getElementById('save-status');
+            status.innerText = "신규 문항 생성. 내용을 채운 후 상단 저장 버튼을 클릭하세요.";
+        }
+
+        async function processImport() {
+            const area = document.getElementById('import-area');
+            const subject = document.getElementById('import-subject').value;
+            const cat = subject === "지적측량" ? "cust_survey" : "cust_cs";
+
+            try {
+                const items = JSON.parse(area.value);
+                const newItems = Array.isArray(items) ? items : [items];
+
+                newItems.forEach(q => {
+                    // Unique ID generation
+                    q.id = q.id || `ai_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
+                    q.source = q.source || "AI";
+                    q.subject = subject;
+                    data[cat].unshift(q);
+                });
+
+                renderList();
+                document.getElementById('import-modal').classList.add('hidden');
+
+                // Auto-save immediately
+                await saveToServer(cat, true); // true = silent mode
+                alert(`${newItems.length}개의 문제가 추가되고 서버에 자동 저장되었습니다!`);
+                area.value = ''; // clear input
+
+            } catch (e) {
+                console.error(e);
+                alert("JSON 형식이 올바르지 않습니다.");
+            }
+        }
+
+        async function saveToServer(cat, silent = false) {
+            const payload = {
+                mode: cat,
+                questions: data[cat]
+            };
+
+            try {
+                const res = await fetch('/save_questions', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await res.json();
+                if (!silent) {
+                    if (result.success) {
+                        alert('✅ 서버 저장 성공! 새로고침 없이 즉시 반영되었습니다.');
+                    } else {
+                        alert('❌ 저장 실패: ' + result.error);
+                    }
+                }
+            } catch (e) {
+                if (!silent) {
+                    console.error(e);
+                    alert('서버 통신 오류. server.py가 실행 중인지 확인하세요.');
+                }
+            }
+        }
+
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        async function checkLogin() {
+            const id = document.getElementById('admin-id').value;
+            const pw = document.getElementById('admin-pw').value;
+
+            // 해시값 (ID: admin, PW: admin205)
+            const validIdHash = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918";
+            const validPwHash = "a689455e22f69acb11046815bc1bdf275d7ad909856a99f7ace2b801cb0867af";
+
+            try {
+                const idHash = await sha256(id);
+                const pwHash = await sha256(pw);
+
+                if (idHash === validIdHash && pwHash === validPwHash) {
+                    if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+                        alert("⚠️ [주의] 웹(GitHub)에서는 수정이 불가능합니다! ⚠️\n\n데이터 저장은 '로컬 서버(server.py)'가 실행된\n컴퓨터에서만 작동합니다.\n\n현재 페이지는 '조회 전용'입니다.");
+                    }
+                    document.getElementById('login-overlay').classList.add('hidden');
+                    document.getElementById('admin-dashboard').classList.remove('hidden');
+                } else {
+                    document.getElementById('login-error').innerText = "아이디 또는 비밀번호가 틀렸습니다.";
+                }
+            } catch (e) {
+                console.error("Login Error", e);
+                alert("보안 로그인 처리 중 오류가 발생했습니다.");
+            }
+        }
+
+
+        document.getElementById('admin-pw').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') checkLogin();
+        });
+
+        function updatePreview(path) {
+            const preview = document.getElementById('edit-img-preview');
+            if (path) {
+                preview.innerHTML = `<img src="${path}" onerror="this.parentElement.innerHTML='<span class=\"no-img-msg\">이미지 경로 요류</span>'">`;
+            } else {
+                preview.innerHTML = '<span class="no-img-msg">이미지 없음</span>';
+            }
+        }
+
+        function handleFileSelect(input) {
+            if (input.files && input.files[0]) {
+                const fileName = input.files[0].name;
+                const path = 'images/' + fileName;
+                document.getElementById('edit-image').value = path;
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('edit-img-preview').innerHTML = `<img src="${e.target.result}">`;
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</body>
+
+</html>
