@@ -11,7 +11,9 @@ const questionData = [
     ],
     "image": "images/q_3_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c0_2",
@@ -25,7 +27,9 @@ const questionData = [
     ],
     "image": "images/q_3_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c0_3",
@@ -39,7 +43,9 @@ const questionData = [
     ],
     "image": "images/q_3_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c0_4",
@@ -53,7 +59,9 @@ const questionData = [
     ],
     "image": "images/q_3_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c0_5",
@@ -67,7 +75,9 @@ const questionData = [
     ],
     "image": "images/q_3_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c1_6",
@@ -81,7 +91,9 @@ const questionData = [
     ],
     "image": "images/q_3_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c1_7",
@@ -95,7 +107,9 @@ const questionData = [
     ],
     "image": "images/q_3_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c1_8",
@@ -109,7 +123,9 @@ const questionData = [
     ],
     "image": "images/q_3_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c1_9",
@@ -123,7 +139,9 @@ const questionData = [
     ],
     "image": "images/q_3_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p3_c1_10",
@@ -137,7 +155,9 @@ const questionData = [
     ],
     "image": "images/q_3_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c0_11",
@@ -151,7 +171,9 @@ const questionData = [
     ],
     "image": "images/q_4_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c0_12",
@@ -165,7 +187,9 @@ const questionData = [
     ],
     "image": "images/q_4_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c0_13",
@@ -179,7 +203,9 @@ const questionData = [
     ],
     "image": "images/q_4_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c0_14",
@@ -193,7 +219,9 @@ const questionData = [
     ],
     "image": "images/q_4_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c0_15",
@@ -207,7 +235,9 @@ const questionData = [
     ],
     "image": "images/q_4_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c1_16",
@@ -221,7 +251,9 @@ const questionData = [
     ],
     "image": "images/q_4_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c1_17",
@@ -235,7 +267,9 @@ const questionData = [
     ],
     "image": "images/q_4_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c1_18",
@@ -249,7 +283,9 @@ const questionData = [
     ],
     "image": "images/q_4_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c1_19",
@@ -263,7 +299,9 @@ const questionData = [
     ],
     "image": "images/q_4_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p4_c1_20",
@@ -277,7 +315,9 @@ const questionData = [
     ],
     "image": "images/q_4_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c0_1",
@@ -291,7 +331,9 @@ const questionData = [
     ],
     "image": "images/q_5_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c0_2",
@@ -305,7 +347,9 @@ const questionData = [
     ],
     "image": "images/q_5_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c0_3",
@@ -319,7 +363,9 @@ const questionData = [
     ],
     "image": "images/q_5_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c0_4",
@@ -333,7 +379,9 @@ const questionData = [
     ],
     "image": "images/q_5_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c0_5",
@@ -347,7 +395,9 @@ const questionData = [
     ],
     "image": "images/q_5_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c0_6",
@@ -361,7 +411,9 @@ const questionData = [
     ],
     "image": "images/q_5_0_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c1_7",
@@ -375,7 +427,9 @@ const questionData = [
     ],
     "image": "images/q_5_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c1_8",
@@ -389,7 +443,9 @@ const questionData = [
     ],
     "image": "images/q_5_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c1_9",
@@ -403,7 +459,9 @@ const questionData = [
     ],
     "image": "images/q_5_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p5_c1_10",
@@ -417,7 +475,9 @@ const questionData = [
     ],
     "image": "images/q_5_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c0_11",
@@ -431,7 +491,9 @@ const questionData = [
     ],
     "image": "images/q_6_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c0_12",
@@ -445,7 +507,9 @@ const questionData = [
     ],
     "image": "images/q_6_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c0_13",
@@ -459,7 +523,9 @@ const questionData = [
     ],
     "image": "images/q_6_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c0_14",
@@ -473,7 +539,9 @@ const questionData = [
     ],
     "image": "images/q_6_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c0_15",
@@ -487,7 +555,9 @@ const questionData = [
     ],
     "image": "images/q_6_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c0_16",
@@ -501,7 +571,9 @@ const questionData = [
     ],
     "image": "images/q_6_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c1_17",
@@ -515,7 +587,9 @@ const questionData = [
     ],
     "image": "images/q_6_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c1_18",
@@ -529,7 +603,9 @@ const questionData = [
     ],
     "image": "images/q_6_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c1_19",
@@ -543,7 +619,9 @@ const questionData = [
     ],
     "image": "images/q_6_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p6_c1_20",
@@ -557,7 +635,9 @@ const questionData = [
     ],
     "image": "images/q_6_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c0_1",
@@ -571,7 +651,9 @@ const questionData = [
     ],
     "image": "images/q_7_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c0_2",
@@ -585,7 +667,9 @@ const questionData = [
     ],
     "image": "images/q_7_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c0_3",
@@ -599,7 +683,9 @@ const questionData = [
     ],
     "image": "images/q_7_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c0_4",
@@ -613,7 +699,9 @@ const questionData = [
     ],
     "image": "images/q_7_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c0_5",
@@ -627,7 +715,9 @@ const questionData = [
     ],
     "image": "images/q_7_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c1_6",
@@ -641,7 +731,9 @@ const questionData = [
     ],
     "image": "images/q_7_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c1_7",
@@ -655,7 +747,9 @@ const questionData = [
     ],
     "image": "images/q_7_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c1_8",
@@ -669,7 +763,9 @@ const questionData = [
     ],
     "image": "images/q_7_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c1_9",
@@ -683,7 +779,9 @@ const questionData = [
     ],
     "image": "images/q_7_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p7_c1_10",
@@ -697,7 +795,9 @@ const questionData = [
     ],
     "image": "images/q_7_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c0_11",
@@ -711,7 +811,9 @@ const questionData = [
     ],
     "image": "images/q_8_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c0_12",
@@ -725,7 +827,9 @@ const questionData = [
     ],
     "image": "images/q_8_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c0_13",
@@ -739,7 +843,9 @@ const questionData = [
     ],
     "image": "images/q_8_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c0_14",
@@ -753,7 +859,9 @@ const questionData = [
     ],
     "image": "images/q_8_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c0_15",
@@ -767,7 +875,9 @@ const questionData = [
     ],
     "image": "images/q_8_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c1_16",
@@ -781,7 +891,9 @@ const questionData = [
     ],
     "image": "images/q_8_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c1_17",
@@ -795,7 +907,9 @@ const questionData = [
     ],
     "image": "images/q_8_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c1_18",
@@ -804,7 +918,9 @@ const questionData = [
     "options": [],
     "image": "images/q_8_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c1_100",
@@ -818,7 +934,9 @@ const questionData = [
     ],
     "image": "images/q_8_1_100.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c1_19",
@@ -832,7 +950,9 @@ const questionData = [
     ],
     "image": "images/q_8_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p8_c1_20",
@@ -846,7 +966,9 @@ const questionData = [
     ],
     "image": "images/q_8_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c0_1",
@@ -860,7 +982,9 @@ const questionData = [
     ],
     "image": "images/q_9_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c0_2",
@@ -874,7 +998,9 @@ const questionData = [
     ],
     "image": "images/q_9_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c0_3",
@@ -888,7 +1014,9 @@ const questionData = [
     ],
     "image": "images/q_9_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c0_4",
@@ -902,7 +1030,9 @@ const questionData = [
     ],
     "image": "images/q_9_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c0_5",
@@ -916,7 +1046,9 @@ const questionData = [
     ],
     "image": "images/q_9_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c1_6",
@@ -930,7 +1062,9 @@ const questionData = [
     ],
     "image": "images/q_9_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c1_7",
@@ -944,7 +1078,9 @@ const questionData = [
     ],
     "image": "images/q_9_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c1_8",
@@ -958,7 +1094,9 @@ const questionData = [
     ],
     "image": "images/q_9_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p9_c1_9",
@@ -972,7 +1110,9 @@ const questionData = [
     ],
     "image": "images/q_9_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c0_10",
@@ -986,7 +1126,9 @@ const questionData = [
     ],
     "image": "images/q_10_0_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c0_11",
@@ -1000,7 +1142,9 @@ const questionData = [
     ],
     "image": "images/q_10_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c0_12",
@@ -1014,7 +1158,9 @@ const questionData = [
     ],
     "image": "images/q_10_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c0_13",
@@ -1028,7 +1174,9 @@ const questionData = [
     ],
     "image": "images/q_10_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c0_14",
@@ -1042,7 +1190,9 @@ const questionData = [
     ],
     "image": "images/q_10_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_15",
@@ -1051,7 +1201,9 @@ const questionData = [
     "options": [],
     "image": "images/q_10_1_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_1",
@@ -1060,7 +1212,9 @@ const questionData = [
     "options": [],
     "image": "images/q_10_1_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_2",
@@ -1069,7 +1223,9 @@ const questionData = [
     "options": [],
     "image": "images/q_10_1_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_2",
@@ -1083,7 +1239,9 @@ const questionData = [
     ],
     "image": "images/q_10_1_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_16",
@@ -1097,7 +1255,9 @@ const questionData = [
     ],
     "image": "images/q_10_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_17",
@@ -1111,7 +1271,9 @@ const questionData = [
     ],
     "image": "images/q_10_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_18",
@@ -1125,7 +1287,9 @@ const questionData = [
     ],
     "image": "images/q_10_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_19",
@@ -1139,7 +1303,9 @@ const questionData = [
     ],
     "image": "images/q_10_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p10_c1_20",
@@ -1153,7 +1319,9 @@ const questionData = [
     ],
     "image": "images/q_10_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c0_1",
@@ -1167,7 +1335,9 @@ const questionData = [
     ],
     "image": "images/q_11_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c0_2",
@@ -1181,7 +1351,9 @@ const questionData = [
     ],
     "image": "images/q_11_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c0_3",
@@ -1195,7 +1367,9 @@ const questionData = [
     ],
     "image": "images/q_11_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c0_4",
@@ -1209,7 +1383,9 @@ const questionData = [
     ],
     "image": "images/q_11_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c0_5",
@@ -1223,7 +1399,9 @@ const questionData = [
     ],
     "image": "images/q_11_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c1_6",
@@ -1237,7 +1415,9 @@ const questionData = [
     ],
     "image": "images/q_11_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c1_7",
@@ -1251,7 +1431,9 @@ const questionData = [
     ],
     "image": "images/q_11_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c1_8",
@@ -1265,7 +1447,9 @@ const questionData = [
     ],
     "image": "images/q_11_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c1_9",
@@ -1279,7 +1463,9 @@ const questionData = [
     ],
     "image": "images/q_11_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p11_c1_10",
@@ -1293,7 +1479,9 @@ const questionData = [
     ],
     "image": "images/q_11_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c0_11",
@@ -1307,7 +1495,9 @@ const questionData = [
     ],
     "image": "images/q_12_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c0_12",
@@ -1321,7 +1511,9 @@ const questionData = [
     ],
     "image": "images/q_12_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c0_13",
@@ -1335,7 +1527,9 @@ const questionData = [
     ],
     "image": "images/q_12_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c0_14",
@@ -1349,7 +1543,9 @@ const questionData = [
     ],
     "image": "images/q_12_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c0_15",
@@ -1363,7 +1559,9 @@ const questionData = [
     ],
     "image": "images/q_12_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c1_16",
@@ -1377,7 +1575,9 @@ const questionData = [
     ],
     "image": "images/q_12_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c1_17",
@@ -1391,7 +1591,9 @@ const questionData = [
     ],
     "image": "images/q_12_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c1_18",
@@ -1405,7 +1607,9 @@ const questionData = [
     ],
     "image": "images/q_12_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c1_19",
@@ -1419,7 +1623,9 @@ const questionData = [
     ],
     "image": "images/q_12_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p12_c1_20",
@@ -1433,7 +1639,9 @@ const questionData = [
     ],
     "image": "images/q_12_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c0_1",
@@ -1442,7 +1650,9 @@ const questionData = [
     "options": [],
     "image": "images/q_13_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c0_2",
@@ -1456,7 +1666,9 @@ const questionData = [
     ],
     "image": "images/q_13_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c0_3",
@@ -1470,7 +1682,9 @@ const questionData = [
     ],
     "image": "images/q_13_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c0_4",
@@ -1484,7 +1698,9 @@ const questionData = [
     ],
     "image": "images/q_13_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c0_5",
@@ -1498,7 +1714,9 @@ const questionData = [
     ],
     "image": "images/q_13_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c1_6",
@@ -1512,7 +1730,9 @@ const questionData = [
     ],
     "image": "images/q_13_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c1_7",
@@ -1526,7 +1746,9 @@ const questionData = [
     ],
     "image": "images/q_13_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c1_8",
@@ -1540,7 +1762,9 @@ const questionData = [
     ],
     "image": "images/q_13_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c1_9",
@@ -1554,7 +1778,9 @@ const questionData = [
     ],
     "image": "images/q_13_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p13_c1_10",
@@ -1568,7 +1794,9 @@ const questionData = [
     ],
     "image": "images/q_13_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c0_11",
@@ -1582,7 +1810,9 @@ const questionData = [
     ],
     "image": "images/q_14_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c0_12",
@@ -1596,7 +1826,9 @@ const questionData = [
     ],
     "image": "images/q_14_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c0_13",
@@ -1610,7 +1842,9 @@ const questionData = [
     ],
     "image": "images/q_14_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c0_14",
@@ -1624,7 +1858,9 @@ const questionData = [
     ],
     "image": "images/q_14_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c0_15",
@@ -1638,7 +1874,9 @@ const questionData = [
     ],
     "image": "images/q_14_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c0_16",
@@ -1652,7 +1890,9 @@ const questionData = [
     ],
     "image": "images/q_14_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c1_17",
@@ -1666,7 +1906,9 @@ const questionData = [
     ],
     "image": "images/q_14_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c1_18",
@@ -1680,7 +1922,9 @@ const questionData = [
     ],
     "image": "images/q_14_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c1_19",
@@ -1694,7 +1938,9 @@ const questionData = [
     ],
     "image": "images/q_14_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p14_c1_20",
@@ -1708,7 +1954,9 @@ const questionData = [
     ],
     "image": "images/q_14_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c0_1",
@@ -1722,7 +1970,9 @@ const questionData = [
     ],
     "image": "images/q_15_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c0_2",
@@ -1736,7 +1986,9 @@ const questionData = [
     ],
     "image": "images/q_15_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c0_3",
@@ -1750,7 +2002,9 @@ const questionData = [
     ],
     "image": "images/q_15_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c0_4",
@@ -1764,7 +2018,9 @@ const questionData = [
     ],
     "image": "images/q_15_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c0_5",
@@ -1778,7 +2034,9 @@ const questionData = [
     ],
     "image": "images/q_15_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c1_6",
@@ -1792,7 +2050,9 @@ const questionData = [
     ],
     "image": "images/q_15_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c1_7",
@@ -1806,7 +2066,9 @@ const questionData = [
     ],
     "image": "images/q_15_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c1_8",
@@ -1820,7 +2082,9 @@ const questionData = [
     ],
     "image": "images/q_15_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c1_9",
@@ -1834,7 +2098,9 @@ const questionData = [
     ],
     "image": "images/q_15_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p15_c1_10",
@@ -1848,7 +2114,9 @@ const questionData = [
     ],
     "image": "images/q_15_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c0_11",
@@ -1862,7 +2130,9 @@ const questionData = [
     ],
     "image": "images/q_16_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c0_12",
@@ -1876,7 +2146,9 @@ const questionData = [
     ],
     "image": "images/q_16_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c0_13",
@@ -1890,7 +2162,9 @@ const questionData = [
     ],
     "image": "images/q_16_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c0_14",
@@ -1904,7 +2178,9 @@ const questionData = [
     ],
     "image": "images/q_16_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c0_15",
@@ -1918,7 +2194,9 @@ const questionData = [
     ],
     "image": "images/q_16_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c1_16",
@@ -1932,7 +2210,9 @@ const questionData = [
     ],
     "image": "images/q_16_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c1_17",
@@ -1946,7 +2226,9 @@ const questionData = [
     ],
     "image": "images/q_16_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c1_18",
@@ -1960,7 +2242,9 @@ const questionData = [
     ],
     "image": "images/q_16_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c1_19",
@@ -1974,7 +2258,9 @@ const questionData = [
     ],
     "image": "images/q_16_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p16_c1_20",
@@ -1988,7 +2274,9 @@ const questionData = [
     ],
     "image": "images/q_16_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c0_1",
@@ -2002,7 +2290,9 @@ const questionData = [
     ],
     "image": "images/q_17_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c0_2",
@@ -2016,7 +2306,9 @@ const questionData = [
     ],
     "image": "images/q_17_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c0_3",
@@ -2030,7 +2322,9 @@ const questionData = [
     ],
     "image": "images/q_17_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c0_4",
@@ -2044,7 +2338,9 @@ const questionData = [
     ],
     "image": "images/q_17_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c0_5",
@@ -2058,7 +2354,9 @@ const questionData = [
     ],
     "image": "images/q_17_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c0_6",
@@ -2072,7 +2370,9 @@ const questionData = [
     ],
     "image": "images/q_17_0_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c1_7",
@@ -2086,7 +2386,9 @@ const questionData = [
     ],
     "image": "images/q_17_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c1_8",
@@ -2100,7 +2402,9 @@ const questionData = [
     ],
     "image": "images/q_17_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c1_9",
@@ -2114,7 +2418,9 @@ const questionData = [
     ],
     "image": "images/q_17_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c1_10",
@@ -2128,7 +2434,9 @@ const questionData = [
     ],
     "image": "images/q_17_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p17_c1_11",
@@ -2142,7 +2450,9 @@ const questionData = [
     ],
     "image": "images/q_17_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c0_12",
@@ -2156,7 +2466,9 @@ const questionData = [
     ],
     "image": "images/q_18_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c0_13",
@@ -2170,7 +2482,9 @@ const questionData = [
     ],
     "image": "images/q_18_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c0_14",
@@ -2184,7 +2498,9 @@ const questionData = [
     ],
     "image": "images/q_18_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c0_15",
@@ -2198,7 +2514,9 @@ const questionData = [
     ],
     "image": "images/q_18_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c1_16",
@@ -2212,7 +2530,9 @@ const questionData = [
     ],
     "image": "images/q_18_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c1_17",
@@ -2226,7 +2546,9 @@ const questionData = [
     ],
     "image": "images/q_18_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c1_18",
@@ -2240,7 +2562,9 @@ const questionData = [
     ],
     "image": "images/q_18_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c1_19",
@@ -2254,7 +2578,9 @@ const questionData = [
     ],
     "image": "images/q_18_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p18_c1_20",
@@ -2268,7 +2594,9 @@ const questionData = [
     ],
     "image": "images/q_18_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c0_1",
@@ -2282,7 +2610,9 @@ const questionData = [
     ],
     "image": "images/q_19_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c0_2",
@@ -2296,7 +2626,9 @@ const questionData = [
     ],
     "image": "images/q_19_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c0_3",
@@ -2310,7 +2642,9 @@ const questionData = [
     ],
     "image": "images/q_19_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c0_4",
@@ -2324,7 +2658,9 @@ const questionData = [
     ],
     "image": "images/q_19_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c0_5",
@@ -2338,7 +2674,9 @@ const questionData = [
     ],
     "image": "images/q_19_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c1_6",
@@ -2352,7 +2690,9 @@ const questionData = [
     ],
     "image": "images/q_19_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c1_7",
@@ -2366,7 +2706,9 @@ const questionData = [
     ],
     "image": "images/q_19_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c1_8",
@@ -2380,7 +2722,9 @@ const questionData = [
     ],
     "image": "images/q_19_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c1_9",
@@ -2394,7 +2738,9 @@ const questionData = [
     ],
     "image": "images/q_19_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p19_c1_10",
@@ -2408,7 +2754,9 @@ const questionData = [
     ],
     "image": "images/q_19_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c0_11",
@@ -2422,7 +2770,9 @@ const questionData = [
     ],
     "image": "images/q_20_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c0_12",
@@ -2436,7 +2786,9 @@ const questionData = [
     ],
     "image": "images/q_20_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c0_13",
@@ -2450,7 +2802,9 @@ const questionData = [
     ],
     "image": "images/q_20_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c0_14",
@@ -2464,7 +2818,9 @@ const questionData = [
     ],
     "image": "images/q_20_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c0_15",
@@ -2478,7 +2834,9 @@ const questionData = [
     ],
     "image": "images/q_20_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c1_16",
@@ -2492,7 +2850,9 @@ const questionData = [
     ],
     "image": "images/q_20_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c1_17",
@@ -2506,7 +2866,9 @@ const questionData = [
     ],
     "image": "images/q_20_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c1_18",
@@ -2520,7 +2882,9 @@ const questionData = [
     ],
     "image": "images/q_20_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c1_19",
@@ -2534,7 +2898,9 @@ const questionData = [
     ],
     "image": "images/q_20_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p20_c1_20",
@@ -2548,7 +2914,9 @@ const questionData = [
     ],
     "image": "images/q_20_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c0_1",
@@ -2562,7 +2930,9 @@ const questionData = [
     ],
     "image": "images/q_21_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c0_2",
@@ -2576,7 +2946,9 @@ const questionData = [
     ],
     "image": "images/q_21_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c0_3",
@@ -2590,7 +2962,9 @@ const questionData = [
     ],
     "image": "images/q_21_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c0_4",
@@ -2604,7 +2978,9 @@ const questionData = [
     ],
     "image": "images/q_21_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c0_5",
@@ -2618,7 +2994,9 @@ const questionData = [
     ],
     "image": "images/q_21_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c1_6",
@@ -2632,7 +3010,9 @@ const questionData = [
     ],
     "image": "images/q_21_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c1_7",
@@ -2646,7 +3026,9 @@ const questionData = [
     ],
     "image": "images/q_21_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c1_8",
@@ -2660,7 +3042,9 @@ const questionData = [
     ],
     "image": "images/q_21_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c1_9",
@@ -2674,7 +3058,9 @@ const questionData = [
     ],
     "image": "images/q_21_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p21_c1_10",
@@ -2688,7 +3074,9 @@ const questionData = [
     ],
     "image": "images/q_21_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c0_11",
@@ -2702,7 +3090,9 @@ const questionData = [
     ],
     "image": "images/q_22_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c0_12",
@@ -2716,7 +3106,9 @@ const questionData = [
     ],
     "image": "images/q_22_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c0_13",
@@ -2730,7 +3122,9 @@ const questionData = [
     ],
     "image": "images/q_22_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c0_14",
@@ -2744,7 +3138,9 @@ const questionData = [
     ],
     "image": "images/q_22_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c0_15",
@@ -2758,7 +3154,9 @@ const questionData = [
     ],
     "image": "images/q_22_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c0_16",
@@ -2772,7 +3170,9 @@ const questionData = [
     ],
     "image": "images/q_22_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c1_17",
@@ -2786,7 +3186,9 @@ const questionData = [
     ],
     "image": "images/q_22_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c1_18",
@@ -2800,7 +3202,9 @@ const questionData = [
     ],
     "image": "images/q_22_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c1_19",
@@ -2814,7 +3218,9 @@ const questionData = [
     ],
     "image": "images/q_22_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p22_c1_20",
@@ -2828,7 +3234,9 @@ const questionData = [
     ],
     "image": "images/q_22_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c0_1",
@@ -2842,7 +3250,9 @@ const questionData = [
     ],
     "image": "images/q_23_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c0_2",
@@ -2856,7 +3266,9 @@ const questionData = [
     ],
     "image": "images/q_23_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c0_3",
@@ -2870,7 +3282,9 @@ const questionData = [
     ],
     "image": "images/q_23_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c0_4",
@@ -2884,7 +3298,9 @@ const questionData = [
     ],
     "image": "images/q_23_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c0_5",
@@ -2898,7 +3314,9 @@ const questionData = [
     ],
     "image": "images/q_23_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c0_6",
@@ -2912,7 +3330,9 @@ const questionData = [
     ],
     "image": "images/q_23_0_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c1_7",
@@ -2926,7 +3346,9 @@ const questionData = [
     ],
     "image": "images/q_23_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c1_8",
@@ -2940,7 +3362,9 @@ const questionData = [
     ],
     "image": "images/q_23_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c1_9",
@@ -2954,7 +3378,9 @@ const questionData = [
     ],
     "image": "images/q_23_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c1_10",
@@ -2968,7 +3394,9 @@ const questionData = [
     ],
     "image": "images/q_23_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c1_11",
@@ -2982,7 +3410,9 @@ const questionData = [
     ],
     "image": "images/q_23_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p23_c1_12",
@@ -2996,7 +3426,9 @@ const questionData = [
     ],
     "image": "images/q_23_1_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c0_13",
@@ -3010,7 +3442,9 @@ const questionData = [
     ],
     "image": "images/q_24_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c0_14",
@@ -3024,7 +3458,9 @@ const questionData = [
     ],
     "image": "images/q_24_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c0_15",
@@ -3038,7 +3474,9 @@ const questionData = [
     ],
     "image": "images/q_24_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c0_16",
@@ -3052,7 +3490,9 @@ const questionData = [
     ],
     "image": "images/q_24_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c1_17",
@@ -3066,7 +3506,9 @@ const questionData = [
     ],
     "image": "images/q_24_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c1_18",
@@ -3080,7 +3522,9 @@ const questionData = [
     ],
     "image": "images/q_24_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c1_19",
@@ -3094,7 +3538,9 @@ const questionData = [
     ],
     "image": "images/q_24_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p24_c1_20",
@@ -3108,7 +3554,9 @@ const questionData = [
     ],
     "image": "images/q_24_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적측량",
+    "difficulty": "중"
   },
   {
     "id": "p26_c0_1",
@@ -3122,7 +3570,9 @@ const questionData = [
     ],
     "image": "images/q_26_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c0_2",
@@ -3136,7 +3586,9 @@ const questionData = [
     ],
     "image": "images/q_26_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c0_3",
@@ -3150,7 +3602,9 @@ const questionData = [
     ],
     "image": "images/q_26_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c0_4",
@@ -3164,7 +3618,9 @@ const questionData = [
     ],
     "image": "images/q_26_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c0_5",
@@ -3178,7 +3634,9 @@ const questionData = [
     ],
     "image": "images/q_26_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c1_6",
@@ -3192,7 +3650,9 @@ const questionData = [
     ],
     "image": "images/q_26_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c1_7",
@@ -3206,7 +3666,9 @@ const questionData = [
     ],
     "image": "images/q_26_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c1_8",
@@ -3220,7 +3682,9 @@ const questionData = [
     ],
     "image": "images/q_26_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c1_9",
@@ -3234,7 +3698,9 @@ const questionData = [
     ],
     "image": "images/q_26_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p26_c1_10",
@@ -3248,7 +3714,9 @@ const questionData = [
     ],
     "image": "images/q_26_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c0_11",
@@ -3262,7 +3730,9 @@ const questionData = [
     ],
     "image": "images/q_27_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c0_12",
@@ -3276,7 +3746,9 @@ const questionData = [
     ],
     "image": "images/q_27_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c0_13",
@@ -3290,7 +3762,9 @@ const questionData = [
     ],
     "image": "images/q_27_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c0_14",
@@ -3304,7 +3778,9 @@ const questionData = [
     ],
     "image": "images/q_27_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c0_15",
@@ -3318,7 +3794,9 @@ const questionData = [
     ],
     "image": "images/q_27_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c1_16",
@@ -3332,7 +3810,9 @@ const questionData = [
     ],
     "image": "images/q_27_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c1_17",
@@ -3346,7 +3826,9 @@ const questionData = [
     ],
     "image": "images/q_27_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c1_18",
@@ -3360,7 +3842,9 @@ const questionData = [
     ],
     "image": "images/q_27_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c1_19",
@@ -3374,7 +3858,9 @@ const questionData = [
     ],
     "image": "images/q_27_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p27_c1_20",
@@ -3388,7 +3874,9 @@ const questionData = [
     ],
     "image": "images/q_27_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c0_1",
@@ -3402,7 +3890,9 @@ const questionData = [
     ],
     "image": "images/q_28_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c0_2",
@@ -3416,7 +3906,9 @@ const questionData = [
     ],
     "image": "images/q_28_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c0_3",
@@ -3430,7 +3922,9 @@ const questionData = [
     ],
     "image": "images/q_28_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c0_4",
@@ -3444,7 +3938,9 @@ const questionData = [
     ],
     "image": "images/q_28_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c0_5",
@@ -3458,7 +3954,9 @@ const questionData = [
     ],
     "image": "images/q_28_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c1_6",
@@ -3472,7 +3970,9 @@ const questionData = [
     ],
     "image": "images/q_28_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c1_7",
@@ -3486,7 +3986,9 @@ const questionData = [
     ],
     "image": "images/q_28_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c1_8",
@@ -3500,7 +4002,9 @@ const questionData = [
     ],
     "image": "images/q_28_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c1_9",
@@ -3514,7 +4018,9 @@ const questionData = [
     ],
     "image": "images/q_28_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p28_c1_10",
@@ -3528,7 +4034,9 @@ const questionData = [
     ],
     "image": "images/q_28_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c0_11",
@@ -3542,7 +4050,9 @@ const questionData = [
     ],
     "image": "images/q_29_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c0_12",
@@ -3556,7 +4066,9 @@ const questionData = [
     ],
     "image": "images/q_29_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c0_13",
@@ -3570,7 +4082,9 @@ const questionData = [
     ],
     "image": "images/q_29_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c0_14",
@@ -3584,7 +4098,9 @@ const questionData = [
     ],
     "image": "images/q_29_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c0_15",
@@ -3598,7 +4114,9 @@ const questionData = [
     ],
     "image": "images/q_29_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c1_16",
@@ -3612,7 +4130,9 @@ const questionData = [
     ],
     "image": "images/q_29_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c1_17",
@@ -3626,7 +4146,9 @@ const questionData = [
     ],
     "image": "images/q_29_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c1_18",
@@ -3640,7 +4162,9 @@ const questionData = [
     ],
     "image": "images/q_29_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c1_19",
@@ -3654,7 +4178,9 @@ const questionData = [
     ],
     "image": "images/q_29_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p29_c1_20",
@@ -3668,7 +4194,9 @@ const questionData = [
     ],
     "image": "images/q_29_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c0_1",
@@ -3682,7 +4210,9 @@ const questionData = [
     ],
     "image": "images/q_30_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c0_2",
@@ -3696,7 +4226,9 @@ const questionData = [
     ],
     "image": "images/q_30_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c0_3",
@@ -3710,7 +4242,9 @@ const questionData = [
     ],
     "image": "images/q_30_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c0_4",
@@ -3724,7 +4258,9 @@ const questionData = [
     ],
     "image": "images/q_30_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c0_5",
@@ -3738,7 +4274,9 @@ const questionData = [
     ],
     "image": "images/q_30_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c1_6",
@@ -3752,7 +4290,9 @@ const questionData = [
     ],
     "image": "images/q_30_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c1_7",
@@ -3766,7 +4306,9 @@ const questionData = [
     ],
     "image": "images/q_30_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c1_8",
@@ -3780,7 +4322,9 @@ const questionData = [
     ],
     "image": "images/q_30_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c1_9",
@@ -3794,7 +4338,9 @@ const questionData = [
     ],
     "image": "images/q_30_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c1_10",
@@ -3808,7 +4354,9 @@ const questionData = [
     ],
     "image": "images/q_30_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p30_c1_11",
@@ -3822,7 +4370,9 @@ const questionData = [
     ],
     "image": "images/q_30_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c0_12",
@@ -3836,7 +4386,9 @@ const questionData = [
     ],
     "image": "images/q_31_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c0_13",
@@ -3850,7 +4402,9 @@ const questionData = [
     ],
     "image": "images/q_31_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c0_14",
@@ -3864,7 +4418,9 @@ const questionData = [
     ],
     "image": "images/q_31_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c0_15",
@@ -3878,7 +4434,9 @@ const questionData = [
     ],
     "image": "images/q_31_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c0_16",
@@ -3892,7 +4450,9 @@ const questionData = [
     ],
     "image": "images/q_31_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c1_17",
@@ -3906,7 +4466,9 @@ const questionData = [
     ],
     "image": "images/q_31_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c1_18",
@@ -3920,7 +4482,9 @@ const questionData = [
     ],
     "image": "images/q_31_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c1_19",
@@ -3934,7 +4498,9 @@ const questionData = [
     ],
     "image": "images/q_31_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p31_c1_20",
@@ -3948,7 +4514,9 @@ const questionData = [
     ],
     "image": "images/q_31_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c0_1",
@@ -3962,7 +4530,9 @@ const questionData = [
     ],
     "image": "images/q_32_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c0_2",
@@ -3976,7 +4546,9 @@ const questionData = [
     ],
     "image": "images/q_32_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c0_3",
@@ -3990,7 +4562,9 @@ const questionData = [
     ],
     "image": "images/q_32_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c0_4",
@@ -4004,7 +4578,9 @@ const questionData = [
     ],
     "image": "images/q_32_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c0_5",
@@ -4018,7 +4594,9 @@ const questionData = [
     ],
     "image": "images/q_32_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c1_6",
@@ -4032,7 +4610,9 @@ const questionData = [
     ],
     "image": "images/q_32_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c1_7",
@@ -4046,7 +4626,9 @@ const questionData = [
     ],
     "image": "images/q_32_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c1_8",
@@ -4060,7 +4642,9 @@ const questionData = [
     ],
     "image": "images/q_32_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c1_9",
@@ -4074,7 +4658,9 @@ const questionData = [
     ],
     "image": "images/q_32_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p32_c1_10",
@@ -4088,7 +4674,9 @@ const questionData = [
     ],
     "image": "images/q_32_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c0_11",
@@ -4102,7 +4690,9 @@ const questionData = [
     ],
     "image": "images/q_33_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c0_12",
@@ -4116,7 +4706,9 @@ const questionData = [
     ],
     "image": "images/q_33_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c0_13",
@@ -4130,7 +4722,9 @@ const questionData = [
     ],
     "image": "images/q_33_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c0_14",
@@ -4144,7 +4738,9 @@ const questionData = [
     ],
     "image": "images/q_33_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c0_15",
@@ -4158,7 +4754,9 @@ const questionData = [
     ],
     "image": "images/q_33_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c0_16",
@@ -4172,7 +4770,9 @@ const questionData = [
     ],
     "image": "images/q_33_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c1_17",
@@ -4186,7 +4786,9 @@ const questionData = [
     ],
     "image": "images/q_33_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c1_18",
@@ -4200,7 +4802,9 @@ const questionData = [
     ],
     "image": "images/q_33_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c1_19",
@@ -4214,7 +4818,9 @@ const questionData = [
     ],
     "image": "images/q_33_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p33_c1_20",
@@ -4228,7 +4834,9 @@ const questionData = [
     ],
     "image": "images/q_33_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c0_1",
@@ -4242,7 +4850,9 @@ const questionData = [
     ],
     "image": "images/q_34_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c0_2",
@@ -4256,7 +4866,9 @@ const questionData = [
     ],
     "image": "images/q_34_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c0_3",
@@ -4270,7 +4882,9 @@ const questionData = [
     ],
     "image": "images/q_34_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c0_4",
@@ -4284,7 +4898,9 @@ const questionData = [
     ],
     "image": "images/q_34_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c0_5",
@@ -4298,7 +4914,9 @@ const questionData = [
     ],
     "image": "images/q_34_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c0_6",
@@ -4312,7 +4930,9 @@ const questionData = [
     ],
     "image": "images/q_34_0_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c1_7",
@@ -4326,7 +4946,9 @@ const questionData = [
     ],
     "image": "images/q_34_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c1_8",
@@ -4340,7 +4962,9 @@ const questionData = [
     ],
     "image": "images/q_34_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c1_9",
@@ -4354,7 +4978,9 @@ const questionData = [
     ],
     "image": "images/q_34_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c1_10",
@@ -4368,7 +4994,9 @@ const questionData = [
     ],
     "image": "images/q_34_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p34_c1_11",
@@ -4382,7 +5010,9 @@ const questionData = [
     ],
     "image": "images/q_34_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c0_12",
@@ -4396,7 +5026,9 @@ const questionData = [
     ],
     "image": "images/q_35_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c0_13",
@@ -4410,7 +5042,9 @@ const questionData = [
     ],
     "image": "images/q_35_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c0_14",
@@ -4424,7 +5058,9 @@ const questionData = [
     ],
     "image": "images/q_35_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c0_15",
@@ -4438,7 +5074,9 @@ const questionData = [
     ],
     "image": "images/q_35_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c0_16",
@@ -4452,7 +5090,9 @@ const questionData = [
     ],
     "image": "images/q_35_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c1_17",
@@ -4466,7 +5106,9 @@ const questionData = [
     ],
     "image": "images/q_35_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c1_18",
@@ -4480,7 +5122,9 @@ const questionData = [
     ],
     "image": "images/q_35_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c1_19",
@@ -4494,7 +5138,9 @@ const questionData = [
     ],
     "image": "images/q_35_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p35_c1_20",
@@ -4508,7 +5154,9 @@ const questionData = [
     ],
     "image": "images/q_35_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c0_1",
@@ -4522,7 +5170,9 @@ const questionData = [
     ],
     "image": "images/q_36_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c0_2",
@@ -4536,7 +5186,9 @@ const questionData = [
     ],
     "image": "images/q_36_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c0_3",
@@ -4550,7 +5202,9 @@ const questionData = [
     ],
     "image": "images/q_36_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c0_4",
@@ -4564,7 +5218,9 @@ const questionData = [
     ],
     "image": "images/q_36_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c0_5",
@@ -4578,7 +5234,9 @@ const questionData = [
     ],
     "image": "images/q_36_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c1_6",
@@ -4592,7 +5250,9 @@ const questionData = [
     ],
     "image": "images/q_36_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c1_7",
@@ -4606,7 +5266,9 @@ const questionData = [
     ],
     "image": "images/q_36_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c1_8",
@@ -4620,7 +5282,9 @@ const questionData = [
     ],
     "image": "images/q_36_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c1_9",
@@ -4634,7 +5298,9 @@ const questionData = [
     ],
     "image": "images/q_36_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c1_10",
@@ -4648,7 +5314,9 @@ const questionData = [
     ],
     "image": "images/q_36_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p36_c1_11",
@@ -4662,7 +5330,9 @@ const questionData = [
     ],
     "image": "images/q_36_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c0_12",
@@ -4676,7 +5346,9 @@ const questionData = [
     ],
     "image": "images/q_37_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c0_13",
@@ -4690,7 +5362,9 @@ const questionData = [
     ],
     "image": "images/q_37_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c0_14",
@@ -4704,7 +5378,9 @@ const questionData = [
     ],
     "image": "images/q_37_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c0_15",
@@ -4718,7 +5394,9 @@ const questionData = [
     ],
     "image": "images/q_37_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c0_16",
@@ -4732,7 +5410,9 @@ const questionData = [
     ],
     "image": "images/q_37_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c0_17",
@@ -4746,7 +5426,9 @@ const questionData = [
     ],
     "image": "images/q_37_0_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c1_18",
@@ -4760,7 +5442,9 @@ const questionData = [
     ],
     "image": "images/q_37_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c1_19",
@@ -4774,7 +5458,9 @@ const questionData = [
     ],
     "image": "images/q_37_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p37_c1_20",
@@ -4788,7 +5474,9 @@ const questionData = [
     ],
     "image": "images/q_37_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c0_1",
@@ -4802,7 +5490,9 @@ const questionData = [
     ],
     "image": "images/q_38_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c0_2",
@@ -4816,7 +5506,9 @@ const questionData = [
     ],
     "image": "images/q_38_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c0_3",
@@ -4830,7 +5522,9 @@ const questionData = [
     ],
     "image": "images/q_38_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c0_4",
@@ -4844,7 +5538,9 @@ const questionData = [
     ],
     "image": "images/q_38_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c0_5",
@@ -4858,7 +5554,9 @@ const questionData = [
     ],
     "image": "images/q_38_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c1_6",
@@ -4872,7 +5570,9 @@ const questionData = [
     ],
     "image": "images/q_38_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c1_7",
@@ -4886,7 +5586,9 @@ const questionData = [
     ],
     "image": "images/q_38_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c1_8",
@@ -4900,7 +5602,9 @@ const questionData = [
     ],
     "image": "images/q_38_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c1_9",
@@ -4914,7 +5618,9 @@ const questionData = [
     ],
     "image": "images/q_38_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c1_10",
@@ -4928,7 +5634,9 @@ const questionData = [
     ],
     "image": "images/q_38_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p38_c1_11",
@@ -4942,7 +5650,9 @@ const questionData = [
     ],
     "image": "images/q_38_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c0_12",
@@ -4956,7 +5666,9 @@ const questionData = [
     ],
     "image": "images/q_39_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c0_13",
@@ -4970,7 +5682,9 @@ const questionData = [
     ],
     "image": "images/q_39_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c0_14",
@@ -4984,7 +5698,9 @@ const questionData = [
     ],
     "image": "images/q_39_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c0_15",
@@ -4998,7 +5714,9 @@ const questionData = [
     ],
     "image": "images/q_39_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c0_16",
@@ -5012,7 +5730,9 @@ const questionData = [
     ],
     "image": "images/q_39_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c1_17",
@@ -5026,7 +5746,9 @@ const questionData = [
     ],
     "image": "images/q_39_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c1_18",
@@ -5040,7 +5762,9 @@ const questionData = [
     ],
     "image": "images/q_39_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c1_19",
@@ -5054,7 +5778,9 @@ const questionData = [
     ],
     "image": "images/q_39_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p39_c1_20",
@@ -5068,7 +5794,9 @@ const questionData = [
     ],
     "image": "images/q_39_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c0_1",
@@ -5082,7 +5810,9 @@ const questionData = [
     ],
     "image": "images/q_40_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c0_2",
@@ -5096,7 +5826,9 @@ const questionData = [
     ],
     "image": "images/q_40_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c0_3",
@@ -5110,7 +5842,9 @@ const questionData = [
     ],
     "image": "images/q_40_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c0_4",
@@ -5124,7 +5858,9 @@ const questionData = [
     ],
     "image": "images/q_40_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c0_5",
@@ -5138,7 +5874,9 @@ const questionData = [
     ],
     "image": "images/q_40_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c0_6",
@@ -5152,7 +5890,9 @@ const questionData = [
     ],
     "image": "images/q_40_0_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c1_7",
@@ -5166,7 +5906,9 @@ const questionData = [
     ],
     "image": "images/q_40_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c1_8",
@@ -5180,7 +5922,9 @@ const questionData = [
     ],
     "image": "images/q_40_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c1_9",
@@ -5194,7 +5938,9 @@ const questionData = [
     ],
     "image": "images/q_40_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c1_10",
@@ -5208,7 +5954,9 @@ const questionData = [
     ],
     "image": "images/q_40_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p40_c1_11",
@@ -5222,7 +5970,9 @@ const questionData = [
     ],
     "image": "images/q_40_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c0_12",
@@ -5236,7 +5986,9 @@ const questionData = [
     ],
     "image": "images/q_41_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c0_13",
@@ -5250,7 +6002,9 @@ const questionData = [
     ],
     "image": "images/q_41_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c0_14",
@@ -5264,7 +6018,9 @@ const questionData = [
     ],
     "image": "images/q_41_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c0_15",
@@ -5278,7 +6034,9 @@ const questionData = [
     ],
     "image": "images/q_41_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c1_16",
@@ -5292,7 +6050,9 @@ const questionData = [
     ],
     "image": "images/q_41_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c1_17",
@@ -5306,7 +6066,9 @@ const questionData = [
     ],
     "image": "images/q_41_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c1_18",
@@ -5320,7 +6082,9 @@ const questionData = [
     ],
     "image": "images/q_41_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c1_19",
@@ -5334,7 +6098,9 @@ const questionData = [
     ],
     "image": "images/q_41_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p41_c1_20",
@@ -5348,7 +6114,9 @@ const questionData = [
     ],
     "image": "images/q_41_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c0_1",
@@ -5362,7 +6130,9 @@ const questionData = [
     ],
     "image": "images/q_42_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c0_2",
@@ -5376,7 +6146,9 @@ const questionData = [
     ],
     "image": "images/q_42_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c0_3",
@@ -5390,7 +6162,9 @@ const questionData = [
     ],
     "image": "images/q_42_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c0_4",
@@ -5404,7 +6178,9 @@ const questionData = [
     ],
     "image": "images/q_42_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c0_5",
@@ -5418,7 +6194,9 @@ const questionData = [
     ],
     "image": "images/q_42_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c0_6",
@@ -5432,7 +6210,9 @@ const questionData = [
     ],
     "image": "images/q_42_0_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c1_7",
@@ -5446,7 +6226,9 @@ const questionData = [
     ],
     "image": "images/q_42_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c1_8",
@@ -5460,7 +6242,9 @@ const questionData = [
     ],
     "image": "images/q_42_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c1_9",
@@ -5474,7 +6258,9 @@ const questionData = [
     ],
     "image": "images/q_42_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p42_c1_10",
@@ -5488,7 +6274,9 @@ const questionData = [
     ],
     "image": "images/q_42_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c0_11",
@@ -5502,7 +6290,9 @@ const questionData = [
     ],
     "image": "images/q_43_0_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c0_12",
@@ -5516,7 +6306,9 @@ const questionData = [
     ],
     "image": "images/q_43_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c0_13",
@@ -5530,7 +6322,9 @@ const questionData = [
     ],
     "image": "images/q_43_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c0_14",
@@ -5544,7 +6338,9 @@ const questionData = [
     ],
     "image": "images/q_43_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c0_15",
@@ -5558,7 +6354,9 @@ const questionData = [
     ],
     "image": "images/q_43_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c1_16",
@@ -5572,7 +6370,9 @@ const questionData = [
     ],
     "image": "images/q_43_1_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c1_17",
@@ -5586,7 +6386,9 @@ const questionData = [
     ],
     "image": "images/q_43_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c1_18",
@@ -5600,7 +6402,9 @@ const questionData = [
     ],
     "image": "images/q_43_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c1_19",
@@ -5614,7 +6418,9 @@ const questionData = [
     ],
     "image": "images/q_43_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p43_c1_20",
@@ -5628,7 +6434,9 @@ const questionData = [
     ],
     "image": "images/q_43_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c0_1",
@@ -5642,7 +6450,9 @@ const questionData = [
     ],
     "image": "images/q_44_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c0_2",
@@ -5656,7 +6466,9 @@ const questionData = [
     ],
     "image": "images/q_44_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c0_3",
@@ -5670,7 +6482,9 @@ const questionData = [
     ],
     "image": "images/q_44_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c0_4",
@@ -5684,7 +6498,9 @@ const questionData = [
     ],
     "image": "images/q_44_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c0_5",
@@ -5698,7 +6514,9 @@ const questionData = [
     ],
     "image": "images/q_44_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c1_6",
@@ -5712,7 +6530,9 @@ const questionData = [
     ],
     "image": "images/q_44_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c1_7",
@@ -5726,7 +6546,9 @@ const questionData = [
     ],
     "image": "images/q_44_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c1_8",
@@ -5740,7 +6562,9 @@ const questionData = [
     ],
     "image": "images/q_44_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c1_9",
@@ -5754,7 +6578,9 @@ const questionData = [
     ],
     "image": "images/q_44_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c1_10",
@@ -5768,7 +6594,9 @@ const questionData = [
     ],
     "image": "images/q_44_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p44_c1_11",
@@ -5782,7 +6610,9 @@ const questionData = [
     ],
     "image": "images/q_44_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c0_12",
@@ -5796,7 +6626,9 @@ const questionData = [
     ],
     "image": "images/q_45_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c0_13",
@@ -5810,7 +6642,9 @@ const questionData = [
     ],
     "image": "images/q_45_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c0_14",
@@ -5824,7 +6658,9 @@ const questionData = [
     ],
     "image": "images/q_45_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c0_15",
@@ -5838,7 +6674,9 @@ const questionData = [
     ],
     "image": "images/q_45_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c0_16",
@@ -5852,7 +6690,9 @@ const questionData = [
     ],
     "image": "images/q_45_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c1_17",
@@ -5866,7 +6706,9 @@ const questionData = [
     ],
     "image": "images/q_45_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c1_18",
@@ -5878,7 +6720,9 @@ const questionData = [
     ],
     "image": "images/q_45_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c1_19",
@@ -5892,7 +6736,9 @@ const questionData = [
     ],
     "image": "images/q_45_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p45_c1_20",
@@ -5906,7 +6752,9 @@ const questionData = [
     ],
     "image": "images/q_45_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c0_1",
@@ -5920,7 +6768,9 @@ const questionData = [
     ],
     "image": "images/q_46_0_1.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c0_2",
@@ -5934,7 +6784,9 @@ const questionData = [
     ],
     "image": "images/q_46_0_2.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c0_3",
@@ -5948,7 +6800,9 @@ const questionData = [
     ],
     "image": "images/q_46_0_3.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c0_4",
@@ -5962,7 +6816,9 @@ const questionData = [
     ],
     "image": "images/q_46_0_4.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c0_5",
@@ -5976,7 +6832,9 @@ const questionData = [
     ],
     "image": "images/q_46_0_5.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c1_6",
@@ -5990,7 +6848,9 @@ const questionData = [
     ],
     "image": "images/q_46_1_6.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c1_7",
@@ -6004,7 +6864,9 @@ const questionData = [
     ],
     "image": "images/q_46_1_7.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c1_8",
@@ -6018,7 +6880,9 @@ const questionData = [
     ],
     "image": "images/q_46_1_8.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c1_9",
@@ -6032,7 +6896,9 @@ const questionData = [
     ],
     "image": "images/q_46_1_9.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c1_10",
@@ -6046,7 +6912,9 @@ const questionData = [
     ],
     "image": "images/q_46_1_10.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p46_c1_11",
@@ -6060,7 +6928,9 @@ const questionData = [
     ],
     "image": "images/q_46_1_11.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c0_12",
@@ -6074,7 +6944,9 @@ const questionData = [
     ],
     "image": "images/q_47_0_12.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c0_13",
@@ -6088,7 +6960,9 @@ const questionData = [
     ],
     "image": "images/q_47_0_13.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c0_14",
@@ -6102,7 +6976,9 @@ const questionData = [
     ],
     "image": "images/q_47_0_14.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c0_15",
@@ -6116,7 +6992,9 @@ const questionData = [
     ],
     "image": "images/q_47_0_15.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c0_16",
@@ -6130,7 +7008,9 @@ const questionData = [
     ],
     "image": "images/q_47_0_16.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c1_17",
@@ -6144,7 +7024,9 @@ const questionData = [
     ],
     "image": "images/q_47_1_17.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c1_18",
@@ -6158,7 +7040,9 @@ const questionData = [
     ],
     "image": "images/q_47_1_18.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c1_19",
@@ -6172,7 +7056,9 @@ const questionData = [
     ],
     "image": "images/q_47_1_19.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   },
   {
     "id": "p47_c1_20",
@@ -6186,6 +7072,8 @@ const questionData = [
     ],
     "image": "images/q_47_1_20.png",
     "answer": 1,
-    "explanation": "이미지 참고"
+    "explanation": "이미지 참고",
+    "subject": "지적전산학개론",
+    "difficulty": "중"
   }
 ];
