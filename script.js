@@ -31,7 +31,7 @@ function startQuiz(subject, mode) {
     currentMode = mode;
 
     // Filter questions by subject AND source
-    let filtered = allQuestions.filter(q => q.subject.includes(subject));
+    let filtered = allQuestions.filter(q => q.subject && q.subject.includes(subject));
 
     if (selectedSource === '기출') {
         filtered = filtered.filter(q => q.source === '기출' || !q.source);
@@ -82,15 +82,25 @@ function showQuestion() {
     const q = currentQuiz[currentIndex];
 
     // Header Info
-    document.getElementById('curr-subject').innerText = q.subject;
-    document.getElementById('curr-num').innerText = q.num;
-    document.getElementById('curr-year').innerText = q.year || '2024년';
-    document.getElementById('q-text').innerText = q.text;
+    const subjEl = document.getElementById('curr-subject');
+    if (subjEl) subjEl.innerText = q.subject;
+
+    const numEl = document.getElementById('curr-num');
+    if (numEl) numEl.innerText = q.num;
+
+    const yearEl = document.getElementById('curr-year');
+    if (yearEl) yearEl.innerText = q.year || '2024년';
+
+    const textEl = document.getElementById('q-text');
+    if (textEl) textEl.innerText = q.text;
 
     // Progress
     const progress = (currentIndex / currentQuiz.length) * 100;
-    document.getElementById('progress-fill').style.width = `${progress}%`;
-    document.getElementById('q-counter').innerText = `${currentIndex + 1} / ${currentQuiz.length}`;
+    const progFill = document.getElementById('progress-fill');
+    if (progFill) progFill.style.width = `${progress}%`;
+
+    const countEl = document.getElementById('q-counter');
+    if (countEl) countEl.innerText = `${currentIndex + 1} / ${currentQuiz.length}`;
 
     // Image
     const imgContainer = document.getElementById('q-image');
