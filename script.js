@@ -84,6 +84,7 @@ function showQuestion() {
     // Header Info
     document.getElementById('curr-subject').innerText = q.subject;
     document.getElementById('curr-num').innerText = q.num;
+    document.getElementById('curr-year').innerText = q.year || '2024년';
     document.getElementById('q-text').innerText = q.text;
 
     // Progress
