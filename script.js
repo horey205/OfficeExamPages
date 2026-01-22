@@ -104,7 +104,7 @@ function showQuestion() {
 
     if (q.source && (q.source.includes('AI') || q.source === '신규')) {
         if (aiBadge) aiBadge.classList.remove('hidden');
-        if (yearEl) yearEl.innerText = '2025 예상';
+        if (yearEl) yearEl.innerText = '최신 예상';
     } else {
         if (aiBadge) aiBadge.classList.add('hidden');
         if (yearEl) yearEl.innerText = q.year || '기출';
