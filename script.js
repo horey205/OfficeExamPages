@@ -5,7 +5,7 @@ let score = 0;
 let timer = null;
 let timeLeft = 60;
 let currentMode = 'study'; // 'study' or 'exam'
-let selectedSource = '기출'; // '기출' or 'all'
+let selectedSubject = ''; // '지적측량' or '지적전산학개론'
 
 // Initialize questions from loaded script
 if (typeof questionData !== 'undefined') {
@@ -18,27 +18,37 @@ if (typeof questionData !== 'undefined') {
 function showLanding() {
     document.getElementById('quiz').classList.add('hidden');
     document.getElementById('result').classList.add('hidden');
+    document.getElementById('mode-selection').classList.add('hidden');
     document.getElementById('landing').classList.remove('hidden');
 }
 
-function setSource(src) {
-    selectedSource = src;
-    document.getElementById('src-official').classList.toggle('active', src === '기출');
-    document.getElementById('src-all').classList.toggle('active', src === 'all');
+function selectSubject(subject) {
+    selectedSubject = subject;
+    document.getElementById('selected-subject-title').innerText = subject;
+    document.getElementById('landing').classList.add('hidden');
+    document.getElementById('mode-selection').classList.remove('hidden');
 }
 
-function startQuiz(subject, mode) {
+function startQuiz(mode) {
     currentMode = mode;
+    console.log(`[StartQuiz] Mode: ${mode}, Subject: ${selectedSubject}`);
 
-    // Filter questions by subject AND source
-    let filtered = allQuestions.filter(q => q.subject && q.subject.includes(subject));
+    // Filter by Subject
+    let subjectFiltered = allQuestions.filter(q => q.subject && q.subject.includes(selectedSubject));
 
-    if (selectedSource === '기출') {
-        filtered = filtered.filter(q => q.source === '기출' || !q.source);
+    // Filter by Source based on Mode
+    let filtered = [];
+    if (mode === 'study') {
+        // Study Mode -> Past Questions ONLY (source is '기출' OR missing)
+        filtered = subjectFiltered.filter(q => q.source === '기출' || !q.source);
+    } else {
+        // Exam Mode -> AI/New Questions ONLY
+        filtered = subjectFiltered.filter(q => q.source && q.source !== '기출');
     }
+    console.log(`[Filter] Final Count: ${filtered.length}`);
 
     if (filtered.length === 0) {
-        alert("해당 과목의 문항이 없습니다.");
+        alert("해당 조건의 문항이 없습니다. (문제 데이터를 확인하세요)");
         return;
     }
 
@@ -67,7 +77,7 @@ function startQuiz(subject, mode) {
     currentIndex = 0;
     score = 0;
 
-    document.getElementById('landing').classList.add('hidden');
+    document.getElementById('mode-selection').classList.add('hidden');
     document.getElementById('quiz').classList.remove('hidden');
 
     showQuestion();
@@ -88,8 +98,17 @@ function showQuestion() {
     const numEl = document.getElementById('curr-num');
     if (numEl) numEl.innerText = q.num;
 
+    // AI Badge & Year Logic
+    const aiBadge = document.getElementById('ai-badge');
     const yearEl = document.getElementById('curr-year');
-    if (yearEl) yearEl.innerText = q.year || '2024년';
+
+    if (q.source && (q.source.includes('AI') || q.source === '신규')) {
+        if (aiBadge) aiBadge.classList.remove('hidden');
+        if (yearEl) yearEl.innerText = '2025 예상';
+    } else {
+        if (aiBadge) aiBadge.classList.add('hidden');
+        if (yearEl) yearEl.innerText = q.year || '기출';
+    }
 
     const textEl = document.getElementById('q-text');
     if (textEl) textEl.innerText = q.text;
