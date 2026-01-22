@@ -224,6 +224,9 @@
                 <button class="primary-btn"
                     style="background:var(--admin-primary); padding: 8px 12px; font-size: 0.8rem;"
                     onclick="addNewQuestion()">+ 1건 추가</button>
+                <button id="github-btn" class="primary-btn"
+                    style="background:#6366f1; padding: 8px 12px; font-size: 0.8rem;" onclick="uploadToGithub()">☁️
+                    GitHub 업로드</button>
                 <button class="glass-btn" style="padding: 10px 15px;" onclick="location.href='index.html'">종료</button>
             </div>
         </nav>
@@ -547,6 +550,35 @@
                     console.error(e);
                     alert('서버 통신 오류. server.py가 실행 중인지 확인하세요.');
                 }
+            }
+        }
+
+        async function uploadToGithub() {
+            const btn = document.getElementById('github-btn');
+            const originalText = btn.innerText;
+
+            if (!confirm('현재까지의 모든 변경사항(기출수정, AI문제 등)을 GitHub 저장소에 업로드하시겠습니까?')) return;
+
+            btn.disabled = true;
+            btn.innerText = '⏳ 업로드 중...';
+            btn.style.opacity = '0.5';
+
+            try {
+                const res = await fetch('/git_push', { method: 'POST' });
+                const result = await res.json();
+
+                if (result.success) {
+                    alert('✅ GitHub 업로드 성공!\n이제 전 세계 어디서든 최신 데이터를 볼 수 있습니다.');
+                } else {
+                    alert('❌ 업로드 실패: ' + result.message);
+                }
+            } catch (e) {
+                console.error(e);
+                alert('서버 통신 오류. 로컬 서버(server.py)가 실행 중인지 확인하세요.');
+            } finally {
+                btn.disabled = false;
+                btn.innerText = originalText;
+                btn.style.opacity = '1';
             }
         }
 

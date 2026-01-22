@@ -1,6 +1,806 @@
 [
   {
     "num": "문 50.",
+    "text": "지적원도 데이터베이스 구축 시 필지 내부에 독립된 폴리곤(섬 필지 등)이 있는 경우의 편집 방법은?",
+    "options": [
+      "내부 폴리곤을 무시하고 삭제한다.",
+      "내부 폴리곤에 별도의 구분코드를 입력하여 관리한다.",
+      "외부 폴리곤과 하나로 합친다.",
+      "임의로 외부 폴리곤의 경계를 잘라 연결한다."
+    ],
+    "answer": 2,
+    "explanation": "구조화 편집 시 필지 내 독립 폴리곤(Island)은 식별이 가능하도록 구분 코드를 부여하여 데이터 무결성을 유지해야 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_3jo5k"
+  },
+  {
+    "num": "문 49.",
+    "text": "공간 데이터베이스에서 '널(NULL)' 값의 의미로 가장 적절한 것은?",
+    "options": [
+      "숫자 0을 의미한다.",
+      "공백(Space) 문자를 의미한다.",
+      "값의 부재 또는 알 수 없는 값을 의미한다.",
+      "데이터의 삭제를 의미한다."
+    ],
+    "answer": 3,
+    "explanation": "NULL은 정보가 정의되지 않았거나 누락되었음을 나타내는 특수 값입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_n4cfl"
+  },
+  {
+    "num": "문 48.",
+    "text": "지적 및 부동산 시스템 중 현재 전국적으로 통합되어 일사편리 서비스를 제공하는 시스템은?",
+    "options": [
+      "KRAS(부동산종합공부시스템)",
+      "KLIS",
+      "PBLIS",
+      "LMIS"
+    ],
+    "answer": 1,
+    "explanation": "KRAS는 여러 토지 및 건물 정보를 통합하여 관리하는 현재의 시스템입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_heapd"
+  },
+  {
+    "num": "문 47.",
+    "text": "래스터 데이터를 확대했을 때 경계선이 계단 모양으로 깨져 보이는 현상은?",
+    "options": [
+      "Aliasing(앨리어싱)",
+      "Antialiasing",
+      "Resolution",
+      "Encoding"
+    ],
+    "answer": 1,
+    "explanation": "앨리어싱은 낮은 해상도나 확대 시 픽셀 경계가 계단형으로 나타나는 현상입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_g3wdy"
+  },
+  {
+    "num": "문 46.",
+    "text": "지적도면의 행정구역 명칭 변경 시 코드 변경을 요청해야 하는 기간으로 옳은 것은?",
+    "options": [
+      "변경일 1일 전까지",
+      "변경일 3일 전까지",
+      "변경일 10일 전까지",
+      "변경 즉시"
+    ],
+    "answer": 3,
+    "explanation": "부동산종합공부시스템 운영 및 관리규정 상 행정구역 변경 시 10일 전까지 코드 변경을 요청해야 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_hoi1m"
+  },
+  {
+    "num": "문 45.",
+    "text": "네트워크 분석에서 두 지점 사이의 최단 경로를 찾는 데 주로 사용되는 알고리즘은?",
+    "options": [
+      "다익스트라(Dijkstra) 알고리즘",
+      "정규화 알고리즘",
+      "압축 알고리즘",
+      "부호화 알고리즘"
+    ],
+    "answer": 1,
+    "explanation": "다익스트라 알고리즘은 가중치 네트워크에서 최단 경로를 구하는 대표적인 알고리즘입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_m5ia4"
+  },
+  {
+    "num": "문 44.",
+    "text": "데이터베이스의 이상(Anomaly) 현상 중 데이터를 삭제할 때 의도하지 않은 정보까지 함께 삭제되는 것은?",
+    "options": [
+      "삽입 이상",
+      "삭제 이상",
+      "갱신 이상",
+      "참조 이상"
+    ],
+    "answer": 2,
+    "explanation": "삭제 이상은 릴레이션에서 특정 정보를 삭제할 때 연쇄적으로 필요한 다른 정보까지 소실되는 현상입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_r04qu"
+  },
+  {
+    "num": "문 43.",
+    "text": "위상구조가 없는 데이터(Spaghetti 데이터)를 정화(Cleaning)하여 위상구조를 만드는 과정은?",
+    "options": [
+      "Structuring(구조화)",
+      "Buffering",
+      "Projection",
+      "Interpolation"
+    ],
+    "answer": 1,
+    "explanation": "구조화 편집을 통해 노드와 아크의 관계를 정의하고 위상 관계를 정립합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_pa19v"
+  },
+  {
+    "num": "문 42.",
+    "text": "지리정보시스템(GIS)의 하드웨어 구성요소 중 출력장치에 해당하는 것은?",
+    "options": [
+      "Digitizer",
+      "Scanner",
+      "Plotter",
+      "Keyboard"
+    ],
+    "answer": 3,
+    "explanation": "플로터는 대형 도면 등을 출력하는 장치입니다. 나머지는 입력장치입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_8vizf"
+  },
+  {
+    "num": "문 41.",
+    "text": "관계형 데이터베이스에서 '속성(Attribute)'의 개수를 의미하는 용어는?",
+    "options": [
+      "Cardinality",
+      "Degree(차수)",
+      "Domain",
+      "Tuple"
+    ],
+    "answer": 2,
+    "explanation": "릴레이션에서 속성의 개수를 Degree, 튜플의 개수를 Cardinality라고 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_ppqh0"
+  },
+  {
+    "num": "문 40.",
+    "text": "공간정보 데이터베이스 구축 작업 중 수동 디지타이징과 비교한 자동 벡터라이징의 특징은?",
+    "options": [
+      "작업 속도가 현저히 느리다.",
+      "정확도가 항상 더 높다.",
+      "스캔된 래스터 이미지가 반드시 필요하다.",
+      "위상 관계를 자동으로 완벽하게 생성한다."
+    ],
+    "answer": 3,
+    "explanation": "자동 벡터라이징은 스캐닝된 이미지를 소프트웨어가 분석하여 선을 추출하므로 원본 래스터 파일이 필수입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_9sgyr"
+  },
+  {
+    "num": "문 39.",
+    "text": "래스터 데이터 구조에서 동일한 값이 연속될 때 '값+반복횟수' 형태로 압축하는 기법은?",
+    "options": [
+      "Run-length Coding",
+      "Quadtree",
+      "Huffman Coding",
+      "Dictionary Coding"
+    ],
+    "answer": 1,
+    "explanation": "Run-length 부호화는 동일한 픽셀 값이 반복되는 길이를 저장하여 용량을 줄이는 방식입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_s0sgj"
+  },
+  {
+    "num": "문 38.",
+    "text": "지적정보시스템 변천 과정 중 시·군·구 단위에서 토지행정 및 지적업무를 통합 관리했던 시스템은?",
+    "options": [
+      "PBLIS",
+      "KLIS",
+      "KRAS",
+      "LMIS"
+    ],
+    "answer": 2,
+    "explanation": "KLIS(한국토지정보시스템)는 필지중심 토지정보시스템(PBLIS)과 토지관리정보시스템(LMIS)을 통합하여 구축되었습니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_6832d"
+  },
+  {
+    "num": "문 37.",
+    "text": "중첩분석 연산 중 두 레이어의 공통 부분만 추출하여 새로운 레이어를 만드는 것은?",
+    "options": [
+      "Union",
+      "Intersect",
+      "Identity",
+      "Erase"
+    ],
+    "answer": 2,
+    "explanation": "Intersect(교집합) 연산은 두 데이터셋의 공통 영역과 속성을 결합합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_4zcip"
+  },
+  {
+    "num": "문 36.",
+    "text": "다음 중 공간정보 표준화를 주도하는 민간 컨소시엄 기구는?",
+    "options": [
+      "ISO",
+      "OGC(Open Geospatial Consortium)",
+      "FIG",
+      "ICA"
+    ],
+    "answer": 2,
+    "explanation": "OGC는 전 세계 기업 및 기관들이 참여하여 공간정보의 상호운용성 표준을 만드는 민간 기구입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_04enw"
+  },
+  {
+    "num": "문 35.",
+    "text": "지적원도 데이터베이스 구축 시 도면의 신축 보정을 위해 사용하는 기준점은?",
+    "options": [
+      "도곽선 사곽(사각모서리) 점",
+      "중앙의 필지 경계점",
+      "임의의 보조점",
+      "행정구역 경계점"
+    ],
+    "answer": 1,
+    "explanation": "도면의 신축을 파악하고 보정하기 위해 규격이 정해진 도곽선 모서리 점을 기준으로 독취 및 보정을 수행합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_wxezb"
+  },
+  {
+    "num": "문 34.",
+    "text": "지적도면 필지 경계선 중 직선경계의 데이터 취득 원칙으로 옳은 것은?",
+    "options": [
+      "직선 중간에 보간점을 많이 찍는다.",
+      "각 굴곡점에 하나씩의 점 데이터만 있어야 한다.",
+      "선의 시작점만 좌표로 저장한다.",
+      "전체 선을 하나의 원호로 인식시킨다."
+    ],
+    "answer": 2,
+    "explanation": "직선 경계의 경우 불필요한 데이터 중복을 막기 위해 굴곡점(경계점)에만 좌표를 생성합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_nmkc8"
+  },
+  {
+    "num": "문 33.",
+    "text": "부동산종합공부시스템 운영 및 관리규정 상 전산자료의 보안관리를 위해 운영기관의 장이 받는 서류는?",
+    "options": [
+      "보안각서 및 전산자료 수령증",
+      "토지대장 사본",
+      "주민등록등본",
+      "사업자등록증"
+    ],
+    "answer": 1,
+    "explanation": "전산자료 제공 시 보안 사고 예방을 위해 보안각서와 수령증을 제출받아야 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_jfe8u"
+  },
+  {
+    "num": "문 32.",
+    "text": "위상관계 중 두 객체가 서로 맞닿아 있는 상태를 정의하는 요소는?",
+    "options": [
+      "Adjacency(인접성)",
+      "Connectivity(연결성)",
+      "Containment(포함성)",
+      "Proximity(근접성)"
+    ],
+    "answer": 1,
+    "explanation": "인접성은 경계선을 공유하며 이웃하고 있는 관계를 의미합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_jlm8m"
+  },
+  {
+    "num": "문 31.",
+    "text": "벡터 데이터 모델 중 객체 간의 위상 관계를 저장하지 않고 단순 좌표 나열로만 구성된 모델은?",
+    "options": [
+      "Spaghetti Model",
+      "TIN",
+      "DIME",
+      "TIGER"
+    ],
+    "answer": 1,
+    "explanation": "스파게티 모델은 위상 정보 없이 단순 좌표 값만 저장하는 초기 형태의 데이터 모델입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_jru5a"
+  },
+  {
+    "num": "문 30.",
+    "text": "지적정보시스템 운영 시 전산자료의 멸실에 대비하여 별도의 장소에 보관해야 하는 자료는?",
+    "options": [
+      "속성데이터만",
+      "백업(Backup) 데이터",
+      "메타데이터만",
+      "로그(Log) 기록만"
+    ],
+    "answer": 2,
+    "explanation": "재난이나 사고에 대비하여 정기적으로 백업을 수행하고 이를 안전한 외부 장소에 보관해야 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_5rv2o"
+  },
+  {
+    "num": "문 29.",
+    "text": "SQL 명령어 'GRANT'와 'REVOKE'는 어떤 언어군에 속하는가?",
+    "options": [
+      "DDL",
+      "DML",
+      "DCL",
+      "TCL"
+    ],
+    "answer": 3,
+    "explanation": "GRANT(권한 부여)와 REVOKE(권한 취소)는 데이터 제어어(DCL)입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_davmp"
+  },
+  {
+    "num": "문 28.",
+    "text": "벡터 데이터 저장 형식 중 쉐이프파일(Shapefile)의 필수 확장자가 아닌 것은?",
+    "options": [
+      ".shp",
+      ".shx",
+      ".dbf",
+      ".dwg"
+    ],
+    "answer": 4,
+    "explanation": "쉐이프파일은 .shp(도형), .shx(인덱스), .dbf(속성) 파일이 필수적으로 세트를 이룹니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_d3h59"
+  },
+  {
+    "num": "문 27.",
+    "text": "다목적 지적(Multipurpose Cadastre)의 3대 구성요소가 아닌 것은?",
+    "options": [
+      "기본도(Base Map)",
+      "필지식별번호(PIN)",
+      "토지자료파일",
+      "부동산 등기부"
+    ],
+    "answer": 4,
+    "explanation": "다목적 지적의 기술적 구성요소는 기본도, 필지식별번호, 토지관련 자료파일입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_lem21"
+  },
+  {
+    "num": "문 26.",
+    "text": "래스터 데이터의 해상도(Resolution)에 대한 설명으로 옳은 것은?",
+    "options": [
+      "해상도가 높을수록 픽셀 한 개의 크기가 커진다.",
+      "해상도가 낮을수록 데이터 용량이 증가한다.",
+      "픽셀 크기가 작을수록 해상도가 높아지며 정밀도가 향상된다.",
+      "해상도는 벡터 데이터의 위상 관계를 결정하는 핵심 요소이다."
+    ],
+    "answer": 3,
+    "explanation": "해상도는 격자(픽셀)의 크기에 반비례하며, 픽셀이 작을수록 더 세밀한 표현이 가능합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_91l8y"
+  },
+  {
+    "num": "문 25.",
+    "text": "지적공부 정보 중 속성정보에 해당하지 않는 것은?",
+    "options": [
+      "토지대장",
+      "지목",
+      "지적도 전산파일",
+      "공유지연명부"
+    ],
+    "answer": 3,
+    "explanation": "지적도는 토지의 형상을 나타내는 도형(공간) 정보에 해당합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_z4v8g"
+  },
+  {
+    "num": "문 24.",
+    "text": "컴퓨터 속에 현실과 동일한 디지털 세계를 만들고 상황을 예측하는 기술은?",
+    "options": [
+      "디지털 트윈(Digital Twin)",
+      "증강 현실(AR)",
+      "가상 현실(VR)",
+      "스마트 시티"
+    ],
+    "answer": 1,
+    "explanation": "디지털 트윈은 현실 객체의 쌍둥이를 가상 공간에 구현하여 모의실험 등에 활용하는 기술입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_nc8o4"
+  },
+  {
+    "num": "문 23.",
+    "text": "데이터베이스의 무결성을 유지하기 위해 특정 이벤트 발생 시 자동 실행되는 프로그램 단위는?",
+    "options": [
+      "Schema",
+      "Trigger(트리거)",
+      "View",
+      "Index"
+    ],
+    "answer": 2,
+    "explanation": "트리거는 테이블에 INSERT, UPDATE, DELETE 작업이 발생할 때 자동으로 실행되도록 설정된 루틴입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_kvl1r"
+  },
+  {
+    "num": "문 22.",
+    "text": "공간분석 중 특정 거리 내에 있는 지역을 설정하여 분석하는 방법은?",
+    "options": [
+      "Buffering(버퍼링)",
+      "Overlay(중첩)",
+      "Dissolve(디졸브)",
+      "Network Analysis(네트워크 분석)"
+    ],
+    "answer": 1,
+    "explanation": "버퍼 분석은 특정 공간 대상물 주변의 일정 범위를 생성하여 근접성을 분석하는 기법입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_od9o0"
+  },
+  {
+    "num": "문 21.",
+    "text": "UML(Unified Modeling Language) 관계 중 '전체'가 삭제되면 '부분'도 함께 삭제되는 강한 결합 관계는?",
+    "options": [
+      "Aggregation(집약)",
+      "Composition(합성)",
+      "Generalization(일반화)",
+      "Dependency(의존)"
+    ],
+    "answer": 2,
+    "explanation": "합성(Composition) 관계는 전체와 부분의 생명주기가 일치하는 강력한 포함 관계입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_wx5zp"
+  },
+  {
+    "num": "문 20.",
+    "text": "부동산종합공부시스템 운영 및 관리규정 상 1:1,200 축척의 구분 코드는?",
+    "options": [
+      "01",
+      "06",
+      "12",
+      "24"
+    ],
+    "answer": 3,
+    "explanation": "부동산종합공부시스템에서 축척 코드는 600(06), 1200(12), 2400(24) 등으로 구분됩니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_4zxi9"
+  },
+  {
+    "num": "문 19.",
+    "text": "위상구조(Topology)화 작업 시 인접한 두 폴리곤이 하나의 선을 공유하지 못해 발생하는 불필요한 미세 폴리곤은?",
+    "options": [
+      "Spike",
+      "Sliver Polygon",
+      "Dangle",
+      "Pseudo Node"
+    ],
+    "answer": 2,
+    "explanation": "경계선이 일치하지 않아 틈새처럼 발생하는 얇은 폴리곤을 Sliver(슬리버) 폴리곤이라고 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_fmsiv"
+  },
+  {
+    "num": "문 18.",
+    "text": "래스터 데이터를 벡터 데이터로 변환하는 과정을 무엇이라 하는가?",
+    "options": [
+      "Rasterizing",
+      "Vectorizing",
+      "Scanning",
+      "Encoding"
+    ],
+    "answer": 2,
+    "explanation": "스캔된 이미지(래스터)에서 점, 선, 면(벡터)을 추출하는 과정을 벡터라이징 또는 수치화라고 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_1psr7"
+  },
+  {
+    "num": "문 17.",
+    "text": "공간정보 오픈플랫폼으로서 속성정보와 공간정보를 API 형태로 제공하는 서비스 명칭은?",
+    "options": [
+      "Vworld(브이월드)",
+      "KLIS",
+      "PBLIS",
+      "NSDI"
+    ],
+    "answer": 1,
+    "explanation": "브이월드는 국가공간정보를 오픈 API 등을 통해 대국민 서비스하는 플랫폼입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_bnnyg"
+  },
+  {
+    "num": "문 16.",
+    "text": "관계 데이터베이스 설계에서 중복 정보를 최소화하여 무결성을 유지하기 위한 기법은?",
+    "options": [
+      "Normalization(정규화)",
+      "Denormalization(역정규화)",
+      "Indexing(인덱싱)",
+      "Aggregation(집약)"
+    ],
+    "answer": 1,
+    "explanation": "정규화는 중복을 최소화하고 이상 현상을 방지하기 위해 테이블을 분해하는 과정입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_6yvax"
+  },
+  {
+    "num": "문 15.",
+    "text": "주소정보를 평면직각좌표 또는 경위도좌표로 변환하는 과정을 무엇이라 하는가?",
+    "options": [
+      "Geocoding",
+      "Geotagging",
+      "Geofencing",
+      "Geovisualization"
+    ],
+    "answer": 1,
+    "explanation": "주소나 지명 등의 텍스트 정보를 지리 좌표로 변환하는 것을 지오코딩이라고 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_g2d8z"
+  },
+  {
+    "num": "문 14.",
+    "text": "지적원도 데이터베이스 구축 시 스캐닝 작업의 광학 해상도 기준으로 옳은 것은?",
+    "options": [
+      "300 DPI 이상",
+      "600 DPI 이상",
+      "1,200 DPI 이상",
+      "2,000 DPI 이상"
+    ],
+    "answer": 4,
+    "explanation": "지적원도 데이터베이스 구축 작업기준에 따르면 스캐너의 광학 해상도는 2,000 DPI 이상이어야 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_bywit"
+  },
+  {
+    "num": "문 13.",
+    "text": "객체지향 데이터베이스의 주요 특징이 아닌 것은?",
+    "options": [
+      "캡슐화(Encapsulation)",
+      "상속성(Inheritance)",
+      "다형성(Polymorphism)",
+      "투플(Tuple) 중심의 데이터 저장"
+    ],
+    "answer": 4,
+    "explanation": "투플 중심 저장은 관계형 데이터베이스(RDBMS)의 특징입니다. 객체지향은 객체(Object) 단위로 저장합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_xgncb"
+  },
+  {
+    "num": "문 12.",
+    "text": "연속지적도에 대한 설명으로 옳은 것은?",
+    "options": [
+      "정밀한 측량 목적으로 법적 효력을 갖는 도면이다.",
+      "개별 지적도를 전산적으로 접합하여 구축한 도면이다.",
+      "실제 토지 현황과 100% 일치하도록 현지 측량을 거쳐 제작된다.",
+      "경계점좌표등록부의 좌표값만으로 구성된 수치 파일이다."
+    ],
+    "answer": 2,
+    "explanation": "연속지적도는 개별 도면을 접합한 것으로 측량의 근거로 사용할 수 없는 참고용 도면입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_g9db8"
+  },
+  {
+    "num": "문 11.",
+    "text": "다음 중 수치표고모형(DEM)으로부터 직접 추출할 수 있는 정보가 아닌 것은?",
+    "options": [
+      "경사도(Slope)",
+      "경사방향(Aspect)",
+      "필지경계(Parcel Boundary)",
+      "음영기복도(Shaded Relief)"
+    ],
+    "answer": 3,
+    "explanation": "DEM은 지형의 고도 정보를 담고 있으나 인위적인 필지 경계 정보는 포함하지 않습니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_ujllg"
+  },
+  {
+    "num": "문 10.",
+    "text": "공간정보 분야의 국제 표준화를 담당하는 기구와 기술위원회의 명칭은?",
+    "options": [
+      "ISO/TC 211",
+      "OGC",
+      "FGDC",
+      "ICA"
+    ],
+    "answer": 1,
+    "explanation": "ISO/TC 211은 지리정보/공간정보 분야의 국제 표준 제정을 담당하는 기술위원회입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_gbqvu"
+  },
+  {
+    "num": "문 9.",
+    "text": "지적원도 데이터베이스 구축 작업기준 상 도면접합의 우선순위로 옳은 것은?",
+    "options": [
+      "축척별 도곽간 -> 축척간 -> 원점간 -> 행정구역간",
+      "행정구역간 -> 원점간 -> 축척간 -> 축척별 도곽간",
+      "원점간 -> 축척간 -> 행정구역간 -> 축척별 도곽간",
+      "축척간 -> 원점간 -> 행정구역간 -> 축척별 도곽간"
+    ],
+    "answer": 1,
+    "explanation": "동일 행정구역 내 축척별 도곽간, 축척간, 원점간 접합을 우선 수행한 후 최종적으로 행정구역 간 접합을 수행합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_3t414"
+  },
+  {
+    "num": "문 8.",
+    "text": "SQL 명령어 중 데이터 정의어(DDL)에 해당하지 않는 것은?",
+    "options": [
+      "CREATE",
+      "ALTER",
+      "SELECT",
+      "DROP"
+    ],
+    "answer": 3,
+    "explanation": "SELECT는 데이터를 조회하는 데이터 조작어(DML)입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_ytjxd"
+  },
+  {
+    "num": "문 7.",
+    "text": "공간 데이터 형태에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "벡터 데이터는 점, 선, 면으로 공간 객체를 표현한다.",
+      "래스터 데이터는 위성영상이나 항공사진이 대표적인 취득원이다.",
+      "벡터 데이터는 래스터 데이터에 비해 중첩분석이 용이하다.",
+      "래스터 데이터는 해상도가 높을수록 데이터 용량이 급증한다."
+    ],
+    "answer": 3,
+    "explanation": "래스터 데이터는 격자 구조로 되어 있어 행렬 연산이 가능하므로 벡터 데이터보다 중첩분석(Overlay) 수행이 훨씬 쉽고 빠릅니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_f968a"
+  },
+  {
+    "num": "문 6.",
+    "text": "래스터(Raster) 데이터의 압축 기법 중 영역의 경계를 시작점과 방향에 대한 단위 벡터로 표시하는 방식은?",
+    "options": [
+      "Run-length Code",
+      "Quadtree",
+      "Chain Code",
+      "Block Code"
+    ],
+    "answer": 3,
+    "explanation": "Chain Code는 경계선을 따라 방향을 숫자로 부호화하여 저장하는 방식입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "상",
+    "source": "AI",
+    "id": "ai_1769053865211_j20z4"
+  },
+  {
+    "num": "문 5.",
+    "text": "부동산종합공부시스템 운영 및 관리규정 상 토지의 고유번호(19자리) 중 앞 10자리가 의미하는 것은?",
+    "options": [
+      "행정구역 코드",
+      "대장구분 코드",
+      "지번(본번 및 부번)",
+      "필지식별번호"
+    ],
+    "answer": 1,
+    "explanation": "토지 고유번호 19자리는 행정구역(10)+대장구분(1)+지번(8: 본번4+부번4)으로 구성됩니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_cdrqy"
+  },
+  {
+    "num": "문 4.",
+    "text": "공간 데이터의 메타데이터(Metadata)에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "데이터에 대한 데이터(Data about Data)의 개념이다.",
+      "데이터의 품질, 공간참조체계, 작성자 정보 등이 포함된다.",
+      "공간정보의 변경에 따라 수정과 갱신이 가능하다.",
+      "보안 유지를 위해 일반 공간정보 사용자는 절대 접근할 수 없다."
+    ],
+    "answer": 4,
+    "explanation": "메타데이터는 정보의 유통과 공유를 위한 색인 역할을 하므로 사용자가 데이터의 소재와 품질을 파악할 수 있도록 공개되어야 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_f1l1a"
+  },
+  {
+    "num": "문 3.",
+    "text": "지적도면 전산화 과정에서 선이 끝점에서 정확히 만나지 못하고 지나쳐서 입력된 오류를 무엇이라 하는가?",
+    "options": [
+      "Undershoot",
+      "Overshoot",
+      "Sliver Polygon",
+      "Spike"
+    ],
+    "answer": 2,
+    "explanation": "선이 교차점을 지나쳐 길게 입력된 오류를 Overshoot, 미치지 못한 오류를 Undershoot이라고 합니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "하",
+    "source": "AI",
+    "id": "ai_1769053865211_wp5md"
+  },
+  {
+    "num": "문 2.",
+    "text": "관계형 데이터베이스(RDBMS)에서 참조 무결성(Referential Integrity) 제약조건에 대한 설명으로 옳은 것은?",
+    "options": [
+      "기본키(Primary Key)는 널(NULL) 값을 가질 수 있다.",
+      "외래키(Foreign Key) 값은 참조하는 테이블의 기본키 값과 일치하거나 널(NULL)이어야 한다.",
+      "한 릴레이션 내에서 튜플들을 식별하기 위해 사용하는 키를 대체키라고 한다.",
+      "참조 무결성은 개체 무결성과 달리 데이터의 중복을 허용하지 않는 성질이다."
+    ],
+    "answer": 2,
+    "explanation": "참조 무결성은 외래키 값이 참조되는 릴레이션의 기본키 값과 일치하거나 널 값이어야 한다는 규정입니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_nq7d8"
+  },
+  {
+    "num": "문 1.",
+    "text": "벡터(Vector) 데이터 모델의 위상구조(Topology)에 대한 설명으로 옳지 않은 것은?",
+    "options": [
+      "위상구조는 공간 객체 간의 인접성, 연결성, 포함성 관계를 정의한다.",
+      "위상구조를 이용하면 데이터의 중복을 최소화하고 무결성을 검증하기 용이하다.",
+      "스파게티(Spaghetti) 모델은 위상구조가 정의되지 않은 대표적인 벡터 모델이다.",
+      "위상구조는 래스터 데이터 모델에서도 픽셀 간의 관계를 정의하기 위해 필수적으로 구축된다."
+    ],
+    "answer": 4,
+    "explanation": "위상구조는 주로 벡터 데이터 모델에서 공간 객체 간의 관계를 정의하기 위해 사용됩니다. 래스터 모델은 격자 구조 자체에 위치 정보가 포함되어 있어 별도의 위상구조를 구축하지 않습니다.",
+    "subject": "지적전산학개론",
+    "difficulty": "중",
+    "source": "AI",
+    "id": "ai_1769053865211_s1gi0"
+  },
+  {
+    "num": "문 50.",
     "text": "우리나라의 '브이월드(Vworld)' 서비스에 대한 설명으로 옳은 것은?",
     "options": [
       "국가 공간정보를 외부에 유상으로만 판매하는 시스템이다.",
