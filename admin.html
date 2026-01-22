@@ -152,6 +152,45 @@
             grid-template-columns: 1fr 1fr;
             gap: 5px;
         }
+
+        .sidebar-btn {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            font-size: 0.8rem;
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .sidebar-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .sidebar-btn.active-filter {
+            border: 3px solid white;
+            box-shadow: 0 0 15px currentColor;
+            transform: scale(1.1);
+        }
+
+        .count-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background: #ef4444;
+            color: white;
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            border: 2px solid var(--background);
+            font-weight: 800;
+        }
     </style>
 </head>
 
@@ -191,19 +230,31 @@
 
         <!-- Quick Menu Sidebar -->
         <div class="sidebar-menu glass"
-            style="position:fixed; left:20px; top:100px; bottom:20px; width:60px; display:flex; flex-direction:column; gap:10px; padding:10px; align-items:center; z-index:90;">
-            <div title="기출(측량)" onclick="scrollToCategory('off_survey')"
-                style="width:40px; height:40px; border-radius:50%; background:#10b981; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
-                측량</div>
-            <div title="기출(전산)" onclick="scrollToCategory('off_cs')"
-                style="width:40px; height:40px; border-radius:50%; background:#3b82f6; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
-                전산</div>
-            <div title="신규(측량)" onclick="scrollToCategory('cust_survey')"
-                style="width:40px; height:40px; border-radius:50%; background:#ec4899; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
-                AI측</div>
-            <div title="신규(전산)" onclick="scrollToCategory('cust_cs')"
-                style="width:40px; height:40px; border-radius:50%; background:#f59e0b; cursor:pointer; display:flex; align-items:center; justify-content:center; font-weight:bold;">
-                AI전</div>
+            style="position:fixed; left:20px; top:100px; bottom:20px; width:60px; display:flex; flex-direction:column; gap:15px; padding:15px 10px; align-items:center; z-index:90;">
+
+            <div title="기출(측량) 보기" onclick="filterCategory('off_survey')" class="sidebar-btn"
+                style="background:#10b981;">
+                측량 <span id="badge-off_survey" class="count-badge">0</span>
+            </div>
+
+            <div title="기출(전산) 보기" onclick="filterCategory('off_cs')" class="sidebar-btn" style="background:#3b82f6;">
+                전산 <span id="badge-off_cs" class="count-badge">0</span>
+            </div>
+
+            <div title="AI신규(측량) 보기" onclick="filterCategory('cust_survey')" class="sidebar-btn"
+                style="background:#ec4899;">
+                AI측 <span id="badge-cust_survey" class="count-badge">0</span>
+            </div>
+
+            <div title="AI신규(전산) 보기" onclick="filterCategory('cust_cs')" class="sidebar-btn"
+                style="background:#f59e0b;">
+                AI전 <span id="badge-cust_cs" class="count-badge">0</span>
+            </div>
+
+            <div title="전체 보기" onclick="filterCategory('all')" class="sidebar-btn"
+                style="background:#6b7280; font-size:0.7rem;">
+                전체
+            </div>
         </div>
 
         <div class="admin-container">
@@ -305,6 +356,12 @@
                 <textarea id="import-area"
                     style="flex: 1; min-height: 250px; background: rgba(0,0,0,0.3); color: #10b981; font-family: monospace; padding: 10px; border-radius: 8px;"
                     placeholder="[...]"></textarea>
+                <div
+                    style="margin-top: 10px; background: rgba(255,255,255,0.05); padding: 5px 10px; border-radius: 4px; display:inline-block;">
+                    <label style="cursor: pointer; display: flex; align-items: center; gap: 8px; font-size: 0.9rem;">
+                        <input type="checkbox" id="import-clear-existing"> 기존 목록 비우고 새로 추가하기 (덮어쓰기)
+                    </label>
+                </div>
                 <button class="primary-btn" style="background: var(--admin-primary); margin-top:10px;"
                     onclick="processImport()">가져오기 실행</button>
             </div>
@@ -316,6 +373,7 @@
             off_survey: [], off_cs: [], cust_survey: [], cust_cs: []
         };
         let currentEdit = { cat: '', idx: -1 };
+        let activeFilter = 'all'; // Moved here
 
         if (typeof questionData !== 'undefined') {
             data.off_survey = questionData.filter(q => q.source === '기출' && q.subject === '지적측량');
@@ -336,9 +394,15 @@
             ];
 
             configs.forEach(conf => {
+                // If filter is active and not matching, skip rendering
+                if (activeFilter !== 'all' && activeFilter !== conf.id) return;
+
                 html += `<div id="header-${conf.id}" class="category-header" style="color:${conf.color}; border-color:${conf.color}">
                     ${conf.title} <span>${data[conf.id].length}</span>
-                    <button onclick="saveToServer('${conf.id}')" style="font-size:0.7rem; padding:3px 8px; border:1px solid ${conf.color}; background:transparent; color:${conf.color}; border-radius:4px; cursor:pointer;">지금 저장</button>
+                    <div style="display:flex; gap:5px;">
+                        ${(conf.id.startsWith('cust')) ? `<button onclick="clearCategory('${conf.id}')" style="font-size:0.7rem; padding:3px 8px; border:1px solid #ef4444; background:transparent; color:#ef4444; border-radius:4px; cursor:pointer;">초기화</button>` : ''}
+                        <button onclick="saveToServer('${conf.id}')" style="font-size:0.7rem; padding:3px 8px; border:1px solid ${conf.color}; background:transparent; color:${conf.color}; border-radius:4px; cursor:pointer;">지금 저장</button>
+                    </div>
                 </div>`;
                 html += data[conf.id].map((q, idx) => `
                     <div class="admin-card glass ${currentEdit.cat === conf.id && currentEdit.idx === idx ? 'active' : ''}" onclick="loadQuestion('${conf.id}', ${idx})">
@@ -349,6 +413,35 @@
                 `).join('');
             });
             list.innerHTML = html;
+
+            // Update Sidebar Counts & Active State
+            configs.forEach(conf => {
+                const badge = document.getElementById(`badge-${conf.id}`);
+                if (badge) {
+                    const count = data[conf.id].length;
+                    badge.innerText = count;
+                    badge.style.display = 'block'; // Always show
+
+                    // Optional: Change color if 0
+                    if (count === 0) {
+                        badge.style.background = '#6b7280'; // Grey for 0
+                        badge.style.opacity = '0.7';
+                    } else {
+                        badge.style.background = '#ef4444'; // Red for > 0
+                        badge.style.opacity = '1';
+                    }
+                }
+            });
+
+            // Update Active Filter visual
+            document.querySelectorAll('.sidebar-btn').forEach(btn => btn.classList.remove('active-filter'));
+            if (activeFilter !== 'all') {
+                const activeBtn = document.querySelector(`.sidebar-btn[onclick="filterCategory('${activeFilter}')"]`);
+                if (activeBtn) activeBtn.classList.add('active-filter');
+            } else {
+                const allBtn = document.querySelector(`.sidebar-btn[onclick="filterCategory('all')"]`);
+                if (allBtn) allBtn.classList.add('active-filter');
+            }
         }
 
         function loadQuestion(cat, idx) {
@@ -397,10 +490,15 @@
             const area = document.getElementById('import-area');
             const subject = document.getElementById('import-subject').value;
             const cat = subject === "지적측량" ? "cust_survey" : "cust_cs";
+            const clearExisting = document.getElementById('import-clear-existing').checked;
 
             try {
                 const items = JSON.parse(area.value);
                 const newItems = Array.isArray(items) ? items : [items];
+
+                if (clearExisting) {
+                    data[cat] = [];
+                }
 
                 newItems.forEach(q => {
                     // Unique ID generation
@@ -450,6 +548,27 @@
                     alert('서버 통신 오류. server.py가 실행 중인지 확인하세요.');
                 }
             }
+        }
+
+        // New Filtering Logic
+        function filterCategory(cat) {
+            // Toggle filter
+            if (activeFilter === cat) {
+                activeFilter = 'all'; // Toggle off
+            } else {
+                activeFilter = cat;
+            }
+
+            const list = document.getElementById('question-list');
+            const sections = list.children; // These are the divs (headers and card lists)
+
+            // Re-render to apply filter visually
+            renderList();
+        }
+
+        function scrollToCategory(cat) {
+            // Deprecated but kept for compatibility logic inside renderList
+            filterCategory(cat);
         }
 
         async function sha256(message) {
@@ -517,6 +636,13 @@
             const subject = document.getElementById('import-subject').value;
             const template = `이 문서를 바탕으로 ${subject} 기출 변형 문제 20개를 만들어줘. 결과는 반드시 정해진 JSON 코드 형식이어야 해.\n\n중요: 'source' 필드는 반드시 "AI"로 설정할 것.\n\n[ { "num": "문 1.", "text": "내용", "options": ["보기1","2","3","4"], "answer": 1, "explanation": "해설", "subject": "${subject}", "difficulty": "중", "source": "AI" } ]`;
             document.getElementById('prompt-template').value = template;
+        }
+
+        function clearCategory(cat) {
+            if (!confirm('정말 이 카테고리의 모든 문제를 목록에서 비우시겠습니까?\n(서버에는 [지금 저장] 버튼을 눌러야 반영됩니다.)')) return;
+            data[cat] = [];
+            renderList();
+            alert('목록이 비워졌습니다. 반영하려면 [지금 저장]을 누르세요.');
         }
     </script>
 </body>
