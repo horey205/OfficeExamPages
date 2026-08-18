@@ -240,18 +240,9 @@
                 측량 <span id="badge-off_survey" class="count-badge">0</span>
             </div>
 
-            <div title="기출(전산) 보기" onclick="filterCategory('off_cs')" class="sidebar-btn" style="background:#3b82f6;">
-                전산 <span id="badge-off_cs" class="count-badge">0</span>
-            </div>
-
             <div title="AI신규(측량) 보기" onclick="filterCategory('cust_survey')" class="sidebar-btn"
                 style="background:#ec4899;">
                 AI측 <span id="badge-cust_survey" class="count-badge">0</span>
-            </div>
-
-            <div title="AI신규(전산) 보기" onclick="filterCategory('cust_cs')" class="sidebar-btn"
-                style="background:#f59e0b;">
-                AI전 <span id="badge-cust_cs" class="count-badge">0</span>
             </div>
 
             <div title="전체 보기" onclick="filterCategory('all')" class="sidebar-btn"
@@ -278,7 +269,6 @@
                             <label>과목</label>
                             <select id="edit-subject">
                                 <option value="지적측량">지적측량</option>
-                                <option value="지적전산학개론">지적전산학개론</option>
                             </select>
                         </div>
                         <div style="flex:1">
@@ -332,12 +322,11 @@
         <div class="glass card"
             style="width: 90%; max-width: 800px; padding: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
             <div style="border-right: 1px solid var(--glass-border); padding-right: 20px;">
-                <h3 style="color: var(--admin-primary); margin-bottom: 20px;">🤖 AI 가져오기 (과목 지정)</h3>
+                <h3 style="color: var(--admin-primary); margin-bottom: 20px;">🤖 AI 대량 가져오기</h3>
                 <div class="form-group">
                     <label>가져올 문제의 과목 선택</label>
                     <select id="import-subject" style="background:#000;" onchange="updatePromptTemplate()">
                         <option value="지적측량">지적측량</option>
-                        <option value="지적전산학개론">지적전산학개론</option>
                     </select>
                 </div>
                 <div
@@ -373,16 +362,14 @@
 
     <script>
         let data = {
-            off_survey: [], off_cs: [], cust_survey: [], cust_cs: []
+            off_survey: [], cust_survey: []
         };
         let currentEdit = { cat: '', idx: -1 };
         let activeFilter = 'all'; // Moved here
 
         if (typeof questionData !== 'undefined') {
-            data.off_survey = questionData.filter(q => q.source === '기출' && q.subject === '지적측량');
-            data.off_cs = questionData.filter(q => q.source === '기출' && q.subject === '지적전산학개론');
-            data.cust_survey = questionData.filter(q => q.source !== '기출' && q.subject === '지적측량');
-            data.cust_cs = questionData.filter(q => q.source !== '기출' && q.subject === '지적전산학개론');
+            data.off_survey = questionData.filter(q => (q.source === '기출' || !q.source) && q.subject === '지적측량');
+            data.cust_survey = questionData.filter(q => (q.source && q.source !== '기출') && q.subject === '지적측량');
             renderList();
         }
 
@@ -391,9 +378,7 @@
             let html = '';
             const configs = [
                 { id: 'off_survey', title: '🏛️ 기출 (지적측량)', color: '#10b981' },
-                { id: 'off_cs', title: '🏛️ 기출 (지적전산)', color: '#3b82f6' },
-                { id: 'cust_survey', title: '🚀 신규 (지적측량)', color: '#ec4899' },
-                { id: 'cust_cs', title: '🚀 신규 (지적전산)', color: '#f59e0b' }
+                { id: 'cust_survey', title: '🚀 신규 (지적측량)', color: '#ec4899' }
             ];
 
             configs.forEach(conf => {
@@ -479,8 +464,8 @@
         }
 
         function addNewQuestion() {
-            const subject = prompt("과목을 선택하세요 (1:지적측량, 2:지적전산학개론)", "1") === "2" ? "지적전산학개론" : "지적측량";
-            const cat = subject === "지적측량" ? "cust_survey" : "cust_cs";
+            const subject = "지적측량";
+            const cat = "cust_survey";
             const newQ = { id: `new_${Date.now()}`, num: "신규", text: "내용입력", options: ["1", "2", "3", "4"], answer: 1, explanation: "", subject, source: "예상", difficulty: "중", image: null };
             data[cat].unshift(newQ);
             loadQuestion(cat, 0);
@@ -492,7 +477,7 @@
         async function processImport() {
             const area = document.getElementById('import-area');
             const subject = document.getElementById('import-subject').value;
-            const cat = subject === "지적측량" ? "cust_survey" : "cust_cs";
+            const cat = "cust_survey";
             const clearExisting = document.getElementById('import-clear-existing').checked;
 
             try {

@@ -5,7 +5,7 @@ let score = 0;
 let timer = null;
 let timeLeft = 60;
 let currentMode = 'study'; // 'study' or 'exam'
-let selectedSubject = ''; // '지적측량' or '지적전산학개론'
+let selectedSubject = ''; // '지적측량'
 
 // Initialize questions from loaded script
 if (typeof questionData !== 'undefined') {
