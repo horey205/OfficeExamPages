@@ -395,7 +395,9 @@
                 html += data[conf.id].map((q, idx) => `
                     <div class="admin-card glass ${currentEdit.cat === conf.id && currentEdit.idx === idx ? 'active' : ''}" onclick="loadQuestion('${conf.id}', ${idx})">
                         <div style="font-size:0.85rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">
-                            <span class="badge ${q.difficulty}">${q.difficulty}</span> ${q.text}
+                            <span class="badge ${q.difficulty}">${q.difficulty}</span>
+                            <span class="badge" style="background:rgba(59,130,246,0.2); color:#60a5fa; margin-right:4px;">${q.year || '기출'}</span>
+                            ${q.text}
                         </div>
                     </div>
                 `).join('');

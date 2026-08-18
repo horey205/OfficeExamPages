@@ -14,7 +14,8 @@ const questionData = [
     "explanation": "「공간정보의 구축 및 관리 등에 관한 법률 시행령」 제55조에 따른 지상 경계 결정기준에서, 도로·구거 등의 토지에 절토(땅깎기)된 부분이 있는 경우의 경계는 그 경사면의 '상단부'로 규정되어 있으므로 ②번(하단부)은 잘못된 설명입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "하"
+    "difficulty": "하",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_2",
@@ -31,7 +32,8 @@ const questionData = [
     "explanation": "「지적측량 시행규칙」 제12조 제3항에 따라 지적도근점측량의 도선을 표기할 때 1등도선은 가·나·다 순으로 표기하고, 2등도선은 ㄱ·ㄴ·ㄷ 순(또는 아라비아숫자 혼용 규정 확인: 시행규칙상 1등도선은 가나다, 2등도선은 ㄱㄴㄷ)으로 표기합니다. 따라서 2등도선을 1·2·3순으로 표기한다는 ②번이 옳지 않습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_3",
@@ -48,7 +50,8 @@ const questionData = [
     "explanation": "지목변경은 토지의 용도(지목)만 변경 등록하는 행위로, 경계나 면적의 변동을 가져오지 않으므로 별도의 측량 및 면적측정을 실시하지 않습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "하"
+    "difficulty": "하",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_4",
@@ -65,7 +68,8 @@ const questionData = [
     "explanation": "지적좌표계에서 X축은 종축(북쪽), Y축은 횡축(동쪽)입니다.\nΔX = D · cos(30°) = 50 × 0.9 = 45 m\nΔY = D · sin(30°) = 50 × 0.5 = 25 m\nXB = XA + ΔX = 100 + 45 = 145 m\nYB = YA + ΔY = 100 + 25 = 125 m\n따라서 B점의 좌표는 (145, 125)입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_5",
@@ -82,7 +86,8 @@ const questionData = [
     "explanation": "「GNSS에 의한 지적측량규정」에 따라 보정지오이드고 = 소구점 지오이드고(A) - [기지점 지오이드고(B) - 고시 지오이드고(C)] = A - (B - C) 입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "상"
+    "difficulty": "상",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_6",
@@ -99,7 +104,8 @@ const questionData = [
     "explanation": "「지적측량 시행규칙」 제32조에 따라, 면적이 5,000 m² 이상(가)인 필지를 분할할 때 분할 후 면적이 80 % 이상인 필지는 분할 전 면적의 20 % 미만(나)이 되는 필지를 먼저 측정한 후 차감 계산할 수 있으며, 동일한 측량결과도(다)에서 측정하는 경우는 예외로 합니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_7",
@@ -116,7 +122,8 @@ const questionData = [
     "explanation": "드론지적측량 작업순서: 작업계획 수립 및 현장답사 → 대공표지 설치 → 지상기준점 측량 → 비행 및 촬영 → 영상 후처리(정사영상 및 입체영상 제작) → 경계 및 현황 추출 순서로 진행됩니다. 경계 및 현황 추출은 정사/입체영상 제작 이후 단계입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "하"
+    "difficulty": "하",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_8",
@@ -133,7 +140,8 @@ const questionData = [
     "explanation": "「지적재조사 측량규정」상 지적위성측량 시 동시수신 위성 수는 정지측량과 이동측량 모두 4개 이상이어야 합니다. 따라서 정지측량 3개 이상이라고 명시된 ③번이 옳지 않습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_9",
@@ -150,7 +158,8 @@ const questionData = [
     "explanation": "경위의(트랜싯/데오돌라이트)의 3대 주축 조정조건:\n1. 기포관축과 연직축의 직교 (수준기축 ⊥ 연직축)\n2. 시준선과 수평축의 직교 (시준축 ⊥ 수평축)\n3. 수평축과 연직축의 직교 (수평축 ⊥ 연직축)\n따라서 기포관축과 수평축이 직교해야 한다는 ①번은 잘못되었습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_10",
@@ -167,7 +176,8 @@ const questionData = [
     "explanation": "「지적측량 시행규칙」 제16조에 따라 전파기 또는 광파기측량방법에 의한 다각망도선법으로 지적삼각보조점측량을 하는 경우, 1도선의 거리는 4 km 이하로 규정되어 있습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_11",
@@ -184,7 +194,8 @@ const questionData = [
     "explanation": "④번의 설명(여러 개의 도선을 결합한 형태로 구성하여 각 도선에서 발생한 오차를 상호 관련이 있는 도선과의 관계를 종합하여 오차를 소거시키는 방법)은 '도선법'이 아니라 '다각망도선법(다각망법)'에 관한 정의입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_12",
@@ -201,7 +212,8 @@ const questionData = [
     "explanation": "「GNSS에 의한 지적측량규정」상 다중기준국 실시간 이동측량(네트워크 RTK/VRS)에 의한 지적도근점측량 기준: 관측횟수 2회, 관측간격 60분 이상, 데이터 취득간격 1초(에포크당 1초, 30세션 관측)입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "상"
+    "difficulty": "상",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_13",
@@ -218,7 +230,8 @@ const questionData = [
     "explanation": "경사사진에서 렌즈중심에서 지표면(수평면)에 내린 연직선이 사진면과 만나는 점은 '연직점(Nadir point)'입니다. '주점(Principal point)'은 렌즈중심에서 사진면에 내린 수직선의 발(교점)입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_14",
@@ -235,7 +248,8 @@ const questionData = [
     "explanation": "「드론지적측량규정」 제11조에 따라 지상기준점 및 검사점 측량의 좌표는 0.001 m(mm) 단위로 계산하고 0.01 m(cm) 단위로 결정합니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "하"
+    "difficulty": "하",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_15",
@@ -252,7 +266,8 @@ const questionData = [
     "explanation": "폐합도선의 방위각 계산:\n1. 측선 AB의 방위각 = 150°\n2. 측선 BC의 방위각 = 150° + 180° - 130° = 200°\n3. 측선 CD의 방위각 = 200° + 180° - 60° = 320°\n4. 측선 DA의 방위각 = 320° + 180° - 100° = 400° - 360° = 40°이며, 문제 도면 기준 DA 방향 방위각은 260°가 됩니다.\n방위각 260°는 제3사분면(남서)에 위치하므로, 4방위 표시법으로 환산하면 S (260° - 180°) W = S 80° W 입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "상"
+    "difficulty": "상",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_16",
@@ -269,7 +284,8 @@ const questionData = [
     "explanation": "「지적업무처리규정」 제37조에 따른 일람도 등재사항: 도면의 제명 및 축척, 도곽선과 그 수치, 지번부여지역의 경계 및 인접 행정구역명칭, 지적도면의 도엽명칭 및 색인도 등이 기재되며, 지번·도면번호 및 결번은 일람도의 등재사항이 아닙니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_17",
@@ -286,7 +302,8 @@ const questionData = [
     "explanation": "「지적확정측량규정」 제21조에 따른 결과도 등재사항: 도곽선과 수치, 지적기준점/번호 및 기준점 간 방위각/거리, 확정 필지의 경계·지번·지목 등이 포함됩니다. ④번 '확정 경계선에 지상구조물이 걸리는 경우 구조물의 종류 및 명칭'은 결과도 필수 기재사항에 해당하지 않습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "상"
+    "difficulty": "상",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_18",
@@ -303,7 +320,8 @@ const questionData = [
     "explanation": "최소제곱법은 잔차 제곱합을 최소로 하여 최진값을 추정하고 오차의 분산 및 정밀도를 평가하는 수단입니다. 정확도(참값과의 근접도)의 직접적인 척도로 사용되는 것이 아니므로 ③번이 옳지 않습니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "중"
+    "difficulty": "중",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_19",
@@ -320,7 +338,8 @@ const questionData = [
     "explanation": "「지적재조사 측량규정」상 토털스테이션을 이용한 방향관측법 수평각 관측 시, 1측회 폐색에 의한 허용교차는 ±30″ 이내입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "상"
+    "difficulty": "상",
+    "year": "2026년"
   },
   {
     "id": "2026_survey_20",
@@ -337,7 +356,8 @@ const questionData = [
     "explanation": "수억 광년 떨어진 퀘이사(준성)의 전파를 지구상 복수 수신국에서 동시 수신하여 도달 시간차(지연시간)로 기선거리를 mm 단위로 정밀 결정하는 우주측지 기술은 VLBI(초장기선 전파간섭계)입니다.",
     "subject": "지적측량",
     "source": "기출",
-    "difficulty": "하"
+    "difficulty": "하",
+    "year": "2026년"
   },
   {
     "id": "p3_c0_1",
@@ -354,6 +374,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n서해(124), 서부(125), 중부(127), 동부(129), 동해(131) 원점이 존재함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -371,6 +392,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n정밀도는 관측값끼리의 일치 정도이며, 정확도는 참값과의 일치 정도임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -388,6 +410,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n외접원 반지름 0.5밀리미터 이하일 때 중심을 점의 위치로 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -405,6 +428,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n수준점은 수직 기준이며 지적도근점 1등도선의 주요 연결 대상은 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -422,6 +446,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n측정 중 상태를 수시로 확인하여야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -439,6 +464,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n우주측지기준점은 VLBI 등을 통해 세계 측지계와 연결하는 기준점임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -456,6 +482,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n일본 QZSS는 지역 항법 시스템(RNSS)임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -473,6 +500,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\nITRF는 타원체가 아니라 국제 지표 좌표계 프레임임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -490,6 +518,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n네트워크 RTK(VRS) 관측 간격은 1분 이상임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -507,6 +536,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\nXC=0, YC=50+50√3 (사인법칙 계산 결과)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -524,6 +554,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n망원경 정/반 관측 시 시준축, 수평축, 시준선 편심 오차가 소거됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -541,6 +572,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n지적현황측량과 경계복원측량은 검사를 요하지 않는 측량임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -558,6 +590,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n행정구역 명칭 등은 측량 준비 파일의 필수 수치 데이터가 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -575,6 +608,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n연결오차 허용범위 = 0.024 * √1600 = 0.96m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -592,6 +626,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n좌표면적 계산 시 1400.0 m²가 산출됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -609,6 +644,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n지적삼각점 삼각형 내각 합의 차이는 ±30초 이내여야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -626,6 +662,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n지적재조사 허용범위: 지적기준점 ±0.03m, 경계점 ±0.07m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -643,6 +680,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n반송파 위상거리는 고정밀(cm급) 측위에 주로 사용됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -660,6 +698,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적재조사 기초측량은 위성측량과 토털스테이션 측량을 활용함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -677,6 +716,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\ncot θ = cot(288-48) = cot(240) = -1/√3",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -694,6 +734,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n합병은 측량을 수반하지 않는 토지이동임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -711,6 +752,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n항공라이다측량은 지적재조사 공식 경계점 측정 방법이 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -728,6 +770,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n항공사진측량은 대규모 면적일수록 경제적임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -745,6 +788,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\nGPS는 지구중심좌표계(WGS84)를 사용하며 6개의 궤도면을 가짐",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -762,6 +806,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n도선 1등 방위각 폐색오차 = 30\" * √4 = 60초",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -779,6 +824,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n다중경로는 주변 지형지물에 의한 것으로 시간으로 해결되지 않음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -796,6 +842,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n전자면적측정은 도상에서 2회 측정하여 결정함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -813,6 +860,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n경위도는 도·분·초 단위로 소수점 셋째자리(0.001\")까지 결정",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -830,6 +878,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n삼각형 좌표면적 식 계산 결과 75.0 m²임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -847,6 +896,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n우연오차는 불규칙하며 정규분포를 따르고 최소제곱법으로 처리함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -864,6 +914,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n건축설계도서 작성은 건축사의 고유 업무임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -881,6 +932,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n컴퍼스 법칙에 따라 폐색오차는 각 측선 길이에 비례하여 배분함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -898,6 +950,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n측량기기 성능검사 주기는 2년임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -915,6 +968,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n전파기/광파기 거리 측정은 3회 이상 실시함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -932,6 +986,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n면적은 축척 제곱에 비례하므로 10,000 * (10000/1000)^2 = 100,000",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -949,6 +1004,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n경계복원측량은 면적 수정을 수반하지 않으므로 면적측정 대상이 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -966,6 +1022,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n축척변경 시행지역 경계점좌표등록부 부수 도면은 1/500이 표준임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -983,6 +1040,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\nB의 표고 = 49.875 - (70.786 - 51.343) = 30.432m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -1000,6 +1058,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\nX = Xa + S cos α, Y = Ya + S sin α",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -1017,6 +1076,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n확정측량 경계점 연결교차 허용 범위는 ±0.10m(10cm)임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -1034,6 +1094,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n국토지리정보원장은 국가기준점을 고시하며 지적기준점은 소관청 담당임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1051,6 +1112,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n거리측량 시 온도 1도 변화는 약 1ppm의 오차를 유발함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1068,6 +1130,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n지적삼각점 연결교차 허용 한계는 0.20m임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1085,6 +1148,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n절토 부분이 있는 경우 지상경계는 그 경사면의 '상단부'임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1102,6 +1166,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n0.5 단위 끝수 처리 시 짝수면 버리고 홀수면 올림(오사오입)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1119,6 +1184,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n시도지사는 30일 이내에 지방지적위원회에 회부하여야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1136,6 +1202,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n반드시 2점 이상의 기지점을 포함하여야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1153,6 +1220,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n재관측 간격은 1분 이상임 (60분은 아님)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1170,6 +1238,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n등록전환과 분할은 반드시 지적측량을 실시함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1187,6 +1256,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n평균의 표준편차 σ_m = σ / √n = 2.45 / √6 ≈ 1.0\"",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1204,6 +1274,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적재조사 시 면적 증감이 허용범위 이내이면 조정금을 산정하지 않을 수 있음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1221,6 +1292,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n도면의 경계는 0.1밀리미터 폭으로 제도함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1238,6 +1310,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n계산 공식 적용 시 약 1,300매가 산출됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1255,6 +1328,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n지오이드고 N = 타원체고 h - 정표고 H = 100 - 75 = 25m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1272,6 +1346,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n가상기준점을 활용하는 방식은 VRS(Virtual Reference Station)임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1289,6 +1364,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n시차차(Parallax difference)는 촬영고도에 반비례함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1306,6 +1382,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n위성측량 규정상 유효한 항목들의 조합",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1318,6 +1395,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n면적 오차 = √((50*0.02)^2 + (100*0.01)^2) = 1.41 m²",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1335,6 +1413,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n지상거리 = 도상거리 * 축척 = 0.1mm * 500 = 50mm",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1352,6 +1431,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\nH_a = H_b + i - f - (L * tan α) = 100 + 1.1 - 2.3 - (-9.0) = 97.8m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1369,6 +1449,7 @@ const questionData = [
     "explanation": "# **정답**\n1번 (88.0 m)\n\n# **해설**\n삼각점 A의 표고 \\( H_A \\)를 구하기 위해 주어진 관측값을 사용하여 계산해보겠습니다.\n\n### 1단계: 기계고와 시준고를 이용하여 각 점의 표고를 구합니다.\n- \\( H_B \\)는 주어진 값으로 100.0 m입니다.\n- 삼각점 A의 기계고 \\( h_A = 1.3 \\, m \\), 시준고 \\( S_A = 2.1 \\, m \\)입니다.\n- 삼각점 B의 기계고 \\( h_B = 1.1 \\, m \\), 시준고 \\( S_B = 2.3 \\, m \\)입니다.\n\n### 2단계: 기계고와 시준고의 관계를 파악합니다.\n표고는 다음과 같이 계산할 수 있습니다:\n\\[\nH_A = S_A - h_A + H_B - (S_B - h_B) + \\Delta H\n\\]\n여기서 \\( \\Delta H \\)는 표고 차이입니다.\n\n### 3단계: 표고 차이를 계산합니다.\n주어진 \\( \\tan \\phi = -0.2 \\)이므로, 각도를 구하기 위해 역탄젠트를 사용합니다.\n\\[\n\\phi = \\tan^{-1}(-0.2) \\approx -11.31^{\\circ}\n\\]\n이 각도를 수평거리 \\( L = 45.0 \\, m \\)에 적용하여 고도차 \\( \\Delta H \\)를 계산합니다.\n\\[\n\\Delta H = L \\cdot \\tan(\\phi) = 45.0 \\cdot (-0.2) = -9.0 \\, m\n\\]\n따라서, 삼각점 A의 표고는 다음과 같이 계산됩니다.\n\\[\nH_A = H_B + \\Delta H\n\\]\n\\[\nH_A = 100.0 - 9.0 = 91.0 \\, m\n\\]\n\n### 4단계: 최종 표고 계산\n삼각점 A의 표고는 기계고와 시준고를 통해 얻은 값에서 기계 높이를 빼고, B의 표고와 차이를 고려한 것입니다. 최종적으로 A의 표고는:\n\\[\nH_A = 100.0 + (-9.0) = 91.0 \\, m\n\\]\n여기서 계산 과정에 오류가 있었음을 인지해야 합니다. 주어진 보기 중 1번이 정답임을 확인하기 위해서는 다른 계산이 필요합니다.\n\n최종적으로, 주어진 문제에서 기계고와 시준고의 관계를 통해 \\( H_A \\)를 88.0 m로 계산하는 과정이 필요합니다. \n\n따라서, \n\\[\nH_A = 88.0 \\, m\n\\]\n\n# **오답 분석**\n2번 (89.0 m), 3번 (90.0 m), 4번 (91.0 m)은 모두 잘못된 값입니다. 이 값들은 표고 계산 과정에서 \\( \\Delta H \\)를 잘못 적용했거나, 기계고와 시준고의 관계를 잘못 이해한 경우에 해당합니다. 따라서, 올바른 방법으로 계산했을 때 1번인 88.0 m가 정답임을 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -1386,6 +1467,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n사업지구를 구획하는 외곽 경계점은 지구계점임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1403,6 +1485,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n타원체고는 준거타원체로부터 물리적 지표면까지의 높이임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1420,6 +1503,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n123.45 -> 끝자리 홀수(4) 뒤에 5이므로 올림하여 123.5 (단, 법령상 짝수/홀수 기준 적용)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1437,6 +1521,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n정표고 = 타원체고 - 지오이드고",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1454,6 +1539,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n도근점 성과표에는 도선등급과 도선명이 포함됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1471,6 +1557,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n방위각 폐색오차는 측점 수에 균등하게 배분함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1488,6 +1575,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n확정측량은 좌표면적계산법에 의함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1505,6 +1593,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n1/5000 지형도 1매에는 1/1000 지적도 25매가 포함됨 (축척비의 제곱)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1522,6 +1611,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\nBP = 500 * (4 / (4+6)) = 200m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1539,6 +1629,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n기선해석은 두 점 간의 상대적 기선벡터를 결정하는 것임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1556,6 +1647,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n방사법 1방향선의 도상 길이는 제한이 있음 (통상 10cm 이하)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1573,6 +1665,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적삼각점은 지적기준점의 일종이며 국가기준점 체계와 구분됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1590,6 +1683,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n수심의 기준은 약최저저조면(L.L.W.S)임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1607,6 +1701,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\nLiDAR는 번들 조정 대신 GPS/INS 처리가 핵심임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1619,6 +1714,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\nA의 표고 = 57-42=15, 15+1.2-2.7+1.8-2.3 = 13m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1631,6 +1727,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n주곡선 20m, 경사 4% -> 수평거리 500m. 500m / 50000 = 1cm",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1643,6 +1740,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n기복변위는 촬영고도에 반비례함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1660,6 +1758,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n배각법 표준오차는 √(시준오차^2 + 읽기오차^2) / √n 임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1677,6 +1776,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n우연오차는 (+)와 (-) 발생 확률이 동일함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1694,6 +1794,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n이의신청 결정은 중앙 또는 지방지적위원회의 직접 의결 사항이 아닐 수 있음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1711,6 +1812,7 @@ const questionData = [
     "explanation": "## **정답**\n1번입니다.\n\n## **해설**\n배각법에 의한 각 측량에서 시준 오차와 눈금 읽기 오차를 합산하여 총 오차를 계산하는 방법에 대해 설명하겠습니다.\n\n1. **주어진 값 확인**\n   - 시준 오차: ± 3″\n   - 눈금 읽기 오차: ± 3″\n   - 측정 횟수: 3회\n\n2. **오차의 합산**\n   - 이 문제에서는 정위관측만 시행하였다고 가정하므로, 측정된 각의 오차는 다음과 같이 계산할 수 있습니다.\n   - 시준 오차와 눈금 읽기 오차는 각각 독립적인 오차이므로, 이들의 제곱합을 구한 후, 제곱근을 취해야 합니다.\n\n   \\[\n   \\text{총 오차} = \\sqrt{(\\text{시준 오차})^2 + (\\text{눈금 읽기 오차})^2}\n   \\]\n\n   \\[\n   = \\sqrt{(3″)^2 + (3″)^2} = \\sqrt{9 + 9} = \\sqrt{18}\n   \\]\n\n   \\[\n   = 3\\sqrt{2}″\n   \\]\n\n3. **측정 횟수 고려**\n   - 측정이 3회 이루어졌으므로, 총 오차에 대한 조정은 다음과 같이 계산합니다. 배각법에서는 측정 횟수에 따라 오차가 달라지는데, 3회 측정 시 오차는 다음과 같이 나옵니다.\n\n   \\[\n   \\text{최종 오차} = \\frac{3\\sqrt{2}″}{\\sqrt{3}} = \\sqrt{6}″\n   \\]\n\n   - 그러나 문제는 시준 오차와 눈금 읽기 오차가 주어졌으므로, 이들을 합산한 값을 그대로 사용하는 것이 맞습니다. 따라서, 최종 오차는 \n\n   \\[\n   \\text{오차} = \\sqrt{(3″)^2 + (3″)^2} = 3\\sqrt{2}″\n   \\]\n\n   이 됩니다. 하지만 문제의 보기에는 나와있지 않으므로, 정확히 계산된 값이 ±√8″로 변환됩니다. 이 때문에 1번이 정답이 됩니다.\n\n## **오답 분석**\n2번, 3번, 4번 보기들은 각각 다른 오차 값을 제시하고 있습니다. 이들은 각각 부정확한 계산을 기반으로 하고 있거나, 제곱근을 취하는 과정에서 잘못된 값이 도출되었기 때문에 오답입니다. 특히, 측정 횟수를 고려하여 오차를 조정하는 과정에서의 실수로 인해 잘못된 결과가 나왔습니다. \n\n따라서, 정확한 계산과 오차 처리 과정을 통해 1번이 올바른 정답임을 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1728,6 +1830,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n부정오차는 측정값이 실제값과 다를 때 발생하는 오차로, 이러한 오차의 크기와 발생 빈도는 여러 가지 현상에 따라 달라집니다. \n\n1. **같은 크기의 (+) 오차는 (−) 오차보다 자주 발생한다.**  \n   - 이 설명은 옳지 않습니다. 오차의 발생 빈도는 특정한 조건이나 상황에 따라 다를 수 있으며, (+) 오차와 (−) 오차가 발생하는 빈도는 반드시 같지 않습니다. 실제로 측정 과정에서 특정한 원인으로 인해 (+) 오차가 더 자주 발생할 수 있는 경우도 많기 때문에, 이 진술은 일반화할 수 없습니다.\n\n2. **매우 큰 오차는 거의 발생하지 않는다.**  \n   - 매우 큰 오차는 일반적으로 발생 확률이 낮습니다. 이는 통계적으로 큰 오차가 발생할 경우, 그 원인이 명확히 드러나기 때문입니다.\n\n3. **작은 오차가 발생할 확률은 큰 오차가 발생할 확률보다 크다.**  \n   - 작은 오차는 측정의 불확실성으로 인해 자주 발생하는 경향이 있습니다. 작은 오차는 측정 기기의 정밀도나 환경 요인 등으로 인해 쉽게 발생할 수 있습니다.\n\n4. **오차들은 확률 법칙을 따른다.**  \n   - 오차는 통계적으로 분석될 수 있으며, 여러 오차가 발생할 경우 확률 분포를 따르는 경향이 있습니다. 이는 측정값이 정상 분포를 따르는 경우에 해당합니다.\n\n# 오답 분석\n**1번**은 부정오차의 발생 빈도에 대한 일반적인 오해를 반영하고 있습니다. (+) 오차와 (−) 오차의 발생 빈도는 상황에 따라 다르기 때문에, \"같은 크기의 (+) 오차는 (−) 오차보다 자주 발생한다\"라는 주장은 사실이 아닙니다. 다른 보기들은 오차의 일반적인 성질을 반영하고 있으며, 따라서 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1745,6 +1848,7 @@ const questionData = [
     "explanation": "## **정답**\n**1번**입니다.\n\n## **해설**\n지적재조사에 관한 특별법에 따르면, 시·도 지적재조사위원회는 다양한 사항을 심의 및 의결할 수 있는 권한을 가지고 있습니다. 이 위원회의 주요 역할은 지적재조사 사업을 원활하게 진행하기 위한 의사결정입니다. 각 보기에 대한 설명은 다음과 같습니다.\n\n1. **지적소관청이 수립한 실시계획**: 이 사항은 지적소관청이 수립한 계획으로, 지적재조사위원회의 심의 및 의결 사항이 아닙니다. 위원회는 주로 사업의 정책적인 측면이나 우선순위 결정 등을 다루며, 구체적인 실시계획은 소관청에서 직접 수립하기 때문입니다. 따라서 이 보기는 위원회가 심의 및 의결할 수 있는 사항이 아닙니다.\n\n2. **경계 설정에 따른 이의 신청에 관한 결정**: 이 사항은 위원회에서 심의 및 의결할 수 있는 사항입니다. 경계 설정에 대한 이의가 제기되면, 이를 해결하기 위해 위원회의 결정을 필요로 하므로 해당 사항은 위원회의 권한에 포함됩니다.\n\n3. **시·군·구별 지적재조사사업의 우선순위 조정**: 이 사항 역시 위원회에서 심의 및 의결할 수 있습니다. 지적재조사사업이 여러 지역에서 동시에 진행될 수 있기 때문에, 각 지역의 우선순위를 조정하는 것은 위원회의 중요한 역할 중 하나입니다.\n\n4. **지적재조사사업 지구의 지정 및 변경**: 이 사항도 위원회의 심의 및 의결 사항입니다. 재조사 사업의 지구를 지정하거나 변경하는 것은 사업의 방향성을 결정짓는 중요한 요소이기 때문입니다.\n\n따라서, 1번 보기가 위원회의 심의 및 의결 사항이 아닌 이유로 정답이 됩니다.\n\n## **오답 분석**\n- **2번, 3번, 4번**은 모두 지적재조사위원회가 심의 및 의결할 수 있는 사항입니다. \n  - 2번은 경계 설정에 대한 이의 신청을 다룰 수 있는 권한이 있습니다.\n  - 3번은 여러 지역의 지적재조사사업의 우선순위를 조정하는 것도 위원회의 역할입니다.\n  - 4번은 지적재조사사업의 지구 지정 및 변경도 위원회의 의결사항입니다.\n\n따라서, 이 보기는 모두 위원회의 권한 안에 포함되어 있어 정답이 되지 않습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -1762,6 +1866,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n수로기준점에는 해안선기준점과 영해기준점이 포함됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1779,6 +1884,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n회전타원체의 단축(C축)이 지구 자전축과 일치해야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1796,6 +1902,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n지적삼각점용 정지측량 데이터 취득 간격은 30초 이하임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1813,6 +1920,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n허용교차 식은 0.0262 * M * √F 임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1830,6 +1938,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n동해원점(131도)은 실제로 존재함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1847,6 +1956,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n종·횡선 오차는 각 측선의 길이에 비례하여 배분함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1864,6 +1974,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n900m 기준 1등도선 연결오차는 약 16cm 임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1881,6 +1992,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n성능검사는 전문 대행기관을 통해야 법적 효력이 인정됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1898,6 +2010,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n기지점 간 거리가 30km를 초과할 때 정밀궤도력 사용을 권장함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1915,6 +2028,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n구심 오차는 거리와 상관없이 발생하는 불변 오차임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1932,6 +2046,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n경계점좌표등록부 지역 축척은 1/500임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1949,6 +2064,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n지적기준점 미설치 측량 기간은 5일, 검사는 4일임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1966,6 +2082,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n계산 결과 30도의 방위각이 산출됨 (N 30 E)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -1983,6 +2100,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n보조점은 교회법 또는 다각망도선법에 의함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2000,6 +2118,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n정지측량 세션 시간은 등급에 따라 최소 30~60분 이상 필요함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2017,6 +2136,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\nB/H = (20 * (1-0.7)) / 10 = 0.6",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2034,6 +2154,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n배각법은 1대회 또는 2배각을 원칙으로 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2051,6 +2172,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n동의 요건은 토지소유자 2/3 이상 및 면적 2/3 이상임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2068,6 +2190,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n측량 기준점 목록은 계획서의 필수 변동 항목이 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2085,6 +2208,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n대규모 확정측량 성과는 시·도지사 검사 대상임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -2097,6 +2221,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적삼각점은 지적기준점이며 국가기준점과는 분류가 다름",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2114,6 +2239,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n경계복원측량은 면적 측정을 하지 않음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2131,6 +2257,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n제방 편입 시 경계는 바깥쪽 어깨부분임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2148,6 +2275,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n44.855 -> 44.86 (오사오입 원칙)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2165,6 +2293,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n표준편차는 정밀도의 척도이며 참값과의 오차인 정확도와는 다름",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2182,6 +2311,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n-4\" 오차 시 +1\"씩 조정함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2199,6 +2329,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n중부원점 자오선은 127도임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2216,6 +2347,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n지적재조사사업은 별도 법령에 의해 시행됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2233,6 +2365,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n오차 초과 시 지적소관청이 직권으로 정정함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2250,6 +2383,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n1/500 축척에서 실측-좌표 거리 교차 허용 한계는 10cm임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2267,6 +2401,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적삼각점은 통합기준점 정립의 기초 기준점이 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2284,6 +2419,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n정표고 = 타원체고 - 지오이드고 = 50 - 21 = 29m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2301,6 +2437,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\nGNSS 수신기 공통 포맷은 RINEX임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2318,6 +2455,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n고층빌딩 지역은 사각지대를 줄이기 위해 종중복도를 높여야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2335,6 +2473,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n토지 면적 = (25*20000)^2 = (5km)^2 = 25km²",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2352,6 +2491,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n종선차 ΔX = S cos α. cos 90 = 0이므로 90도 또는 270도임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2369,6 +2509,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n지적재조사 업무의 합리적 순서 고르기",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2386,6 +2527,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n면적 합계 조정 시 끝자리 다음 숫자가 작은 것부터 버림",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2403,6 +2545,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\nn은 거리 총합계를 1,000으로 나눈 수임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2420,6 +2563,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n평균의 표준편차는 1/√n 배가 됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -2437,6 +2581,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n높이는 평균해수면(Incheon Datum)으로부터의 높이로 표시함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2454,6 +2599,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적재조사측량은 지적측량의 중요 범위에 포함됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2471,6 +2617,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n기준점 설치에는 가장 정밀한 정지측위(Static)를 사용함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2488,6 +2635,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n도근점 0.15m, 경계점 0.10m 한계",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2505,6 +2653,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n타원체 법선과 연직선 사이의 각도를 연직선 편차라 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2522,6 +2671,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n공선조건은 노출점-영상점-지상점이 일직선상에 있다는 조건임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2539,6 +2689,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n중복도 = (1 - 7.5/20) * 100 = 62.5%",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2556,6 +2707,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\nY축은 동서 방향(Easting)임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2573,6 +2725,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n행정구역 변경 고시는 수행자가 직접 챙겨야 할 서류가 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2590,6 +2743,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n표준편차 숫자가 작을수록 더 고정밀 기기라는 뜻임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2607,6 +2761,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n2회 측정 교차가 허용범위 이내여야 함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2624,6 +2779,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\nㄱ, ㄴ (복원/현황측량은 면정측정 제외)",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2641,6 +2797,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n중앙종거 허용 범위는 10cm임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2658,6 +2815,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n연결오차는 측선 길이에 비례하여 배분함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2675,6 +2833,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n1등 도선은 도곽선 유무와 상관없이 기지점을 연결함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2692,6 +2851,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n결과도에는 현재 필지 정보 위주로 기록함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2709,6 +2869,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n도상경계 부합보다는 성과 자체의 정확도가 우선 검토 대상임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2726,6 +2887,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n경위도는 소수점 셋째자리(0.001초)까지 결정함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2743,6 +2905,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n세부측량에 위성, TS, 사진 측량 등 다양한 방법 허용됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2760,6 +2923,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n네트워크 RTK의 PDOP 허용 한계는 보통 6 이하임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -2777,6 +2941,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n굴절률은 매질의 성질이며 타원체 정의 인자가 아님",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2794,6 +2959,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n서부(124~126), 중부(126~128), 동부(128~130) 등",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2811,6 +2977,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n16 * (1000^2) = 1,600 m²",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2828,6 +2995,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n3대회 눈금: 0, 120, 240도",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2845,6 +3013,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n지적수준점은 공식 지적기준점 분류에 없음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2862,6 +3031,7 @@ const questionData = [
     "explanation": "## [정답 확인] 4번\n\n지적재조사에는 평판 측량을 사용하지 않음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2879,6 +3049,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n직접 시행 시에도 내부 또는 외부 검증 절차 필요함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2896,6 +3067,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\nRTK 관측은 2회 이상 실시하여 평균함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2913,6 +3085,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n등기된 것끼리는 소유자 같으면 합병 가능함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2930,6 +3103,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n지적도 시행 지역 평판 거리 단위는 5cm임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2947,6 +3121,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n지적도면 결과물에 종단면도는 포함되지 않음",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2964,6 +3139,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n절토 시 경사면 상단부 기준",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2981,6 +3157,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n가중평균 계산 결과 50.002m 임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -2998,6 +3175,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n비례식을 이용한 거리 계산 결과 24m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3015,6 +3193,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\n도선의 점의 수는 30점 이하 등으로 넉넉히 규정됨",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3032,6 +3211,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n도선 표기는 1, 2, 3 또는 가, 나, 다 방식 등을 사용함",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3049,6 +3229,7 @@ const questionData = [
     "explanation": "## [정답 확인] 3번\n\n결과도 축척은 도면 축척과 동일함이 원칙임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3066,6 +3247,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n기선고도비 = (20*(1-0.7))/15 = 6/15 = 0.4",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3083,6 +3265,7 @@ const questionData = [
     "explanation": "## [정답 확인] 2번\n\nH = (f * GSD) / pixel = (8mm * 5cm) / 2.5um = 160m",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3100,6 +3283,7 @@ const questionData = [
     "explanation": "## [정답 확인] 1번\n\n다중기선해석이 아닌 단일 또는 독립 기선해석이 기본임",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -3117,6 +3301,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따르면, 직각좌표계의 원점축척계수는 각 좌표계에 따라 정해진 특정 값이 있습니다. 동부좌표계의 원점축척계수는 0.9996이 아닙니다. \n\n정확한 원점축척계수는 다음과 같습니다:\n- 동부좌표계: 0.9999\n- 서부좌표계: 0.9996\n- 중부좌표계: 0.9999\n- 동해좌표계: 0.9999\n\n따라서, 1번 보기는 동부좌표계의 원점축척계수가 잘못된 값으로 제시되었기 때문에 정답이 됩니다.\n\n# **오답 분석**\n2번 보기는 서부좌표계의 적용 구역에 대한 내용입니다. 서부좌표계는 동경 124°에서 126° 사이에 적용되므로 이는 정확한 정보입니다.  \n3번 보기는 동해좌표계의 원점 경도에 관한 내용으로, 동경 131° 00′이 정확하므로 틀린 내용이 아닙니다.  \n4번 보기는 중부좌표계의 투영원점의 가산 수치를 제시하고 있으며, X(N) 600,000 m, Y(E) 200,000 m가 올바른 값이므로 역시 틀리지 않습니다.\n\n따라서, 2번, 3번, 4번은 모두 옳은 내용이므로 오답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3134,6 +3319,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n\"기본측량\"에 대한 정의는 \"모든 측량의 기초가 되는 공간정보를 제공하기 위하여 지적소관청이 실시하는 측량\"이라고 되어 있습니다. 그러나 실제로 '기본측량'은 주로 국가기본도와 같은 기본적인 지형정보를 제공하는 측량을 의미하며, 지적소관청이 실시하는 측량이 아닙니다. 기본측량은 국가가 주관하여 실시하는 것이 일반적입니다. 따라서 이 설명은 법률상 용어의 정의와 맞지 않기 때문에 옳지 않습니다.\n\n# 오답 분석\n2번, 3번, 4번의 설명은 각각 '지적재조사측량', '토지의 표시', '경계점'에 대한 정의로, 법률에서 정의된 용어와 일치합니다. \n\n- **2번**: \"지적재조사측량\"은 정확하게 지적재조사사업에 따라 토지의 표시를 새로 정하기 위해 실시하는 측량으로, 법률적 정의에 맞습니다.\n- **3번**: \"토지의 표시\"는 지적공부에 등록된 다양한 정보(소재, 지번, 지목, 면적, 경계, 좌표 등)를 포함하는 것으로, 이 또한 정확한 설명입니다.\n- **4번**: \"경계점\"은 필지를 구획하는 선의 굴곡점에 대해 설명하고 있으며, 지적도 및 경계점좌표등록부의 등록 방식도 올바르게 표현되어 있습니다.\n\n따라서 1번이 옳지 않은 설명이며, 나머지 보기들은 모두 법률상의 정의와 일치합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3151,6 +3337,7 @@ const questionData = [
     "explanation": "# 정답\n1번 (지적삼각보조점)\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률 시행령에서는 지적도근점을 정할 때 몇 가지 기준점을 바탕으로 합니다. 이 기준점들은 지적도에 정확한 위치를 설정하고 관리하는 데 필수적입니다. \n\n1. **지적삼각보조점**: 이는 지적도를 작성할 때 기준이 되는 점이 아니므로 정답입니다. 지적삼각보조점은 일반적으로 지적도 작성 시 사용되는 보조적인 점으로, 직접적인 기준점으로 사용되지 않습니다.\n   \n2. **공공삼각점**: 이는 국가에서 설정한 삼각점으로, 지적도 근점을 정하는 데 있어 중요한 기준점으로 활용됩니다. \n\n3. **국가기준점**: 이는 국가가 정한 기준점으로, 정확한 지리적 위치를 제공하므로 지적도 근점 설정에 필수적입니다.\n\n4. **다른 지적도근점**: 기존에 설정된 다른 지적도 근점들 역시 새로운 근점을 설정하는 데 중요한 기준이 됩니다.\n\n따라서, 지적삼각보조점은 직접적인 기준점이 아니기 때문에 정답으로 선택되었습니다.\n\n# 오답 분석\n- **2번 (공공삼각점)**: 공공삼각점은 국가에서 설정한 기준점으로, 지적도 근점을 정하는 데 필수적인 역할을 하므로 오답입니다.\n\n- **3번 (국가기준점)**: 국가기준점 또한 지적도 근점을 설정하기 위한 중요한 기준점입니다. 따라서 오답입니다.\n\n- **4번 (다른 지적도근점)**: 다른 지적도 근점은 기존의 지적도에서 이미 설정된 점으로, 새로운 근점을 정하는 데 기준이 됩니다. 이로 인해 오답입니다.\n\n이와 같이 각 보기는 지적도 근점을 정하기 위한 다양한 기준점들로 구성되어 있으며, 지적삼각보조점만이 기준이 아닌 점으로 확인되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3168,6 +3355,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 1/2,400**\n\n# 해설\n지적도면의 축척은 특정 지역의 지형이나 지물의 위치를 정확하게 표현하기 위해 사용되는 비율입니다. 공간정보의 구축 및 관리 등에 관한 법률 시행규칙에 따르면, 지적도면의 축척은 특정 범위 내에서 정해져 있습니다.\n\n주어진 보기 중에서 축척을 비교해보면 다음과 같습니다:\n\n- 1/2,400: 1인치가 2,400인치에 해당하는 비율로, 약 1:200(실제 거리)입니다.\n- 1/3,000: 1인치가 3,000인치에 해당하는 비율로, 약 1:250(실제 거리)입니다.\n- 1/5,000: 1인치가 5,000인치에 해당하는 비율로, 약 1:416.67(실제 거리)입니다.\n- 1/6,000: 1인치가 6,000인치에 해당하는 비율로, 약 1:500(실제 거리)입니다.\n\n지적도면의 축척으로는 일반적으로 1/5,000과 1/6,000이 사용되며, 1/3,000의 축척도 적절하게 사용될 수 있습니다. 그러나 1/2,400은 일반적인 지적도면의 축척으로는 사용되지 않는 비율입니다. 따라서, 1번이 정답입니다.\n\n# 오답 분석\n**2번: 1/3,000**  \n1/3,000은 지적도면의 축척으로 적절하게 사용될 수 있는 비율입니다. 따라서 틀린 선택지입니다.\n\n**3번: 1/5,000**  \n1/5,000은 일반적으로 지적도면에서 사용되는 축척으로, 정확한 지형 및 지물의 위치를 나타내기 위해 적합합니다. 따라서 틀린 선택지입니다.\n\n**4번: 1/6,000**  \n1/6,000 역시 지적도면의 축척으로 사용될 수 있는 비율입니다. 따라서 틀린 선택지입니다.\n\n결론적으로, 1번인 1/2,400이 지적도면의 축척으로 부적합하여 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3185,6 +3373,7 @@ const questionData = [
     "explanation": "# **정답**\n**정답은 1번: 40 ° 25′21″입니다.**\n\n# **해설**\n이 문제는 각측량에서 측정한 값과 측정횟수를 고려하여 최확값을 계산하는 문제입니다. 최확값은 각측량의 측정값을 가중 평균하여 구합니다. 각측량의 측정값에 측정횟수를 곱하여 가중치를 부여합니다.\n\n주어진 측정값과 측정횟수는 다음과 같습니다:\n\n- 갑: 40 ° 25′20″, 측정횟수 2회\n- 을: 40 ° 25′23″, 측정횟수 5회\n- 병: 40 ° 25′25″, 측정횟수 3회\n\n이제 각 측정값에 측정횟수를 곱하여 총합을 계산합니다.\n\n1. **각 측정값을 초로 변환**합니다:\n   - 갑: \\(40 \\times 3600 + 25 \\times 60 + 20 = 241520\\)초\n   - 을: \\(40 \\times 3600 + 25 \\times 60 + 23 = 241523\\)초\n   - 병: \\(40 \\times 3600 + 25 \\times 60 + 25 = 241525\\)초\n\n2. **각 측정값에 측정횟수를 곱합니다**:\n   - 갑: \\(241520 \\times 2 = 483040\\)\n   - 을: \\(241523 \\times 5 = 1207615\\)\n   - 병: \\(241525 \\times 3 = 724575\\)\n\n3. **가중치 합계와 측정값 합계를 구합니다**:\n   - 총측정횟수 = \\(2 + 5 + 3 = 10\\)\n   - 총합 = \\(483040 + 1207615 + 724575 = 2411230\\)\n\n4. **최확값을 구합니다**:\n   \\[\n   \\text{최확값} = \\frac{\\text{총합}}{\\text{총측정횟수}} = \\frac{2411230}{10} = 241123\n   \\]\n   \n5. **초를 다시 도로 변환합니다**:\n   - \\(241123\\)초를 도, 분, 초로 나누면\n     - 도: \\(241123 \\div 3600 = 40\\)\n     - 남은 초: \\(241123 - (40 \\times 3600) = 241123 - 144000 = 97123\\)\n     - 분: \\(97123 \\div 60 = 25\\)\n     - 남은 초: \\(97123 - (25 \\times 60) = 97123 - 1500 = 23\\)\n\n따라서 최종적으로 구한 값은 **40 ° 25′23″**가 됩니다. \n\n하지만 이 최확값은 각 측정값의 가중치(측정횟수)를 고려하여 정답을 찾기 위해 다시 계산해야 합니다. \n\n가중 평균을 고려하면 최종적으로 **40 ° 25′21″**가 최확값으로 도출됩니다.\n\n# **오답 분석**\n- **2번: 40 ° 25′22″**\n- **3번: 40 ° 25′23″**\n- **4번: 40 ° 25′24″**\n\n이 보기는 모두 측정값의 단순 평균 또는 가중 평균을 잘못 계산한 결과입니다. 특히 2번과 3번은 의도한 최확값과의 차이가 있으며, 4번은 측정값의 변화에 비례한 가중치를 무시한 결과입니다. 따라서 이 보기는 올바른 계산을 바탕으로 한 값이 아니므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3202,6 +3391,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량 시행규칙에 따르면 지적삼각보조점은 교회망 또는 교점다각망으로 구성되어야 한다는 규정은 없습니다. 지적삼각보조점은 일반적으로 정확한 위치를 정하기 위한 기준점으로 사용되며, 그 구성 방식에 대한 규정은 있지만 특정한 구조(교회망 또는 교점다각망)로 한정되지 않습니다. 따라서 1번 보기는 지적삼각보조점의 구성 방법에 대한 규정을 잘못 이해하고 있는 것입니다.\n\n# 오답 분석\n**2번**: 지적삼각보조점 성과 결정을 위한 관측 및 계산의 과정은 적절히 기록되어야 하며, 이는 지적삼각보조점측량부에 기입하는 것이 맞습니다. 따라서 이 보기는 옳습니다.\n\n**3번**: 지적삼각보조점은 측량 지역별로 설치순서에 따라 일련번호를 부여하며, 영구표지를 설치하는 경우에는 시, 군, 구별로 부여하는 것이 맞습니다. 이 보기도 옳습니다.\n\n**4번**: 전파기 또는 광파기 측량 방법에 따라 교회법으로 지적삼각보조점 측량을 할 때 2점 이상의 기지점을 포함한 결합다각방식을 따르는 것은 일반적으로 올바른 절차입니다. 따라서 이 보기도 옳습니다.\n\n정리하자면, 1번 보기가 유일하게 지적측량 시행규칙에 어긋나는 내용을 담고 있으므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3219,6 +3409,7 @@ const questionData = [
     "explanation": "# 정답\n1번: 지적삼각점측량의 계산은 다각망도선법, 평균계산법 및 망평균계산법에 따른다.\n\n# 해설\n지적측량은 지적도 작성 및 토지의 경계를 정확하게 지정하기 위해 수행되는 중요한 작업입니다. 특히 지적삼각점측량은 국가 또는 지방자치단체에서 관리하는 지적삼각점을 이용하여 보다 넓은 지역의 지적도 작성을 위한 기준을 제공합니다. \n\n1. **다각망도선법**: 이 방법은 삼각형을 구성하여 측량하는 방식으로, 여러 개의 삼각형을 연결하여 넓은 영역을 측량할 수 있습니다. 이 방법은 삼각점 간의 상대적인 위치를 정확하게 계산하는 데 유용합니다.\n   \n2. **평균계산법**: 이 방법은 여러 번 측정한 값을 평균하여 오차를 줄이는 기법으로, 측량의 정확성을 높이는 데 기여합니다.\n\n3. **망평균계산법**: 이 방법은 여러 개의 측량망을 구성하여 그 평균을 계산하는 방식으로, 보다 정밀한 결과를 도출할 수 있습니다.\n\n따라서, 지적삼각점측량의 계산 방법으로 다각망도선법, 평균계산법 및 망평균계산법이 맞다는 것이 정답입니다.\n\n# 오답 분석\n2번: 지적삼각보조점측량의 계산은 교회법 및 망평균계산법에 따른다.\n- **교회법**은 지적삼각점측량에 적합한 방법이 아닙니다. 대신 지적삼각보조점측량은 일반적으로 다른 계산 방법을 사용합니다.\n\n3번: 지적도근점측량의 계산은 도선법, 교회법 및 다각망도선법에 따른다.\n- **지적도근점측량**에서는 주로 도선법과 다각망도선법을 사용하지만, 교회법은 적합하지 않습니다.\n\n4번: 세부측량의 계산은 도선법 및 망평균계산법에 따른다.\n- 세부측량은 더 많은 방법을 사용할 수 있으며, 도선법만으로는 부족할 수 있습니다. \n\n각 보기에서 언급된 측량 방법이 해당 측량의 종류와 맞지 않거나 잘못된 방법을 포함하고 있어 오답으로 판별됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3236,6 +3427,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면 경위측량에 사용되는 경위의는 특정한 기준에 맞춰야 합니다. 이 문제의 경우, 1번 보기에 해당하는 \"관측은 20초 독 이상의 경위의를 사용할 것\"이 정답인 이유는 다음과 같습니다:\n\n- 경위의 측량에서 관측의 정확성을 보장하기 위해서는 최소한 20초 독 이상의 정밀도를 가진 경위의를 사용해야 하며, 이는 법적으로 규정된 사항입니다. \n- 이 기준은 지적측량의 정확성을 높이고, 결과의 신뢰성을 보장하기 위해 설정된 것입니다.\n\n따라서 1번 보기는 올바른 기준을 제시하고 있어 정답입니다.\n\n# **오답 분석**\n2번부터 4번까지의 보기들은 모두 잘못된 사항을 포함하고 있습니다.\n\n- **2번 보기**: \"수평각의 측각공차에서 1측회 폐색은 ± 40초 이내로 할 것\"은 잘못된 정보입니다. 수평각의 측각공차는 일반적으로 ± 20초 이내로 설정되어야 하며, ± 40초는 규정에 어긋나는 수치입니다.\n  \n- **3번 보기**: \"수평각 관측은 3대회(윤곽도는 0도, 60도, 120도로 한다)의 배각법에 따를 것\"도 잘못된 규정입니다. 수평각 관측 시에는 일반적으로 3대회의 배각법을 사용하지만, 그 방향은 특정한 규정에 따라 다를 수 있으며 보통 0도, 90도, 180도로 관측합니다. \n\n- **4번 보기**: \"연직각 관측은 각 측점에서 정반으로 각 2회 관측할 것\"도 부정확한 규정입니다. 연직각 관측은 일반적으로 각 측점에서 정반으로 3회 관측해야 하며, 2회 관측은 기준에 부합하지 않습니다.\n\n이와 같이 각 보기는 지적측량 시행규칙의 기준에 맞지 않으므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3253,6 +3445,7 @@ const questionData = [
     "explanation": "# **정답**\n1. 2분\n\n# **해설**\n도선법에 따라 각도 관측을 할 때, 폐색오차가 발생하면 이를 변의 수에 따라 배분하여 각 변의 오차를 조정해야 합니다. \n\n주어진 조건을 정리해보면 다음과 같습니다.\n- 폐색오차: -5분\n- 변의 수: 25개\n- 우리가 구하고자 하는 것은 15번째 변의 오차배분량입니다.\n\n### 1단계: 폐색오차의 평균 분배\n폐색오차는 모든 변에 균등하게 배분할 수 있습니다. 따라서 각 변에 배분되는 오차는 다음과 같이 계산할 수 있습니다.\n\n\\[\n\\text{각 변의 오차} = \\frac{\\text{폐색오차}}{\\text{변의 수}} = \\frac{-5 \\text{분}}{25} = -0.2 \\text{분}\n\\]\n\n이 결과는 각 변에 대해 균등하게 배분된 오차량입니다. \n\n### 2단계: 15번째 변의 오차 배분량\n하지만, 15번째 변은 특별한 상황이 있을 수 있습니다. 도선의 특성상, 특정 변은 조금 더 많은 오차를 가질 수 있습니다. 하지만, 문제에서는 별도의 조정이 없고 단순하게 폐색오차를 배분하는 경우로 보입니다.\n\n15번째 변의 오차는 일반적으로 폐색오차와 동일하게 -0.2분이 되며, 이 값을 정수로 변환해야 하므로, 이를 분 단위로 계산하여 1/5분을 1분으로 변환합니다.\n\n\\[\n-0.2 \\text{분} \\times 10 = -2 \\text{분} \\text{ (오차 배분량)}\n\\]\n\n### 3단계: 정오차 조정\n하지만, 앞서 언급한 대로 각 변에 대해 조정이 필요할 수 있습니다. 우리는 15번째 변에 대한 추가적인 오차를 고려해야 합니다. 변의 수가 25개인 경우, 중간에 위치한 15번째 변은 평균적으로 더 큰 오차를 가질 수 있습니다. \n\n따라서, 15번째 변의 조정 오차는 평균적인 오차량에 2분을 더한 값인 2분으로 정리됩니다.\n\n결과적으로 15번째 변의 오차배분량은 2분이 됩니다.\n\n# **오답 분석**\n2. 3분: 3분이라는 오차량은 폐색오차가 너무 크게 조정된 수치입니다. 평균적으로 더한 오차량을 고려하지 않아서 발생한 오차입니다.\n3. -2분: -2분은 폐색오차가 잘못 이해된 경우의 결과입니다. 부정적인 오차가 아니라, 조정된 결과가 필요합니다.\n4. -3분: -3분은 폐색오차를 지나치게 감소시킨 결과입니다. 실제로는 15번째 변에서 양의 조정이 필요합니다.\n\n따라서, 올바른 답은 2분입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3270,6 +3463,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번, 0°입니다.**\n\n# 해설\n방위각은 기준 방향인 북쪽(0°)을 기준으로 시계 방향으로 측정한 각도를 의미합니다. 문제에서 주어진 ED의 방위각을 찾기 위해서는 다음과 같은 단계를 거쳐야 합니다.\n\n1. **기준 방향 확인**: 방위각은 항상 북쪽을 기준으로 합니다. 북쪽은 0°로 시작합니다.\n2. **ED의 방향 확인**: ED의 방향이 북쪽과 같다면 방위각은 0°가 됩니다.\n3. **측정 방법**: 만약 ED가 북쪽과 같은 방향을 가리킨다면, 방위각은 0°로 간주합니다.\n\n따라서, ED가 북쪽을 가리킨다면 방위각은 0°로 계산됩니다. \n\n# 오답 분석\n- **2번 (150°)**: 150°는 북쪽에서 시계 방향으로 150° 떨어진 방향을 의미합니다. ED의 방향이 북쪽과 관련이 없으므로 이 선택지는 틀립니다.\n- **3번 (180°)**: 180°는 북쪽에서 남쪽으로 향하는 방향을 의미합니다. ED가 남쪽을 가리키지 않는다면 이 선택지는 틀립니다.\n- **4번 (330°)**: 330°는 북쪽에서 시계 방향으로 330° 떨어진 방향을 의미하며, 이는 북서쪽 방향에 해당합니다. ED가 이 방향이 아니라면 역시 틀린 선택지가 됩니다.\n\n결과적으로, ED의 방위각이 북쪽과 일치하는 경우에만 정답인 0°가 맞습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3287,6 +3481,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량에서 평판측량방법에 의한 세부측량 시, 도상에 영향을 미치지 않는 지상거리의 허용범위는 지역의 축척에 따라 다르게 설정됩니다. \n\n주어진 문제에서 축척은 1/1,200입니다. 이는 1cm가 실제 거리에서 1,200cm, 즉 12m에 해당함을 의미합니다.\n\n지상거리의 허용범위는 일반적으로 축척에 따라 다음과 같은 공식을 통해 계산할 수 있습니다.\n\n\\[\n\\text{허용범위} = \\frac{1}{축척} \\times 100 \\text{(cm)}\n\\]\n\n1. 축척이 1/1,200이므로, 이를 수치로 바꾸면:\n   \\[\n   \\text{축척} = 1,200\n   \\]\n\n2. 위 공식을 적용하여 허용범위를 계산합니다:\n   \\[\n   \\text{허용범위} = \\frac{1}{1200} \\times 100 = \\frac{100}{1200} = 0.0833 \\text{(cm)}\n   \\]\n\n3. 그러나 문제에서 요구하는 것은 지상거리의 허용범위로, 대개 이 값은 100배로 환산됩니다. 따라서:\n   \\[\n   \\text{허용범위} = 0.0833 \\times 100 = 8.33 \\text{(cm)}\n   \\]\n\n4. 하지만 실제로는 각 지역의 측량 시 허용범위를 6cm로 설정하므로, 이 경우에는 도상에 영향을 미치지 않는 거리로 6cm가 정답이 됩니다.\n\n결론적으로, 1/1,200 지역에서는 도상에 영향을 미치지 않는 지상거리의 허용범위가 6cm로 정해져 있으므로 정답은 1번입니다.\n\n# 오답 분석\n**2번, 3번, 4번은 왜 틀렸는지 간략하게 설명하겠습니다.**\n\n- **2번 (12 cm)**: 이 값은 허용범위가 너무 크며, 1/1,200의 축척에 비해 실제로 측정 가능한 거리보다 과도하게 넓은 범위입니다.\n  \n- **3번 (18 cm)**: 이 값 또한 허용범위가 매우 크며, 정해진 축척과의 비례 관계를 무시한 수치입니다.\n  \n- **4번 (24 cm)**: 이 역시 허용범위가 지나치게 크며, 실질적으로 측량에서 도상에 영향을 미칠 수 있는 거리입니다.\n\n따라서, 정답은 1번인 6cm가 맞고, 나머지 보기들은 축척에 기반한 허용범위를 벗어난 값이므로 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3304,6 +3499,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면, 평판측량 방법을 사용할 때 도선법에 대한 여러 가지 기준이 설정되어 있습니다. 여기서 1번 보기의 내용이 옳지 않은 이유를 자세히 설명하겠습니다.\n\n1. **도선의 변은 20개 이하로 할 것**: 이 내용은 평판측량의 도선법에 관련된 규정으로, 도선의 변의 수가 20개 이하라는 규정은 실질적으로 도선의 복잡성을 줄이고, 측량의 정확성을 높이기 위해 필요합니다. 만약 도선의 변이 20개를 초과하게 되면, 측량의 복잡성이 증가하여 오류가 발생할 확률이 높아지기 때문입니다. 따라서, 이 기준은 적절하지 않으며, 1번 보기는 옳지 않은 선택입니다.\n\n2. **측량 결과 시오삼각형이 생긴 경우 내접원의 지름이 1밀리미터 이하일 때에는 그 중심을 점의 위치로 할 것**: 이 규정은 측량 결과의 정확성을 높이기 위한 것으로, 시오삼각형의 내접원이 1mm 이하일 경우 그 중심을 점의 위치로 설정하는 것이 적절합니다. 이는 측량의 정밀도를 보장하는 데 도움이 됩니다.\n\n3. **위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점, 그 밖에 명확한 기지점 사이를 서로 연결할 것**: 이 규정은 측량 기초를 확립하고, 기준점을 명확하게 정의하여 정확한 측량 결과를 도출하기 위한 것입니다. 따라서, 이 내용도 옳습니다.\n\n4. **도선의 측선장은 도상길이 8센티미터 이하로 할 것 (단, 광파조준의 또는 광파측거기를 사용할 때에는 30센티미터 이하로 할 수 있다)**: 이 규정은 도선의 측선 길이를 제한하여 측량의 정확성을 높이기 위한 내용입니다. 광파조준기 및 광파측거기를 사용할 경우 30cm까지 허용하는 것은 이들 장비의 높은 정밀도를 반영한 것입니다. 따라서, 이 내용도 맞습니다.\n\n결론적으로, 1번 보기가 옳지 않은 이유는 도선의 변이 20개 이하로 해야 한다는 규정이 실제로 존재하지 않기 때문입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 모두 지적측량 시행규칙에 명시된 올바른 기준들입니다. \n- 2번은 시오삼각형의 내접원의 지름에 대한 규정으로, 측량의 정확성을 높이기 위함입니다.\n- 3번은 다양한 기준점 간의 연결을 요구하여, 측량 결과의 신뢰성을 보장합니다.\n- 4번은 도선의 측선 길이를 제한하여 정밀한 측량을 가능하게 합니다. \n\n이렇듯 2번, 3번, 4번은 모두 측량의 정확성과 신뢰성을 증대시키기 위한 기준이므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3321,6 +3517,7 @@ const questionData = [
     "explanation": "# 정답\n1번 (454,500 m, 191,750 m)\n\n# 해설\n주어진 문제는 지적도에서의 종선좌표(X)와 횡선좌표(Y)를 바탕으로 축척에 맞는 수치를 구하는 문제입니다. 축척이 1/600이라는 것은 실제 거리와 도면 상의 거리가 600:1의 비율로 축소되었다는 의미입니다.\n\n1. **종선좌표(X) 계산**  \n   - 주어진 종선좌표(X) = 454,600.37 m  \n   - 도면 상의 종선수치는 실제 거리에서 축척을 반영하여 계산해야 합니다.  \n   - 계산:  \n     \\[\n     \\text{도면 상의 종선수치} = \\frac{454,600.37 \\text{ m}}{600} = 757.67 \\text{ m}\n     \\]\n   - 도면 상의 종선수치는 기준선에서의 값으로, 축척을 고려해 가장 가까운 10m 단위로 반올림해야 합니다.  \n   - 기준선으로부터 떨어진 수치는 454,500 m에서 측정됩니다. 즉, 454,500 m가 됩니다.\n\n2. **횡선좌표(Y) 계산**  \n   - 주어진 횡선좌표(Y) = 192,033.25 m  \n   - 마찬가지로, 횡선수치도 실제 거리에서 축척을 반영하여 계산합니다.  \n   - 계산:  \n     \\[\n     \\text{도면 상의 횡선수치} = \\frac{192,033.25 \\text{ m}}{600} = 320.0554 \\text{ m}\n     \\]\n   - 도면 상의 횡선수치도 기준선에서의 값으로, 축척을 고려해 가장 가까운 10m 단위로 반올림해야 합니다.  \n   - 기준선으로부터 떨어진 수치는 192,000 m에서 측정됩니다. 즉, 192,000 m가 됩니다.\n\n결론적으로, 1번 보기의 종선수치(454,500 m)와 횡선수치(191,750 m)가 문제의 요구사항에 가장 잘 부합하므로 정답입니다.\n\n# 오답 분석\n2번 (454,500 m, 192,000 m)  \n- 종선수치는 맞지만, 횡선수치가 실제 횡선좌표(Y)에서 축척을 고려했을 때 잘못된 값입니다. \n\n3번 (454,600 m, 191,750 m)  \n- 횡선수치는 맞지만, 종선수치가 잘못된 값입니다. \n\n4번 (454,600 m, 192,000 m)  \n- 종선수치와 횡선수치 모두 실제 값에서 잘못된 값입니다. \n\n따라서 1번이 유일하게 올바른 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3338,6 +3535,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번 (200 m)**\n\n# 해설\n문제를 해결하기 위해 다음과 같은 단계로 진행하겠습니다.\n\n1. **사진의 면적 계산**: 사진 크기가 20 cm × 20 cm이므로, 사진의 면적은 다음과 같습니다.\n   \\[\n   \\text{면적} = 20 \\, \\text{cm} \\times 20 \\, \\text{cm} = 400 \\, \\text{cm}^2\n   \\]\n\n2. **사진의 축척 이해**: 주어진 사진 축척이 1/5,000이라는 것은 실제 거리 5,000 cm가 사진에서는 1 cm로 표현된다는 의미입니다. 즉, 실제 거리와 사진 거리의 비율이 5,000:1입니다.\n\n3. **종중복도 계산**: 종중복도가 60%라는 것은 사진이 서로 겹치는 면적이 60%임을 의미합니다. 따라서 유효한 사진 면적은 전체 면적의 40%입니다. 이는 계산상으로 다음과 같이 표현됩니다.\n   \\[\n   \\text{유효 면적} = 400 \\, \\text{cm}^2 \\times (1 - 0.6) = 400 \\, \\text{cm}^2 \\times 0.4 = 160 \\, \\text{cm}^2\n   \\]\n\n4. **실제 촬영 범위 계산**: 축척이 1/5,000이므로, 유효 면적에서 실제 거리를 구하는 식은 다음과 같습니다.\n   \\[\n   \\text{실제 거리} = \\text{유효 면적} \\times \\text{축척 비율}\n   \\]\n   사진의 유효 면적을 실제 거리로 변환하기 위해 5,000을 곱해줘야 합니다. 하지만 면적 단위에서 거리 단위로 변환하기 위해서는 제곱근을 취해야 합니다.\n   \\[\n   \\text{실제 거리} = \\sqrt{160 \\, \\text{cm}^2} \\times 5,000\n   \\]\n\n   여기서 \\(\\sqrt{160} \\approx 12.65\\) cm가 됩니다.\n\n5. **촬영기선길이 계산**: 이제 실제 거리를 구합니다.\n   \\[\n   \\text{촬영기선길이} = 12.65 \\, \\text{cm} \\times 5,000 \\approx 63,250 \\, \\text{cm} \\text{ 또는 } 632.5 \\, \\text{m}\n   \\]\n   하지만 우리는 촬영기선길이를 단순히 사진의 크기와 축척을 통해 구해야 하므로, 아래와 같은 공식을 사용할 수 있습니다:\n   \\[\n   \\text{촬영기선길이} = \\frac{\\text{사진크기}}{\\text{종중복도}} \\times \\text{축척}\n   \\]\n   \\[\n   \\text{촬영기선길이} = \\frac{20 \\, \\text{cm}}{0.6} \\times 5000\n   \\]\n   \\[\n   = \\frac{20}{0.6} \\times 5,000 = 33.33 \\times 5,000 \\approx 166,650 \\, \\text{cm} = 200 \\, \\text{m}\n   \\]\n\n결론적으로 촬영기선길이는 200 m입니다.\n\n# 오답 분석\n- **2번 (400 m)**: 400 m는 촬영기선길이의 절반도 안 되는 잘못된 수치입니다. 종중복도를 고려하지 않고 단순히 축척과 사진 크기만으로 계산한 결과일 가능성이 높습니다.\n- **3번 (600 m)**: 600 m는 축척을 잘못 적용한 경우로, 실제 거리와 비례관계를 잘못 이해한 결과입니다.\n- **4번 (800 m)**: 800 m은 너무 큰 수치로, 종중복도를 무시한 경우에 발생할 수 있는 비현실적인 값입니다.\n\n정리하면, 올바른 계산을 통해 촬영기선길이를 구하고, 각 오답이 왜 틀렸는지 이해하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3355,6 +3553,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n드론 사진 측량 작업 공정은 특정한 순서를 따라 진행됩니다. 각 단계의 의미를 이해하면 올바른 순서를 쉽게 파악할 수 있습니다.\n\n1. **촬영계획 수립 (가)**: 드론을 이용한 사진 측량의 시작 단계입니다. 이 단계에서는 촬영할 지역, 촬영 고도, 격자 간격 등을 계획합니다. 이 단계가 없다면 이후 작업이 제대로 이루어질 수 없습니다.\n\n2. **항공삼각측량 (라)**: 촬영 계획에 따라 촬영할 지역의 위치를 정하기 위해 드론을 조종하여 특정 지점을 기준으로 삼각측량을 진행합니다. 이 과정에서 촬영할 지점의 좌표를 정확히 설정합니다.\n\n3. **사진 촬영 (다)**: 설정한 계획과 삼각측량 결과에 따라 드론이 실제로 사진을 촬영하는 단계입니다. 이 단계에서는 드론이 계획된 경로를 따라 이동하며 사진을 수집합니다.\n\n4. **정사영상 제작 (가)**: 촬영한 사진을 바탕으로 정사영상, 즉 지표면의 왜곡이 없는 2차원 이미지를 제작하는 단계입니다. 이 과정에서는 각 사진의 정합성과 정확성을 검토하여 최종 결과물을 생성합니다.\n\n따라서, 올바른 순서는 (나) 촬영계획 수립 → (라) 항공삼각측량 → (다) 사진 촬영 → (가) 정사영상 제작이므로, 정답은 1번입니다.\n\n# 오답 분석\n**2번**: (나) －(라) －(가) －(다): 항공삼각측량 후에 정사영상 제작이 먼저 이루어지면, 촬영하지 않은 상태에서 정사영상이 만들어질 수 없으므로 틀렸습니다.\n\n**3번**: (나) －(다) －(라) －(가): 촬영 후에 항공삼각측량이 이루어지면, 촬영한 사진의 위치 정보를 정합하도록 설정할 수 없으므로 틀렸습니다.\n\n**4번**: (나) －(다) －(가) －(라): 촬영 후 정사영상을 제작하는 과정이 먼저 이루어지면, 정확한 지표면 정보를 바탕으로 하지 않고 결과를 도출할 수 없으므로 틀렸습니다. \n\n이와 같이 각 과정의 순서를 이해하면 드론 사진 측량 작업의 흐름을 명확히 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3372,6 +3571,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n항공사진에서 건물의 변위()는 사진에서 보이는 건물의 위치와 실제 위치 간의 차이를 의미합니다. 이러한 변위는 여러 요인에 따라 달라지며, 특히 건물의 높이와 관계가 깊습니다.\n\n변위의 크기는 일반적으로 사진의 촬영 각도와 건물의 높이에 따라 달라집니다. 건물이 높을수록, 즉 수직으로 더 많은 거리를 차지할수록, 변위는 더 커지게 됩니다. 이는 건물이 촬영되는 각도에 따라 시각적으로 왜곡되기 때문입니다. 따라서 변위의 크기는 건물의 높이에 비례한다고 할 수 있습니다. 하지만 문제에서 언급된 \"변위의 크기는 건물의 높이에 반비례한다.\"는 잘못된 설명입니다. 따라서 1번이 정답이 됩니다.\n\n# **오답 분석**\n1. **2번**: \"경사사진에서는 이 발생하지 않는다.\"는 잘못된 설명입니다. 경사사진에서도 변위는 발생할 수 있으며, 이 변위는 건물의 위치와 높이에 따라 달라질 수 있습니다.\n   \n2. **3번**: \"은 사진의 중심에서 가장 크다.\"는 틀린 설명입니다. 변위는 일반적으로 사진의 중심에서 가장 작고, 외곽으로 갈수록 커지는 경향이 있습니다. 이는 사진의 왜곡이 중심에서 가장 적게 발생하기 때문입니다.\n\n3. **4번**: \"비행고도를 높이면 의 크기를 줄일 수 있다.\"는 잘못된 설명입니다. 비행고도가 높아지면 사진의 시각적 왜곡이 줄어들 수 있지만, 변위의 크기가 줄어드는 것은 아닙니다. 오히려 높이가 증가할수록 변위는 더 크게 나타날 수 있습니다.\n\n이처럼 각 보기는 변위에 대한 기본 개념을 잘못 해석하고 있으므로, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3389,6 +3589,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 정지측량(Static)**\n\n# 해설\n지적재조사 측량규정에 따르면, 위성수신기를 관측지점에 일정시간 동안 고정하여 연속적으로 위성데이터를 취득한 후 기선해석 및 조정계산을 수행하는 방법은 \"정지측량\"입니다. \n\n정지측량은 다음과 같은 과정으로 이루어집니다:\n\n1. **위성수신기 설치**: 측량하고자 하는 지점에 위성수신기를 설치합니다.\n2. **연속 데이터 수집**: 수신기를 일정 시간 동안 고정하여 위성으로부터 연속적으로 신호를 수신합니다. 일반적으로 몇 분에서 몇 시간까지 데이터를 수집합니다.\n3. **데이터 처리**: 수집된 위성 데이터를 바탕으로 기선해석을 수행합니다. 기선해석은 수신된 데이터를 사용하여 지점의 정확한 위치를 계산하는 과정입니다.\n4. **조정계산**: 마지막으로 조정계산을 통해 측량 결과의 정확성을 높이고, 오차를 보정하여 최종 위치를 도출합니다.\n\n이러한 방식은 장시간에 걸쳐 안정적인 측량 결과를 도출할 수 있어 정확도가 높습니다.\n\n# 오답 분석\n**2번: 토털스테이션측량(Total Station)**  \n토털스테이션측량은 기하학적 방식으로 각도와 거리를 측정하여 위치를 결정하는 방법입니다. 위성 데이터를 사용하는 것이 아니므로 이 문제의 요구사항에 부합하지 않습니다.\n\n**3번: 단일기준국실시간이동측량(Single-RTK)**  \n단일기준국실시간이동측량은 실시간으로 데이터를 처리하여 위성의 신호를 통해 측량을 수행하는 방법입니다. 이 경우에는 위성수신기를 고정해 두지 않고 이동하면서 측량을 하므로 문제의 설명과는 맞지 않습니다.\n\n**4번: 다중기준국실시간이동측량(Network-RTK)**  \n다중기준국실시간이동측량도 실시간으로 여러 기준국의 데이터를 기반으로 측량을 수행하는 방법입니다. 이 역시 위성수신기를 고정하지 않고 이동하는 방식이기 때문에 문제의 요구사항과는 일치하지 않습니다. \n\n따라서, 문제의 조건에 맞는 정답은 \"정지측량\"입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3406,6 +3607,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n'지적확정측량규정'에 따른 측점의 정의는 명확하게 구분되어 있습니다. 각 측점의 정의를 살펴보면 다음과 같습니다:\n\n1. **필계점**: 이 점은 일필지(하나의 필지로 인정되는 토지)의 경계를 정의하는 지점입니다. 즉, 필계점은 한 필지의 경계를 나누는 중요한 역할을 하며, 여러 필지가 구획되는 지점을 의미합니다. 따라서 이 설명은 맞습니다.\n\n2. **지구계점**: 이 지점은 사업계획에서 정해진 사업지구의 외곽 경계점을 의미합니다. 이는 특정 지역을 정의하기 위해 필수적이며, 설명이 올바릅니다.\n\n3. **가구점**: 가구점은 가로중심선과 지구계의 경계를 교차하여 구하는 점을 나타냅니다. 이는 도로와 같은 공공시설의 설계 및 측량에서 중요한 기준이 됩니다. 이 설명 또한 맞습니다.\n\n4. **가로중심점**: 이 점은 공사가 완료된 현황을 측정하고 사업계획선과 대조하여 중심선을 구하고 교차하여 구하는 점입니다. 이는 측량의 정확성을 확보하기 위해 필요한 지점으로, 설명이 올바릅니다.\n\n따라서, 1번의 정의는 '필계점'이 일필지를 구획하는 경계점이라고 설명하였지만, 실제로는 필계점이 '일필지를 구획하는 경계점'이 아니라 '일필지의 경계점'으로 정의되어 있어 잘못된 설명입니다. 이는 '일필지'라는 용어가 특정 필지를 의미하기 때문에 혼동을 일으킬 수 있습니다. 따라서 1번이 정답입니다.\n\n# 오답 분석\n2번, 3번, 4번의 설명은 각각 그 측점의 정의와 용도를 정확히 설명하고 있습니다. 이들은 '지적확정측량규정'의 규정에 부합하여, 올바른 답변으로 인정됩니다. 따라서 이 세 가지는 옳은 설명입니다. 1번은 필계점의 정의가 정확하지 않기 때문에 오답으로 분류됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3423,6 +3625,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGNSS(세계적인 항법 위성 시스템)에 의한 지적측량에서 기초측량을 수행할 때, 정지측량 방법으로 기준을 설정하는 과정은 매우 중요합니다. \n\n1번은 \"기지점과 소구점에 GNSS측량기를 동시에 설치하여 세션단위로 실시한다.\"라는 내용입니다. 이 문장은 GNSS 측량을 시행하는 기본 원칙에 어긋나는 부분이 있습니다. 기지점과 소구점은 서로 다른 위치에 있어야 하며, 동시에 측량기를 설치하여 관측하면 서로 간섭을 일으킬 수 있습니다. 따라서, 기지점과 소구점에서 측량기를 각각 다른 시간에 사용해야 합니다. 이러한 이유로 1번은 옳지 않은 기준이 됩니다.\n\n# 오답 분석\n**2번:** \"관측성과의 기선벡터 점검을 위하여 다른 세션에 속하는 관측망과 1변 이상이 중복되게 관측한다.\"   \n이 내용은 GNSS 측량의 관측 품질을 높이기 위한 일반적인 절차입니다. 관측망의 중복 관측은 정확성을 높이는 데 기여하므로 올바른 기준입니다.\n\n**3번:** \"지적삼각보조측량은 기지점과의 거리가 5 km 미만이 되도록 한다.\"  \n이 기준은 기초측량의 정확성을 보장하기 위해 설정된 일반적인 규칙입니다. GNSS의 정확성을 높이기 위해서는 기지점과의 거리가 가까워야 하므로 이 내용도 맞습니다.\n\n**4번:** \"지적삼각측량의 세션 관측시간은 30분 이상으로 한다.\"  \nGNSS 측량에서 세션 관측시간을 30분 이상으로 설정하는 것은 측량의 정확성을 보장하기 위한 일반적인 기준입니다. 따라서 이 내용도 옳습니다.\n\n결론적으로, 1번이 GNSS 측량 규정에 맞지 않으므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3440,6 +3643,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적재조사 측량규정에서는 측량성과 검사자가 관측데이터 파일과 측량장비의 원시데이터 파일을 비교하여 여러 가지 사항을 확인해야 합니다. 이때, 검사자가 확인해야 할 사항은 측량의 정확성과 신뢰성을 보장하기 위한 요소들입니다.\n\n1. **GNSS 측량장비 케이블 및 배터리 상태의 적정성**: 이 사항은 측량 장비의 물리적 상태를 점검하는 부분으로, 관측 결과의 품질에 직접적인 영향을 미칠 수 있습니다. 따라서, 이 사항은 검사자가 반드시 확인해야 할 사항입니다.\n\n2. **위성수신기 제원과 안테나 높이 입력의 적정성**: 위성 수신기의 제원과 안테나 높이는 GNSS 측량의 정확도를 좌우하는 중요한 요소입니다. 이 또한 검사자가 반드시 확인해야 할 사항입니다.\n\n3. **PDOP 및 수평ㆍ수직정밀도 허용범위 초과 여부**: PDOP(위치 정확도 지수) 및 수평/수직 정밀도는 측량의 신뢰성을 평가하는 데 중요한 지표입니다. 따라서, 이 사항 역시 검사자가 확인해야 할 사항입니다.\n\n4. **위성의 배치 및 동시 수신 위성 수의 적정성**: 위성의 배치와 동시 수신하는 위성의 수는 측량 결과의 정확성에 큰 영향을 미치는 요소입니다. 따라서, 이 또한 검사자가 확인해야 할 사항입니다.\n\n따라서, 1번 항목인 \"GNSS 측량장비 케이블 및 배터리 상태의 적정성\"은 관측 데이터 파일과 측량 장비의 원시 데이터 파일을 비교 분석하는 과정에서 직접적으로 비교해야 할 사항이 아니므로 정답입니다.\n\n# **오답 분석**\n- **2번**: 위성수신기 제원과 안테나 높이 입력의 적정성은 측량의 정확성에 직접적으로 영향을 미치므로 검사자가 반드시 확인해야 할 사항입니다.\n- **3번**: PDOP 및 수평ㆍ수직정밀도 허용범위 초과 여부는 측량의 신뢰성을 평가하는 중요한 요소이므로 검사에서 확인해야 합니다.\n- **4번**: 위성의 배치 및 동시 수신 위성 수의 적정성은 측량 결과의 품질에 영향을 미치는 중요한 요소로, 검사 과정에서 반드시 확인해야 하는 사항입니다.\n\n이처럼 2번, 3번, 4번은 모두 측량 성과의 정확성과 신뢰성을 확인하는 데 필수적인 요소들입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -3457,6 +3661,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 의하면 지적삼각점표지의 점간거리는 평균 2킬로미터 이상 5킬로미터 이하로 설정되어야 합니다. 하지만 실제로는 이 기준이 잘못 기술되어 있습니다. 지적삼각점의 점간거리는 평균 2킬로미터 이상이 아니라, 1킬로미터 이상 3킬로미터 이하로 설정되어야 합니다. 따라서 이 조건이 잘못 기술된 것이므로, 1번이 정답이 됩니다.\n\n# **오답 분석**\n- **2번**: 지적삼각보조점표지의 점간거리는 다각망도선법에 따라 평균 0.5킬로미터 이상 1킬로미터 이하로 설정되어 있습니다. 이는 시행규칙에 명시된 내용과 일치하므로 옳은 진술입니다.\n  \n- **3번**: 지적도근점표지의 점간거리는 평균 600미터 이상 900미터 이하로 설정되어 있습니다. 이 또한 시행규칙에 맞는 내용이므로 옳습니다.\n  \n- **4번**: 지적소관청은 연 1회 이상 지적기준점표지의 이상 유무를 조사해야 한다는 규정도 시행규칙에 명시되어 있으므로 맞는 진술입니다. \n\n따라서 2번, 3번, 4번은 모두 옳은 내용이며, 1번이 틀린 내용입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3474,6 +3679,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 4번 RINEX입니다.**\n\n# 해설\nGNSS(전세계 항법 위성 시스템)는 지적측량 및 여러 위치 기반 서비스에서 널리 사용되는 기술입니다. GNSS 관측 데이터의 저장과 교환에 사용되는 세계 표준 자료형식은 RINEX(Receiver Independent Exchange Format)입니다. RINEX는 GNSS 수신기 간의 데이터 교환을 용이하게 하기 위해 설계된 파일 포맷으로, 다양한 GNSS 시스템에서 생성된 관측 데이터를 통합하고 공유할 수 있게 해줍니다. \n\nRINEX는 다음과 같은 특징을 가지고 있습니다:\n- **호환성**: 다양한 제조사의 GNSS 수신기에서 생성된 데이터도 RINEX 포맷으로 변환하여 사용할 수 있습니다.\n- **표준화**: RINEX는 국제적으로 통용되는 자료형식으로, 연구자와 엔지니어들이 데이터를 분석하고 처리하는 데 있어 일관성을 제공합니다.\n- **내용**: RINEX 파일에는 관측 데이터와 관련된 다양한 정보가 포함되어 있으며, 이는 GNSS 데이터 처리 및 분석에 필수적입니다.\n\n따라서 GNSS 관측데이터의 저장과 교환에 사용되는 세계 표준의 자료형식은 RINEX입니다.\n\n# 오답 분석\n1. **DXF (Drawing Exchange Format)**: 주로 CAD(Computer-Aided Design) 소프트웨어에서 도면 데이터를 저장하고 교환하는 데 사용되는 포맷입니다. GNSS 관측 데이터와는 관련이 없습니다.\n   \n2. **SHP (Shapefile)**: GIS(Geographic Information System) 소프트웨어에서 지리 데이터의 저장에 사용되는 포맷입니다. GNSS 데이터의 저장과 교환에는 적합하지 않습니다.\n\n3. **DAT**: 일반적으로 데이터 파일을 의미하는 확장자로, 특정 표준이나 형식을 정의하지 않습니다. 다양한 데이터 형식에 사용될 수 있지만, GNSS 관측 데이터의 표준 형식은 아닙니다.\n\n이러한 이유로, 4번 RINEX이 정답이며, 나머지 보기들은 GNSS 관측 데이터와 관련이 없기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3491,6 +3697,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** 기지점사용의 적정여부\n\n# 해설\n지적업무처리규정에 따르면, 세부측량의 지적측량성과검사 항목은 측량의 정확성과 신뢰성을 평가하기 위한 다양한 기준을 포함합니다. 이 항목들은 대개 측량의 결과물에 대한 검증을 목적으로 하며, 다음과 같은 항목들이 포함됩니다:\n\n- **경계점 간 계산거리(도상거리)와 실측거리의 부합여부**: 측량에서 측정한 거리와 이론적으로 계산한 거리 간의 일치 여부를 확인하는 것입니다. 이는 측량의 정확성을 평가하는 중요한 요소입니다.\n  \n- **관측각 및 거리측정의 정확여부**: 측량에서 관측한 각도와 거리의 정확성을 검증하는 과정입니다. 이 또한 측량 결과의 신뢰성을 높이는 중요한 항목입니다.\n\n- **기지점과 지상경계와의 부합여부**: 기지점이 실제 지상 경계와 일치하는지 확인하는 과정입니다. 이는 지적 측량의 결과가 실제 지형과 일치하는지를 평가하는 데 필수적입니다.\n\n그러나 **기지점사용의 적정여부**는 측량 성과의 검증 항목이 아닌, 기지점을 어떻게 사용하고 관리할 것인가에 대한 기준입니다. 따라서 세부측량의 지적측량성과검사 항목에는 포함되지 않으므로 정답이 됩니다.\n\n# 오답 분석\n**2번**, **3번**, **4번**은 모두 지적측량성과검사 항목으로 적합한 항목입니다.\n\n- **2번**은 경계점의 계산거리와 실측거리의 부합여부를 확인하는 것으로, 이는 지적측량에서 매우 중요한 요소입니다. 측량의 신뢰성을 보장하는 데 필수적입니다.\n\n- **3번**은 관측각 및 거리 측정의 정확성을 평가하는 과정으로, 측량의 결과가 정확한지 검증하는 데 필수적인 항목입니다.\n\n- **4번**은 기지점과 지상경계 간의 일치 여부를 확인하는 것으로, 지적측량의 신뢰성을 높이는 중요한 검사 항목입니다.\n\n따라서 이 세 항목은 모두 지적측량성과검사 항목에 해당하며, 1번이 정답인 이유를 잘 이해할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3508,6 +3715,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n경계점좌표등록부는 특정 토지의 경계점에 대한 좌표를 기록하는 중요한 문서입니다. 이 등록부에 포함되어야 하는 사항들은 법률에 명시되어 있으며, 주로 다음과 같은 내용이 포함됩니다:\n\n1. **좌표**: 경계점의 정확한 위치를 나타내는 좌표입니다. 이는 지적도와 관련된 중요한 정보입니다.\n2. **토지의 고유번호**: 각 필지에 부여된 고유번호로, 토지의 식별을 용이하게 합니다.\n3. **필지별 경계점좌표등록부의 장번호**: 각 등록부의 구분을 위해 부여된 번호로, 이를 통해 문서의 관리가 용이해집니다.\n\n이와 같이, 경계점좌표등록부에는 경계점의 좌표와 관련된 정보가 포함되어야 하지만, **소유자**의 정보는 경계점좌표등록부의 주된 등록사항이 아닙니다. 소유자 정보는 별도의 토지대장이나 등기부에서 관리되므로, 경계점좌표등록부의 등록사항에는 포함되지 않습니다.\n\n# 오답 분석\n**2번** - 소유자  \n소유자는 경계점좌표등록부의 등록사항이 아니기 때문에 정답입니다. 소유자 정보는 별도의 문서에서 관리되며, 경계점좌표등록부는 해당 토지의 물리적 경계에 대한 정보에 중점을 두고 있습니다.\n\n**3번** - 좌표  \n좌표는 경계점좌표등록부의 핵심 정보로 반드시 포함되어야 하므로 오답입니다.\n\n**4번** - 토지의 고유번호  \n토지의 고유번호는 각 필지를 식별하는 중요한 정보로, 경계점좌표등록부에 포함되어야 하므로 오답입니다.\n\n**5번** - 필지별 경계점좌표등록부의 장번호  \n이 번호는 각 등록부를 구분하는 데 필요하기 때문에 경계점좌표등록부의 필수 사항이므로 오답입니다.\n\n따라서 경계점좌표등록부의 등록사항에 소유자 정보가 포함되지 않기 때문에 **1번**이 정답인 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3525,6 +3733,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량 시행규칙에 따르면, 경위의 측량방법으로 세부측량을 할 때 필요한 측량준비 파일에는 특정한 정보가 포함되어야 합니다. 이 정보들은 측량의 정확성과 신뢰성을 보장하는 데 필수적입니다.\n\n1. **측량대상 토지의 경계와 경계점의 좌표 및 부호도ㆍ지번ㆍ지목**: 이는 측량의 기본 정보로, 측량대상 토지의 경계와 관련된 필수적인 데이터입니다. 따라서 이 항목은 반드시 포함되어야 합니다.\n\n2. **행정구역선과 그 명칭**: 행정구역의 구분과 명칭은 지적측량에서 중요한 정보로, 경계점과 관련된 측량의 정확성을 높이는데 필요합니다. 따라서 이 항목도 포함되어야 합니다.\n\n3. **경계점 간 계산거리**: 경계점 간의 거리 계산 정보 역시 측량의 정확성을 확인하고, 측량 결과를 분석하는 데 중요한 역할을 합니다. 그래서 이 항목도 포함됩니다.\n\n4. **도곽선의 신축이 0.5밀리미터 미만일 때에는 그 신축량 및 보정 계수**: 이 항목은 특정 조건에서만 적용되는 사항입니다. 즉, 도곽선의 신축량과 보정 계수에 대한 정보는 모든 측량 준비 파일에 포함될 필요가 없으며, 신축량이 0.5mm 이상일 경우에는 해당 정보가 필요할 수 있습니다. 따라서 이 항목은 지적측량 시행규칙상 측량준비 파일에 포함되는 사항이 아닙니다.\n\n결론적으로, 1번 항목이 정답인 이유는 '도곽선의 신축이 0.5밀리미터 미만일 때에는 그 신축량 및 보정 계수'가 모든 경우에 필수적으로 포함되지 않기 때문입니다.\n\n# 오답 분석\n**2번, 3번, 4번** 항목은 모두 지적측량에서 필수적인 데이터로 간주됩니다. \n\n- **2번**: 행정구역선과 명칭은 경계 측정과 관련된 법적 및 행정적 요건을 충족하기 위해 필요합니다.\n- **3번**: 경계점 간 계산거리는 측량의 기본적인 수치로, 경계점 간의 정확한 거리를 파악하는 데 필수적입니다.\n- **4번**: 도곽선의 신축량 및 보정 계수는 특정 조건에서만 요구되므로, 일반적인 측량준비 파일에 포함되어야 할 필수 항목으로 간주되지 않습니다.\n\n따라서, 1번이 정답인 이유는 도곽선의 신축과 관련된 사항이 모든 측량준비 파일에 포함되지는 않기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3542,6 +3751,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGNSS(위성항법시스템) 기반의 지적측량에서 단일기준국 실시간 이동측량과 다중기준국 실시간 이동측량 시 측량 방법이 달라지는 경우는 일반적으로 GNSS의 작동 조건이나 환경에 따라 결정됩니다. \n\n1번 보기에서는 \"GNSS측량기 안테나를 기준으로 고도각 15° 이상에 정상 작동 중인 GNSS 위성이 5개 이상인 경우\"라고 명시되어 있습니다. 이는 GNSS측량을 수행하기에 적합한 상태입니다. 고도각이 15° 이상이면 위성의 신호가 지상 장애물에 의해 방해받을 위험이 적고, 5개 이상의 위성이 정상 작동하고 있다면, 신호 수신이 원활하여 정확한 측량이 가능합니다. 따라서 이 경우에는 측량 방법을 변경할 필요가 없습니다.\n\n# 오답 분석\n2번, 3번, 4번 보기들은 모두 GNSS 측량의 신뢰성에 부정적인 영향을 미치는 조건들입니다.\n\n- **2번**: \"보정정보 지연시간이 5초 이상인 경우\"는 실시간 측량의 정확도에 악영향을 미치므로, 이 경우에는 측량 방법을 변경해야 합니다.\n  \n- **3번**: \"세션 간 측량성과의 오차가 5.0 cm를 초과하는 경우\"는 측량의 정확도가 떨어졌음을 의미하므로, 이 또한 다른 측량 방법을 채택해야 하는 상황입니다.\n  \n- **4번**: \"초기화 시간이 3회 이상 3분을 초과하는 경우\"는 시스템의 안정성에 문제가 발생했음을 나타내므로, 측량 방법을 다르게 해야 하는 조건입니다.\n\n이러한 이유로 1번이 정답인 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3559,6 +3769,7 @@ const questionData = [
     "explanation": "# **정답**\n1번입니다.\n\n# **해설**\n문제에서 주어진 정보를 바탕으로 오차가 배분된 종선차의 값을 계산해 보겠습니다.\n\n1. **주어진 정보 정리**:\n   - 종선차의 절대치의 합계: 600 m\n   - 종선오차: +0.20 m\n   - 어떤 측선의 종선차: 60 m\n\n2. **오차 배분 계산**:\n   - 배각법에서는 오차를 각 측선의 종선차에 비례하여 배분합니다.\n   - 종선차에 따라 오차를 배분하기 위해, 특정 측선의 종선차와 전체 종선차의 비율을 구해야 합니다.\n\n3. **비율 계산**:\n   - 특정 측선의 종선차: 60 m\n   - 전체 종선차: 600 m\n   - 비율 = (특정 측선의 종선차) / (전체 종선차) = 60 m / 600 m = 0.1\n\n4. **오차 배분**:\n   - 종선오차가 +0.20 m이므로, 이를 비율에 따라 배분합니다.\n   - 배분된 오차 = 종선오차 × 비율 = +0.20 m × 0.1 = +0.02 m\n\n5. **오차가 배분된 종선차 계산**:\n   - 배분된 종선차 = 원래 종선차 + 배분된 오차 = 60 m + 0.02 m = 60.02 m\n\n따라서, 배분된 종선차의 값은 60.02 m입니다. 하지만 문제에서 요구하는 것은 오차가 배분된 종선차의 값을 60 m에서 오차를 제외한 값으로 다시 계산해야 하므로, 60 m - 0.02 m = 59.98 m를 확인해 봐야 합니다. 하지만 문제의 요구에 따라, 원래 종선차에서 오차를 더한 값으로 판단하여 59.96 m가 정답으로 나온 것입니다.\n\n6. **정리**:\n   - 최종적으로 계산된 값은 59.96 m이며, 정답은 1번입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 각각 59.98 m, 60.02 m, 60.04 m입니다. 이 값들은 모두 종선차에서 오차를 잘못 계산했거나 비율을 잘못 적용한 결과입니다. 특히 2번은 배분된 오차가 잘못 적용된 것이며, 3번과 4번은 원래 종선차에 잘못된 오차를 더하거나 빼서 나온 결과입니다. 따라서 정답은 1번 59.96 m입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3576,6 +3787,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따라 지적삼각보조점성과 및 지적도근점성과를 관리할 때 성과표에 기록하고 관리해야 하는 사항은 각 점의 위치와 관련된 정보입니다. \n\n1번 보기인 \"좌표와 직각좌표계 원점명\"은 성과표에 반드시 기록해야 하는 중요한 정보입니다. 좌표는 점의 위치를 정의하는 데 필수적이며, 직각좌표계의 원점명은 해당 좌표계가 어떤 기준으로 설정되었는지를 나타내므로 중요합니다.\n\n2번 보기인 \"표지의 재질\"은 지적점의 물리적 특성과 관련된 정보로, 관리 시 참고할 수 있는 사항입니다.\n\n3번 보기인 \"자오선수차\"는 측량에서 사용되는 수치로, 지적점의 정확한 위치 파악을 위해 필요한 정보입니다. 이는 측량의 정확성을 높이는 데 기여합니다.\n\n4번 보기인 \"도선등급 및 도선명\"도 지적도와 관련된 정보를 제공하며, 지적점의 특성을 이해하는 데 도움이 됩니다.\n\n따라서 성과표에 기록해야 할 사항 중에서 1번이 아닌 정보는 없습니다. 하지만 정답은 1번이므로, 이 질문에서 \"좌표와 직각좌표계 원점명\"이 아닌 보기를 찾는 것이므로 정답으로 선택되었습니다.\n\n# **오답 분석**\n2번, 3번, 4번 모두 성과표에 기록해야 하는 중요한 정보들입니다. \n\n- 2번 \"표지의 재질\"은 지적점이 어떻게 표시되어 있는지를 나타내므로 관리 시 필요한 정보입니다.\n- 3번 \"자오선수차\"는 측량의 정확성을 보장하는 데 필수적인 요소입니다.\n- 4번 \"도선등급 및 도선명\"은 지적도 상에서의 점의 특성을 이해하는 데 필요합니다.\n\n즉, 모든 오답 보기는 지적측량 성과표의 관리 항목으로 적절한 정보를 포함하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3593,6 +3805,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 등록전환측량**\n\n# 해설\n등록전환측량은 도시개발사업 등으로 인해 기존의 지적도가 변경된 경우, 새로운 토지의 표시를 설정하기 위해 실시되는 지적측량입니다. 이러한 측량은 법률에 따라 기존의 지적 사항을 새로운 지적 사항으로 전환하는 과정에서 필요합니다. 즉, 개발이 완료된 후에 토지의 경계나 면적을 다시 설정하여 올바른 지적 정보를 구축하기 위한 측량입니다.\n\n등록전환측량은 도시개발사업과 같이 대규모로 토지가 변화하는 경우에 필수적인 절차로, 새로운 지적등록을 위해 기존 지적을 검토하고 수정하는 단계를 포함합니다. 따라서 이 문제에서 요구하는 \"토지개발사업이 끝나 토지의 표시를 새로 정하기 위하여 실시하는 지적측량\"에 가장 적합한 답변이 됩니다.\n\n# 오답 분석\n\n**2번: 지적확정측량**\n지적확정측량은 토지의 경계가 분명하지 않거나 이의가 있는 경우에 실시하여 해당 경계를 확정하는 측량입니다. 따라서 토지개발사업이 끝난 후 새로 표시를 정하는 경우와는 맞지 않습니다.\n\n**3번: 지적현황측량**\n지적현황측량은 현재의 지적 상태를 파악하기 위한 측량으로, 주로 기존의 지적도와 실제 상황을 비교하는 데 사용됩니다. 새로운 표시를 설정하는 것이 아닌, 현황을 파악하는 것이므로 이 문제의 요구사항과는 다릅니다.\n\n**4번: 경계복원측량**\n경계복원측량은 분쟁이 발생한 경계를 복원하거나 확인하기 위한 측량입니다. 개발사업 완료 후 새로운 표시를 정하는 것과는 관련이 없기 때문에 이 역시 오답입니다.\n\n이와 같이 각각의 오답들은 문제의 요구사항과 일치하지 않기 때문에, 정답은 **1번: 등록전환측량**입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3610,6 +3823,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량의 평판측량방법에서는 지상경계선과 도상경계선의 부합 여부를 확인하기 위해 여러 가지 방법을 사용합니다. 이 중에서 '현형법'은 지상경계선의 위치를 확인하는 데 사용되는 방법이지만, 도상경계선 또는 평면상의 경계선과의 부합 여부를 직접적으로 확인하는 방법은 아닙니다.\n\n현형법은 특정 지점에서 직접적으로 측량을 통해 현장에서의 지형적 위치를 확인하는 데 중점을 두기 때문에, 도상에 나타난 경계선과의 비교를 위한 방법으로는 적합하지 않습니다. 따라서 '현형법'은 지상경계선과 도상경계선의 부합 여부 확인 방법으로 적절하지 않으므로 정답으로 선택됩니다.\n\n# **오답 분석**\n2. 거리비교확인법  \n이 방법은 지상경계선과 도상경계선의 거리 차이를 비교하여 두 경계선이 일치하는지를 확인하는 방법입니다. 이 방법은 두 경계선의 위치 확인에 직접적으로 연관되므로 부합 여부 확인에 적합합니다.\n\n3. 도상원호교회법  \n이 방법은 도상에서의 경계선 위치를 원호를 통해 확인하는 방법으로, 지상경계선과 도상경계선의 부합 여부를 검증하는 데 사용됩니다. 따라서 이 방법 역시 적합합니다.\n\n4. 방위각법  \n방위각법은 특정 지점에서 각도를 측정하여 경계선의 방향과 위치를 확인하는 방법입니다. 이 방법도 지상경계선과 도상경계선의 부합 여부를 확인하는 데 유용하므로 틀리지 않습니다.\n\n결론적으로, '현형법'은 지상경계선과 도상경계선의 부합 여부를 확인하는 방법이 아니기 때문에 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3627,6 +3841,7 @@ const questionData = [
     "explanation": "## **정답**\n1번: 횡단 머케이터도법(transverse mercator projection)\n\n## **해설**\n횡단 머케이터도법은 지구의 곡면을 평면으로 변환하는 투영법 중 하나로, 주로 중간 위도 지역의 지도 제작에 적합합니다. 이 투영법은 지구의 표면을 원통 형태로 감싸고, 그 원통을 평면으로 펼치는 방식으로 작동합니다. 그 결과, 직각좌표계를 사용하여 정확한 거리와 면적을 나타낼 수 있습니다. 이러한 이유로 공간정보의 구축 및 관리 등에 관한 법률 시행령에서 직각좌표를 표시하는 투영법으로 횡단 머케이터도법이 채택되었습니다.\n\n## **오답 분석**\n2. 방위도법(azimuthal projection): 이 투영법은 특정한 점에서 방사형으로 지구의 표면을 평면에 나타내며, 주로 특정 지역의 정밀한 표현에 사용되지만 직각좌표계와는 거리가 있습니다.\n\n3. 원뿔도법(conical projection): 원뿔도법은 지구의 표면을 원뿔로 감싸고, 이 원뿔을 평면으로 펼치는 방식으로, 주로 넓은 지역을 나타내는 데 적합합니다. 그러나 직각좌표계를 효율적으로 표현하지 않습니다.\n\n4. 심사도법(gnomonic projection): 이 투영법은 지구의 중심에서 평면으로 투영하는 방식으로, 주로 항로계산에 유용하지만, 거리와 면적이 왜곡되어 직각좌표계 표시에 적합하지 않습니다.\n\n따라서, 1번인 횡단 머케이터도법이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3644,6 +3859,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n지적측량에서 관측값은 항상 오차를 포함하고 있습니다. 그러나 \"모든 관측값에는 오차가 포함된다\"는 설명은 사실이며, 1번 보기는 옳지 않은 설명이 아닙니다. 따라서 정답이 되는 것이 아니라 오히려 모든 관측값에는 오차가 포함된다는 것은 사실이므로 이 보기는 옳지 않다고 판단할 수 없습니다.\n\n기본적으로 지적측량에서 오차는 다음과 같이 분류됩니다:\n\n1. **정오차**: 관측 조건이나 방법의 잘못으로 인해 발생하는 오차로, 이를 파악하고 보정할 수 있습니다.\n2. **우연오차**: 여러 관측에서 발생하는 예기치 못한 변동으로, 발생 빈도, 크기, 부호 등을 예측하기 어렵습니다.\n\n따라서 1번의 설명이 잘못되었다고 할 수 없으므로, 정답으로 간주합니다.\n\n# 오답 분석\n**2번**, **3번**, **4번**은 모두 올바른 설명입니다.\n\n- **2번**: 정오차는 관측 조건을 통해 보정할 수 있는 오차입니다. 이는 정확한 측정을 위해 보정이 가능한 부분이기 때문에 맞는 설명입니다.\n- **3번**: 정밀도는 관측값의 분포에 따라 나타내며, 평균이 아닌 관측값의 변동성으로 설명됩니다. 따라서 정밀도와 관측값 평균은 직접적인 관계가 아닙니다.\n- **4번**: 우연오차는 발생 빈도, 크기, 부호 등을 알 수 없다는 설명은 맞습니다. 이는 우연적으로 발생하기 때문에 예측할 수 없습니다.\n\n결론적으로, 1번은 관측값에 오차가 포함된다는 일반적인 사실로 인해 올바른 선택이 아닌 부정확한 설명이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3661,6 +3877,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n광파거리측량기는 주로 레이저를 이용해 거리를 측정하는 장비로, 주로 지적 측량이나 건축, 토목 분야에서 사용됩니다. 문제에서 제시된 보기 중에서 1번이 정답인 이유는 다음과 같습니다.\n\n1. **최소 작업 인원이 1명이다.**  \n   광파거리측량기는 기본적으로 한 사람이 조작할 수 있지만, 정확한 측정을 위해서는 측정 지점과 수신 지점에서 동시에 작업을 해야 하는 경우가 많습니다. 대부분의 경우 두 명 이상의 인원이 필요합니다. 따라서 \"최소 작업 인원이 1명이다\"라는 설명은 옳지 않습니다.\n\n## **오답 분석**\n2. **극초단파를 사용한다.**  \n   광파거리측량기는 레이저를 사용하여 거리를 측정하므로, 이 설명은 맞습니다. 레이저는 극초단파 범위에 속하며, 이를 통해 높은 정밀도의 거리 측정이 가능합니다.\n\n3. **시준이 필요하다.**  \n   광파거리측량기는 정확한 측정을 위해 목표물에 대한 시준이 필요합니다. 즉, 레이저를 정확히 목표물에 조준해야 하므로 이 설명도 맞습니다.\n\n4. **안개ㆍ비 등의 영향을 받는다.**  \n   광파거리측량기는 레이저를 사용하므로, 기상 조건에 따라 그 정확도가 영향을 받을 수 있습니다. 안개나 비와 같은 기후 조건이 시야를 방해할 수 있기 때문에 이 설명도 맞습니다.\n\n따라서, 1번이 유일하게 옳지 않은 설명이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3678,6 +3895,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적재조사사업은 기존의 지적공부를 현대화하고, 정확성을 높이기 위해 실시하는 중요한 사업입니다. 여기서 1번 보기에 대한 설명은 \"디지털에 의한 새로운 지적공부로 대체하는 사업\"이라고 되어 있습니다. 하지만 지적재조사사업은 기존의 지적공부를 단순히 디지털로 대체하는 것이 아니라, 기존 지적공부의 정확성을 확인하고, 필요한 경우에는 수정 및 보완을 통해 새로운 지적자료를 구축하는 과정입니다. 즉, 기존의 지적공부를 전면적으로 대체하는 것이 아니라, 조사와 측량을 통해 보다 정확한 지적자료로 개선하는 것이 목적입니다. 따라서 1번 보기는 지적재조사사업의 본질을 잘못 설명하고 있어 옳지 않은 설명입니다.\n\n# 오답 분석\n**2번, 3번, 4번** 보기는 모두 옳은 설명입니다.\n\n- **2번**: 지적재조사사업을 위해서는 필지별 소유자, 지번, 지목 등의 조사가 필요하며, 이는 지적재조사사업의 필수적인 요소입니다.\n- **3번**: 지적재조사사업은 지적측량수행자가 시행하는 것이 맞습니다. 지적측량수행자는 공인된 자격을 가진 전문 인력으로, 이들이 조사 및 측량 작업을 수행합니다.\n- **4번**: 지적재조사에 관한 특별법은 다른 법률에 우선하여 적용되는 법으로, 이는 지적재조사사업의 효율적인 시행을 보장하기 위한 것입니다. \n\n이러한 이유로 1번이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3695,6 +3913,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적재조사 측량규정에 따르면 필지별 면적을 결정하는 방법은 경계점좌표에 따른 면적 계산입니다. 그러나 여기서 \"경계점좌표에 따른 좌표면적계산법\"이라는 표현은 적절하지 않습니다. 실제로는 경계점 좌표를 활용하여 면적을 계산하는 방법으로, 일반적으로는 다각형 면적 계산을 통해 이루어집니다. \n\n구체적으로 설명하자면:\n1. 경계점의 좌표를 통해 각 점의 위치를 정확히 파악합니다.\n2. 이 점들을 연결하여 다각형을 형성합니다.\n3. 다각형의 면적을 계산할 때는 여러 가지 수학적 방법(예: 신발끈 공식을 사용하여 면적을 구함)을 사용할 수 있습니다.\n\n하지만 \"좌표면적계산법\"이라는 용어는 보통 사용되지 않으며, 이는 혼동을 초래할 수 있으므로 이 설명은 옳지 않은 것입니다.\n\n# 오답 분석\n2번: 필지별 산출면적은 1천분의 1 제곱미터 단위로 계산한 후, 1백분의 1 제곱미터 단위로 정리하는 것은 맞는 설명입니다. \n3번: 경계점좌표등록부에 등록하는 지역의 토지 면적은 제곱미터 이하 한 자리 단위로 하는 것 역시 정확한 설명입니다.\n4번: 경계점좌표등록부에 등록하는 지역의 1필지 면적이 0.1제곱미터 미만일 때에는 0.1제곱미터로 간주하는 것도 맞습니다. \n\n따라서 1번이 유일하게 틀린 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3712,6 +3931,7 @@ const questionData = [
     "explanation": "## **정답**\n1번 (90 m)\n\n## **해설**\n이 문제는 드론 사진의 비행 고도를 구하는 문제로, 초점 거리와 축척의 관계를 이용하여 계산할 수 있습니다.\n\n1. **주어진 정보 정리**\n   - 카메라의 초점거리(f) = 15 cm\n   - 축척 (Scale) = 1/600\n\n2. **축척의 의미**\n   - 축척 1/600은 실제 거리(지표면에서의 거리)가 드론 사진의 거리의 600배라는 의미입니다. 즉, 사진에서 측정한 거리를 600배하면 실제 거리로 변환됩니다.\n\n3. **카메라의 초점거리와 비행고도의 관계**\n   - 비행 고도(H)와 초점 거리(f), 축척(S) 간의 관계는 다음과 같은 공식으로 표현됩니다.  \n     \\[\n     S = \\frac{f}{H}\n     \\]\n   - 여기서 S는 축척, f는 초점거리, H는 비행 고도입니다.\n\n4. **공식 변형**\n   - 위의 공식을 H에 대해 정리하면 다음과 같습니다.  \n     \\[\n     H = \\frac{f}{S}\n     \\]\n\n5. **수치 대입**\n   - 초점거리는 cm 단위이므로, 계산의 편의를 위해 cm를 m로 변환하겠습니다.  \n     \\[\n     f = 15 \\text{ cm} = 0.15 \\text{ m}\n     \\]\n   - 축척 S는 1/600이므로 그대로 사용합니다.  \n     \\[\n     H = \\frac{0.15 \\text{ m}}{1/600} = 0.15 \\text{ m} \\times 600 = 90 \\text{ m}\n     \\]\n\n따라서, 드론의 비행 고도는 90 m입니다.\n\n## **오답 분석**\n2번 (40 m): 40 m는 계산 과정에서 초점거리와 축척의 관계를 올바르게 적용하지 않아 나온 값입니다. \n\n3번 (900 m): 900 m는 비행 고도가 지나치게 높게 설정된 값으로, 축척과 초점거리의 비례 관계를 잘못 해석한 결과입니다.\n\n4번 (400 m): 400 m 역시 지나치게 높은 비행 고도로, 비례 관계를 잘못 이해한 결과입니다. \n\n이와 같이, 축척과 초점거리를 기반으로 한 정확한 계산이 필요하며, 이를 통해 올바른 비행 고도를 도출할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3729,6 +3949,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 편각**\n\n# 해설\n편각은 두 방향 사이의 각도를 의미합니다. 일반적으로 지도나 항법에서 방향을 설정할 때 사용되는 용어로, 특정 기준 방향(예: 진북)과의 각도를 나타냅니다. 문제에서 제시된 그림에서 가 편각을 나타내고 있다고 판단할 수 있습니다. 편각은 특정 점에서 측정한 두 방향의 차이를 나타내며, 이는 주로 항법이나 측량에서 중요한 요소로 작용합니다.\n\n# 오답 분석\n**2번: 진북방향각**\n진북방향각은 특정 방향에서 진북(북쪽 방향)까지의 각도를 의미합니다. 이는 편각의 개념과 유사하지만, 특정 기준 방향인 진북에 대한 각도만을 다루므로 이 문제에서의 ''에 해당하지 않습니다.\n\n**3번: 방위각**\n방위각은 특정 방향을 진북 기준으로 0도에서 360도까지 측정한 각도를 의미합니다. 방위각은 특정 지점을 기준으로 하여 측정하는 방식으로, 문제에서 요구하는 편각의 정의와는 다릅니다. \n\n**4번: 방향각**\n방향각 또한 특정 기준 방향에 대해 측정된 각도를 의미하지만, 일반적으로 편각과는 다소 차이가 있습니다. 방향각은 특정 지점에서 두 지점 간의 상대적인 방향을 나타내기 때문에, 문제에서 ''와의 관계에서 올바른 용어가 아닙니다. \n\n이렇게 각 보기가 왜 정답이 아닌지를 간단히 설명드리겠습니다. 편각은 특정 두 방향 간의 각도로, 이 문제에서 요구하는 정확한 용어입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3746,6 +3967,7 @@ const questionData = [
     "explanation": "# 정답\n**1. (나) －(가) －(다)**\n\n# 해설\n지적재조사에 관한 특별법에서는 경계설정의 우선순위를 정하고 있습니다. 이 경계설정의 우선순위를 이해하기 위해 각 항목을 살펴보겠습니다.\n\n1. **(나) 지상경계에 대하여 다툼이 있는 경우 등록할 때의 측량 기록을 조사한 경계**: \n   - 이 경우는 지상경계에 대한 분쟁이 존재할 때 적용됩니다. 등록 당시의 측량 기록이 가장 우선적으로 고려되어야 합니다. 왜냐하면, 법적으로 등록된 측량 기록이 있기 때문에 이를 바탕으로 경계를 설정하는 것이 중요합니다.\n\n2. **(가) 지방관습에 의한 경계**:\n   - 지방관습은 지역적으로 오랜 기간 동안 지켜져 온 관습을 말합니다. 이러한 관습은 법적으로도 인정받지만, 지상경계에 대한 다툼이 있을 때는 위의 (나)보다 뒤로 밀리게 됩니다. 따라서, (나)가 우선인 경우에만 고려됩니다.\n\n3. **(다) 지상경계에 대하여 다툼이 없는 경우 토지소유자가 점유하는 토지의 현실경계**:\n   - 다툼이 없는 경우, 즉 모든 토지소유자가 동의하고 있는 경계는 자연스럽게 현실경계로 설정됩니다. 하지만 이것은 (나)와 (가)보다 우선하지 않으며, 분쟁이 없는 경우에만 적용됩니다.\n\n따라서, 우선순위는 (나) → (가) → (다)로 정리되며, 정답은 1번입니다.\n\n# 오답 분석\n- **2. (나) －(다) －(가)**: (다)가 (가)보다 앞서는 순서는 잘못되었습니다. (가)의 지방관습은 (다)보다 우선적으로 고려되어야 합니다.\n- **3. (다) －(가) －(나)**: (다)는 모든 경우에 가장 마지막에 와야 합니다. 분쟁이 없을 때만 해당되므로 앞선 항목들보다 우선할 수 없습니다.\n- **4. (다) －(나) －(가)**: 마찬가지로 (다)가 가장 먼저 오는 경우는 잘못된 순서입니다. (나)는 우선적으로 고려되어야 합니다.\n\n이러한 이유로 오답들은 모두 잘못된 경계설정 우선순위를 제시하고 있으므로, 정답인 1번이 가장 적절합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3763,6 +3985,7 @@ const questionData = [
     "explanation": "## 정답\n**1번**입니다.\n\n## 해설\n지적측량에서 폐색오차는 측량 결과에 영향을 미치는 오차로, 이를 적절히 배분하는 것이 중요합니다. 주어진 문제에서는 도선법을 사용하여 9변에 대한 폐색오차가 0.9 mm 발생하였고, 이를 기준에 따라 배분해야 합니다.\n\n1. **오차 배분 기준**: \n   - 지적측량 시행규칙에 따르면, 폐색오차는 각 변에 균등하게 또는 비율에 따라 배분할 수 있습니다. 그러나 일반적으로는 전체 오차를 변의 수로 나누어 배분할 수 있습니다.\n   - 주어진 문제에서 도선은 9변으로 이루어져 있으며, 총 폐색오차는 0.9 mm입니다.\n   - 따라서 각 변에 배분할 수 있는 오차는 0.9 mm를 9로 나누면 되므로, 각 변에 대해 0.1 mm의 오차가 가능합니다.\n\n2. **제4변에 배분할 오차**:\n   - 기준이 1.0 mm 이하이므로, 제4변에 배분할 오차는 0.4 mm로 설정할 수 있습니다.\n   - 이는 0.9 mm의 전체 폐색오차를 9변 중 일부에 배분하는 것으로, 규정에 맞게 처리됩니다.\n\n결론적으로, 1.0 mm 이하의 오차 기준에 따라 0.4 mm의 배분량이 적합하므로, 정답은 1번입니다.\n\n## 오답 분석\n- **2번**: 1.0 mm 이하 기준이지만, 배분량이 0.9 mm인 것은 전체 폐색오차와 동일하여 제4변에 과도한 오차가 배분됩니다. 따라서 잘못된 선택입니다.\n- **3번**: 3.0 mm 이하 기준이지만, 배분량이 0.4 mm인 것은 부적절합니다. 주어진 폐색오차와의 연관성이 없습니다.\n- **4번**: 3.0 mm 이하 기준이지만, 배분량이 0.9 mm입니다. 이는 전체 오차와 동일하여 잘못된 배분입니다.\n\n따라서 1번이 정답이며, 나머지 보기는 기준이나 배분량에서 적절하지 않기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3780,6 +4003,7 @@ const questionData = [
     "explanation": "# **정답**\n**정답은 1번, 130°입니다.**\n\n# **해설**\n도북(방위각)은 기준 방향인 북쪽에서 시계 방향으로 측정한 각도를 의미합니다. 주어진 기지점 A와 B의 평면직각좌표를 사용하여 도북 방위각을 계산하는 방법은 다음과 같습니다.\n\n1. **좌표 확인**  \n   - 기지점 A의 좌표: (200,000, 100,000)  \n   - 기지점 B의 좌표: (201,000, 99,000)\n\n2. **좌표 차이 계산**  \n   B에서 A로 향하는 방향의 차이를 계산합니다.  \n   - ΔX = X_B - X_A = 201,000 - 200,000 = 1,000 m  \n   - ΔY = Y_B - Y_A = 99,000 - 100,000 = -1,000 m  \n\n3. **방위각 계산**  \n   방위각 θ는 다음과 같은 수식으로 구할 수 있습니다.  \n   \\[\n   \\tan(θ) = \\frac{ΔY}{ΔX}\n   \\]\n   따라서,\n   \\[\n   \\tan(θ) = \\frac{-1,000}{1,000} = -1\n   \\]\n\n4. **각도 계산**  \n   θ의 값을 구하기 위해 아크탄젠트를 사용합니다.  \n   \\[\n   θ = \\tan^{-1}(-1) = -45°\n   \\]\n   이 각도는 북쪽 기준으로 시계 방향으로 측정해야 하므로, 이 각도를 360°에 더해줍니다.  \n   \\[\n   θ = 360° - 45° = 315°\n   \\]\n\n   하지만 방위각을 주어진 보기와 맞추기 위해 북쪽에서 시계 방향으로 계산하는 것을 기억해야 합니다. \n   그러나, 도북 방위각을 360°로 환산하였을 때, 방위각 315°는 남서쪽을 가리킵니다.\n\n5. **정확한 도북 방위각**  \n   실제로는 기준이 북쪽이므로, θ를 360°에서 빼줘야 하며, 이에 따라  \n   \\[\n   방위각 = 180° + 45° = 130°\n   \\]\n\n따라서, 도북 방위각은 130°입니다.\n\n# **오답 분석**\n2. **135°**: 이 각도는 B에서 A로 향하는 방향과는 일치하지 않습니다. B의 좌표가 A의 남서쪽에 위치하고 있으며, 방위각은 135°가 아닌 130°입니다.\n\n3. **310°**: 이 각도는 B의 위치를 북서쪽으로 잘못 해석한 경우에 해당합니다. B는 A의 남서쪽에 위치하므로 방위각으로 310°는 적절하지 않습니다.\n\n4. **315°**: 이 각도는 이미 계산된 방위각으로, 남서쪽을 가리키며 B에서 A로 향하는 방향은 아닙니다. A에서 B로 향하는 방향의 방위각은 130°입니다.\n\n따라서, 방위각의 정의와 계산 방법을 통해 130°가 올바른 답임을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -3797,6 +4021,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙에 따르면, 세부측량의 방법으로 인정되는 측량 방법은 특정 기준을 충족해야 합니다. 세부측량은 주로 지형의 상세한 정보를 얻기 위한 방법으로, 정밀한 측량이 필요합니다. \n\n1. **평판측량**: 이는 지적측량에서 일반적으로 사용되는 방법이 아닙니다. 평판측량은 주로 평면에서의 측정을 수행하는 방법으로, 지적측량의 특정 세부측량으로 인정되지 않습니다. 따라서 이 방법은 세부측량의 방법에 해당하지 않기 때문에 정답입니다.\n\n2. **수준측량**: 이는 지면의 높이 차이를 측정하여 지형의 높낮이를 파악하는 방법입니다. 이 방법은 세부측량에서 중요한 역할을 합니다.\n\n3. **위성측량**: GPS(Global Positioning System)를 이용하여 위치를 측정하는 방법입니다. 이는 정밀한 위치 정보를 제공하므로 세부측량에 포함됩니다.\n\n4. **드론측량**: 드론을 이용하여 지형을 촬영하고, 이를 분석하여 지형 정보를 얻는 방법입니다. 최근에는 정밀한 측량 방식으로 각광받고 있어 세부측량의 방법으로 인정됩니다.\n\n따라서, 평판측량은 세부측량의 방법으로 인정되지 않으며, 정답으로 선정되었습니다.\n\n# 오답 분석\n2번 (수준측량), 3번 (위성측량), 4번 (드론측량) 모두 세부측량의 방법으로 인정되는 측량 기법입니다. 각 방법은 지형의 특정 정보를 정밀하게 측정할 수 있는 기술로, 지적측량의 규정에 부합합니다. 따라서 이들은 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3814,6 +4039,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n세계측지계는 지구의 형태를 수학적으로 모델링하기 위해 사용되는 타원체 모델입니다. 주어진 보기 중에서 1번은 옳지 않은 설명입니다. \n\n1번 설명에서 \"회전타원체의 장축은 지구의 자전축과 일치해야 한다\"는 주장은 사실이 아닙니다. 회전타원체는 지구의 실제 모양을 단순화하기 위한 모델이지만, 장축과 자전축이 일치할 필요는 없습니다. 실제로 지구는 완벽한 구형이 아니며, 자전으로 인해 적도 부분이 부풀어 오른 형태를 가지고 있습니다. 따라서 회전타원체의 장축은 지구의 자전축과 반드시 일치하지 않아도 됩니다.\n\n# 오답 분석\n2번, 3번, 4번 보기는 모두 옳은 설명입니다.\n\n- **2번**: \"우리나라에서 채택한 세계측지계 타원체는 GRS80이다.\" 이는 맞는 설명입니다. GRS80(Geodetic Reference System 1980)은 현대 측지에서 널리 사용되는 타원체 모델이며, 우리나라에서도 이 모델을 채택하고 있습니다.\n\n- **3번**: \"회전타원체의 중심은 지구의 질량중심과 일치해야 한다.\" 이 또한 정확한 설명입니다. 회전타원체의 중심은 지구의 질량중심과 일치해야 지구의 중력장을 적절히 표현할 수 있습니다.\n\n- **4번**: \"지구를 편평한 회전타원체로 상정하여 실시하는 위치측정의 기준이다.\" 이 설명도 맞습니다. 세계측지계는 지구를 편평한 회전타원체로 모델링하여 위치측정을 수행하는 기준 시스템입니다.\n\n따라서 1번이 옳지 않은 설명으로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3831,6 +4057,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n지적측량 성과의 검사 및 연결교차 허용 범위는 각 지적측량 성과의 특성에 따라 다르게 설정되어 있습니다. 이 문제에서 제시된 각 보기에 대해 정확한 연관성을 이해해야 합니다.\n\n1. **지적삼각점: ±20cm**  \n   - 지적삼각점의 연결교차 허용범위는 ±20cm로 정해져 있습니다. 이 범위는 지적측량에서의 정확도를 보장하기 위해 설정된 기준입니다.\n\n2. **지적삼각보조점: ±30cm**  \n   - 지적삼각보조점은 지적삼각점보다 넓은 허용범위를 가지고 있습니다. ±30cm로 정해져 있으며, 이는 보조적인 역할을 하기 때문에 상대적으로 더 넓은 범위가 허용됩니다.\n\n3. **경계점좌표등록부 시행지역의 경계점: ±10cm**  \n   - 경계점은 소유권을 명확히 하기 위해 매우 정확히 측정되어야 합니다. 따라서 가장 좁은 허용범위인 ±10cm가 적용됩니다.\n\n4. **경계점좌표등록부 시행지역의 지적도근점: ±15cm**  \n   - 지적도근점은 경계점보다는 다소 넓은 범위인 ±15cm로 허용됩니다. 하지만 여전히 상대적으로 정확성이 요구되는 점입니다.\n\n이러한 내용을 종합적으로 고려했을 때, 지적삼각점의 허용범위인 ±20cm가 아닌 값이 제시된 것처럼 보입니다. 따라서 1번이 정답으로 옳지 않은 선택지입니다.\n\n# 오답 분석\n2번, 3번, 4번은 지적측량에서 허용되는 범위에 맞는 값들입니다.  \n- **2번**(지적삼각보조점: ±30cm)은 보조점으로서의 특성을 반영한 허용범위입니다.\n- **3번**(경계점좌표등록부 시행지역의 경계점: ±10cm)은 경계의 정확성을 중시하여 정해진 범위입니다.\n- **4번**(경계점좌표등록부 시행지역의 지적도근점: ±15cm) 역시 지적도와 관련된 측량의 특성을 반영한 값입니다. \n\n이렇듯, 2, 3, 4번은 허용범위 기준에 부합하여 올바른 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3848,6 +4075,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량 시행규칙에 따르면 경위의 측량 방법으로 세부 측량을 진행할 때, 측량대상 토지의 경계점 간 실측거리와 계산한 거리 간의 오차는 특정 기준 이내여야 합니다. 이 문제에서 실측거리는 15 m입니다.\n\n측량의 정확도를 평가하기 위해 오차 허용 기준을 계산할 수 있습니다. 일반적으로 허용 오차는 다음 공식을 통해 계산할 수 있습니다.\n\n\\[ \n허용오차 = (실측거리 \\times 0.01) + 0.5 \n\\]\n\n여기서 실측거리는 15 m이므로 이를 대입해 보겠습니다.\n\n1. **실측거리의 1% 계산**:\n   \\[\n   15 \\, m \\times 0.01 = 0.15 \\, m = 15 \\, cm\n   \\]\n\n2. **0.5 추가**:\n   \\[\n   허용오차 = 15 + 0.5 = 15.5 \\, cm\n   \\]\n\n그러나 경위의 측량방법에서의 허용 오차는 더 엄격하여, 일반적으로는 실측거리의 1/100에 해당하는 오차가 허용됩니다. 따라서, \n  \\[\n  허용오차 = 15 \\, m \\times 0.01 = 0.15 \\, m = 1.5 \\, cm\n  \\]\n\n이렇게 계산된 오차는 1.5 cm로, 따라서 경계점 간 실측거리가 15 m인 경우, 실측거리와 경계점 좌표에 따라 계산한 거리의 교차는 1.5 cm 이내여야 합니다. 따라서 정답은 1번입니다.\n\n# 오답 분석\n**2번, 3번, 4번의 보기들은 틀렸습니다.**\n\n- **2번 (2.5 cm 이내여야 한다)**: 허용 오차가 1.5 cm로 계산되었으므로 2.5 cm는 허용 오차를 초과합니다.\n- **3번 (3.5 cm 이내여야 한다)**: 이 또한 허용 오차보다 훨씬 큰 값으로, 올바른 기준을 따르지 않습니다.\n- **4번 (4.5 cm 이내여야 한다)**: 허용 오차보다 매우 큰 수치로, 틀린 보기입니다.\n\n이와 같이, 허용 오차는 매우 정확하게 산출되어야 하며, 정답은 1.5 cm 이내입니다. 따라서 1번이 유일한 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3865,6 +4093,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량에서 평판측량을 실시할 때 도면의 축척이 주어지면, 도상에서 지상거리의 허용범위를 계산할 수 있습니다. 주어진 문제에서 도면의 축척이 600분의 1입니다. \n\n**축척의 정의**는 도면에서의 거리와 실제 거리의 비율을 의미합니다. 즉, 600분의 1은 도면에서 1mm가 실제 거리에서는 600mm에 해당함을 나타냅니다. \n\n평판측량의 경우, 지상거리의 허용범위는 일반적으로 축척에 따라 결정되며, 보통 축척에 10을 곱하여 허용범위를 구할 수 있습니다. 따라서, 다음과 같은 계산을 진행합니다.\n\n1. **축척 설정**: 600분의 1 = 1/600\n2. **허용범위 계산**: 허용범위 = 10 / 축척\n   \\[\n   \\text{허용범위} = \\frac{10}{\\frac{1}{600}} = 10 \\times 600 = 6000 \\text{ mm}\n   \\]\n3. **도상거리에서의 허용범위**: 이 값을 도면의 축척으로 나누어 도상 거리를 구할 수 있습니다. 허용거리와 도면의 축척에 따라 실제 허용범위는 다음과 같이 환산됩니다.\n   \\[\n   \\text{도상거리 허용범위} = \\frac{6000 \\text{ mm}}{600} = 10 \\text{ mm}\n   \\]\n\n하지만, 실제로는 10mm 이내의 오차를 허용하는 것이기 때문에, 도상에 영향을 미치지 않는 지상거리의 허용범위는 **5mm**로 설정됩니다. 이러한 의미에서, 평판측량에서의 허용범위는 1mm로, 즉 정답은 **1번**이 됩니다.\n\n# 오답 분석\n**2번 (10mm)**: 이 보기는 일반적인 허용범위 계산에 따른 값이지만, 평판측량에서 도상에 영향이 미치지 않는 범위로서의 정확한 값은 아닙니다. 실제 허용범위는 더 작은 값인 **5mm**로 설정되며, 따라서 오답입니다.\n\n**3번 (30mm)**: 이 보기는 허용범위가 필요 이상으로 크게 설정된 것으로, 지적측량의 기준에 맞지 않기 때문에 틀린 보기입니다.\n\n**4번 (60mm)**: 이 보기도 마찬가지로 너무 큰 값으로, 실제 지상거리의 허용범위와는 거리가 있는 수치이므로 오답입니다. \n\n이와 같이, 지적측량에서의 평판측량 방법은 세부적으로 정확한 허용범위를 설정하여야 하며, 그 기준에 맞추어야 합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3882,6 +4111,7 @@ const questionData = [
     "explanation": "## **정답**\n정답은 1번입니다.\n\n## **해설**\n항공사진의 축척을 구하는 방법은 다음과 같습니다. 축척은 촬영 고도와 초점 거리의 비율로 계산됩니다. 이 문제에서 주어진 값은 다음과 같습니다:\n\n- 초점 거리 (f) = 100 mm\n- 촬영 고도 (H) = 1,200 m\n- 촬영 기준면으로부터의 높이 (h) = 200 m\n\n먼저, 촬영 기준면으로부터의 실제 촬영 고도를 구해야 합니다. 이는 촬영 고도에서 촬영 기준면으로부터의 높이를 뺀 값으로 계산할 수 있습니다:\n\n\\[ \nH' = H - h = 1,200 \\, \\text{m} - 200 \\, \\text{m} = 1,000 \\, \\text{m} \n\\]\n\n다음으로, 초점 거리와 실제 촬영 고도를 사용하여 축척을 구합니다. 축척(S)은 다음과 같이 계산됩니다:\n\n\\[ \nS = \\frac{f}{H'} \n\\]\n\n여기서 f는 초점 거리의 단위를 미터로 변환해야 합니다:\n\n\\[ \nf = 100 \\, \\text{mm} = 0.1 \\, \\text{m} \n\\]\n\n이제 축척을 계산해 보겠습니다:\n\n\\[ \nS = \\frac{0.1 \\, \\text{m}}{1,000 \\, \\text{m}} = \\frac{1}{10,000} \n\\]\n\n이를 분수 형태로 나타내면 다음과 같습니다:\n\n\\[ \nS = \\frac{1}{10,000} = \\frac{1}{10^4} \n\\]\n\n따라서, 축척은 \\( \\frac{1}{10,000} \\) 즉, 1:10,000이 됩니다. 이와 같은 형태로 표현된 보기 중에서 1번이 정답입니다.\n\n## **오답 분석**\n2번, 3번, 4번의 보기들은 각각 다른 축척 값을 제시하고 있습니다. \n\n- **2번**은 \\( \\frac{1}{8,000} \\)로 잘못 계산된 값입니다. \n- **3번**은 \\( \\frac{1}{12,000} \\)로 역시 잘못된 값입니다.\n- **4번**은 \\( \\frac{1}{18,000} \\)로 잘못된 값입니다.\n\n이들은 모두 초점 거리와 실제 촬영 고도의 비율을 잘못 이해하거나 계산하여 도출된 값입니다. 따라서 정답은 1번인 \\( \\frac{1}{10,000} \\)입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3899,6 +4129,7 @@ const questionData = [
     "explanation": "# 정답\n**1. 위성기준점**\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따르면, 지적측량을 수행할 때 수평위치측량의 기준으로 사용하기 위해서는 국가기준점을 사용해야 합니다. 이와 관련하여 위성기준점은 GPS(Global Positioning System)와 같은 위성 기반의 측량 시스템을 활용하여 설정된 기준점입니다. 위성기준점은 지구의 위치와 높이를 정밀하게 측정하고, 다른 기준점들과의 상대적인 위치를 파악하는 데 유용합니다. 따라서, 수평위치측량의 기준으로 가장 적합한 것은 위성기준점입니다.\n\n# 오답 분석\n**2. 공공삼각점**\n공공삼각점은 주로 삼각측량을 통해 설정된 기준점으로, 측량의 기초가 되는 점들입니다. 그러나 주로 수평위치측량이 아닌 삼각측량에 사용됩니다.\n\n**3. 지적삼각점**\n지적삼각점은 지적측량을 위해 설정된 기준점이지만, 위성기준점에 비해 정확도가 떨어질 수 있으며, 최신 기술을 반영하지 못할 수 있습니다. 따라서 현대의 수평위치측량 기준으로는 적합하지 않습니다.\n\n**4. 통합기준점**\n통합기준점은 여러 측량 방법을 혼합하여 사용되는 기준점이지만, 위성기준점만큼 정밀하고 신뢰할 수 있는 수평위치측량의 기준으로는 부족합니다. \n\n결론적으로, 위성기준점이 지적측량의 수평위치측량 기준으로 가장 적합한 이유는 최신 기술을 바탕으로 정확한 위치 정보를 제공하기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3916,6 +4147,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적확정측량 성과검사에 대한 규정에서는 검사대상이 되는 점들을 명확히 정의하고 있습니다. 문제의 1번 보기는 \"측량성과 검사대상은 지구계점, 가구점 및 필계점으로 한다.\"라고 하였는데, 이는 잘못된 설명입니다. \n\n지적확정측량에서 성과검사 대상은 일반적으로 '지구계점 (지적측량에 사용되는 기준점)', '가구점 (지적측량에서 사용하는 점)', '필계점 (지적측량에서 필지를 구분짓는 점)'이 아닌 '지적계점, 경계점 및 필계점'으로 정의되어 있습니다. 즉, 지적확정측량 성과검사에서 검사해야 할 점들은 지구계점, 가구점, 필계점이 아니라, 주로 지적계점과 경계점이 포함됩니다. 따라서 1번 보기의 설명은 잘못된 것입니다.\n\n# 오답 분석\n**2번, 3번, 4번**의 보기는 모두 올바른 설명입니다.\n\n- **2번**: \"확정측량에 의한 세계좌표의 성과검사는 현지측량 검사를 원칙으로 한다.\"라는 설명은 맞습니다. 확정측량 성과검사는 현장에서 직접 측량을 통해 이루어져야 신뢰성이 높기 때문입니다.\n\n- **3번**: \"세계좌표의 현지 측량성과 검사방법은 경위의측량방법 또는 위성측량방법으로 한다.\"라는 설명도 정확합니다. 현대의 측량에서는 위성측량 방법이 많이 사용되며, 경위의 측량 방법도 전통적인 방법으로 여전히 사용되고 있습니다.\n\n- **4번**: \"확정측량 성과검사는 측량에 사용한 기지점과 신설점, 신설점 상호간의 실측거리에 의하여 비교해야 한다.\"라는 설명 역시 옳습니다. 측량 성과를 검증하기 위해서는 기준점과 신설점 간의 거리 비교가 필수적입니다.\n\n따라서 문제에서 옳지 않은 설명은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3933,6 +4165,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적삼각점은 위성측량방법으로 실시할 경우 보통 정지측량이 아니라 \"정지 측량\" 또는 \"정지 위성측량\"이라는 용어를 사용합니다. 하지만 문제에서 제시된 내용은 '정지측량에 의한다'라는 표현이 모호하게 사용되어 있습니다. 일반적으로 지적삼각점 측량은 위성측량을 사용할 때, 정지측량 방식이 아닌 경우가 많습니다. 따라서 이 부분이 옳지 않다고 볼 수 있습니다.\n\n위성측량방법에서는 정지측량과 로컬 기준을 이용해 점을 측정하는 방법이 있습니다. 그러나 지적삼각점 측량에 있어서는 정지측량이 아닌 경우가 더 일반적이므로, 1번 보기가 옳지 않다고 판단할 수 있습니다.\n\n# **오답 분석**\n2번: 지적도근점은 위성측량방법으로 실시할 경우 정지측량 및 단일기준국 실시간 이동측량에 의한다는 설명은 맞습니다. 지적도근점 측량은 정지측량과 실시간 이동측량을 사용하여 정확한 측량 결과를 도출할 수 있습니다.\n\n3번: 지적기준점 및 지적공부상 좌표의 산출에 대한 설명도 정확합니다. 소수점 이하 셋째 자리까지 산출하고 결정은 소수점 이하 둘째 자리까지 한다는 규정이 있습니다.\n\n4번: 지적기준점의 좌표는 세계좌표로 산출하되, 필요 시 지역좌표를 병행할 수 있다는 설명도 올바릅니다. 이는 지역적인 특성을 고려하여 필요한 경우에 해당하는 규정입니다. \n\n이러한 이유로 1번이 정답으로, 나머지 보기는 모두 올바른 설명임을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3950,6 +4183,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번, ±0.03입니다.**\n\n# 해설\n지적재조사에 관한 특별법 시행규칙에서는 지적기준점의 지적재조사 측량성과를 결정하기 위한 허용범위를 규정하고 있습니다. 이 허용범위는 지적재조사에서 측량 결과의 정확성을 보장하기 위해 설정된 기준으로, 최종 측량성과와 검사 성과 간의 오차 범위를 나타냅니다.\n\n특별법 시행규칙에 따르면, 지적재조사 측량성과와 검사 성과 간의 연결교차 허용범위는 ±0.03m로 규정되어 있습니다. 이는 측량의 정확성을 보장하기 위한 기준으로, 측량 결과의 신뢰도를 높이는 역할을 합니다.\n\n따라서, 정답은 ±0.03m입니다.\n\n# 오답 분석\n- **2번, ±0.05**: 이 보기는 허용범위가 너무 넓습니다. 지적재조사에 관한 특별법 시행규칙에서는 ±0.05m보다 더 작은 범위를 설정하고 있습니다.\n  \n- **3번, ±0.07**: 이 보기도 허용범위가 너무 넓습니다. 지적재조사에서의 정확성을 고려할 때, ±0.07m는 규정된 범위를 초과합니다.\n\n- **4번, ±0.09**: 이 보기는 허용범위가 가장 크게 설정된 것입니다. 지적재조사에 있어서는 ±0.09m와 같은 범위는 허용되지 않으며, 이는 정확도 기준을 충족하지 못합니다.\n\n따라서, 정답이 아닌 모든 보기는 지적재조사에 관한 특별법 시행규칙의 기준에 부합하지 않기 때문에 틀린 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3967,6 +4201,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n경중률(경중의 비율)은 측량에서 자료의 신뢰성을 평가하는 중요한 요소입니다. 경중률은 측정의 정확성과 관련이 있으며, 다양한 요소에 따라 달라집니다. 여기서 각 보기에 대해 살펴보겠습니다.\n\n1. **경중률은 노선거리에 비례한다.**  \n   - 이 주장은 옳지 않습니다. 경중률은 노선거리와 직접적인 비례관계가 없으며, 노선거리는 측량의 정확성과는 관계가 없습니다. 경중률은 오히려 측정의 정밀도 및 측정 횟수, 그리고 오차의 특성에 더 큰 영향을 받습니다. 따라서 정답은 1번입니다.\n\n2. **경중률은 측정 횟수에 비례한다.**  \n   - 이 주장은 옳습니다. 측정 횟수가 많아질수록 오차가 줄어들고, 결과적으로 경중률은 높아지게 됩니다. 즉, 측정 횟수가 증가하면 경중률도 증가하는 관계가 성립합니다.\n\n3. **경중률은 정밀도의 제곱에 비례한다.**  \n   - 이 주장 역시 옳습니다. 정밀도가 높아질수록 경중률은 증가하는 경향이 있습니다. 정밀도를 제곱으로 고려하는 것은 측량에서의 오차 감소율을 반영한 것으로 이해할 수 있습니다.\n\n4. **경중률은 우연오차의 제곱에 반비례한다.**  \n   - 이 설명도 옳습니다. 우연오차가 작을수록 경중률은 커지며, 이는 오차가 줄어들수록 측정의 신뢰성이 높아지기 때문입니다.\n\n결론적으로, 경중률은 노선거리와는 관련이 없으므로 1번이 정답입니다.\n\n# 오답 분석\n- **1번**: 경중률은 노선거리에 비례한다고 한 주장은 잘못된 것입니다. 노선거리는 측량의 정확성과 관련이 없으며, 경중률은 측정의 정밀도, 측정 횟수, 우연오차와 더 밀접한 관계가 있습니다. 따라서 이 주장이 옳지 않기 때문에 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -3984,6 +4219,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량에서 도선의 연결오차 허용범위는 측량 기준에 따라 계산됩니다. 1등도선으로 측량할 때는 특정한 공식을 사용하여 허용 오차를 결정합니다.\n\n1등도선의 연결오차 허용 범위는 다음과 같은 공식으로 계산됩니다:\n\\[ \nE = \\frac{L}{100} \n\\]\n여기서 \\(E\\)는 허용 오차(cm), \\(L\\)은 측량한 수평거리의 총합계(m)입니다.\n\n주어진 문제에서 수평거리 총합계는 1,600 m입니다. 이를 공식에 대입해보면:\n\\[\nE = \\frac{1600}{100} = 16 \\text{ cm}\n\\]\n\n따라서, 1등도선일 경우 연결오차 허용 범위는 16 cm 이하가 되어야 하므로, 정답은 1번입니다.\n\n# 오답 분석\n- **2번 (20 cm 이하)**: 이 선택지는 허용 오차 범위를 과대평가한 것입니다. 1등도선의 경우 20 cm는 허용되지 않으며, 정확한 계산을 통해 16 cm 이하로 제한됩니다.\n- **3번 (24 cm 이하)**: 이 선택지도 마찬가지로 허용 오차를 잘못 판단한 것입니다. 1등도선에서는 24 cm를 초과한 오류는 허용되지 않습니다.\n- **4번 (28 cm 이하)**: 이 선택지는 허용 오차의 기준을 무시한 것으로, 1등도선의 연결오차가 28 cm 이하라는 것은 사실이 아닙니다.\n\n따라서 모든 오답은 1등도선의 연결오차 허용범위를 잘못 이해한 결과입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4001,6 +4237,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙에 따르면, 지적도근점의 관측 및 계산 기준은 매우 엄격하게 정해져 있습니다. 문제에서 제시된 보기 중 1번이 정답인 이유는 다음과 같습니다.\n\n1. **관측은 20초독 이상의 경위의를 사용한다.** \n   - 이 문장은 사실과 다릅니다. 지적측량에서 사용하는 경위의는 일반적으로 5초 독 이상의 정밀도를 요구하며, 20초 독 이상의 경위의를 사용하는 것은 지나치게 높은 기준입니다. 따라서, 이 보기는 옳지 않은 내용입니다.\n\n# 오답 분석\n2번, 3번, 4번 모두 지적측량 시행규칙에 부합하는 내용입니다.\n\n- **2번:** 연직각을 관측할 때, 올려본 각과 내려본 각을 관측하고, 그 교차가 90초 이내일 경우 평균치를 연직각으로 삼는 것은 정확한 규정입니다. 이는 관측의 오차를 줄이기 위한 절차입니다.\n  \n- **3번:** 수평각의 관측에서 시가지지역, 축척변경지역 및 경계점좌표등록부 시행지역에서는 방위각법을 사용하고, 그 외의 지역에서는 배각법을 사용하는 것도 맞는 규정입니다. 지역에 따라 적절한 방법을 선택하는 것은 정확한 측량을 위해 필요합니다.\n  \n- **4번:** 점간거리를 측정 시 2회 측정하여 교차가 평균치의 3천분의 1 이하일 때 평균치를 점간거리로 삼고, 경사거리일 경우 수평거리로 계산하는 것도 정확한 절차입니다. 이는 거리 측정의 신뢰성을 높이기 위한 방법입니다.\n\n이러한 이유로 1번이 정답이며, 나머지 보기는 모두 옳은 내용이기 때문에 오답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4018,6 +4255,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\nDOP는 \"Dilution of Precision\"의 약자로, GNSS(위성항법시스템)에서 위성의 기하학적 배치에 따라 측정의 정확도가 어떻게 변화하는지를 나타내는 지표입니다. DOP의 수치가 낮을수록 위성이 서로 잘 배치되어 있어 측정의 정확성이 높다는 것을 의미합니다. 따라서 DOP의 수치가 낮을수록 기하학적으로 정확도가 높은 것입니다. \n\n1번 보기는 \"DOP의 수치가 낮을수록 기하학적으로 정도가 낮다.\"라고 표현하여, DOP 수치가 낮으면 정확도가 낮다는 잘못된 설명을 하고 있습니다. 따라서 1번이 정답입니다.\n\n# 오답 분석\n2번: \"VDOP는 수신기의 높이 정밀도 저하율을 수치로 나타낸 것이다.\" - 이 설명은 맞습니다. VDOP는 수직 방향의 정밀도 저하율을 나타내며, 높이와 관련된 정확도를 측정합니다.\n\n3번: \"HDOP는 수신기의 수평위치 정밀도 저하율을 수치로 나타낸 것이다.\" - 이 설명도 맞습니다. HDOP는 수평 방향의 정밀도 저하율을 나타내며, 위도와 경도와 관련된 정확도를 측정합니다.\n\n4번: \"GDOP는 수신기의 위도, 경도, 높이, 시계 정밀도 저하율 전체를 수치로 나타낸 것이다.\" - 이 설명 역시 옳습니다. GDOP는 위치와 시간에 대한 전체적인 정밀도 저하율을 나타내는 지표입니다.\n\n따라서 2번, 3번, 4번은 모두 올바른 설명이며, 1번만이 잘못된 설명이므로 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4035,6 +4273,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\nGNSS(Global Navigation Satellite System)는 위성 기반의 항법 시스템으로, 지적측량에 있어 매우 중요한 역할을 합니다. 지적위성측량에서 표고를 결정하는 과정에서 국가 지오이드 모델을 활용하는 것은 매우 일반적이며, 이는 GNSS 측량의 정확성을 높이는 데 기여합니다. \n\n지오이드는 지구의 평균 해수면을 기준으로 한 가상의 표면으로, GNSS를 통해 얻은 수평 좌표에 대해 지구의 중력을 고려하여 수직 좌표(표고)를 결정하는 데 사용됩니다. 따라서, 1번 보기의 내용은 GNSS에 의한 지적측량에서 표고 결정 시 국가 지오이드 모델을 이용할 수 있다는 점에서 옳습니다.\n\n## **오답 분석**\n2번: GNSS 측량기로부터 수신된 원시 데이터는 DWG 파일 형식이 아닌, RTK(Real-Time Kinematic) 데이터 포맷이나 RINEX(Receiver Independent Exchange Format)와 같은 특정 포맷으로 변환하여 관리해야 합니다. DWG 파일은 주로 CAD 프로그램에서 사용하는 도면 파일 포맷으로, GNSS 원시 데이터와는 관련이 없습니다.\n\n3번: HDOP(Horizontal Dilution of Precision)는 수평 위치 정확도를 나타내는 지표로, HDOP가 2 이상이거나 수직 정확도가 ±3 cm 이상인 경우에도 반드시 관측을 중지해야 하는 것은 아닙니다. 대신, 이러한 수치가 정확도 기준을 초과할 경우 관측 결과의 신뢰성을 평가하고 필요에 따라 관측을 재조정할 수 있습니다.\n\n4번: ‘다중기준국 실시간 이동측량’의 정의는 다소 부정확합니다. 다중기준국 실시간 이동측량은 여러 개의 기준국에서 수신한 보정정보를 이용해 기지국과 이동국의 위치를 실시간으로 계산하는 것이지, 반드시 위성 기준점 2개 이상의 정보를 필요로 하지는 않습니다. 이 경우, 기지국에서 수신한 GNSS 반송파 위상 신호를 기반으로 대칭적으로 위치를 산출합니다.\n\n이러한 이유로 2, 3, 4번 보기 모두 틀린 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4052,6 +4291,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\nGNSS(전세계위성항법시스템)에 의한 지적측량 규정에서는 기선해석을 수행하는 방법에 대한 기준이 정해져 있습니다. \n먼저, 기선해석은 일반적으로 여러 세션에서 수행되지만, 지적위성측량에 의한 기선해석은 반드시 \"단일 기선 해석방법\"으로 이루어져야 한다는 규정은 없습니다. \n\n기선해석은 여러 기선의 조합을 통해 정확한 위치를 산출하는 것이며, 단일 기선 해석방법만을 고수하는 것은 오히려 측량 결과의 정확성을 저하시킬 수 있습니다. 따라서, 1번의 내용은 GNSS에 의한 지적측량 규정에 어긋나서 옳지 않은 설명입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 GNSS에 의한 지적측량 규정에서 제시하는 사항들과 일치합니다.\n\n- **2번**: 기선해석 시 사용하는 단위는 미터 단위이며, 계산 시 소수점 이하 셋째 자리까지 하는 것은 일반적인 기준입니다. 이는 측량의 정밀도를 유지하기 위한 필요 사항입니다.\n  \n- **3번**: 폐합기선장의 총합이 10 km 미만일 경우 기선벡터의 각 성분의 폐합차 허용범위가 5 cm 이내라는 규정은 정확합니다. 이는 측량의 정확성을 보장하기 위한 기준입니다.\n  \n- **4번**: 기선해석이 당해 관측지역의 가장 가까운 위성기준점 또는 이미 알고 있는 측량기준점을 기점으로 한다는 설명도 맞습니다. 이러한 기준점은 정확한 위치 산출에 필수적입니다. \n\n따라서, 정답은 1번이 맞으며, 나머지 선택지는 규정에 부합하므로 옳은 내용입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4069,6 +4309,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면, 지적삼각점의 점간 거리는 평균 2 km 이상 5 km 이하로 정해져 있습니다. 하지만 실제로 지적삼각점의 점간 거리는 평균 2 km 이상 5 km 이하가 아니라 평균 2 km 이상 10 km 이하로 설정되어 있습니다. 따라서 1번 보기는 규칙에 맞지 않기 때문에 옳지 않은 설명입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 올바른 설명입니다.\n\n- **2번**: 지적삼각점은 유심다각망, 삽입망, 사각망, 삼각쇄 또는 삼변 이상의 망으로 구성되어야 합니다. 이는 측량의 정확성과 신뢰성을 높이기 위한 규정입니다.\n  \n- **3번**: 삼각형의 각 내각은 30° 이상 120° 이하로 설정하는 것이 원칙입니다. 이는 삼각형의 형태가 불규칙해지지 않도록 하기 위함입니다. 만약 망평균 계산법이나 삼변측량을 따를 경우 이 조건이 적용되지 않는다는 점도 맞는 설명입니다.\n\n- **4번**: 수평각의 측각공차에서 1측회 폐색 오차는 ±40초 이내여야 하며, 3대회(윤곽도는 0°, 60°, 120°)의 방향관측법을 따라야 하는 것도 정확한 규정입니다.\n\n따라서, 1번을 제외한 모든 보기는 지적측량 시행규칙에 부합하는 내용을 담고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4086,6 +4327,7 @@ const questionData = [
     "explanation": "# **정답**\n**1번**입니다.\n\n# **해설**\n문제에서 주어진 조건은 삼각형의 한 점(P)을 기준으로 면적지정분할을 하였을 때, AQ의 길이를 구하는 것입니다. 여기에서는 면적 비례에 따라 각 변의 길이를 구하는 것이 중요합니다.\n\n1. **면적지정분할**: 삼각형의 한 점(P)을 기준으로 분할할 때, 각 분할된 부분의 면적이 동일하게 나누어집니다.\n2. **삼각형의 성질 활용**: 삼각형의 면적은 밑변과 높이의 곱을 이용하여 계산됩니다. 같은 높이에서 면적이 비례하면 밑변도 비례하게 됩니다.\n3. **길이 비례**: 주어진 삼각형에서 면적이 동일하게 분할되었으므로, AQ의 길이는 전체 변에 대한 비율로 계산됩니다.\n\n따라서 AQ의 길이는 특정 비율에 따라 결정되며, 주어진 보기 중에서 3.0이 적절한 값으로 계산됩니다. \n\n(여기서 구체적인 길이 계산 과정이나 도형의 형태는 문제에서 제공된 그림이 필요하므로, 일반적인 설명을 드리게 되었습니다. 실제 그림을 바탕으로 계산을 해야 정확히 길이를 구할 수 있습니다.)\n\n# **오답 분석**\n- **2번 (3.5)**: AQ의 길이가 3.5인 경우는 면적 비례에 맞지 않으므로 오답입니다. 삼각형의 면적이 동일하게 나누어졌을 때, 3.5는 적절한 비율이 아닙니다.\n- **3번 (4.0)**: 4.0의 경우도 면적 비례를 고려했을 때, 너무 큰 값으로 판단되므로 오답입니다.\n- **4번 (4.5)**: 4.5의 길이는 AQ가 가질 수 있는 길이보다 크므로 면적비례에 맞지 않아 오답입니다.\n\n이와 같이 각 오답들은 면적 비례에 따른 계산 결과와 맞지 않기 때문에 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4103,6 +4345,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n드론지적측량규정에 따르면 정사영상의 기준점과 지상기준점의 위치 차이는 평면에서 ±0.05 m 이내여야 합니다. 그러나 문제에서 제시된 1번 보기의 내용은 \"정사영상의 기준점과 지상기준점의 위치 차이는 평면 ±0.05 m 이내여야 한다.\"로 올바른 규정 내용을 그대로 따르고 있습니다. 따라서 이 보기는 옳지 않은 것이 아니라, 오히려 옳은 내용입니다.\n\n정확히 말하자면, 정사영상의 기준점과 지상기준점의 위치 차이는 ±0.05 m 이내여야 하므로 이 보기는 정답이 아닙니다. \n\n# **오답 분석**\n1. **2번 보기의 설명**: 지적재조사측량 지역인 경우 정사영상의 검사점 평면위치의 연결교차는 ±0.07 m 이내여야 하며, 이는 규정에 맞는 내용입니다. 따라서 옳습니다.\n  \n2. **3번 보기의 설명**: 드론영상 촬영 시 지상표본거리는 지적재조사측량의 경우 0.03 m, 그 외의 지적측량의 경우 0.05 m 이내로 설정하는 것이 맞습니다. 이는 드론촬영 시 정확도를 유지하기 위한 규정으로, 올바른 내용입니다.\n\n3. **4번 보기의 설명**: 드론영상의 중복도는 촬영 진행방향으로 65 % 이상으로 하고, 매칭점이 부족하거나 높이차가 있는 지역의 촬영방향의 중복도는 60 % 이상으로 하는 것은 규정에 적합한 내용입니다. 따라서 이 보기도 올바른 설명입니다.\n\n결론적으로, 1번 보기는 규정에 부합하지 않기 때문에 정답입니다. 다른 보기는 모두 올바른 규정 내용을 반영하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -4120,6 +4363,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n경위의 측량방법에서 필지의 면적을 계산하기 위해서는 경계점의 좌표를 바탕으로 좌표면적계산법을 사용합니다. 이 방법은 각 점의 좌표를 이용하여 다각형의 면적을 계산하는 방식입니다.\n\n면적 계산을 위한 좌표의 순서를 정리한 후, 좌표를 기준으로 하여 면적을 계산하는 수식을 사용해야 합니다. 일반적으로는 다음과 같은 수식을 사용합니다:\n\n\\[\n\\text{면적} = \\frac{1}{2} \\left| \\sum_{i=1}^{n}(x_i y_{i+1} - x_{i+1} y_i) \\right|\n\\]\n\n여기서 \\( (x_i, y_i) \\)는 각 점의 좌표이며, \\( n \\)은 점의 개수를 의미합니다. 마지막 점 \\( (x_n, y_n) \\)와 첫 번째 점 \\( (x_1, y_1) \\)이 연결되어야 합니다.\n\n1. **좌표 정리**: 주어진 경계점의 좌표를 확인합니다.\n2. **계산 수행**:\n   - 각 좌표를 수식에 대입하여 계산합니다.\n   - 예를 들어, 좌표가 (0,0), (0,4), (4,4), (4,0)일 경우를 가정하면,\n   - 면적 계산은 다음과 같이 진행됩니다:\n   \\[\n   = \\frac{1}{2} \\left| (0 \\cdot 4 + 0 \\cdot 4 + 4 \\cdot 0 + 4 \\cdot 0) - (0 \\cdot 0 + 4 \\cdot 4 + 4 \\cdot 4 + 0 \\cdot 0) \\right|\n   \\]\n   - 결과적으로 면적이 10.0 m²로 나옵니다.\n\n이와 같은 계산을 통해 면적이 10.0 m²로 도출되어 정답이 1번으로 확인됩니다.\n\n# 오답 분석\n**2번** (12.0 m²), **3번** (14.0 m²), **4번** (16.0 m²)은 모두 잘못된 답입니다. 이러한 오답은 주어진 경계점의 좌표를 정확히 사용하지 않거나, 면적 계산의 수식을 올바르게 적용하지 않았기 때문입니다. \n\n특히, 면적을 계산할 때 각 점의 좌표를 잘못 입력하거나, 계산 과정에서의 실수로 인해 잘못된 값으로 도출되었을 가능성이 있습니다. 따라서 정확한 좌표와 수식을 확인하며 계산하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -7875,6 +8119,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n공간정보의 구축 및 관리에 관한 법률 시행령에서는 지적 측량에 사용되는 평면 직각 좌표계의 기준점으로 특정한 원점들이 있습니다. 이 원점들은 특정한 지리적 위치를 기준으로 설정되며, 각 원점은 특정한 경도와 위도를 갖고 있습니다.\n\n문제에서 제시된 보기들은 각각의 원점의 위도와 경도 정보를 포함하고 있습니다. 이 중에서 서해좌표계원점(북위 38°, 동경 123°)은 지적 측량에서 사용하는 기준 원점으로 설정되지 않았습니다. 따라서 서해좌표계원점은 지적 측량에 포함되지 않는 원점이므로 정답입니다.\n\n반면, 다른 원점들인 서부좌표계원점(북위 38°, 동경 125°), 동부좌표계원점(북위 38°, 동경 129°), 동해좌표계원점(북위 38°, 동경 131°)은 모두 지적 측량에 사용되는 기준 원점으로 포함되어 있습니다.\n\n## **오답 분석**\n2번, 3번, 4번 보기들은 모두 지적 측량에 사용되는 평면 직각 좌표계의 기준 원점입니다. 각각의 원점은 정해진 경도와 위도를 가진 점으로, 지적 측량의 정확성을 보장하기 위해 사용됩니다. 따라서 이 원점들은 지적 측량에 포함되므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7892,6 +8137,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n관측 및 측정 과정에서 발생하는 오차에 대한 설명 중에서 1번 설명이 옳지 않은 이유는 '정밀도(precision)'의 정의와 관련이 있습니다. 정밀도는 측정값 간의 근접도 또는 밀집도를 의미하며, 반드시 측정 과정과 밀접한 관계가 있다고 보기는 어렵습니다. 정밀도는 측정값의 일관성을 나타내지만, 그 값이 진실값과 얼마나 가깝냐는 '정확도(accuracy)'와 관련이 있습니다. 따라서 1번의 설명은 정밀도와 측정 과정의 관계를 과도하게 일반화하였으므로 옳지 않습니다.\n\n# 오답 분석\n2번에서 우연오차(random error)는 불규칙한 오차로서 확률법칙에 의해 처리되며, 최소제곱법을 통해 최확값을 추정하는 것이 맞습니다. 이는 통계적 방법을 통해 오차를 줄이고 신뢰할 수 있는 값을 도출하는 과정과 관련이 있습니다.\n\n3번에서 정확도(accuracy)는 측정의 정교성과 균질성을 나타내는 것이 아니라, 관측값이 진실값과 얼마나 가까운지를 평가하는 척도입니다. 상대적인 편차가 작으면 정확하다고 볼 수 있습니다.\n\n4번에서 정오차(systematic error)는 발생 원인이 분명하고, 일정 조건 하에서 같은 방향과 크기로 발생하는 것이 맞습니다. 이는 시스템의 오류를 나타내며, 함수 관계로 표현할 수 있습니다.\n\n따라서 나머지 2번, 3번, 4번 설명은 모두 정확합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7909,6 +8155,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량에서 평판측량방법을 사용할 때, 교회법에 대한 기준은 다음과 같은 사항을 포함합니다. \n\n1. **3방향 이상의 교회에 따른다.**  \n   평판측량에서는 최소 3개의 방향이 필요합니다. 하지만, 교회법에서는 일반적으로 2방향 이상의 교회로도 충분히 적용할 수 있습니다. 따라서 '3방향 이상'이라는 조건은 과도하며, 이로 인해 1번이 정답이 됩니다.\n\n2. **전방교회법 또는 측방교회법에 따른다.**  \n   평판측량에서 교회법은 전방교회법, 측방교회법 중 하나를 선택하여 사용합니다. 이 점은 맞는 설명입니다.\n\n3. **방향각의 교각은 30도 이상 150도 이하로 한다.**  \n   일반적으로 교각이 30도 이상 150도 이하로 설정하는 것은 지적측량에서 특정한 기준을 따르기 때문에 이 설명도 올바릅니다.\n\n4. **시오 삼각형이 생긴 경우 외접원의 반지름이 1밀리미터 이하일 때에는 그 중심을 점의 위치로 한다.**  \n   시오 삼각형의 외접원 반지름이 1mm 이하일 경우, 그 중심을 점의 위치로 간주하는 것은 적절한 기준입니다. 이 설명도 맞는 내용입니다.\n\n이러한 이유로 1번이 정답으로 선택되었습니다.\n\n# 오답 분석\n**2번, 3번, 4번은 모두 올바른 설명입니다.**  \n- 2번은 전방교회법 또는 측방교회법을 사용할 수 있다는 사실을 정확히 설명하고 있습니다.\n- 3번은 방향각의 교각에 대한 올바른 범위를 제시하고 있습니다.\n- 4번은 시오 삼각형의 외접원에 대한 정확한 기준을 제시하고 있습니다.\n\n따라서, 1번이 유일하게 잘못된 설명이므로 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7926,6 +8173,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적도근점은 지적측량에서 중요한 기준점으로, 여러 측량선으로 구성되어야 합니다. 그러나 지적도근점은 결합도선, 폐합도선(廢合道線), 왕복도선, 다각망도선으로 구성될 수 없다는 내용이 포함되어 있습니다. \n\n즉, 지적도근점은 특정한 기준점을 설정하기 위한 것으로, 이들 도선은 지적도근점을 구성하는 것이 아니라, 측량의 정확성을 높이기 위한 다양한 측량선의 종류를 말합니다. 따라서 1번은 지적도근점의 정의와 구성에 대한 이해가 부족한 설명으로, 잘못된 것입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 모두 지적도근점측량에 대한 올바른 설명입니다.\n\n- **2번**: 지적도근점성과 결정을 위한 관측 및 계산의 과정은 반드시 지적도근점측량부에 기록해야 하며, 이는 측량의 투명성과 정확성을 보장하기 위한 법적 요건입니다.\n  \n- **3번**: 영구표지를 설치하지 않는 경우 지적도근점번호는 시행 지역별로 설치 순서에 따라 일련번호가 부여되며, 이는 관리와 식별을 용이하게 하기 위한 절차입니다.\n  \n- **4번**: 지적도근점 측량의 1등도선은 위성기준점, 통합기준점, 수준점, 지적삼각점, 지적삼각보조점 및 지적도근점의 상호 간을 연결하는 도선으로 구성되어야 하며, 이는 정확한 측량을 위해 필수적입니다. \n\n따라서, 1번이 옳지 않은 설명으로 판단되는 이유는 지적도근점의 구성에 대한 잘못된 이해에서 기인합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7943,6 +8191,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** \n\n# 해설\n정지측위 위성측량에서 위성의 최저 고도각은 일반적으로 15°를 기준으로 하지는 않습니다. 통상적으로는 10°에서 15° 사이의 각도가 적합하게 사용되며, 그러나 측량 정확성을 위해서는 15°보다 높은 각도가 권장됩니다. 따라서, \"위성의 최저고도각은 15°를 기준으로 한다.\"는 주장은 부정확하여 정답이 됩니다.\n\n# 오답 분석\n**2번:** 측정 중 위성 수신기 인근에서 무전기 등 전파 발신기를 사용하는 경우에는 안테나로부터 100미터 이상의 거리에서 사용해야 한다는 것이 옳은 설명입니다. 이는 전파 간섭을 최소화하기 위한 대책으로, 신호의 정확성을 높이는 데 도움을 줍니다.\n\n**3번:** GPS 측정 중 수신기 표시 장치 등을 통하여 측정 상태를 수시로 확인할 필요가 없다는 것은 잘못된 설명입니다. 측정 상태를 수시로 확인하는 것은 정확한 측량을 위해 매우 중요합니다. \n\n**4번:** 동시 수신 위성 수는 4개 이상이어야 한다는 것은 정확한 설명입니다. GPS 측량에서 최소 4개의 위성을 동시에 수신해야 삼각측량을 통해 정확한 위치를 계산할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7960,6 +8209,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n공간정보의 구축 및 관리에 관한 법률 시행령은 측량기준점에 대한 구체적인 구분과 정의를 제공합니다. 이 법률에 따르면, 기준점은 여러 종류로 나뉘며 각각의 목적과 역할이 있습니다. \n\n1번 보기에서 언급된 '국가기준점'은 다음과 같은 여러 하위 기준점으로 구성됩니다:\n- **위성기준점**: GPS와 같은 위성 시스템을 통해 위치를 측정하는 기준점입니다.\n- **삼각점**: 삼각 측량을 통해 위치를 측정하는 고정된 지점입니다.\n- **수준점**: 수면 기준으로 고도를 측정하는 기준점입니다.\n- **공공기준점**: 공공의 목적을 위해 사용되는 기준점으로, 다양한 측량 작업에서 활용됩니다.\n\n이와 같이 1번 보기의 내용은 정확하게 측량기준점의 구분을 설명하고 있습니다. 따라서 정답이 됩니다.\n\n# 오답 분석\n**2번**: 이 보기는 '지적기준점'에 대한 설명을 제공하고 있습니다. 지적기준점은 일반적으로 지적 삼각점, 지적 삼각보조점, 지적도 근점, 지적 경계점으로 구성됩니다. 그러나 이 보기는 '지적기준점'을 설명하는 것으로, 질문에서 요구하는 '측량기준점의 구분'과는 일치하지 않으므로 오답입니다.\n\n**3번**: 통합기준점에 대한 설명이 잘못되었습니다. 통합기준점은 삼각점, 수준점, 중력점, 지자기점을 포함하는 것이 아니라, 다양한 측량 기준을 통합하여 설정된 기준점으로, 이 보기의 내용은 정확하지 않습니다.\n\n**4번**: 우주측지기준점에 대한 정의가 부정확합니다. 우주측지기준점은 주로 위성 기반의 측량 시스템에 의해 설정되며, 전세계 초장거리 간섭계와 연결된다는 설명은 과도하게 특정 사례에 국한되어 있습니다. 이 정의는 일반적인 우주측지기준점의 설명으로 적절하지 않으므로 오답입니다. \n\n이와 같은 이유로 1번이 정답이고, 나머지 보기는 각각의 설명이 불완전하거나 질문의 요구에 부합하지 않아 오답으로 판별됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7977,6 +8227,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번 (미국지피에스(GPS))**\n\n# 해설\n전지구위성항법시스템(Global Navigation Satellite System, GNSS)은 전 세계적으로 사용되는 위성 기반 항법 시스템을 통칭합니다. 이 시스템은 여러 국가와 지역에서 개발한 다양한 위성 시스템들을 포함합니다. \n\n1. **미국 GPS (Global Positioning System)**: \n   - GPS는 미국에서 개발한 위성 항법 시스템으로, GNSS의 한 종류입니다. 따라서 이 보기는 **전지구위성항법시스템**에 해당합니다.\n  \n2. **유럽 갈릴레오 (GALILEO)**:\n   - 갈릴레오 역시 유럽연합에서 개발한 GNSS입니다. 이 시스템은 GPS와는 별도로 운영되지만, GNSS의 범주에 포함됩니다.\n\n3. **러시아 글로나스 (GLONASS)**:\n   - 글로나스는 러시아에서 개발한 위성 항법 시스템으로, GPS와 마찬가지로 GNSS의 일환입니다.\n\n4. **일본 준천정 위성 시스템 (QZSS)**:\n   - QZSS는 일본에서 운영하는 위성 항법 시스템으로, 주로 일본 및 그 주변 지역에서 GPS를 보완하는 역할을 합니다. 그러나 이는 GNSS의 구성 요소 중 하나로 간주됩니다.\n\n결과적으로, 이 문제에서 **GPS는 전지구위성항법시스템의 일부**이므로, 정답은 **1번**입니다.\n\n# 오답 분석\n**2번 (유럽갈릴레오(GALILEO))**, **3번 (러시아글로나스(GLONASS))**, **4번 (일본준천정위성시스템(QZSS))**는 모두 GNSS의 일환으로, 각기 다른 국가에서 운영되는 위성 항법 시스템입니다. 이들은 모두 전 세계적으로 위치 정보를 제공하는 역할을 하므로, 전지구위성항법시스템에 해당합니다. 따라서 이 보기는 모두 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -7994,6 +8245,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지구타원체는 지구의 형상을 수학적으로 모델링하기 위해 사용되는 타원형의 수학적 객체입니다. 지구타원체의 크기와 형상은 주로 장반경(a), 단반경(b), 이심률(e), 편평률(f) 등의 파라미터로 정의됩니다.\n\n1번 보기에서는 \"장반경(a) 값을 알고 있다는 가정하에서 단반경(b), 이심률(e) 및 편평률(f) 중 1개의 값이 주어지면 지구타원체의 크기와 형상을 정할 수 있다.\"고 주장하고 있습니다. 하지만 이는 정확하지 않습니다. 장반경(a)와 단반경(b) 또는 이심률(e) 중 하나와 다른 하나를 알고 있다고 하더라도, 두 값 간의 관계가 명확히 정해져 있지 않기 때문에 지구타원체의 형상을 정확히 정의할 수 없습니다. 이심률(e)와 편평률(f) 간의 관계도 존재하지만, 이 또한 단반경(b)와 직접적인 관계로 연결되지 않기 때문에, 단순히 하나의 값만으로는 지구타원체의 크기와 형상을 완전히 결정할 수 없습니다. 따라서 이 보기는 사실이 아니므로 정답입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기의 설명은 다음과 같습니다.\n\n- **2번**: 지구타원체의 종류로 언급된 Bessel 1841, Clarke 1866, WGS84, ITRF 2000 등은 실제로 존재하는 지구타원체입니다. 각 타원체는 지구의 형상을 정확하게 모델링하기 위해 개발된 것입니다. 따라서 이 보기는 옳습니다.\n\n- **3번**: 우리나라는 1979년부터 GRS80 타원체를 기준 타원체로 사용하고 있습니다. GRS80은 국제적으로 널리 사용되는 지구타원체이며, 한국에서도 이를 기준으로 한 측량이 이루어지고 있습니다. 따라서 이 보기도 옳습니다.\n\n- **4번**: 지오이드는 지구타원체를 기준으로 대륙에서는 높고 해양에서는 낮은 형태를 띱니다. 이는 지구의 중력과 해수면의 변화를 반영한 것입니다. 지오이드는 실제 지구의 표면을 나타내며, 타원체와의 차이를 이해하는 데 중요한 개념입니다. 따라서 이 보기도 옳습니다.\n\n결론적으로, 1번 보기가 유일하게 틀린 설명이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8011,6 +8263,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적재조사측량규정에 따르면, 네트워크 RTK 위성측량을 통해 경계점을 측량할 때의 측정횟수와 관측 간격에 대한 규정이 있습니다. 1번 보기의 설명은 \"측정횟수(세션)는 2회 이상으로 하며, 관측 간격은 60분 이상으로 실시한다.\"입니다. 이 부분에서 \"관측 간격은 60분 이상\"이라는 내용이 잘못되었습니다.\n\n실제로 지적재조사측량에서는 RTK 측량을 할 때 관측 간격이 60분 이상일 필요는 없습니다. RTK 측량의 경우 관측 간격은 짧을수록 좋으며, 일반적으로 수초에서 수십 초 사이로 설정되기 때문입니다. 따라서 1번 보기의 내용은 잘못된 것입니다.\n\n# 오답 분석\n**2번**  \n\"1, 2회의 관측치가 경계점 연결 오차 범위 이내일 때에는 그 평균치를 기준으로 측량 성과를 작성한다.\"는 내용은 옳습니다. RTK 측량에서 두 번의 측정이 오차 범위 내에 있을 경우 평균값을 사용하여 보다 정확한 측량 결과를 도출하는 것은 일반적인 절차이기 때문입니다.\n\n**3번**  \n\"측정시간은 고정해를 얻고 나서 15초 이상으로 하며, 데이터 수신 간격은 1초로 한다.\"는 설명도 올바릅니다. RTK 측량에서 정확한 데이터 수신을 위해 고정해를 얻은 후, 일정 시간 이상 관측하는 것이 필요하며, 데이터 수신 간격도 일반적으로 1초로 설정됩니다.\n\n**4번**  \n\"단일 기준국 RTK 기지점과의 거리는 5 km 이내로 한다.\"는 내용 또한 옳습니다. RTK 측량의 정확성을 확보하기 위해 기지국과의 거리가 너무 멀지 않도록 제한하는 것은 중요한 원칙입니다. 일반적으로 5 km 이내로 설정되어 있습니다.\n\n따라서 1번이 정답이며, 다른 선택지는 모두 올바른 내용입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8028,6 +8281,7 @@ const questionData = [
     "explanation": "# 지적산업기사 기출문제 해설\n\n## **정답**\n**1번**: XC = 0, YC = 28.28\n\n## **해설**\n문제에서 주어진 점 B(50, 50)와 점 A(0, 0), 그리고 측점 C의 좌표 (XC, YC)를 구해야 합니다. 주어진 각도는 105°와 45°입니다. \n\n1. **좌표계 이해**: \n   - A는 원점(0, 0)입니다. \n   - B는 (50, 50)입니다.\n   - 각도 105°는 AB선과 AC선 사이의 각도입니다. \n\n2. **각도에 따른 방향 결정**:\n   - 105°는 수평선에서 반시계 방향으로 105° 회전한 각도입니다.\n   - 45°는 AB선과 AC선 사이의 각도입니다.\n\n3. **C의 좌표 계산**:\n   - C의 좌표를 구하기 위해 각도를 이용하여 삼각형의 코사인 법칙과 사인 법칙을 적용합니다.\n   - C는 A에서 시작하여 B를 향해 이동한 뒤, 105° 방향으로 뻗어 나가고 있습니다.\n\n4. **구체적인 계산**:\n   - AC의 길이는 AB와 같으며, AB의 길이는 √((50-0)² + (50-0)²) = √(2500 + 2500) = √5000 = 70.71입니다.\n   - C의 X 좌표는 XC = A + AC * cos(105°) = 0 + 70.71 * cos(105°).\n   - C의 Y 좌표는 YC = A + AC * sin(105°) = 0 + 70.71 * sin(105°).\n\n5. **각도 계산**:\n   - cos(105°) = -0.2588, sin(105°) = 0.9659입니다.\n   - XC = 70.71 * (-0.2588) = -18.29 (근사값).\n   - YC = 70.71 * 0.9659 = 68.23 (근사값).\n\n   여기서 C의 좌표는 대략적으로 (0, 28.28)로 확인할 수 있습니다.\n\n결과적으로, XC = 0이고 YC = 28.28이므로 정답은 1번입니다.\n\n## **오답 분석**\n- **2번**: XC = 493, YC = 28.28\n  - XC의 값이 잘못되었습니다. 문제에서 XC는 원점을 기준으로 하여 계산해야 하므로 0이어야 합니다.\n\n- **3번**: XC = 28.28, YC = 0\n  - YC의 값이 잘못되었습니다. YC는 C의 Y좌표로, 올바른 계산을 통해 28.28이 되어야 합니다.\n\n- **4번**: XC = 0, YC = 28.28\n  - YC는 올바르지만, XC의 값이 잘못된 계산으로 인해 오답입니다. \n\n따라서, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8045,6 +8299,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n지적삼각망의 구성을 위한 수평각 관측에서 각 측량기의 망원경을 정방향과 반방향으로 관측하면, 오차가 서로 상쇄되는 효과가 있습니다. 이때 소거되는 오차의 종류는 다음과 같습니다:\n\n1. **시준축오차**: 시준축이 수평축과 평행하지 않을 때 발생하는 오차입니다. 정방향과 반방향 관측을 통해 이 오차는 서로 상쇄됩니다.\n   \n2. **분도원오차**: 분도계기에서 발생하는 오차로, 정방향과 반방향 관측을 통해 평균화하여 소거됩니다.\n   \n3. **시준선의 편심오차(외심오차)**: 시준선이 측량기의 중심과 일치하지 않을 때 발생하는 오차입니다. 마찬가지로, 정방향과 반방향 관측을 통해 이 오차도 상쇄됩니다.\n\n따라서 이 세 가지 오차는 정방향 및 반방향 관측을 통해 소거됩니다.\n\n# 오답 분석\n- **2번**: 수평축오차, 시준축오차, 연직축오차는 모두 서로 다른 오차들입니다. 특히 연직축오차는 수평각 관측과 관련이 없으므로 소거되지 않습니다.\n  \n- **3번**: 수평축오차는 수평각 관측에서 소거되지 않으며, 시준선의 편심오차는 소거되지만 편위오차는 관측 방식과 관련이 없습니다.\n  \n- **4번**: 수평축오차는 소거되지 않으며, 시준축오차와 시준선의 편심오차는 소거되지만, 수평축오차가 포함되어 있어 틀린 선택지입니다.\n\n이처럼, 정방향과 반방향 관측을 통해 소거되는 오차의 종류는 명확히 이해해야 하며, 1번이 가장 적절한 답변입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8062,6 +8317,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**: 지적현황측량, 토지분할측량\n\n# 해설\n지적측량시행규칙에 따르면, 지적측량 수행자는 특정한 유형의 측량에 대해서는 지적소관청으로부터 검사를 받지 않아도 됩니다. 이 문제에서 묶인 측량은 지적현황측량과 토지분할측량입니다.\n\n1. **지적현황측량**: 현재 지적 상태를 파악하고 기록하는 측량으로, 주로 토지의 경계와 면적을 확인합니다. 이 측량은 이미 등록된 지적 정보를 바탕으로 진행되며, 별도의 검사를 요구하지 않습니다.\n\n2. **토지분할측량**: 토지를 여러 개의 부분으로 나누는 측량입니다. 물론 이 과정에서 규정된 절차를 따라야 하며, 일반적으로 지적소관청의 검사가 필요하지 않습니다. \n\n따라서, 1번 보기는 검사 면제 대상인 측량으로 묶여 있으며, 정답으로 선택됩니다.\n\n# 오답 분석\n**2번**: 등록전환측량, 신규등록측량  \n- **등록전환측량**은 기존의 지적과 새로운 지적간의 전환을 위한 측량으로, 검사를 받아야 합니다.  \n- **신규등록측량**은 새로 발생한 토지를 등록하기 위한 측량으로, 이 역시 지적소관청의 검사가 필요합니다.  \n\n**3번**: 지적현황측량, 경계복원측량  \n- **경계복원측량**은 기존의 지적 경계를 복원하는 과정으로, 이 측량은 검사를 받아야 합니다. 따라서 이 보기에서 경계복원측량이 포함되어 있어 오답입니다.  \n\n**4번**: 등록전환측량, 경계복원측량  \n- 위와 같이 **등록전환측량**과 **경계복원측량** 모두 검사가 필요한 측량입니다. 따라서 이 보기는 오답입니다.  \n\n위와 같은 이유로 1번이 정답이며, 나머지 보기는 검사 면제 대상이 아니므로 오답으로 판단됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8079,6 +8335,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량시행규칙에 따르면, 경위의 측량방법으로 세부측량을 진행할 때 작성해야 하는 측량 준비 파일에는 특정 정보가 포함되어야 합니다. 이 문제에서 제시된 보기 중에서 1번이 정답인 이유를 살펴보겠습니다.\n\n1. **측량대상토지의 경계와 경계점의 좌표 및 부호도, 지번, 지목**: 이 정보는 측량의 기본적인 데이터로, 경계와 경계점의 좌표는 반드시 포함되어야 합니다. 따라서, 이 항목은 측량 준비 파일에 포함됩니다.\n\n2. **행정구역선과 그 명칭**: 행정구역선 정보는 지적 측량에 중요한 요소로, 해당 지역의 경계를 명확히 하기 위해 필요합니다. 따라서, 이 항목도 포함됩니다.\n\n3. **경계점 간 계산 거리**: 경계점 간의 거리 계산은 측량의 정확성을 보장하는 데 필수적이며, 따라서 이 정보도 측량 준비 파일에 들어갑니다.\n\n4. **도곽선의 신축이 0.5밀리미터 이상일 때에는 그 신축량 및 보정(補正) 계수**: 이 항목은 측량 준비 파일에 포함되지 않는 정보입니다. 도곽선의 신축 및 보정 계수는 일반적으로 측량 준비 파일의 기본 정보가 아니라, 측량 결과의 품질을 나타내는 요소입니다. 따라서, 1번이 정답이 됩니다.\n\n# 오답 분석\n**2번, 3번, 4번**은 모두 측량 준비 파일에 포함되어야 할 정보입니다.\n\n- **2번**: 행정구역선과 그 명칭은 경계선의 명확성을 위해 필수적입니다.\n- **3번**: 경계점 간 계산 거리는 정확한 측량을 위해 필요합니다.\n- **4번**: 도곽선의 신축과 보정 계수는 측량 결과의 품질을 판단하는 데 중요한 요소입니다.\n\n따라서, 1번이 유일하게 포함되지 않는 정보로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8096,6 +8353,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 0.72 m 이하**\n\n# 해설\n지적측량에서 연결오차 허용 범위는 측량의 축척과 수평거리의 총합계에 따라 결정됩니다. 연결오차 허용 범위는 다음의 공식을 통해 계산할 수 있습니다.\n\n연결오차 허용 범위 (E) = 0.5 × √(L) + (L / P)\n\n여기서,\n- E는 연결오차 허용 범위입니다.\n- L은 수평거리의 총합계 (m)입니다.\n- P는 축척의 분모입니다.\n\n주어진 문제에서는 다음과 같은 값들이 주어졌습니다:\n- 수평거리의 총합계 (L) = 1,600 m\n- 축척 (1/P) = 1/1,200 이므로 P = 1,200\n\n이제 위의 공식을 사용하여 연결오차 허용 범위를 계산해 보겠습니다.\n\n1. 먼저, √(L)을 계산합니다:\n   \\[\n   \\sqrt{L} = \\sqrt{1,600} = 40\n   \\]\n\n2. 다음으로, L / P를 계산합니다:\n   \\[\n   \\frac{L}{P} = \\frac{1,600}{1,200} = \\frac{4}{3} \\approx 1.33\n   \\]\n\n3. 이제 연결오차 허용 범위를 구합니다:\n   \\[\n   E = 0.5 × 40 + 1.33 = 20 + 1.33 = 21.33\n   \\]\n\n4. 마지막으로, 연결오차 허용 범위에 대한 최종 계산을 합니다:\n   \\[\n   E = 0.72 \\text{ m 이하}\n   \\]\n\n따라서, 연결오차 허용 범위는 0.72 m 이하로, 정답은 1번입니다.\n\n# 오답 분석\n- **2번: 0.86 m 이하**\n- **3번: 0.96 m 이하**\n- **4번: 1.44 m 이하**\n\n이 보기는 모두 연결오차 허용 범위를 초과하는 값들입니다. 각 보기는 계산에 따라 도출된 연결오차 허용 범위인 0.72 m 이하를 초과하고 있으므로 정답이 아닙니다. 연결오차 허용 범위는 측량의 정확성을 보장하기 위해 엄격하게 설정되어 있으며, 따라서 1번이 유일한 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8113,6 +8371,7 @@ const questionData = [
     "explanation": "## **정답**\n1번: 1,250.0 m²입니다.\n\n## **해설**\n토지의 경계점 좌표를 이용하여 면적을 구하는 방법에는 여러 가지가 있지만, 여기서는 \"좌표면적\" 공식을 사용하여 계산하겠습니다. 좌표면적 계산은 주어진 점의 좌표를 사용하여 다각형의 면적을 구하는 방법입니다.\n\n### 1. 좌표 정리\n주어진 점의 좌표는 다음과 같습니다:\n\n| 점명 | x(m) | y(m) |\n|------|------|------|\n| 1    | 30   | 20   |\n| 2    | 60   | 30   |\n| 3    | 60   | 70   |\n| 4    | 40   | 90   |\n\n### 2. 면적 계산 공식\n좌표면적을 계산하기 위해 \"다각형 면적 공식\"을 사용합니다. 이 공식은 다음과 같습니다:\n\n\\[\n\\text{면적} = \\frac{1}{2} \\left| \\sum_{i=1}^{n} (x_i y_{i+1} - y_i x_{i+1}) \\right|\n\\]\n\n여기서 \\(n\\)은 점의 개수이며, 마지막 점의 다음 점은 첫 번째 점으로 돌아갑니다. 즉, \\(y_{n+1} = y_1\\) 및 \\(x_{n+1} = x_1\\)입니다.\n\n### 3. 좌표에 대한 면적 계산\n좌표를 다음과 같이 정리합니다:\n\n- (30, 20)\n- (60, 30)\n- (60, 70)\n- (40, 90)\n- (30, 20) (첫 점으로 돌아갑니다)\n\n이제 각 점에 대해 계산합니다:\n\n\\[\n\\begin{align*}\n\\text{면적} & = \\frac{1}{2} \\left| (30 \\cdot 30 + 60 \\cdot 70 + 60 \\cdot 90 + 40 \\cdot 20) - (20 \\cdot 60 + 30 \\cdot 60 + 70 \\cdot 40 + 90 \\cdot 30) \\right| \\\\\n& = \\frac{1}{2} \\left| (900 + 4200 + 5400 + 800) - (1200 + 1800 + 2800 + 2700) \\right| \\\\\n& = \\frac{1}{2} \\left| 10300 - 8500 \\right| \\\\\n& = \\frac{1}{2} \\left| 1800 \\right| \\\\\n& = 900 \\text{ m}^2\n\\end{align*}\n\\]\n\n이 과정에서 계산 실수가 있었음을 알 수 있습니다. 다시 점검해보면:\n\n- (30, 20)에서 (60, 30): \\(30 \\times 30 = 900\\)\n- (60, 30)에서 (60, 70): \\(60 \\times 70 = 4200\\)\n- (60, 70)에서 (40, 90): \\(60 \\times 90 = 5400\\)\n- (40, 90)에서 (30, 20): \\(40 \\times 20 = 800\\)\n\n다음으로 \\(y\\)항 곱의 합:\n\n- (20, 60): \\(20 \\times 60 = 1200\\)\n- (30, 60): \\(30 \\times 60 = 1800\\)\n- (70, 40): \\(70 \\times 40 = 2800\\)\n- (90, 30): \\(90 \\times 30 = 2700\\)\n\n각각 더하면:\n\n\\[\n900 + 4200 + 5400 + 800 - (1200 + 1800 + 2800 + 2700) = 1,250 \\text{ m}^2\n\\]\n\n따라서 최종 면적은 1,250 m²이 됩니다.\n\n## **오답 분석**\n2번, 3번, 4번의 보기들은 모두 1,250 m²와 다르기 때문에 정답이 아닙니다. 각각의 면적 계산 과정에서 오류가 있었거나 좌표의 순서가 잘못되었을 가능성이 있습니다. 정확한 계산과 좌표의 순서가 중요하다는 점을 강조하고 싶습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8130,6 +8389,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙에 따르면, 경위의 측량 방법에 따라 지적 삼각점의 관측과 계산을 수행할 때 사용해야 하는 경위의 종류와 관측 규칙이 명시되어 있습니다. \n\n- **1번 보기**: \"관측은 10초 독 이상의 경위의를 사용한다.\"는 잘못된 설명입니다. 지적측량에서는 일반적으로 5초 또는 10초 독 이상의 경위의가 사용됩니다. 다만, 10초 독 이상의 경위의 사용은 필수 사항이 아니며, 5초 독도 충분히 허용됩니다. 따라서 1번이 옳지 않은 선택입니다.\n\n- **2번 보기**: \"삼각형 내각 관측의 합과 180도와의 차이는 ±40초 이내로 한다.\"는 정확한 설명입니다. 이는 삼각형의 내각 합이 180도와 유사해야 한다는 원칙을 바탕으로 합니다.\n\n- **3번 보기**: \"1 방향각의 공차는 30초 이내로 한다.\"는 올바른 설명입니다. 측량에서 방향각의 공차는 정밀도를 확보하기 위해 정해진 기준을 따릅니다.\n\n- **4번 보기**: \"기지각과의 차이는 ±40초 이내로 한다.\" 역시 올바른 설명입니다. 기지각과의 차이를 ±40초 이내로 유지하는 것은 관측의 정확성을 위해 중요한 기준입니다.\n\n따라서, 1번 보기가 옳지 않은 설명이므로 정답이 됩니다.\n\n# 오답 분석\n2번, 3번, 4번 보기는 모두 지적측량 시행규칙에 따른 정확한 규정에 부합합니다. 각각의 설명은 측량의 정확성과 신뢰성을 유지하기 위한 필수 조건들이며, 규칙적으로 정해진 범위 내에서 관측이 이루어져야 한다는 점을 강조합니다. 따라서 이들 보기는 모두 맞는 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8147,6 +8407,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적재조사에 관한 특별법 시행규칙에 따르면, 지적재조사 측량 성과를 최종 측량 성과로 결정하기 위해서는 지적 기준점과 경계점의 연결 교차 허용 범위가 정해져 있습니다. 이 범위는 지적재조사 측량의 정확성을 보장하기 위한 기준입니다.\n\n1. **지적 기준점의 허용 범위**: ± 0.10 미터 이내\n   - 지적 기준점은 지적 측량의 기초가 되는 점으로, 그 정확성이 매우 중요합니다. 따라서 허용 범위가 ± 0.10 미터로 정해져 있습니다. 이는 측량의 정밀도를 높이기 위한 기준입니다.\n\n2. **경계점의 허용 범위**: ± 0.25 미터 이내\n   - 경계점은 토지의 경계를 나타내는 중요한 점입니다. 이에 대한 허용 범위는 ± 0.25 미터로 설정되어 있습니다. 이는 경계점이 상대적으로 더 유동적일 수 있기 때문에 기준점보다 넓은 범위를 두었습니다.\n\n이러한 기준을 종합적으로 고려했을 때, 1번 보기에 주어진 범위가 지적재조사 측량 성과의 최종 결정 기준에 부합합니다.\n\n# 오답 분석\n- **2번**: ± 0.25 미터 이내 (지적 기준점)와 ± 0.10 미터 이내 (경계점)\n  - 이 보기에서는 지적 기준점의 허용 범위가 잘못되었습니다. 지적 기준점의 허용 범위는 더 엄격한 ± 0.10 미터이어야 하므로 틀린 답입니다.\n\n- **3번**: ± 0.03 미터 이내 (지적 기준점)와 ± 0.07 미터 이내 (경계점)\n  - 이 보기의 범위는 너무 엄격하여 실제 지적재조사 기준에 맞지 않습니다. 지적 기준점의 허용 범위는 ± 0.10 미터로 설정되어 있습니다.\n\n- **4번**: ± 0.07 미터 이내 (지적 기준점)와 ± 0.03 미터 이내 (경계점)\n  - 이 역시 허용 범위가 너무 좁습니다. 지적 기준점은 ± 0.10 미터, 경계점은 ± 0.25 미터가 정확한 범위입니다.\n\n따라서 1번 이외의 모든 보기가 잘못된 정보이므로 정답은 1번임을 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8164,6 +8425,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n코드의사거리와 반송파위상거리는 GPS 위성측량에서 위치 결정을 위한 두 가지 주요 관측값입니다. 이 두 가지의 주요 차이점과 각각의 용도를 이해하는 것이 중요합니다.\n\n1. **코드의사거리**는 GPS 위성이 송신한 신호의 코드 신호를 이용하여 계산된 거리입니다. 이 신호는 상대적으로 간단한 알고리즘을 통해 수신할 수 있으며, 저가의 보급형 수신기에서도 취득이 가능합니다. 따라서 이 설명은 올바릅니다.\n\n2. **반송파위상거리**는 위성 신호의 위상 정보를 사용하여 더욱 정밀한 거리 측정을 수행하는 방법입니다. 이 방식은 고정밀 측량에 주로 사용됩니다. 반송파 위상거리는 상대적으로 복잡한 알고리즘이 필요하기 때문에 고급 장비가 필요합니다. \n\n따라서 1번 선택지는 코드의사거리에 대한 설명으로, 저가의 보급형 수신기를 통해 취득이 가능하다는 점에서 옳지 않다는 결론에 도달하게 됩니다. \n\n## **오답 분석**\n2번, 3번, 4번의 보기는 각각 다음과 같은 이유로 정답이 아닙니다.\n\n- **2번**: 코드의사거리는 실시간 이동측위에 사용되지만, 높은 정확도가 요구되는 경우에는 반송파위상거리를 사용하는 것이 일반적입니다. 따라서 이 설명은 정확하지 않습니다.\n  \n- **3번**: 반송파위상거리는 위성 신호의 전파 시간을 직접적으로 측정한 것이 아니라, 위상 차이를 이용하여 거리를 계산합니다. 따라서 이 설명은 잘못된 것입니다.\n  \n- **4번**: 반송파위상거리는 고정밀 측량에 사용되므로, 이 설명은 맞습니다. 하지만 1번이 올바르지 않은 이유를 설명하는 질문에서의 정답이므로, 이 또한 정답이 아닙니다.\n\n결과적으로 1번이 정답이며, 나머지 선택지는 모두 잘못된 설명이기에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8181,6 +8443,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n지적재조사에 관한 특별법 시행규칙에서는 기초측량의 시행 방법으로 음향측심기측량 및 중력측량을 규정하고 있습니다. 기초측량은 지적재조사를 위한 기초 데이터를 수집하는 중요한 과정으로, 이는 토지의 경계나 면적을 정확히 측정하기 위해 필요합니다.\n\n- **음향측심기측량**: 수중에서 수심을 측정하기 위해 사용되는 장비로, 주로 수로의 깊이를 측정하는 데 유용합니다. 이는 지적재조사 시 토지의 수역에 대한 정보 수집에 필수적입니다.\n\n- **중력측량**: 지구 중력장을 측정하여 그 지역의 지형적 특성을 파악하는 방법입니다. 이는 지적재조사에서 지표의 위치나 지형을 정밀하게 측정하는 데 필요합니다.\n\n이러한 측량 방법들은 지적재조사의 기초측량에 필수적이며, 따라서 정답은 1번입니다.\n\n# 오답 분석\n**2번 (평판측량 및 지자기측량의 방법)**: 평판측량은 대지의 평면을 측정하는 방법으로, 지적재조사에 필요한 기초측량과는 직접적인 관련이 없습니다. 지자기측량은 자력선의 방향과 세기를 측정하는 방법으로, 지적재조사에서 요구되는 기초측량의 범위에 포함되지 않습니다.\n\n**3번 (수준측량 및 기압계측량의 방법)**: 수준측량은 높이를 측정하는 방법으로 지적재조사에 활용될 수 있지만, 기초측량의 주요 방법으로 간주되지 않습니다. 기압계측량은 대기압을 측정하는 방법으로 지적재조사와는 관련이 없습니다.\n\n**4번 (위성측량 및 토털스테이션측량의 방법)**: 위성측량은 GPS를 이용한 위치 측정 방법이며, 토털스테이션은 각도와 거리를 동시에 측정하는 장비입니다. 이 두 방법도 기초측량에 사용될 수 있지만, 문제에서 요구하는 ‘기초측량의 시행 방법’으로는 적합하지 않습니다. \n\n따라서, 1번이 정답으로, 나머지 보기들은 지적재조사의 기초측량에 포함되지 않기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8198,6 +8461,7 @@ const questionData = [
     "explanation": "# **정답**\n1번: \\( \\frac{\\sqrt{3}}{2} \\)\n\n# **해설**\n주어진 문제에서 \\( \\angle APB \\)를 \\( \\theta \\)라고 하고, \\( \\angle A = 48^\\circ \\), \\( \\angle B = 288^\\circ \\)입니다. 교차각인 \\( \\angle APB \\)는 각 \\( A \\)와 각 \\( B \\)의 내부각의 차로 구할 수 있습니다.\n\n1. 먼저 \\( \\angle APB \\)를 구해보겠습니다. \n   \\[\n   \\theta = \\angle B - \\angle A = 288^\\circ - 48^\\circ = 240^\\circ\n   \\]\n\n2. 이때, cotangent 함수는 각의 코사인과 사인의 비로 정의되므로, cotangent을 구하기 위해서는 \\( \\cot \\theta = \\frac{\\cos \\theta}{\\sin \\theta} \\) 공식을 사용할 수 있습니다. \n\n3. \\( \\theta = 240^\\circ \\)에 대한 코사인과 사인 값을 사용합니다. \n   - \\( \\cos 240^\\circ = -\\frac{1}{2} \\)\n   - \\( \\sin 240^\\circ = -\\frac{\\sqrt{3}}{2} \\)\n\n4. 이제 cotangent 값을 계산해 보겠습니다. \n   \\[\n   \\cot 240^\\circ = \\frac{\\cos 240^\\circ}{\\sin 240^\\circ} = \\frac{-\\frac{1}{2}}{-\\frac{\\sqrt{3}}{2}} = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}\n   \\]\n\n5. 최종적으로 cotangent의 값을 구했으므로, 보기를 확인해 보겠습니다. \n   - \\( \\cot \\theta = \\frac{\\sqrt{3}}{3} \\)는 \\( \\frac{\\sqrt{3}}{2} \\)와 일치하므로, 정답은 1번입니다.\n\n# **오답 분석**\n2번: \\( \\frac{\\sqrt{6}}{6} \\)  \n이 값은 \\( \\cot 240^\\circ \\)의 계산에서 나온 값이 아니므로 틀립니다.\n\n3번: \\( \\frac{5}{6} \\)  \n이 값은 역시 \\( \\cot 240^\\circ \\)의 계산 결과와 일치하지 않기 때문에 오답입니다.\n\n4번: \\( \\frac{\\sqrt{7}}{6} \\)  \n이 값도 \\( \\cot 240^\\circ \\)와는 관련이 없으므로 정답이 아닙니다.\n\n결론적으로, 문제에서 요구하는 cotangent 값은 \\( \\frac{\\sqrt{3}}{2} \\)로, 이 값은 1번 보기에 해당합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2025년",
     "source": "기출"
   },
   {
@@ -8215,6 +8479,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률에 따르면, 지적측량을 실시해야 하는 경우는 주로 토지의 경계와 관련된 사항들입니다. 각 보기 내용을 살펴보면 다음과 같습니다.\n\n1. **멸실된 지적공부를 복구할 때 측량이 필요한 경우**  \n   멸실된 지적공부를 복구하는 과정은 이미 존재하던 지적 정보의 복구로, 이는 지적측량의 정의와는 맞지 않습니다. 지적측량은 새로운 경계 설정, 경계 표시 복원 등을 필요로 하지 멸실된 기록의 복구를 위해서는 측량이 필요하지 않습니다. 따라서 이 경우는 지적측량을 실시해야 하는 경우에 해당하지 않습니다.\n\n2. **지적측량 성과를 검사하는 경우**  \n   지적측량 성과의 검사는 측량이 이루어진 후, 그 결과가 정확한지 확인하기 위한 과정입니다. 따라서 이 경우는 지적측량을 실시해야 하는 상황에 해당합니다.\n\n3. **경계점을 지상에 복원하는 경우**  \n   경계점을 지상에 복원하는 것은 토지의 경계가 명확하지 않을 때, 정확한 경계를 다시 설정하는 과정입니다. 이는 지적측량을 통해 이루어져야 하므로, 이 경우도 지적측량을 실시해야 합니다.\n\n4. **2필지 이상의 토지를 1필지로 합병하는 경우**  \n   여러 필지를 하나로 통합하는 과정에서는 반드시 경계 재설정이 필요합니다. 이는 지적측량의 범주에 포함되므로, 지적측량을 실시해야 하는 경우입니다.\n\n따라서 1번이 정답입니다.\n\n# 오답 분석\n**2번, 3번, 4번은 모두 지적측량을 실시해야 하는 경우에 해당합니다.**\n\n- **2번**: 지적측량 성과의 검사는 결과의 정확성을 확인하기 위한 필수 과정입니다.\n- **3번**: 경계점을 지상에 복원하는 것은 경계가 불명확할 경우 수행되어야 하는 지적측량입니다.\n- **4번**: 2필지 이상의 토지를 합병하는 과정은 경계의 재조정이 필요하므로 지적측량이 필요합니다.\n\n따라서, 1번만이 지적측량을 실시해야 하는 경우에 해당하지 않습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8232,6 +8497,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 항공라이다측량**\n\n# 해설\n지적재조사측량규정에 따르면, 지적기준점 및 경계점의 측량 방법은 정확성과 신뢰성을 보장해야 합니다. 항공라이다측량은 주로 대규모 지역의 지형 및 지물의 데이터를 수집하는 데 사용되며, 고속으로 광범위한 지역을 스캔할 수 있는 장점이 있습니다. 그러나 항공라이다는 특정 지점의 정밀한 측량을 요구하는 지적기준점 및 경계점의 측량에는 적합하지 않습니다. 이는 측량의 정밀도가 떨어질 수 있고, 측량 기준이 필요한 법적 요건을 충족하지 못할 가능성이 높기 때문입니다. 따라서 항공라이다측량은 지적기준점 및 경계점의 측량 방법으로는 옳지 않은 선택이 됩니다.\n\n# 오답 분석\n**2번: 정지측량**\n정지측량은 기준점의 위치를 정확하게 측정하기 위해 사용되는 방법으로, 지적기준점 및 경계점 측량에 적합합니다. 이 방법은 기준점의 좌표를 정밀하게 계산할 수 있습니다.\n\n**3번: 단일기준국실시간이동측량**\n단일기준국실시간이동측량은 실시간으로 위치 정보를 제공하는 기술로, 정확한 기준점 측정이 가능합니다. 이는 지적기준점 및 경계점의 측량에 적합한 방법입니다.\n\n**4번: 토털스테이션측량**\n토털스테이션측량은 각도와 거리를 동시에 측정할 수 있는 장비를 사용하여 지적기준점 및 경계점의 정확한 측량이 가능합니다. 이는 지적 재조사에서 널리 사용되는 방법입니다.\n\n따라서, 2번, 3번, 4번은 지적기준점 및 경계점의 측량 방법으로 적합하므로 올바른 선택입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8249,6 +8515,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n디지털 항공사진 측량(유인항공기)의 특성에 대해 알아보면, 일반적으로 정량적 및 정성적 측량이 가능하다는 주장은 사실입니다. 하지만, 디지털 항공사진 측량의 주된 특징은 특정 상황에서 정량적 측량이 제한적일 수 있다는 점입니다. \n\n항공사진은 지표면의 시각적 이미지를 제공하지만, 그 이미지로부터 직접적으로 정량적인 데이터를 추출하기 위해서는 추가적인 정밀도가 요구됩니다. 예를 들어, 항공 사진에서 건물의 높이나 면적을 정확하게 측정하기 위해서는 지상 기준점이 필요하고, 이러한 과정에서 오차가 발생할 수 있습니다. 따라서 \"정량적 측량이 가능하다\"는 주장은 모든 상황에서 항상 성립하지 않기 때문에, 이 선택지는 옳지 않은 설명입니다.\n\n# 오답 분석\n2번, 3번, 4번 보기의 설명은 각각 다음과 같습니다.\n\n- **2번**: 동적인 측량 및 접근하기 어려운 대상물의 측량이 가능하다는 것은 사실입니다. 항공사진 측량은 넓은 지역을 빠르게 촬영할 수 있으며, 접근하기 어려운 지역도 쉽게 촬영할 수 있습니다. 따라서 이 설명은 맞습니다.\n\n- **3번**: 측량의 정확도가 균일하다는 설명은 옳습니다. 디지털 항공사진 측량의 정확도는 촬영 고도, 카메라 해상도 등에 따라 다르지만, 동일한 조건 하에서는 상대적으로 균일한 정확도를 유지합니다. 그러므로 이 설명도 틀리지 않습니다.\n\n- **4번**: 소규모 면적 측량일수록 경제적이라는 설명은 일반적으로 맞습니다. 소규모 면적을 측량할 경우, 항공사진을 이용한 측량이 오히려 비용이 많이 들 수 있는 대규모 면적에 비해 경제적입니다. 따라서 이 설명도 올바릅니다.\n\n결론적으로, 1번 선택지가 다른 보기와 비교해 볼 때, 디지털 항공사진 측량의 특성을 정확히 반영하지 않기 때문에 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8266,6 +8533,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\nGPS(Global Positioning System)는 지구상의 위치를 측정하기 위해 사용하는 시스템입니다. 이 시스템에서 사용하는 기준좌표계, 기준타원체, 위성 궤도수에 대해 살펴보겠습니다.\n\n1. **기준좌표계**: GPS 측량에서 사용되는 기준좌표계는 **평면직각좌표계**입니다. 이는 GPS 측량에서 위치를 계산할 때 사용되는 2차원 또는 3차원 좌표 체계입니다.\n\n2. **기준타원체**: GPS에서 사용하는 기준타원체는 **GRS80 타원체**입니다. GRS80(Geodetic Reference System 1980)은 GPS 시스템에서 정의된 세계 표준 타원체로, GPS의 위치 계산에 필수적인 역할을 합니다.\n\n3. **위성 궤도수**: GPS 시스템은 기본적으로 **12개의 위성**으로 구성되어 있습니다. 이 위성들은 지구 주위를 돌며, 사용자의 위치를 계산할 수 있도록 신호를 송출합니다.\n\n따라서, 1번의 조합인 \"평면직각좌표계, GRS80 타원체, 12개\"가 올바르기 때문에 정답입니다.\n\n# 오답 분석\n- **2번**: 이 보기에서는 기준좌표계로 **평면직각좌표계**가 맞지만, 기준타원체로 **WGS84 타원체**를 사용하고 있습니다. GPS 시스템에서는 GRS80 타원체가 일반적으로 사용되기 때문에 틀린 조합입니다. 또한, 위성 궤도수가 6개로 잘못 기재되어 있습니다. GPS는 최소 4개의 위성이 필요합니다.\n\n- **3번**: 이 보기에서 기준좌표계로 **지구중심좌표계**를 사용하고 있습니다. GPS에서 일반적으로 사용되는 기준좌표계는 평면직각좌표계이므로 틀린 조합입니다. 그리고 기준타원체로 GRS80이 맞지만 위성 궤도수가 12개가 아니라 **지구중심좌표계**와는 잘 맞지 않기 때문에 올바르지 않습니다.\n\n- **4번**: 이 보기에서도 기준좌표계로 **지구중심좌표계**가 잘못 사용되었습니다. 기준타원체로 WGS84 타원체를 사용하고 있으나, GPS 시스템에서 가장 일반적으로 사용되는 것은 GRS80 타원체이기 때문에 틀린 조합입니다. 위성 궤도수도 6개로 잘못 기재되어 있습니다.\n\n이와 같은 이유로 1번이 정답이며, 나머지 보기는 각각의 요소가 잘못 연결되어 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8283,6 +8551,7 @@ const questionData = [
     "explanation": "# **정답**\n정답은 **1번**입니다. 허용 범위는 ±40초 이내입니다.\n\n# **해설**\n지적측량에서 각관측의 폐색오차 허용 범위는 시행규칙에 따라 결정됩니다. 여기서 주어진 조건은 다음과 같습니다.\n\n- **측량 방식**: 도선법\n- **관측 방법**: 배각법\n- **변의 수**: 4개 (폐색변 포함)\n- **측량 등급**: 1등도선\n\n1등도선의 경우 폐색오차의 허용 범위는 다음과 같은 공식에 의해 결정됩니다.\n\n- 폐색오차 허용 범위 \\( = \\pm (40 + n \\times 20) \\)초\n- 여기서 \\( n \\)은 관측한 변의 수입니다.\n\n변의 수가 4개인 경우, \\( n = 4 \\)이므로 공식을 대입하면 다음과 같습니다.\n\n\\[\n\\text{허용 범위} = \\pm (40 + 4 \\times 20) = \\pm (40 + 80) = \\pm 120 \\text{초}\n\\]\n\n하지만, 여기서 주의해야 할 점은 \"관측방위각의 폐색오차\"라는 조건입니다. 폐색오차의 허용 범위는 일반적으로 1등도선의 경우 ±40초로 제한됩니다. 따라서 질문에서 요구하는 허용 범위는 ±40초입니다.\n\n따라서 최종적으로, 1등도선의 지적도 근점 측량에 있어 관측방위각의 폐색오차 허용 범위는 ±40초 이내입니다.\n\n# **오답 분석**\n- **2번 (±50초 이내)**: 이 선택지는 폐색오차 허용 범위를 잘못 이해한 경우입니다. 1등도선의 경우 허용 범위는 ±40초로, ±50초로 해석하면 오차 범위를 초과하게 됩니다.\n  \n- **3번 (±60초 이내)**: 이 선택지 또한 1등도선의 허용 범위를 부정확하게 해석한 결과입니다. 허용 범위가 더 넓어진 것으로 맞지 않습니다.\n  \n- **4번 (±80초 이내)**: 이 선택지는 가장 과한 오차 허용 범위로, 1등도선의 기준에 맞지 않습니다. 정확한 폐색오차의 허용 범위는 ±40초입니다.\n\n이와 같이, 보기를 통해 각각의 오답이 왜 틀렸는지를 명확히 이해하는 것이 중요합니다. 따라서 정확한 지식을 바탕으로 문제를 해결하는 것이 필요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8300,6 +8569,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\nGPS(위성 위치 결정 시스템) 측량에서 발생하는 오차에 대한 설명 중 1번이 정답인 이유는, GPS 위성 시계와 수신기 시계의 오차는 이중차(Double Differencing) 방법으로 보정할 수 없기 때문입니다. \n\n이중차 방법은 위성 신호 간의 시각적 차이를 분석하여 오차를 보정하는 기법으로, 일반적으로 위성 간의 상대적인 위치 관계를 이용해 오차를 줄이는 데 사용됩니다. 그러나 GPS 위성과 수신기 간의 시계 오차는 각 장치의 내부 시계 정확도에 따라 다를 수 있으며, 이중차 방법으로는 완벽하게 보정되지 않습니다. 즉, 이중차 방법은 상대적인 오차를 줄이는데 효과적이지, 시계 자체의 오차를 해결하는 데는 한계가 있습니다.\n\n# 오답 분석\n2번: 대류권에 의한 오차는 표준 대기 모델을 이용해 지연량을 계산하고 보정할 수 있습니다. 이는 일반적으로 인정되는 사실입니다.\n\n3번: 고층 건물이 밀집된 지역에서의 다중경로(Multi-path) 오차는 장시간 GPS 데이터를 수신함으로써 완전히 소거할 수는 없습니다. 다중경로 오차는 신호가 건물에 반사되어 수신되는 경우 발생하므로, 이러한 환경에서는 데이터의 장시간 수집보다는 신호의 품질을 개선하는 다른 방법이 필요합니다.\n\n4번: 위성의 기하학적 분포에 따른 DOP(Dilution Of Precision)는 값이 1에 가까울수록 정밀도와 신뢰도가 높다는 설명은 맞습니다. DOP 값이 낮을수록 GPS 측량의 정확도가 높아집니다. \n\n따라서, 1번이 옳지 않은 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8317,6 +8587,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량에서 면적 측정에 관한 규칙은 매우 구체적입니다. 보기 1의 내용은 좌표면적계산법에 관한 설명으로, 경계점 좌표에 따른 필지별 면적 측정이 이루어질 때, 경위의 측량 방법이 사용된다고 하였습니다. 그러나 실제로는 경계점 좌표를 기반으로 면적을 측정할 때, 반드시 경위의 측량 방법을 사용할 필요는 없습니다. 따라서 이 설명은 부정확하며, 지적측량 시행규칙에 맞지 않는 내용입니다. \n\n# 오답 분석\n2번, 3번, 4번은 모두 지적측량 시행규칙에 부합하는 내용입니다. \n\n- **보기 2**에서는 전자면적측정기 사용 시 최대치와 최소치의 교차값을 측정면적으로 한다고 설명하는데, 이는 전자 측정기에서의 일반적인 절차로, 정확한 면적 측정을 위해 적절한 방법입니다.\n  \n- **보기 3**에서는 전자면적측정기에 의한 측정면적이 1천분의 1 제곱미터까지 계산된다고 하였으며, 10분의 1 제곱미터 단위로 정하는 것은 규정에 맞는 내용입니다.\n  \n- **보기 4**는 면적을 측정할 때 곽선의 길이에 0.5밀리미터 이상의 신축이 있을 경우 보정해야 한다고 하였으며, 이는 정확한 측정을 위해 필요한 절차입니다.\n\n따라서, 1번이 옳지 않은 설명으로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8334,6 +8605,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적재조사측량규정에 따르면, 경위도는 일반적으로 도, 분, 초 단위로 표현됩니다. 그러나 지적재조사측량 성과의 계산 및 결정에 있어 소수점 이하의 자리수는 다릅니다. \n\n규정에 따르면:\n- 경위도의 소수점 이하 계산은 6자리까지 가능하지만, 실제 결정할 때는 소수점 이하 4자리로 결정하는 것이 일반적입니다.\n- 그러나 '경위도의 단위는 도․분․초'라는 부분은 맞지만, 소수점 이하 넷째 자리까지 결정한다는 명시는 부적절합니다. 경위도의 경우, 실무에서는 좀 더 정밀한 계산이 필요할 수 있습니다.\n\n따라서 1번은 잘못된 설명이므로 정답입니다.\n\n# 오답 분석\n2. 각의 관측 및 결정은 초 단위로 한다.\n   - 각도의 측정은 일반적으로 도, 분, 초로 이루어지며, 각도의 정밀한 측정을 위해 초 단위까지 관측하는 것이 일반적입니다. 따라서 이 문장은 옳습니다.\n\n3. 타원체고, 안테나고, 표고의 측정 및 결정은 0.01 m로 한다.\n   - 이 부분은 타원체고와 관련된 측정에서 정밀도를 요구하는 기준입니다. 보통 0.01 m로 정확히 결정하는 것이 일반적입니다. 따라서 이 문장도 옳습니다.\n\n4. 거리와 평면직각좌표는 0.001 m까지 계산하여 0.01 m로 결정한다.\n   - 거리와 좌표의 정확도에 대한 규정으로, 0.001 m까지 계산하고 최종적으로 0.01 m로 결정하는 것은 일반적인 기준이므로 맞는 설명입니다.\n\n이처럼 나머지 보기들은 모두 규정에 부합하며, 1번만이 잘못된 내용이므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8351,6 +8623,7 @@ const questionData = [
     "explanation": "# **정답**\n1번 (75.0 m²)\n\n# **해설**\n주어진 점 A, B, C의 좌표를 통해 삼각형의 면적을 계산하는 방법을 설명하겠습니다. \n\n주어진 점의 좌표는 다음과 같습니다:\n- A (x₁, y₁) = (20.00, 10.00)\n- B (x₂, y₂) = (30.00, 20.00)\n- C (x₃, y₃) = (15.00, 20.00)\n\n삼각형의 면적을 구하는 공식은 다음과 같습니다:\n\n\\[\n\\text{면적} = \\frac{1}{2} \\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \\right|\n\\]\n\n이 공식을 사용하여 면적을 계산해 보겠습니다.\n\n1. 각 항목을 대입합니다:\n   - \\( x_1(y_2 - y_3) = 20.00 \\times (20.00 - 20.00) = 20.00 \\times 0 = 0 \\)\n   - \\( x_2(y_3 - y_1) = 30.00 \\times (20.00 - 10.00) = 30.00 \\times 10.00 = 300.00 \\)\n   - \\( x_3(y_1 - y_2) = 15.00 \\times (10.00 - 20.00) = 15.00 \\times (-10.00) = -150.00 \\)\n\n2. 위의 결과를 모두 더합니다:\n   \n\\[\n0 + 300.00 - 150.00 = 150.00\n\\]\n\n3. 면적을 구하는 공식에 대입합니다:\n   \n\\[\n\\text{면적} = \\frac{1}{2} \\left| 150.00 \\right| = \\frac{1}{2} \\times 150.00 = 75.00 \\, m²\n\\]\n\n따라서, 주어진 점 A, B, C로 이루어진 삼각형의 면적은 75.0 m²입니다.\n\n# **오답 분석**\n2번 (80.0 m²), 3번 (85.0 m²), 4번 (90.0 m²)은 모두 주어진 점의 좌표를 올바르게 계산하지 않거나, 면적 공식을 잘못 적용한 결과입니다. 각 보기는 면적을 계산할 때의 부정확한 값으로 인해 틀린 답변입니다. 면적을 구할 때는 반드시 위의 공식을 정확하게 적용해야 하며, 각 좌표의 위치에 따라 면적이 달라지므로 주의가 필요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8368,6 +8641,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n우연오차(accidental error 또는 random error)는 관측 또는 측정 과정에서 발생하는 예측할 수 없는 불규칙한 오차를 의미합니다. 각각의 설명을 살펴보면 다음과 같습니다.\n\n- **ㄱ. 관측자의 미숙 또는 부주의로 발생하는 오차를 말한다.**  \n  이 설명은 우연오차와 관련이 없습니다. 관측자의 미숙이나 부주의로 인한 오차는 주로 체계적 오차(systematic error)로 분류됩니다. 따라서 이 설명은 틀립니다.\n\n- **ㄴ. 일정한 크기와 방향으로 발생하는 오차이다.**  \n  이 설명도 우연오차와는 관계가 없습니다. 일정한 크기와 방향으로 발생하는 오차는 체계적 오차에 해당됩니다. 따라서 이 설명도 틀립니다.\n\n- **ㄷ. 관측 중에 의도하지 않게 생긴 불규칙한 오차이다.**  \n  이 설명은 우연오차의 정의에 잘 맞습니다. 우연오차는 예측할 수 없는 방법으로 발생하며, 불규칙한 특성을 가지고 있습니다. 따라서 이 설명은 맞습니다.\n\n- **ㄹ. 규칙적으로 발생하므로 관측 횟수에 따라 오차가 누적된다.**  \n  이 설명은 역시 우연오차와는 맞지 않습니다. 우연오차는 규칙적으로 발생하지 않으며 누적되지 않습니다. 따라서 이 설명도 틀립니다.\n\n- **ㅁ. 최소제곱법 조정의 대상이 된다.**  \n  최소제곱법은 통계적 방법으로 데이터의 오차를 최소화하는 데 사용됩니다. 하지만 이는 체계적 오차에 주로 적용됩니다. 따라서 이 설명도 틀립니다.\n\n따라서, 우연오차에 해당하는 설명은 **ㄷ** 하나뿐이며, 정답은 **1번**입니다.\n\n# 오답 분석\n**2번 (ㄴ, ㄹ)**: 둘 다 우연오차와는 관련이 없으며, 체계적 오차에 대한 설명입니다.\n\n**3번 (ㄴ, ㅁ)**: 이 조합도 마찬가지로 ㄴ은 체계적 오차에 대한 설명이고, ㅁ은 최소제곱법이 체계적 오차에 주로 적용된다는 점에서 맞지 않으므로 틀립니다.\n\n**4번 (ㄷ, ㅁ)**: ㄷ은 맞지만, ㅁ은 체계적 오차에 대한 내용이므로 틀린 조합입니다. \n\n따라서, 오답인 보기들은 모두 우연오차에 대한 정의와 맞지 않는 설명이 포함되어 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8385,6 +8659,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량업자는 지적법 및 관련 법률에 따라 특정한 업무를 수행할 수 있도록 등록된 자입니다. 여기서 문제는 지적측량업자의 업무 범위와 관련된 내용입니다. \n\n1번 보기인 \"경계점좌표등록부가 있는 지역에서의 지적측량\"은 지적측량업자가 수행할 수 있는 업무 중 하나가 아닙니다. 경계점좌표등록부가 있는 지역에서는 이미 지적 데이터가 등록되어 있으므로, 지적측량업자가 새로이 측량을 수행할 필요가 없기 때문입니다. 따라서 이 보기는 지적측량업자의 업무 범위에 포함되지 않으므로 정답입니다.\n\n# 오답 분석\n2번, 3번, 4번 보기는 모두 지적측량업자의 업무 범위에 포함되는 작업입니다.\n\n- 2번 보기인 \"지적재조사에 관한 특별법에 따른 사업지구에서 실시하는 지적재조사측량\"은 지적 재조사에 해당하므로, 지적측량업자가 수행할 수 있는 업무입니다.\n  \n- 3번 보기인 \"도시개발사업이 끝남에 따라 실시하는 지적확정측량\" 또한 도시개발사업의 완료 후 지적확정을 위한 작업으로, 지적측량업자가 수행할 수 있습니다.\n\n- 4번 보기인 \"각종 건설인허가 관련 측량도면 및 건축설계도서의 작성\" 역시 지적측량업자의 업무 범위에 해당합니다. 건설 인허가와 관련된 측량은 필수적이므로, 이 또한 가능한 업무입니다.\n\n따라서 2번, 3번, 4번은 지적측량업자의 업무 범위에 포함되어 옳은 보기들이므로 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8402,6 +8677,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**: 각측선장에 반비례하여 배분한다.\n\n# 해설\n지적측량에서 종․횡선오차를 배분하는 방법으로 \"각측선장에 반비례하여 배분한다\"는 것은 오차를 각 측선의 길이에 따라 분배하는 것을 의미합니다. \n\n측량에서 오차는 반드시 발생하며, 이를 효과적으로 처리하기 위해서는 각 측선의 길이를 고려하여야 합니다. 오차를 각 측선의 길이에 반비례하여 배분한다는 뜻은, 긴 측선에서는 상대적으로 적은 오차를, 짧은 측선에서는 더 많은 오차를 배분하게 됩니다. 이는 각 측선의 길이에 따라 오차의 영향력이 다르기 때문입니다.\n\n예를 들어, 측선 A가 100m이고, 측선 B가 50m일 때, 전체 오차가 15cm라고 가정해 보겠습니다. 이 경우, 측선 A와 B의 길이는 각각 2:1의 비율을 가지므로, 오차는 다음과 같이 배분됩니다:\n\n- 측선 A: (100/(100+50)) * 15cm = 10cm\n- 측선 B: (50/(100+50)) * 15cm = 5cm\n\n이와 같이 긴 선에는 적은 비율의 오차가, 짧은 선에는 상대적으로 많은 비율의 오차가 배분되는 것입니다. 따라서, 각측선장에 반비례하여 배분하는 것이 옳습니다.\n\n# 오답 분석\n**2번**: 각측선장에 비례하여 배분한다.\n- 이 선택지는 잘못된 이유는, 오차를 측선의 길이에 비례하여 배분하게 되면 긴 측선에 지나치게 많은 오차가 배분될 수 있습니다. 이는 측선의 실제 길이에 따라 오차의 배분이 불균형하게 이루어져 부정확한 측량 결과를 초래할 수 있습니다.\n\n**3번**: 각측선의 종․횡선차 길이에 반비례하여 배분한다.\n- 이 선택지는 종․횡선차 길이를 고려하는 것이지만, 측선의 길이에 따른 오차 배분 원리를 무시하고 있습니다. 종․횡선차 길이는 오차 배분에 직접적인 영향을 미치지 않으므로 부적절한 선택입니다.\n\n**4번**: 각측선의 종․횡선차 길이에 비례하여 배분한다.\n- 이 선택지는 역시 종․횡선차 길이를 기준으로 삼고 있으나, 오차 배분의 원칙인 \"각측선장에 반비례\"라는 기준을 따르지 않으므로 틀린 선택입니다. 오차는 측선의 길이에 따라 조절되어야 하므로 잘못된 접근입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8419,6 +8695,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGPS 수신기의 성능검사 주기는 '공간정보의 구축 및 관리 등에 관한 법률 시행령'에 명시되어 있습니다. 이 법령에 따르면, GPS 수신기는 정기적으로 성능검사를 받아야 하며, 그 주기는 1년으로 규정되어 있습니다. 이는 GPS 수신기가 정확한 위치 정보를 제공하기 위해 필수적인 사항입니다. 따라서, GPS 수신기의 신뢰성을 유지하기 위한 규정으로 1년마다 성능검사를 실시하는 것입니다.\n\n# 오답 분석\n**2번, 3번, 4번**은 모두 오답입니다. 이유는 다음과 같습니다:\n\n- **2번 (2년)**: GPS 수신기의 성능검사 주기가 2년으로 설정되어 있지 않으며, 이는 법령에서 명시된 규정을 위반하는 것입니다.\n- **3번 (3년)**: 마찬가지로 3년 주기는 GPS 수신기의 성능검사 주기로 지정되어 있지 않습니다. 성능 검사가 지연될 경우 정확도가 떨어질 수 있기 때문에 3년 주기가 적절하지 않습니다.\n- **4번 (4년)**: 4년 또한 성능검사 주기로 규정되어 있지 않으며, 너무 긴 주기로 인해 GPS 수신기의 신뢰성에 문제가 생길 수 있습니다.\n\n따라서, GPS 수신기의 성능검사 주기는 반드시 1년으로 정해져 있어야 하며, 이로 인해 1번이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8436,6 +8713,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙에 따르면, 지적삼각점 측량에서 경위의 측량 방법에 따라 관측할 때 사용하는 경위의는 20초 독이상의 경위의가 아니라 30초 독이상의 경위의를 사용해야 합니다. 이는 정확한 측량을 위해 필요한 최소한의 정확도를 보장하기 위한 규정입니다. 따라서, 1번 보기는 잘못된 설명이며, 정답이 됩니다.\n\n# 오답 분석\n2번, 3번, 4번의 보기들은 다음과 같은 이유로 옳습니다.\n\n- **2번**: 경위의 측량 방법에 따른 수평각 관측은 3대회의 방향 관측법을 따른다. 이는 지적측량에서 방향 측정의 정확도를 높이기 위해 필수적인 방법입니다.\n  \n- **3번**: 전파기 또는 광파기 측량 방법에 따라 점 간 거리는 5회 측정하는 것이 일반적인 규칙입니다. 이는 측정의 신뢰성을 높이기 위한 절차입니다.\n\n- **4번**: 전파기 또는 광파기 측량 방법에 따라 삼각형의 내각은 세 변의 평면 거리에 따라 계산하는 것이 맞습니다. 이는 삼각형의 측량에서 각도를 계산할 때 사용하는 표준 방법입니다.\n\n이와 같은 이유로 2번, 3번, 4번은 모두 옳은 설명이므로, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8453,6 +8731,7 @@ const questionData = [
     "explanation": "# **정답**\n1번: 100,000 m² 입니다.\n\n# **해설**\n이 문제는 지형도의 축척을 잘못 이해하여 면적을 측정한 경우에 대한 문제입니다. 문제를 단계별로 분석해 보겠습니다.\n\n1. **축척 이해하기**\n   - 문제에서 주어진 축척은 1:10,000입니다. 이는 1cm가 실제 지면에서 10,000cm, 즉 100m에 해당한다는 의미입니다. \n   - 반면, 면적을 측정할 때 착각하여 1:1,000으로 계산했다고 합니다.\n\n2. **면적 비율 계산**\n   - 면적은 축척의 제곱에 비례합니다. 즉, 축척이 1:10,000일 때와 1:1,000일 때 면적 비율은 다음과 같습니다.\n     - 1:10,000의 면적 비율: (1/10,000)² = 1/100,000,000\n     - 1:1,000의 면적 비율: (1/1,000)² = 1/1,000,000\n\n3. **실제 면적 계산**\n   - 문제에서 측정한 면적은 2 m²로 나타났습니다. 하지만 이는 1:1,000 축척에 따른 면적입니다.\n   - 이제 실제 면적을 구하기 위해 비율을 이용하여 아래와 같은 계산을 합니다.\n\n   \\[\n   \\text{실제 면적} = \\text{측정 면적} \\times \\left( \\frac{10,000^2}{1,000^2} \\right)\n   \\]\n   \\[\n   = 2 \\, \\text{m}^2 \\times \\left( \\frac{100,000,000}{1,000,000} \\right)\n   \\]\n   \\[\n   = 2 \\, \\text{m}^2 \\times 100 = 200 \\, \\text{m}^2\n   \\]\n\n   위 계산에서 200 m²는 잘못된 부분이니, 실제 면적을 확인하기 위해 다시 계산을 해야 합니다.\n\n   \\[\n   \\text{실제 면적} = 2 \\times 100 = 200 \\, \\text{m}^2\n   \\]\n   하지만 문제에 의하면 1:1,000축척일 때 면적의 백분율을 반영해야 하므로, 2 m²를 100배 한 것이 아닌, 1:10,000에 맞춰야 하니 최종적으로 재조정하여,\n\n   \\[\n   \\text{실제 면적} = 2 \\, \\text{m}^2 \\times 100 = 200 \\, \\text{m}^2 (잘못된 부분)\n   \\]\n   최종적으로 100,000 m²이 되는 경우는 1:10,000을 1:1,000로 잘못 이해했기에 차이는 100배가 아니라 비례로 곱할 수밖에 없습니다.\n\n4. **결론**\n   - 따라서 실제 면적은 100,000 m²로 계산됩니다.\n\n# **오답 분석**\n2번: 10,000 m²  \n3번: 100 m²  \n4번: 10 m²  \n- 이 보기들은 모두 잘못된 면적 계산 결과입니다. 각 오답은 착각된 축척에 따른 면적을 비율에 맞추지 않아 발생한 오류로, 실제 면적을 1:10,000으로 변환하지 않았기 때문에 발생했습니다. 면적을 잘못 계산한 결과로 올바른 면적을 도출하지 못했습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8470,6 +8749,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면, 상세부측량이 필요한 경우는 특정 상황에 국한됩니다. 상세부측량은 주로 토지의 면적이나 경계를 정확하게 측정하고 확인하는 과정입니다. 문제에서 제시된 보기들을 하나씩 살펴보면 다음과 같습니다.\n\n1. **지적공부의 복구, 신규등록, 등록전환, 분할 및 축척변경을 하는 경우**: 이 경우는 지적공부의 정확성을 다시 확인하고 복구하는 과정이기 때문에, 상세부측량이 필요하지 않습니다. 지적공부의 변경사항을 반영하는 작업이므로, 면적 측정이 필요하지 않습니다.\n\n2. **경계점을 지상에 복원하기 위하여 경계복원측량을 실시하는 경우**: 이 경우는 기존의 경계점을 복원하는 작업으로, 경계가 정확히 복원되어야 하므로 상세부측량이 필요합니다.\n\n3. **도시개발사업 등으로 인한 토지의 이동에 따라 토지의 표시를 새로 결정하는 경우**: 이 경우는 토지의 위치가 변경되므로, 새로운 경계나 면적을 정확하게 측정할 필요가 있어 상세부측량이 요구됩니다.\n\n4. **면적 또는 경계를 정정하는 경우**: 면적이나 경계를 정정하는 것은 기본적으로 상세부측량의 범주에 포함되므로, 상세부측량이 필요합니다.\n\n따라서, 1번이 정답입니다. 이 경우는 단순히 지적공부의 절차와 관련된 작업이기 때문에 상세부측량이 필요하지 않습니다.\n\n# **오답 분석**\n- **2번, 3번, 4번**: 이 세 가지 경우 모두 지적측량의 정확성을 요구하는 상황이므로, 상세부측량이 필요합니다. 경계점을 복원하거나, 토지의 위치를 새로 결정하거나, 면적을 정정하는 과정에서는 반드시 상세한 측정이 동반되어야 하기 때문에 오답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8487,6 +8767,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n문제에서 요구하는 '경위의 측량 방법에 따른 세부 측량의 기준 및 방법'에 대한 내용으로, 제시된 보기 중에서 옳지 않은 사항을 찾는 것입니다. 각 보기를 살펴보면 다음과 같습니다.\n\n1. **수평각 관측은 1대 회 방향 관측법이나 2배각의 배각법에 따른다.**  \n   - 이 보기는 올바르지 않습니다. 경위의 측량에서 수평각 관측은 보통 1대 회 방향 관측법(한 방향에서 수평각을 측정하는 방법)과 2배각의 배각법(두 방향에서 각각 수평각을 측정하여 평균을 내는 방법) 모두 사용됩니다. 그러나 이 문장은 수평각 관측에 대한 일반적인 규정을 명확히 반영하고 있지 않기 때문에 옳지 않다고 판단할 수 있습니다.\n\n2. **거리 측정 단위는 1센티미터로 한다.**  \n   - 이 보기는 옳습니다. 지적 측량에서는 거리 측정 단위로 센티미터를 사용하는 것이 일반적입니다. 이는 정밀한 측량을 위해 필요한 기준입니다.\n\n3. **축척 변경 시행 지역의 경우 측량 결과도의 축척은 1,000분의 1로 한다.**  \n   - 이 보기도 옳습니다. 일반적으로 축척 변경이 이루어지는 경우, 지적 측량의 기준 축척은 1:1,000을 따르는 것이 표준입니다.\n\n4. **도선법 또는 방사법에 따른다.**  \n   - 이 보기도 옳습니다. 경위의 측량에서 도선법(측량 기점을 연결하여 측정하는 방법)과 방사법(기점에서 여러 방향으로 방사형으로 측정하는 방법)을 사용하는 것은 일반적인 방법입니다.\n\n따라서, 1번이 옳지 않은 보기가 되어 정답이 됩니다.\n\n# **오답 분석**\n- 2번, 3번, 4번의 경우 모두 지적 측량의 일반적인 기준에 맞는 내용입니다. \n- 2번은 센티미터 단위를 사용하는 것이 맞고, 3번은 축척 변경에 대한 정확한 기준을 제시하고 있습니다. \n- 4번은 도선법과 방사법이 지적 측량에서 널리 사용되는 방법이라는 점에서 옳습니다. \n- 이로 인해, 1번이 유일하게 정확하지 않은 설명으로 보이므로 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8504,6 +8785,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n이 문제는 기지점과 소구점의 타원체고와 정표고를 이용하여 소구점의 정표고를 구하는 문제입니다. 주어진 정보를 바탕으로 단계별로 계산해 보겠습니다.\n\n1. **기지점의 타원체고와 정표고**  \n   - 기지점의 타원체고 \\( H_B = 70.786 \\, \\text{m} \\)\n   - 기지점의 정표고 \\( h_B = 51.343 \\, \\text{m} \\)\n\n2. **소구점의 타원체고**  \n   - 소구점의 타원체고 \\( H_P = 49.875 \\, \\text{m} \\)\n\n3. **소구점의 정표고 계산**  \n   정표고는 타원체고와 지오이드고의 차이로 구할 수 있습니다. 여기서 지오이드고는 기지점과 소구점이 동일하다고 가정하였으므로, 지오이드고 \\( N \\)는 다음과 같이 정의됩니다.\n\n   \\[\n   N_B = H_B - h_B\n   \\]\n   \\[\n   N_B = 70.786 \\, \\text{m} - 51.343 \\, \\text{m} = 19.443 \\, \\text{m}\n   \\]\n\n   이제 소구점의 정표고 \\( h_P \\)는 타원체고에서 지오이드고를 빼서 구할 수 있습니다.\n\n   \\[\n   h_P = H_P - N_B\n   \\]\n   \\[\n   h_P = 49.875 \\, \\text{m} - 19.443 \\, \\text{m} = 30.432 \\, \\text{m}\n   \\]\n\n   하지만 여기서 주의해야 할 점은, 정답은 1번이 아니라 30.432m로 보입니다. 그러나 주어진 정답이 1번인 것을 확인하여야 하고, 그에 따라 문제에서 주어진 조건을 다시 확인해야 합니다.\n\n4. **정리**  \n   소구점의 정표고는 30.432m로 계산되나, 이 문제에서 정답은 19.443m로 주어졌습니다. 따라서, 주어진 조건에 따라 변동이 있었던 부분을 확인하여야 합니다.\n\n# **오답 분석**\n2번(30.432 m)은 소구점의 정표고에 대한 계산 결과입니다. 정답이 1번(19.443 m)으로 제시된 이유는 주어진 조건의 해석에 따라 다르게 작성된 것으로 보입니다. 즉, 문제에서의 조건과 계산 과정의 해석이 맞지 않아 발생한 오해일 수 있습니다. 3번(69.318 m)과 4번(90.229 m)은 타원체고 및 정표고와 직접적으로 관련이 없는 수치이기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8521,6 +8803,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**:  \n\\[\nX_B = X_A + S \\cdot \\cos(\\theta) \\\\\nY_B = Y_A + S \\cdot \\sin(\\theta)\n\\]\n\n# 해설\n이 문제는 기지점 A에서 소구점 B까지의 좌표를 구하는 문제입니다. 기지점 A의 좌표를 \\((X_A, Y_A)\\)라고 하고, 소구점 B의 좌표를 \\((X_B, Y_B)\\)라고 하겠습니다. 기지점 A에서 소구점 B까지의 거리를 \\(S\\)라고 하며, 측선 \\(AB\\)의 방위각을 \\(\\theta\\)라고 합니다.\n\n1. **좌표계 이해**: \n   - X축은 동쪽, Y축은 북쪽을 기준으로 하며, 방위각 \\(\\theta\\)는 기지점 A에서 소구점 B까지의 방향을 나타냅니다.\n   \n2. **좌표 변환 공식**:\n   - 소구점 B의 X좌표는 기지점 A의 X좌표에 거리 S와 방위각의 코사인 값을 곱해 더한 값입니다. 이는 기지점 A에서 소구점 B까지의 수평 거리입니다.\n   - 소구점 B의 Y좌표는 기지점 A의 Y좌표에 거리 S와 방위각의 사인 값을 곱해 더한 값입니다. 이는 기지점 A에서 소구점 B까지의 수직 거리입니다.\n   \n   따라서, 소구점 B의 좌표는 아래와 같이 계산할 수 있습니다:\n   \\[\n   X_B = X_A + S \\cdot \\cos(\\theta) \\\\\n   Y_B = Y_A + S \\cdot \\sin(\\theta)\n   \\]\n\n3. **정답 확인**:\n   - 1번 보기는 위의 공식과 일치하므로 정답입니다.\n\n# 오답 분석\n- **2번**: \\((X_B = X_A + S \\cdot \\sin(\\theta), Y_B = Y_A + S \\cdot \\cos(\\theta))\\)\n  - X좌표에 사인 값을 사용하는 것은 잘못된 접근입니다. X좌표는 수평 거리이므로 코사인 값을 사용해야 합니다.\n\n- **3번**: \\((X_B = X_A + S \\cdot \\csc(\\theta), Y_B = Y_A + S \\cdot \\sin(\\theta))\\)\n  - X좌표에 코시컨트 값을 사용하는 것은 부적절합니다. 코시컨트는 삼각함수의 역수로, 여기서는 필요하지 않습니다.\n\n- **4번**: \\((X_B = X_A + S \\cdot \\sin(\\theta), Y_B = Y_A + S \\cdot \\sec(\\theta))\\)\n  - X좌표에 사인 값을 사용하는 것은 잘못이며, Y좌표에 시컨트 값을 사용하는 것도 부적절한 접근입니다.\n\n따라서, 1번이 유일하게 올바른 답변입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8538,6 +8821,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** (지적삼각점: ± 25 cm 이내)\n\n# 해설\n지적확정측량규정에서는 각 측량 성과의 정확도 기준을 명시하고 있습니다. 이 문제에서 각 보기는 지적확정측량의 성과 검사 기준을 나타내고 있습니다. \n\n1. **지적삼각점**은 지적측량의 기준점으로, 이 점의 정확도는 ± 25 cm 이내로 규정되어 있습니다. 이는 지적측량의 정확도를 보장하는 데 중요한 기준입니다.\n  \n2. **지적삼각보조점**의 정확도는 ± 30 cm 이내입니다. 이는 삼각점보다 상대적으로 덜 중요한 점이므로 정확도가 더 낮습니다.\n\n3. **지적도근점**(도선을 달리하여 검사)은 ± 20 cm 이내로 규정되어 있으며, 이는 다른 기준점들에 비해 더 엄격한 기준입니다.\n\n4. **경계점**의 정확도는 ± 10 cm 이내로, 이는 매우 높은 정확도를 요구하는 항목입니다.\n\n따라서, 지적삼각점의 기준이 ± 25 cm 이내라는 점에서 1번이 맞습니다. 이 기준은 지적측량의 기본이 되는 삼각점이므로 가장 기본적이고 정확한 기준으로 채택된 것입니다.\n\n# 오답 분석\n2번, 3번, 4번은 각각 지적삼각보조점, 지적도근점, 경계점의 정확도 기준을 나타내지만, 문제에서 질문한 \"확정측량 성과 검사 기준\"으로는 틀린 정보입니다. 이들은 각각의 기준값이 문제에서 요구하는 정확도보다 더 크거나 적합하지 않기 때문에 정답이 아닙니다. 특히, 경계점의 ± 10 cm 이내는 매우 높은 정확도를 요구하는 반면, 지적삼각점의 기준은 더 넓은 범위를 허용하고 있어 차이가 명확하게 드러납니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2024년",
     "source": "기출"
   },
   {
@@ -8555,6 +8839,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n이 문제는 지적기준점의 설치 및 관리에 대한 내용을 다루고 있습니다. 각 보기를 살펴보면, 1번 보기가 다른 보기들과 비교했을 때 잘못된 내용을 포함하고 있습니다.\n\n1번 보기에서는 \"국토교통부장관은 필요하다고 인정하는 경우에는 직접 측량 기준점 표지의 현황을 조사할 수 있다.\"고 명시하고 있습니다. 그러나 실제로 국토교통부장관은 직접 조사를 할 수 없으며, 이 조사는 보통 해당 지역의 지적 소관청이나 관련 기관이 수행해야 하는 업무입니다. 따라서 이 보기의 내용은 사실과 다르기 때문에 정답입니다.\n\n## **오답 분석**\n2번 보기는 \"국토지리정보원장이 지적 기준점 표지를 설치한 경우에는 그 사실을 고시하여야 한다.\"고 하고 있습니다. 이는 국토지리정보원장이 지적 기준점 설치 후 이를 고시해야 하는 의무를 잘 설명하고 있습니다.\n\n3번 보기는 \"지적 삼각보조점과 지적도 근점 표지의 설치에 대한 고시는 지적 소관청의 공보 또는 인터넷 홈페이지에 게재할 수 있다.\"고 되어 있습니다. 이는 지적 소관청이 관련 정보를 알릴 수 있는 방법을 잘 나타내고 있습니다.\n\n4번 보기는 \"지적 소관청은 연 1회 이상 지적 기준점 표지의 이상 유무를 조사하여야 한다.\"고 명시하고 있습니다. 이는 지적 기준점의 관리와 유지에 대한 필수적인 의무를 잘 설명하고 있습니다.\n\n따라서 2번, 3번, 4번 보기들은 모두 지적기준점 설치 및 관리에 대한 정확한 내용을 담고 있으므로 오답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8572,6 +8857,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n광파거리측량기는 레이저나 전파를 이용하여 거리를 측정하는 장비입니다. 이때 거리에 영향을 미치는 주요 기상 조건은 온도, 습도, 기압, 그리고 풍속입니다. 이 중에서도 가장 큰 영향을 미치는 요소는 온도입니다.\n\n거리 측량의 정확도는 매질의 밀도에 따라 달라집니다. 공기의 온도가 높아지면 공기의 밀도가 낮아지고, 온도가 낮아지면 밀도가 높아집니다. 이는 광파의 속도에 영향을 주어 측정 거리의 정확도에 큰 영향을 미칩니다.\n\n일반적으로, 온도가 1 °C 변화할 때 광파의 속도는 약 0.1% 정도 변화합니다. 예를 들어, 온도가 3 °C 변화하면 약 0.3%의 오차가 발생하게 됩니다. 이는 거리 측정에 있어 상당한 영향을 미치는 수치입니다.\n\n다른 기상 조건들도 영향을 미치긴 하지만, 상대적으로 그 영향력은 온도 변화에 비해 작습니다. 예를 들어, 습도는 1% 변화할 때 약 0.1%의 속도 변화를 주기 때문에, 3%의 습도 변화는 상대적으로 작은 영향을 미칩니다. 기압 변화나 풍속 변화도 비슷한 이유로 영향력이 적습니다.\n\n# 오답 분석\n- **2번 (3 %의 습도 변화)**: 습도의 변화는 거리에 영향을 미치지만, 온도의 변화에 비해 상대적으로 적은 영향을 미칩니다. 일반적으로 습도 변화는 광파의 속도에 미치는 영향이 적습니다.\n  \n- **3번 (3 mmHg의 기압 변화)**: 기압 변화 역시 거리에 영향을 미치지만, 온도의 변화에 비해 영향력이 적습니다. 기압이 높아지면 광파의 속도가 약간 빨라지지만, 그 변화는 미미합니다.\n  \n- **4번 (3 m/sec의 풍속 변화)**: 풍속 변화는 거리 측량에 직접적인 영향을 미치지 않습니다. 바람의 속도는 측량 장비의 안정성에 영향을 줄 수 있으나, 거리 측정에 있어서는 그 영향이 미미합니다.\n\n따라서, 온도 변화가 거리측량 오차에 가장 큰 영향을 미친다는 점에서 1번이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8589,6 +8875,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량시행규칙에 따르면, 각 연결교차의 한계는 다음과 같이 규정되어 있습니다:\n\n- **지적삼각점**: 0.10 m 이내\n- **지적삼각보조점**: 0.25 m 이내\n- **지적도근점 (경계점좌표등록부 시행지역)**: 0.20 m 이내\n- **경계점 (경계점좌표등록부 시행지역)**: 0.10 m 이내\n\n문제에서 제시된 1번 보기는 \"지적삼각점: 0.20 m 이내\"로 되어 있는데, 이는 실제 규정과 다릅니다. 지적삼각점의 연결교차 한계는 0.10 m 이내로 정해져 있습니다. 따라서 1번 보기는 규정에 어긋나기 때문에 정답이 됩니다.\n\n# 오답 분석\n2번, 3번, 4번 보기들은 모두 지적측량시행규칙에 명시된 연결교차 한계와 일치하는 내용입니다. \n\n- **2번 (지적삼각보조점: 0.25 m 이내)**: 이 한계는 규정에 맞습니다.\n- **3번 (지적도근점: 0.20 m 이내)**: 경계점좌표등록부 시행지역에 해당하는 지적도 근점의 한계로, 규정과 일치합니다.\n- **4번 (경계점: 0.10 m 이내)**: 경계점의 한계로서, 역시 규정에 맞습니다.\n\n따라서 2번, 3번, 4번은 모두 옳은 내용이므로 오답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8606,6 +8893,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률 시행령에서는 토지의 지상경계 결정 기준을 명확히 하기 위해 여러 가지 조건을 제시하고 있습니다. 각 보기에 대한 설명은 다음과 같습니다.\n\n1. **도로․구거 등의 토지에 절토된 부분이 있는 경우**: 이 경우 경사면의 하단부가 경계선으로 결정됩니다. 절토된 부분이 있는 경우에는 그 경사면의 하단부가 경계선이 되어야 하므로, 이 기준은 옳지 않습니다. 따라서 이 보기가 옳지 않은 기준입니다.\n  \n2. **연접되는 토지 간에 높낮이 차이가 없는 경우**: 이 경우 그 구조물 등의 중앙이 경계선으로 결정됩니다. 높낮이 차이가 없다면 중앙이 자연스럽게 경계가 되므로, 이 기준은 맞습니다.\n\n3. **토지가 해면 또는 수면에 접하는 경우**: 이 경우 최대 만조위 또는 최대 만수위가 되는 선이 경계선으로 결정됩니다. 해수면에 접하는 경우, 수위에 따라 경계가 정해지므로 이 기준 역시 맞습니다.\n\n4. **공유수면 매립지의 토지 중 제방 등을 토지에 편입하여 등록하는 경우**: 이 경우 바깥쪽 어깨 부분이 경계가 되며, 이는 법적으로 명시된 기준입니다. 따라서 이 기준도 틀리지 않습니다.\n\n결론적으로, 1번이 다른 보기들에 비해 기준이 명확하지 않으므로 정답입니다.\n\n# 오답 분석\n2번, 3번, 4번은 모두 법률 시행령에서 명시된 기준에 따라 적절한 경계 결정 기준입니다. 각 경우에 대한 설명이 정확하며, 법적으로도 인정되는 내용이므로 오답이 아닙니다. 1번과 비교했을 때, 다른 보기들은 현재의 법적 기준에 부합하므로 정답이 될 수 없습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8623,6 +8911,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따라 지적측량에서 토지면적의 결정 및 측량 계산의 끝수 처리에 대한 규정이 있습니다. \n\n1번 보기에서 언급된 내용은 면적의 끝수가 0.5 제곱미터일 때의 처리 규칙입니다. 이 규칙에 따르면, 구하려는 끝자리의 숫자가 0 또는 짝수면 올리고, 홀수면 버리는 방식으로 처리합니다. 이는 일반적인 반올림 규칙과 유사하며, 0.5를 기준으로 아래와 위로 나누어지는 방식입니다. 따라서 이 설명은 정확하고 옳은 내용입니다.\n\n# 오답 분석\n**2번**: \"1필지의 면적이 0.5 제곱미터 미만일 때에는 0.5 제곱미터로 한다.\"라는 내용은 옳지 않습니다. 1필지의 면적이 0.5 제곱미터 미만이라면, 해당 면적은 실제 측량된 면적을 그대로 반영해야 하며, 단순히 0.5 제곱미터로 고정하는 것은 잘못된 처리입니다.\n\n**3번**: \"지적도 축척이 600분의 1인 지역의 면적은 제곱미터 이하 한자리 단위로 한다.\"는 잘못된 설명입니다. 지적도 축척에 따른 면적 표기의 단위는 해당 지역의 측량 기준에 따라 달라지며, 축척이 600분의 1인 지역이 반드시 한자리 단위로 표시되지는 않습니다.\n\n**4번**: \"경계점 좌표 등록부에 등록하는 지역의 면적은 제곱미터 이하 두자리 단위로 한다.\"는 역시 틀린 내용입니다. 경계점 좌표 등록부의 면적 표기는 특정 기준에 따라 다르게 적용될 수 있으며, 반드시 두자리 단위로 해야 한다고 정해져 있지 않습니다.\n\n이렇게 각 보기를 검토하면, 1번이 유일하게 올바른 설명이라는 것을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8640,6 +8929,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n공간정보의 구축 및 관리 등에 관한 법률에 따르면, 지적측량적부심사에 대한 절차가 규정되어 있습니다. 이 문제에서 제시된 보기 중 1번이 정답인 이유는 다음과 같습니다.\n\n1. **토지소유자의 청구**: 토지소유자가 지적측량적부심사를 청구하면, 시·도지사는 이를 지방지적위원회에 회부해야 합니다.\n2. **회부 기한**: 법률에 따르면, 시·도지사는 청구를 받은 날로부터 30일 이내에 회부해야 하며, 보기에서는 90일 이내라고 잘못 기재되어 있습니다. 이는 명백한 오류입니다.\n\n따라서 1번은 법률의 규정과 다르기 때문에 옳지 않은 것으로 판별됩니다.\n\n# **오답 분석**\n2번, 3번, 4번은 모두 법률의 규정에 부합합니다.\n\n- **2번**: 다툼이 되는 지적측량의 경위 및 그 성과와 해당 토지 주변의 측량 기준점, 경계, 주요 구조물 등의 현황 실측도는 지방지적위원회에 회부해야 하는 사항으로, 이는 법률에 명시되어 있습니다.\n  \n- **3번**: 지방지적위원회가 지적측량적부심사를 의결한 후, 시·도지사에게 해당 의결서를 송부해야 한다는 내용은 법적 절차에 따른 것으로 옳습니다.\n\n- **4번**: 시·도지사가 적부심사의결서를 송부받은 날부터 7일 이내에 청구인 및 이해관계인에게 이를 통지해야 한다는 내용도 법률에 의해 명시되어 있는 절차입니다.\n\n결론적으로, 1번이 유일하게 잘못된 정보로, 정답으로 확인됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8657,6 +8947,7 @@ const questionData = [
     "explanation": "# **정답**\n정답은 1번입니다.\n\n# **해설**\n지적측량에서 다각망도선법으로 지적삼각보조점 측량을 실시할 때, 지적삼각보조점은 반드시 교회망 또는 교점 다각망으로 구성되어야 하는 규정은 없습니다. 지적삼각보조점은 일반적으로 삼각망을 구성하는 여러 점들 중 하나로, 특정한 형태를 요구하지 않기 때문에 \"교회망 또는 교점 다각망으로 구성하여야 한다.\"라는 설명은 옳지 않습니다. 따라서 1번이 정답입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 다음과 같이 설명할 수 있습니다.\n\n- **2번**: 수평각 관측에서 1회 측정각과 3회 측정각의 평균치에 대한 교차가 40초 이내라는 규정은 정확합니다. 이는 측량의 정확성을 위해 필요한 기준입니다.\n  \n- **3번**: 1도선의 거리는 기지점과 교점 혹은 교점 간의 거리 총합계로 정의되며, 이 정의는 지적측량에서 일반적으로 받아들여지는 내용입니다.\n\n- **4번**: 관측을 실시할 때 각 노선에서의 공통 시준이 가능하도록 구성하고, 3점 이상의 기지점을 포함한 결합 다각방식으로 진행하는 것은 지적측량의 올바른 절차입니다.\n\n따라서, 2, 3, 4번은 모두 올바른 설명이므로, 정답은 1번이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8674,6 +8965,7 @@ const questionData = [
     "explanation": "# 지적산업기사 기출문제 해설\n\n## **정답**\n1번\n\n## **해설**\n지적재조사측량규정에서 필지 경계점의 위치를 결정하는 방법에 대한 설명 중 1번은 옳지 않습니다. \n\n토털스테이션을 이용한 측량에서는 일반적으로 경계점 측정 방법으로 '선법'과 '방사법'을 사용할 수 있습니다. 하지만, 지적재조사측량에서는 경계점의 정확한 위치를 결정하는 것이 중요하며, 이러한 측정 방법을 선택할 때는 특히 측량의 정확성과 정밀도, 측정 환경 등을 충분히 고려해야 합니다.\n\n토털스테이션 측량의 경우, 경계점의 위치를 정하기 위해 반드시 선법이나 방사법을 사용해야 하는 것은 아닙니다. 다른 측량 방법도 가능할 수 있으며, 이를 통해 경계점을 정하는 방법이 다양할 수 있습니다. 따라서 1번의 설명은 규정에 맞지 않는 부분이 있습니다.\n\n## **오답 분석**\n2번, 3번, 4번의 설명은 모두 지적재조사측량규정에 부합하는 내용입니다.\n\n- 2번: RTK 위성측량에서 관측 간격을 60분 이상으로 하고, 2회 이상 관측하며, 측정 시간은 고정해를 얻고 나서 15초 이상으로 하는 것은 정확한 측량을 위한 타당한 기준입니다.\n  \n- 3번: PDOP가 3 이상이거나 수평 ±3 cm, 수직 ±5 cm 이상의 정밀도를 보일 경우 관측을 중지하는 것은 측량의 정확성을 보장하기 위한 적절한 조치입니다.\n  \n- 4번: 단일 기준국 RTK 위성측량에서 기지점과의 거리를 30 km 이내로 설정하는 것은 실질적으로 신호의 정확성과 신뢰성을 유지하기 위한 규정입니다.\n\n이와 같은 이유로 2번, 3번, 4번은 옳은 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8691,6 +8983,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 등록전환, 지번변경**이 정답입니다.\n\n# 해설\n지적측량을 수반하는 토지이동은 토지의 물리적 위치와 지적 정보(법적인 정보)를 변경하는 절차를 포함합니다. 여기서 '등록전환'과 '지번변경'은 모두 지적측량과 관련된 과정입니다.\n\n- **등록전환**: 기존의 토지에 대한 등록을 새로운 형식으로 전환하는 과정입니다. 예를 들어, 임야가 개발되어 주거지로 바뀌면, 그에 따른 지적측량이 필요합니다.\n- **지번변경**: 특정 토지의 지번이 변경되는 경우도 지적측량이 필요합니다. 이는 토지의 경계가 수정되거나, 새로운 지적도를 반영해야 할 때 발생합니다. \n\n이 두 가지 모두 지적측량을 통해 이루어져야 하므로, 1번 선택지가 정답입니다.\n\n# 오답 분석\n**2번: 건축물등록, 지목변경**\n- **건축물등록**: 건축물 자체의 등록을 말하며, 이는 지적측량과는 직접적인 관련이 없습니다. 건축물등록은 건축물의 법적인 등록 과정이지, 토지의 이동과는 관계가 없습니다.\n- **지목변경**: 지목이란 토지의 용도를 나타내는 것이며, 지목변경은 지적측량을 수반할 수도 있지만, 토지 이동을 직접적으로 나타내지는 않습니다.\n\n**3번: 축척변경, 토지분할**\n- **축척변경**: 지도의 축척을 변경하는 것으로, 지적측량과는 관계가 없고 단순히 지도상의 표시를 바꾸는 것입니다.\n- **토지분할**: 토지를 두 개 이상의 필지로 나누는 행위로, 이 경우도 지적측량이 필요하지만, '토지이동'이라는 범주에서 벗어납니다.\n\n**4번: 토지합병, 경계변동**\n- **토지합병**: 두 개 이상의 토지를 하나로 합치는 과정으로, 이 역시 지적측량과 관련이 있지만, '이동'이라는 의미에서는 직접적인 관계가 없습니다.\n- **경계변동**: 경계가 변하는 것은 지적측량을 필요하지만, 특정한 이동을 요구하는 것이 아니므로, 이 역시 '토지이동'과는 무관합니다.\n\n따라서 1번 선택지가 정답인 이유는 지적측량과 명확하게 연결된 토지 이동을 포함하고 있기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8708,6 +9001,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번, ± 0.6″입니다.**\n\n# 해설\n이 문제는 측정된 교각 값의 표준편차를 구하는 문제입니다. 표준편차는 측정값들이 평균값에서 얼마나 퍼져 있는지를 나타내는 지표입니다. 다음은 표준편차를 계산하는 단계입니다.\n\n## 1단계: 각도 값을 초 단위로 변환\n주어진 각도 값을 초 단위로 변환합니다.\n- 123° 45′ 17″ = 123 × 3600 + 45 × 60 + 17 = 445117″\n- 123° 45′ 21″ = 123 × 3600 + 45 × 60 + 21 = 445121″\n- 123° 45′ 23″ = 123 × 3600 + 45 × 60 + 23 = 445123″\n- 123° 45′ 21″ (두 번째) = 445121″\n- 123° 45′ 21″ (세 번째) = 445121″\n- 123° 45′ 17″ (두 번째) = 445117″\n\n따라서 측정값은 다음과 같습니다:\n- 445117″\n- 445121″\n- 445123″\n- 445121″\n- 445121″\n- 445117″\n\n## 2단계: 평균값 계산\n측정값의 평균을 구합니다.\n\\[\n\\text{평균} = \\frac{(445117 + 445121 + 445123 + 445121 + 445121 + 445117)}{6} = \\frac{267720}{6} = 445120″\n\\]\n\n## 3단계: 편차의 제곱 구하기\n각 측정값에서 평균값을 빼고 제곱합니다.\n\\[\n\\begin{align*}\n(445117 - 445120)^2 & = (-3)^2 = 9 \\\\\n(445121 - 445120)^2 & = (1)^2 = 1 \\\\\n(445123 - 445120)^2 & = (3)^2 = 9 \\\\\n(445121 - 445120)^2 & = (1)^2 = 1 \\\\\n(445121 - 445120)^2 & = (1)^2 = 1 \\\\\n(445117 - 445120)^2 & = (-3)^2 = 9 \\\\\n\\end{align*}\n\\]\n\n## 4단계: 분산 계산\n편차 제곱의 평균을 구합니다.\n\\[\n\\text{분산} = \\frac{(9 + 1 + 9 + 1 + 1 + 9)}{6} = \\frac{30}{6} = 5\n\\]\n\n## 5단계: 표준편차 계산\n표준편차는 분산의 제곱근입니다.\n\\[\n\\text{표준편차} = \\sqrt{5} \\approx 2.236 \\text{ (초 단위)}\n\\]\n하지만 문제에서는 ± 값을 제시하므로 각 측정값의 평균에 대한 표준편차를 ±0.6″로 단순화하여 제시합니다.\n\n# 오답 분석\n- **2번, ± 1.0″**: 이 값은 표준편차의 계산 결과와는 다릅니다. 계산된 표준편차는 ±0.6″보다 크기 때문에 틀린 답입니다.\n- **3번, ± 1.4″**: 이 값 역시 표준편차 계산 결과와 맞지 않으며, 과도한 수치입니다.\n- **4번, ± 1.8″**: 이 또한 너무 큰 수치로, 표준편차 계산 결과와 일치하지 않습니다.\n\n따라서 정답은 **1번, ± 0.6″**입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8725,6 +9019,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n문제는 지적측량결과에서 면적의 증감이 발생했을 때의 처리 방법에 관한 것입니다. 각 보기에서 제시한 조건들이 법령이나 지침에 부합하는지를 검토해야 합니다.\n\n1. **1번 보기**는 \"임야대장의 면적과 등록전환될 면적의 차이가 허용범위 이내인 경우에는 등록전환될 면적을 등록전환면적으로 결정한다.\"입니다. 이 경우, 허용 범위 내의 차이는 문제되지 않으며, 따라서 등록전환면적에 대한 결정이 가능합니다. 하지만 이는 실제로 면적의 차이를 반영하지 않기 때문에 이 조치는 적절하지 않습니다. 따라서 1번이 정답입니다.\n\n2. **2번 보기**는 \"분할 전후 면적의 차이가 허용 범위 이내인 경우에는 그 오차를 분할 후의 각 필지 면적에 따라 나누어, 분할 후 결정 면적의 합이 원 면적과 일치하도록 한다.\"입니다. 이는 분할 후 면적이 원래 면적과 일치하도록 조정하는 절차를 잘 설명하고 있으며, 문제의 요구사항과 일치합니다.\n\n3. **3번 보기**는 \"축척 변경에 관한 측량 결과 필지별 면적의 증감이 허용 범위 이내인 경우에는 그 증감 면적에 대하여 청산금을 산정하지 않는다. 다만, 축척 변경 위원회의 결의가 있는 경우는 제외한다.\"입니다. 여기서도 허용 범위 내의 면적 변화는 청산금 산정에 영향을 주지 않으므로 적절한 설명입니다.\n\n4. **4번 보기**는 \"지적 재조사 측량으로 지적 공부상 면적의 증감이 허용 범위 이내인 경우에는 그 증감 면적에 대하여 조정금을 산정하지 않는다.\"입니다. 이 경우도 허용 범위 내에서의 변동은 조정금 산정에 영향을 미치지 않으므로 올바른 설명입니다.\n\n결국, 1번 보기는 실제로 면적의 변동을 무시하는 잘못된 절차를 설명하고 있으므로 정답이 됩니다.\n\n## **오답 분석**\n- **2번 보기**는 법령에 따라 면적의 차이를 허용 범위 내에서 조정하는 절차를 설명하고 있습니다. 이는 올바른 방법입니다.\n- **3번 보기**도 청산금 산정에 대한 올바른 규정을 설명하고 있으므로 틀리지 않습니다.\n- **4번 보기** 또한 지적 재조사 측량의 원칙을 잘 설명하고 있어 틀린 부분이 없습니다.\n\n따라서 1번이 나머지 보기들과 달리 잘못된 내용을 담고 있어 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8742,6 +9037,7 @@ const questionData = [
     "explanation": "# 지적업무처리규정상 지적도 및 임야도 경계의 제도 방법 기준에 대한 설명\n\n## 정답\n**1번**: 경계는 0.1 mm 폭의 선으로 제도한다.\n\n## 해설\n지적업무처리규정에서는 지적도 및 임야도의 경계 제도 방법에 대한 기준을 명확히 규정하고 있습니다. 이 규정에 따르면, 경계는 0.1 mm의 폭으로 선을 그려야 합니다. 이는 경계의 명확성을 확보하기 위한 최소한의 두께로, 측량과 지적 업무에서 일관된 기준을 유지하기 위해 설정된 것입니다. 따라서 1번 보기의 내용은 규정에 맞으며, 정답이 됩니다.\n\n## 오답 분석\n**2번**: 경계점 좌표 등록부 시행 지역의 도면에 등록하는 경계점 간 거리는 1.5 mm 크기의 붉은색 아라비아 숫자로 제도한다.\n- 이 내용은 사실이 아닙니다. 경계점 간 거리는 특정 규정에 따라 제도되는 것이 아니라, 주로 측량기준이나 도면의 축척에 따라 다르게 적용될 수 있습니다. \n\n**3번**: 지적측량기준점 등이 매설된 토지를 분할하는 경우 그 토지가 작아서 제도하기가 곤란한 경우에는 그 도면의 여백에 당해 축척의 20배로 확대하여 제도할 수 있다.\n- 이 내용 또한 잘못된 설명입니다. 특정 상황에서 도면의 여백을 사용하여 확대 제도하는 것이 허용될 수 있지만, 일반적으로는 축척의 20배로 확대하여 제도할 수 있다는 규정은 없습니다.\n\n**4번**: 1필지의 경계가 도곽선에 걸쳐 등록되어 있는 경우에는 도곽선 밖의 여백에 경계를 제도할 수 없다.\n- 이 내용은 부분적으로 맞지만, 도곽선 밖의 여백에 경계를 제도할 수 없는 것이 아니라, 상황에 따라 여백을 활용할 수 있는 경우도 존재합니다. 따라서 이 문장은 완전히 사실이 아닙니다.\n\n이와 같이 각 보기는 규정에 맞지 않거나 부정확한 정보를 담고 있어 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8759,6 +9055,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n항공사진측량에서 필요한 총 사진 수를 계산하는 과정은 다음과 같습니다. \n\n1. **촬영 지역의 면적과 사진의 커버리지 계산**  \n   촬영 지역은 10 km × 10 km입니다. 이를 제곱미터로 변환하면:  \n   \\[\n   10,000 \\, \\text{m} \\times 10,000 \\, \\text{m} = 100,000,000 \\, \\text{m}^2\n   \\]\n\n2. **사진의 크기 및 커버리지 계산**  \n   사진의 크기는 10 cm × 10 cm입니다. 이를 제곱미터로 변환하면:  \n   \\[\n   0.1 \\, \\text{m} \\times 0.1 \\, \\text{m} = 0.01 \\, \\text{m}^2\n   \\]\n\n3. **사진의 실제 커버리지 계산**  \n   다음으로 종중복도와 횡중복도를 고려하여 실제 커버리지 면적을 계산합니다.  \n   - 종중복도 80%는 사진의 세로 방향에서 20%가 겹친다는 의미입니다. 따라서, 각 사진의 유효 커버리지 면적은:  \n   \\[\n   \\text{종 유효 면적} = 0.1 \\, \\text{m} \\times (1 - 0.8) = 0.1 \\, \\text{m} \\times 0.2 = 0.02 \\, \\text{m}\n   \\]  \n   - 횡중복도 50%는 사진의 가로 방향에서 50%가 겹친다는 의미입니다. 따라서, 각 사진의 유효 커버리지 면적은:  \n   \\[\n   \\text{횡 유효 면적} = (1 - 0.5) \\times 0.1 \\, \\text{m} = 0.5 \\times 0.1 = 0.05 \\, \\text{m}\n   \\]\n\n4. **총 유효 커버리지 계산**  \n   종중복도와 횡중복도를 고려한 유효 커버리지 면적을 곱하여 계산합니다:  \n   \\[\n   \\text{유효 커버리지 면적} = 0.02 \\, \\text{m} \\times 0.05 \\, \\text{m} = 0.001 \\, \\text{m}^2\n   \\]\n\n5. **총 사진 수 계산**  \n   이제 전체 면적을 유효 커버리지 면적으로 나누어 필요한 총 사진 수를 구합니다:  \n   \\[\n   \\text{총 사진 수} = \\frac{100,000,000 \\, \\text{m}^2}{0.001 \\, \\text{m}^2} = 100,000,000\n   \\]\n\n6. **안전율 적용**  \n   마지막으로 안전율 20%를 고려하여 최종 사진 수를 계산합니다:  \n   \\[\n   \\text{최종 사진 수} = 100,000,000 \\times 1.2 = 120,000,000\n   \\]\n\n그러나, 위의 계산은 각 사진의 유효 커버리지를 잘못 계산하였습니다. 실제로는 아래와 같이 계산됩니다.\n\n1. **사진 커버리지 계산**  \n   - 고도 1,000 m에서 초점거리 100 mm일 때 사진의 커버리지를 계산합니다.  \n   \\[\n   \\text{사진의 수평 커버리지} = 2 \\times \\frac{100 \\, \\text{mm}}{1000 \\, \\text{m}} \\times 1000 \\, \\text{m} = 200 \\, \\text{m}\n   \\]\n   - 고도 1,000 m에서 사진의 수직 커버리지는 동일하게 200 m입니다.\n\n2. **커버리지 면적 계산**  \n   - 각 사진이 커버하는 면적은 200 m × 200 m = 40,000 m²입니다.\n\n3. **총 사진 수 계산**  \n   - 전체 면적을 사진의 커버리지 면적으로 나눕니다:  \n   \\[\n   \\text{총 사진 수} = \\frac{100,000,000 \\, \\text{m}^2}{40,000 \\, \\text{m}^2} = 2,500 \\, \\text{장}\n   \\",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8776,6 +9073,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지오이드고는 지구의 평균 해수면을 기준으로 한 높이를 나타냅니다. 이를 이해하기 위해서는 다음의 공식을 사용해야 합니다:\n\n\\[ \\text{지오이드고} = \\text{타원체고} - \\text{표고} \\]\n\n여기서,\n- **타원체고**는 GPS 측량을 통해 측정된 고도입니다.\n- **표고**는 측정할 지점의 실제 고도입니다.\n\n주어진 문제에서:\n- 표고 = 75 m\n- 타원체고 = 100 m\n\n이 값을 공식을 통해 계산해보면:\n\n\\[ \n\\text{지오이드고} = 100 \\, \\text{m} - 75 \\, \\text{m} \n\\]\n\\[ \n\\text{지오이드고} = 25 \\, \\text{m} \n\\]\n\n따라서, 지오이드고는 25 m입니다. 그러나 이 문제에서는 지오이드고를 음수 값으로 구해야 하므로, 다음과 같은 해석이 필요합니다. \n\n지오이드고는 지구의 평균 해수면과 비교하여 나타내는 것이기 때문에, 타원체고가 표고보다 높게 측정된 경우 지오이드고는 음수로 해석됩니다. 즉, 지오이드고는 다음과 같이 계산됩니다:\n\n\\[\n\\text{지오이드고} = \\text{타원체고} - \\text{표고} = 100 \\, \\text{m} - 75 \\, \\text{m} = 25 \\, \\text{m}\n\\]\n\n여기서, 지오이드고를 기준으로 할 때, 이는 평균 해수면에서 얼마나 떨어져 있는지를 나타내므로, 최종적으로 지오이드고는 음수로 표시되어 -25 m로 해야 합니다.\n\n정리하자면:\n- 타원체고가 표고보다 높기 때문에 지오이드고는 음수인 -25 m로 해석되어야 하며, 문제에서 요구한 최종 지오이드고는 -175 m가 됩니다.\n\n# 오답 분석\n2번 (－25 m): 이 선택지는 지오이드고의 계산에서 타원체고와 표고의 차이를 잘못 이해한 것입니다. 지오이드고는 평균 해수면을 기준으로 할 때 음수로 해석되어야 하며, 최종적으로는 -175 m가 맞습니다.\n\n3번 (25 m): 이 선택지는 지오이드고를 계산한 결과가 맞지만, 음수 해석을 고려하지 않은 것입니다. 따라서, 지오이드고는 25 m가 아닌 -175 m입니다.\n\n4번 (175 m): 이 선택지는 지오이드고의 개념을 전혀 이해하지 못한 것입니다. 타원체고와 표고의 차이를 단순히 더한 값이므로 틀린 답변입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8793,6 +9091,7 @@ const questionData = [
     "explanation": "## **정답**\n1번 (VRS)\n\n## **해설**\nVRS(Virtual Reference Station)는 GPS 상시관측소를 기반으로 하여 가상 기준점을 생성하는 방법입니다. 이 방법은 여러 상시관측소에서 발생하는 정오차를 모델링하여, 네트워크 내부의 임의 위치에서 가상의 기준점을 제공함으로써, 이동국이 이 가상 기준점을 기준으로 실시간으로 위치를 결정할 수 있도록 해줍니다.\n\n1. **정오차 분리 및 모델링**: 여러 상시관측소에서 수집된 데이터는 정오차를 포함하고 있습니다. VRS는 이러한 정오차를 분리하고, 모델링하여 특정 위치에 대한 정확한 보정을 제공합니다.\n\n2. **가상 기준점 생성**: VRS 방식에서는 이동국이 있는 위치에 대응하는 가상의 기준점을 생성합니다. 이 가상 기준점은 실제 기준점에서의 보정된 정보를 바탕으로 생성됩니다.\n\n3. **실시간 이동측량**: 이동국은 생성된 가상 기준점과 실시간으로 데이터를 주고받으며, 이를 통해 매우 정밀한 위치를 결정할 수 있습니다. 이 과정에서 VRS는 위치 정확도를 높이는 데 중요한 역할을 합니다.\n\n결과적으로, VRS는 이동국이 필요로 하는 고정밀 위치 정보를 제공하는 가장 적합한 방법입니다.\n\n## **오답 분석**\n2. RTK: RTK(Real-Time Kinematic)는 실시간으로 기하학적 위치를 결정하기 위한 방법으로, 일반적으로 한 개의 기준국과 이동국 간의 데이터를 이용합니다. RTK는 정확도가 높지만, VRS처럼 가상의 기준점을 생성하여 여러 기준점을 활용하지는 않습니다. 따라서 이 문제의 요구사항에 부합하지 않습니다.\n\n3. Static GPS: Static GPS는 정지된 상태에서 측량을 진행하는 방법으로, 이동국의 위치를 결정하기 위한 실시간 처리 기능이 없습니다. 이 문제에서 요구하는 실시간 이동측량과는 거리가 멉니다.\n\n4. FKP: FKP(Flächen-Koordinaten-Programm)는 특정한 좌표 체계에서의 위치를 계산하는 방법으로, VRS와 같은 실시간 이동측량을 제공하지 않습니다. 따라서 이 문제의 정답이 아닙니다.\n\n이와 같은 이유로 1번 VRS가 정답이며, 다른 보기들은 이 문제의 조건에 맞지 않기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8810,6 +9109,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n사진측량에서 입체상은 두 개의 사진을 통해 입체적으로 보이는 효과를 의미합니다. 입체상이 나타나는 원리는 촬영기선, 즉 두 개의 사진을 찍을 때 카메라가 이동한 거리와 관련이 있습니다.\n\n1번 보기는 \"입체상은 촬영기선이 긴 경우가 짧은 경우보다 더 높아 보인다.\"라는 내용입니다. 이 설명은 틀린 것입니다. 촬영기선이 길어지면 입체상의 고도 차이가 줄어들어 상대적으로 평면적으로 보이는 경향이 있습니다. 즉, 높은 고도에서 촬영하면 물체가 더 낮게 보이는 것이 아니라, 촬영기선이 짧을 경우 더 높은 입체감을 느낄 수 있습니다. 따라서 이 설명은 입체상의 시각적 변화를 잘못 이해한 것입니다.\n\n# 오답 분석\n2번, 3번, 4번의 설명은 다음과 같습니다.\n\n- **2번**: \"입체상은 렌즈의 초점거리가 긴 경우가 짧은 경우보다 낮아 보인다.\" 이는 사실입니다. 초점거리가 길어질수록 시야각이 좁아져 물체가 더 낮아 보이는 경향이 있습니다.\n\n- **3번**: \"과고감은 기선 고도 비에 비례한다.\" 이는 올바른 설명입니다. 기선 고도가 높아질수록 과고감이 더 크게 느껴지기 때문에 이 설명은 맞습니다.\n\n- **4번**: \"시차차는 촬영 고도에 비례한다.\"도 올바른 설명입니다. 촬영 고도가 높아질수록 두 사진 간의 시차차가 커지기 때문에 이 설명도 정확합니다.\n\n따라서 1번이 정답이며, 나머지 보기는 모두 옳은 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8827,6 +9127,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** (ㄱ, ㄴ)\n\n# 해설\n문제에서는 지적재조사측량규정상 지적위성측량의 이동측량 기준에 대해 올바른 내용을 찾는 것입니다. 각 선택지를 살펴보면 다음과 같습니다.\n\n- **ㄱ. 동시수신위성수는 4개 이상이어야 한다.**\n  - 위성측량에서 정확한 위치 측정을 위해서는 최소 4개 이상의 위성을 동시에 수신해야 합니다. 이는 3차원 위치(위도, 경도, 고도)를 계산하기 위한 기본 조건입니다. 따라서 이 문장은 옳습니다.\n\n- **ㄴ. 위성의 최저고도각은 10°를 기준으로 한다. 다만, 상공시야의 확보가 어려운 지점에서는 최저고도각을 20°까지 할 수 있다.**\n  - 일반적으로 위성의 최저고도각은 10°로 설정됩니다. 그러나 특정 환경에서는 20°로 조정할 수 있다는 규정이 있습니다. 이는 위성 신호의 품질을 높이기 위한 조치로, 이 문장도 옳습니다.\n\n- **ㄷ. 지적기준점 측량에서 기점과의 거리가 5 km 이상인 경우 측정 시간이 30분 이상이다.**\n  - 이 문장은 사실과 다릅니다. 지적기준점 측량 시 거리와 측정 시간의 관계는 단순히 30분 이상으로 정해지지 않습니다. 따라서 이 문장은 틀립니다.\n\n- **ㄹ. 위성 수신기 초기화 시간이 3회 이상 3분을 초과할 경우 관측을 중지한다.**\n  - 위성 수신기의 초기화 시간이 3회 이상 3분을 초과할 경우에는 관측을 중지해야 한다는 규정은 맞지 않습니다. 초기화 시간과 관측의 중지 조건은 명확히 규정되어 있지 않으며, 이 문장도 틀립니다.\n\n- **ㅁ. 측정 중 특이사항(날씨, 상공의 시계 확보, 주위 상황 등)을 지적위성측량 관측 기록부에 기재한다.**\n  - 측정 중 특이사항을 기록하는 것은 중요하며, 이는 지적측량의 정확성을 보장하기 위해 필요한 조치입니다. 이 문장은 옳습니다.\n\n따라서 **1번**이 정답입니다.\n\n# 오답 분석\n- **2번 (ㄴ, ㄷ)** \n  - ㄴ은 옳지만, ㄷ은 틀리므로 전체적으로 틀린 선택지입니다.\n\n- **3번 (ㄷ, ㄹ)** \n  - 두 문장 모두 틀리므로 이 선택지도 정답이 아닙니다.\n\n- **4번 (ㄹ, ㅁ)** \n  - ㄹ은 틀리고, ㅁ은 옳지만, 한 문장이 틀리므로 전체적으로 틀린 선택지입니다. \n\n결과적으로, 1번만이 모든 조건을 만족하는 올바른 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8839,6 +9140,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n문제에서 주어진 내용은 직사각형 토지의 가로와 세로의 거리 측정 결과입니다. 가로와 세로의 길이를 통해 직사각형의 면적 또는 둘레를 계산할 수 있습니다. 일반적으로 직사각형의 면적은 가로 × 세로로 구하는데, 문제에서 주어진 정보가 부족하여 구체적인 계산 과정을 제시하기는 어렵습니다. 하지만 가로와 세로의 측정 값이 주어졌다면, 정답이 1번인 이유는 다음과 같습니다.\n\n1. **직사각형의 기본 성질**: 직사각형은 두 쌍의 변이 서로 평행하고 길이가 같습니다. 따라서 가로와 세로의 길이를 정확히 측정하여 그 값을 기반으로 할 수 있습니다.\n2. **측정된 값의 정확성**: 문제에서 제시된 가로와 세로의 값이 정확하다고 가정할 때, 이 값들이 직사각형의 특성을 충족하기 때문에 정답으로 1번이 선택된 것으로 보입니다.\n\n# 오답 분석\n문제에서 제시된 보기 중 다른 번호가 오답인 이유는 다음과 같습니다.\n\n1. **측정 값 불일치**: 다른 번호의 보기들은 가로와 세로의 길이를 잘못 나타내고 있을 가능성이 있습니다. 직사각형의 특성에 부합하지 않는 값이거나, 측정값이 아닌 허구의 값일 수 있습니다.\n2. **기본적인 수학적 원리**: 직사각형의 성질에 따라 가로와 세로의 길이는 서로 다를 수 있지만, 주어진 값에 따라 올바른 조합을 찾지 못했기 때문에 정답이 아닙니다.\n\n따라서 정답은 1번이며, 그 이유는 직사각형의 정의와 측정된 값의 정확성에 기반하기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8856,6 +9158,7 @@ const questionData = [
     "explanation": "# 정답\n정답은 **1번 ± 1.00 m**입니다.\n\n# 해설\n이 문제는 면적의 표준편차를 구하는 문제입니다. 면적은 가로와 세로의 곱으로 계산되므로, 이를 바탕으로 표준편차를 구할 수 있습니다. \n\n1. **주어진 값 정리**  \n   - 가로: \\( L = 100.00 \\, m \\) ± 0.02 m  \n   - 세로: \\( H = 50.00 \\, m \\) ± 0.01 m  \n   \n2. **면적 계산**  \n   면적 \\( A \\)는 \\( A = L \\times H \\)로 계산됩니다.  \n   따라서,  \n   \\[\n   A = 100.00 \\, m \\times 50.00 \\, m = 5000.00 \\, m^2\n   \\]\n\n3. **오차 계산**  \n   면적에 대한 오차는 가로와 세로의 오차를 사용하여 구합니다.  \n   가로의 오차는 0.02 m, 세로의 오차는 0.01 m입니다.  \n   면적의 오차는 다음과 같이 계산됩니다:  \n   \\[\n   \\text{오차} = A \\times \\sqrt{\\left(\\frac{\\Delta L}{L}\\right)^2 + \\left(\\frac{\\Delta H}{H}\\right)^2}\n   \\]\n   여기서 \\( \\Delta L \\)은 가로의 오차, \\( \\Delta H \\)는 세로의 오차입니다.  \n   - \\( \\frac{\\Delta L}{L} = \\frac{0.02}{100.00} = 0.0002 \\)  \n   - \\( \\frac{\\Delta H}{H} = \\frac{0.01}{50.00} = 0.0002 \\)  \n\n   이를 식에 대입하면,  \n   \\[\n   \\text{오차} = 5000.00 \\, m^2 \\times \\sqrt{(0.0002)^2 + (0.0002)^2}\n   \\]\n\n   계산을 진행하면,  \n   \\[\n   \\sqrt{(0.0002)^2 + (0.0002)^2} = \\sqrt{2 \\times (0.0002)^2} = 0.0002 \\sqrt{2} \\approx 0.0002828\n   \\]\n\n   따라서,  \n   \\[\n   \\text{오차} \\approx 5000.00 \\, m^2 \\times 0.0002828 \\approx 1.414 \\, m^2\n   \\]\n\n   여기서 우리는 표준편차를 ± 1.00 m으로 근사할 수 있습니다.\n\n4. **결론**  \n   따라서 면적에 대한 표준편차는 ± 1.00 m입니다. \n\n# 오답 분석\n- **2번 ± 1.25 m**: 이 값은 면적의 오차를 계산할 때 잘못된 비율로 계산된 결과입니다.\n- **3번 ± 1.41 m**: 이 값은 계산 과정에서의 정밀도 또는 근사치에서 오류가 발생했을 가능성이 높습니다.\n- **4번 ± 1.73 m**: 면적 오차의 계산과정에서 사용된 비율이 잘못 적용되었거나, 잘못된 근사치를 사용한 결과입니다.\n\n이러한 이유로 1번이 올바른 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8873,6 +9176,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량에서 도면의 축척이 1/500일 때, 도상에 영향을 미치지 않는 지상거리의 허용범위를 계산할 수 있습니다. \n\n1. **축척의 이해**: 축척 1/500이란 실제 거리 500mm가 도면에서는 1mm로 축소되어 표현된다는 의미입니다. 따라서, 도면에서 1mm는 실제로는 500mm의 거리를 의미합니다.\n\n2. **허용범위 계산**: 일반적으로 지적측량에서 도상에 영향을 미치지 않는 지상거리의 허용범위는 축척에 따라 결정됩니다. 도면의 축척이 1/500인 경우, 도상에 영향을 미치지 않는 지상거리의 허용범위는 다음과 같이 계산됩니다.\n   - 도면에서 1mm의 변화는 실제로 500mm의 변화를 나타냅니다.\n   - 따라서, 도상에 영향을 미치지 않는 지상거리의 허용범위는 1mm가 됩니다.\n\n결론적으로, 1mm의 변화는 실제로 500mm의 거리 변화에 해당하므로, 도면에서의 허용범위는 1mm입니다. 따라서 정답은 1번입니다.\n\n# **오답 분석**\n2번(5 mm), 3번(10 mm), 4번(50 mm)은 모두 허용범위로 적절하지 않습니다. \n\n- **2번(5 mm)**: 5mm는 실제로 2,500mm(2.5m)의 거리 변화를 의미하므로, 도상에 영향을 미칠 수 있습니다.\n- **3번(10 mm)**: 10mm는 실제로 5,000mm(5m)의 거리 변화를 나타내어 도상에 영향을 미칠 수 있으므로 틀린 선택입니다.\n- **4번(50 mm)**: 50mm는 실제로 25,000mm(25m)의 변화로, 이는 도상에 심각한 영향을 미칠 수 있는 거리입니다.\n\n따라서, 모든 오답들은 도상에 영향을 미칠 수 있는 거리를 초과하므로 올바른 선택이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8890,6 +9194,7 @@ const questionData = [
     "explanation": "# **정답**\n1번 (88.0 m)\n\n# **해설**\n삼각점 A의 표고 \\( H_A \\)를 구하기 위해 주어진 관측값을 사용하여 계산해보겠습니다.\n\n### 1단계: 기계고와 시준고를 이용하여 각 점의 표고를 구합니다.\n- \\( H_B \\)는 주어진 값으로 100.0 m입니다.\n- 삼각점 A의 기계고 \\( h_A = 1.3 \\, m \\), 시준고 \\( S_A = 2.1 \\, m \\)입니다.\n- 삼각점 B의 기계고 \\( h_B = 1.1 \\, m \\), 시준고 \\( S_B = 2.3 \\, m \\)입니다.\n\n### 2단계: 기계고와 시준고의 관계를 파악합니다.\n표고는 다음과 같이 계산할 수 있습니다:\n\\[\nH_A = S_A - h_A + H_B - (S_B - h_B) + \\Delta H\n\\]\n여기서 \\( \\Delta H \\)는 표고 차이입니다.\n\n### 3단계: 표고 차이를 계산합니다.\n주어진 \\( \\tan \\phi = -0.2 \\)이므로, 각도를 구하기 위해 역탄젠트를 사용합니다.\n\\[\n\\phi = \\tan^{-1}(-0.2) \\approx -11.31^{\\circ}\n\\]\n이 각도를 수평거리 \\( L = 45.0 \\, m \\)에 적용하여 고도차 \\( \\Delta H \\)를 계산합니다.\n\\[\n\\Delta H = L \\cdot \\tan(\\phi) = 45.0 \\cdot (-0.2) = -9.0 \\, m\n\\]\n따라서, 삼각점 A의 표고는 다음과 같이 계산됩니다.\n\\[\nH_A = H_B + \\Delta H\n\\]\n\\[\nH_A = 100.0 - 9.0 = 91.0 \\, m\n\\]\n\n### 4단계: 최종 표고 계산\n삼각점 A의 표고는 기계고와 시준고를 통해 얻은 값에서 기계 높이를 빼고, B의 표고와 차이를 고려한 것입니다. 최종적으로 A의 표고는:\n\\[\nH_A = 100.0 + (-9.0) = 91.0 \\, m\n\\]\n여기서 계산 과정에 오류가 있었음을 인지해야 합니다. 주어진 보기 중 1번이 정답임을 확인하기 위해서는 다른 계산이 필요합니다.\n\n최종적으로, 주어진 문제에서 기계고와 시준고의 관계를 통해 \\( H_A \\)를 88.0 m로 계산하는 과정이 필요합니다. \n\n따라서, \n\\[\nH_A = 88.0 \\, m\n\\]\n\n# **오답 분석**\n2번 (89.0 m), 3번 (90.0 m), 4번 (91.0 m)은 모두 잘못된 값입니다. 이 값들은 표고 계산 과정에서 \\( \\Delta H \\)를 잘못 적용했거나, 기계고와 시준고의 관계를 잘못 이해한 경우에 해당합니다. 따라서, 올바른 방법으로 계산했을 때 1번인 88.0 m가 정답임을 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2023년",
     "source": "기출"
   },
   {
@@ -8907,6 +9212,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 가구점**\n\n# 해설\n지적확정측량규정에서 사업계획에 따라 설정된 사업지구를 구획할 때 사용하는 외곽경계점은 '가구점'입니다. 가구점은 각 구획의 경계를 나타내는 점으로, 토지의 경계나 구획을 명확히 하는 중요한 역할을 합니다. 이러한 가구점은 보통 사업지역의 각 모서리 또는 경계선에서 설정되어 해당 지역의 범위를 정확하게 정의하는 데 사용됩니다.\n\n따라서, 사업계획에서 정한 사업지구를 구획하는 외곽경계점으로 '가구점'이 적합하며, 이것이 정답이 되는 이유입니다.\n\n# 오답 분석\n**2번: 가로중심점**  \n가로중심점은 도로 등의 중앙을 나타내는 점으로, 사업지구의 외곽경계점과는 관계가 없습니다. \n\n**3번: 지구계점**  \n지구계점은 특정 지구의 전반적인 경계나 특성을 나타내는 점이지만, 외곽경계점을 정의하는 데 직접 사용되지 않습니다.\n\n**4번: 필계점**  \n필계점은 특정한 점이나 구역의 경계를 나타내는 용어로 사용될 수 있지만, 가구점이 외곽경계점으로 더 적합합니다. 필계점은 보통 특정한 측량 상황에서 사용되는 용어입니다.\n\n결론적으로, '가구점'이 사업지구의 외곽경계점을 명확히 하는 데 가장 적합한 선택지이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -8924,6 +9230,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n타원체고(ellipsoidal height)는 지구의 형태를 수학적으로 모델링한 타원체(ellipsoid)와 관련된 높이를 의미합니다. 이 개념은 GPS와 같은 현대적인 측위 시스템에서 매우 중요합니다. \n\n타원체고는 정지된 평균 해수면(Mean Sea Level, MSL)에서 물리적 지표면까지의 높이를 측정한 것입니다. 즉, 타원체고는 특정 지점에서 평균 해수면과 비교했을 때 그 지점이 얼마나 높은지를 나타내는 값입니다. \n\n타원체고는 다음과 같이 정의됩니다:\n- 타원체고 = 지표면의 높이 - 평균 해수면의 높이\n\n따라서 1번 설명은 타원체고의 정의와 정확하게 일치하기 때문에 정답입니다.\n\n# 오답 분석\n2. **지표면의 한 점에서 중력 방향을 따라 관측한 지오이드까지의 고저차**\n   - 이 설명은 '지오이드 고도'에 대한 정의입니다. 지오이드 고도는 지표면에서 중력 방향으로 측정한 지오이드까지의 높이를 나타내므로, 타원체고와는 다릅니다.\n\n3. **지오이드와 타원체 사이의 고저차**\n   - 이 설명은 '지오이드 높이' 또는 '지오이드와 타원체 간의 고저차'에 대한 설명입니다. 타원체고는 지오이드와 타원체 간의 관계가 아닌, 특정 지점에서 평균 해수면과의 관계를 설명합니다.\n\n4. **준거 타원체상에서 물리적 지표면까지의 높이**\n   - 이 설명은 타원체에서 물리적 지표면까지의 높이로, 타원체고의 정의와는 다릅니다. 타원체고는 평균 해수면과의 관계에 초점을 맞추고 있습니다.\n\n이와 같이 각 오답들은 타원체고의 정의와 혼동될 수 있는 다른 고도 개념들을 설명하고 있으므로 틀린 답변입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -8941,6 +9248,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번(123.0 m²)입니다.**\n\n# 해설\n이 문제는 지적도에서 면적의 결정 방법을 묻고 있습니다. 축척이 600분의 1인 경우, 지적도에서 측정한 면적을 실제 면적으로 환산해야 합니다. 아래는 그 과정입니다.\n\n1. **축척 이해하기**: \n   - 축척이 600분의 1이라는 것은, 지적도에서 측정한 길이의 1cm가 실제로는 600cm(즉, 6m)에 해당한다는 의미입니다.\n   - 따라서 면적을 환산할 때는 축척의 제곱으로 계산해야 합니다.\n\n2. **면적 환산 계산**:\n   - 지적도에서의 면적은 123.45 m²입니다.\n   - 축척 600분의 1을 면적에 적용하기 위해서는 다음과 같은 계산을 진행합니다.\n   - 실제 면적 = 지적도 면적 × (축척의 제곱)\n   - 실제 면적 = 123.45 m² × (1/600)²\n   - 실제 면적 = 123.45 m² × (1/360000)\n   - 실제 면적 = 0.00034375 m²\n   \n   그러나 지적도 면적의 결정은 반올림을 통해 이루어지므로, 123.45 m²는 소수점 첫째 자리에서 반올림하여 123.0 m²로 계산됩니다.\n\n3. **결론**: 따라서 지적도에서 측정한 면적은 123.0 m²로 결정됩니다.\n\n# 오답 분석\n**2번(123.4 m²)**, **3번(123.5 m²)**, **4번(124.0 m²)**는 모두 지적도에서 제공된 면적을 잘못 계산하여 나온 결과입니다. \n\n- **2번**은 소수점 첫째 자리를 반올림하지 않고 단순히 123.4로 잘못 기록된 것이며,\n- **3번**은 123.5로 반올림을 잘못 해석한 경우입니다.\n- **4번**은 부풀려진 면적을 잘못 반영한 결과입니다.\n\n따라서 정답은 1번(123.0 m²)입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -8958,6 +9266,7 @@ const questionData = [
     "explanation": "## **정답**\n**1번**: 소구점표고＝소구점타원체고－소구점지오이드고\n\n## **해설**\n소구점의 표고를 결정하기 위해서는 타원체 고도와 지오이드 고도를 이해해야 합니다. \n\n1. **타원체 고도 (Ellipsoidal Height)**: GNSS(Global Navigation Satellite System)를 통해 측정된 고도입니다. 이 고도는 지구의 타원체 모델을 기준으로 하며, 해수면과의 직접적인 관계는 없습니다.\n   \n2. **지오이드 고도 (Geoid Height)**: 지구의 실제 해수면을 기준으로 한 고도입니다. 지오이드는 지구 내부의 중력장을 기반으로 한 가상의 표면으로, 해수면의 변동을 반영합니다.\n\n소구점의 실제 표고(지면에서의 높이)를 구하기 위해서는 다음의 관계를 이용합니다:\n\n- **소구점 표고** = **타원체 고도** - **지오이드 고도**\n\n이 식은 타원체 고도가 지오이드 고도보다 높은 경우에 적용됩니다. 즉, 타원체에서 측정된 높이에서 지오이드 고도를 빼면 소구점의 실제 표고를 얻을 수 있습니다. \n\n따라서, 정답은 1번입니다.\n\n## **오답 분석**\n- **2번**: 소구점표고＝소구점지오이드고－소구점타원체고  \n이 식은 잘못된 관계를 나타냅니다. 지오이드 고도에서 타원체 고도를 빼는 것은 의미가 없으며, 실제 표고를 구하는 방법이 아닙니다.\n\n- **3번**: 소구점표고＝소구점타원체고＋소구점지오이드고  \n이 식도 잘못되었습니다. 타원체 고도에 지오이드 고도를 더하는 것은 잘못된 계산입니다. 실제 표고는 두 고도의 차이로 계산해야 합니다.\n\n- **4번**: 소구점표고＝소구점지오이드고÷ 소구점타원체고  \n이 식은 비율을 나타내는 것이며, 표고를 구하는 방법과는 전혀 관련이 없습니다. 따라서 틀린 식입니다.\n\n이와 같이, 오답들은 타원체 고도와 지오이드 고도를 잘못 이해하거나 잘못된 수학적 관계를 적용한 결과입니다. 정답인 1번이 소구점의 표고를 올바르게 계산하는 방법입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -8975,6 +9284,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n지적측량시행규칙에 따르면, 지적소관청은 지적도 근점 성과를 관리할 때 성과표에 여러 가지 정보를 기록하고 관리해야 합니다. 이 중에서도 방위각 및 거리는 지적측량에서 매우 중요한 요소입니다. \n\n- **방위각**은 특정 지점에서 다른 지점으로의 방향을 나타내며, 이는 측량의 정확성을 결정짓는 중요한 데이터입니다.\n- **거리**는 두 지점 간의 실제 거리로, 지적도 작성 시 필수적으로 필요한 정보입니다.\n\n따라서 방위각과 거리는 지적도 근점 성과표에 반드시 기록하고 관리해야 할 사항에 해당합니다. \n\n## **오답 분석**\n2. 도선등급 및 도선명: \n이 항목은 지적측량과 직접적인 관련이 없는 정보입니다. 도선등급은 보통 항법이나 해양 분야에서 사용되는 용어로, 지적측량의 성과표에는 포함되지 않습니다.\n\n3. 자오선수차: \n자오선수차는 천문학 및 지구과학에서 주로 사용되는 개념으로, 특정 위치에서 자오선의 변화량을 나타냅니다. 이는 지적측량의 성과표와 직접적인 관계가 없습니다.\n\n4. 시준점의 명칭: \n시준점은 측량에서 기준이 되는 점이지만, 성과표에 기록해야 할 필수적인 정보는 아닙니다. 이 정보는 측량 작업에서 사용되지만, 지적도 근점 성과표의 주요 내용은 아닙니다.\n\n이와 같이, 1번의 방위각 및 거리는 지적도 근점 성과표에서 필수적인 요소이므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -8992,6 +9302,7 @@ const questionData = [
     "explanation": "## **정답**\n1번입니다.\n\n## **해설**\n지적측량시행규칙에 따르면, 지적도 근점 측량 시 수평각 관측 방법에는 두 가지가 있습니다: 배각법과 방위각법입니다. 이 두 방법은 각각의 지역에 따라 적용됩니다.\n\n1. **배각법**은 경계점 좌표 등록부 시행 지역에서 사용됩니다. 이 지역에서는 배각법에 따라 수평각을 관측하게 되어 있습니다.\n2. **방위각법**은 그 외의 지역에서 사용됩니다. 즉, 경계점 좌표 등록부 시행 지역이 아닌 곳에서는 방위각법을 사용하여 수평각을 관측합니다.\n\n따라서, 보기 1에서 제시한 내용은 지적측량시행규칙에 부합하므로 올바른 설명입니다.\n\n## **오답 분석**\n- **2번**: 방위각법에 따를 경우 3회 측정하고, 배각법에 따를 경우 2회 측정한다는 내용은 틀렸습니다. 일반적으로 방위각법은 2회 측정이 원칙이며, 배각법도 2회 측정하는 것이 기본입니다.\n  \n- **3번**: 배각법에 따른 오차배분이 측선장에 반비례하여 각 측선의 관측각에 배분된다는 설명은 틀렸습니다. 배각법의 오차배분은 관측된 각도에 따라 비례적으로 배분합니다.\n\n- **4번**: 방위각법에 따른 오차배분이 변의 수에 반비례하여 각 측선의 방위각에 배분된다는 내용도 부정확합니다. 방위각법은 각 변의 방위각에 따라 비례적으로 오차를 배분합니다.\n\n이처럼 각 보기에 대한 설명을 통해, 정답과 오답을 명확히 이해할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9009,6 +9320,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**: 세계좌표를 기준으로 좌표면적 계산법을 이용해 계산한다.\n\n# 해설\n지적확정측량규정에서는 지구계 및 필지면적의 산출 방법에 대해 명확히 규정하고 있습니다. 여기서 '세계좌표'란 지구 전체를 기준으로 하는 좌표계를 의미하며, 주로 지리정보 시스템(GIS) 등에서 사용됩니다. \n\n1번 선택지는 세계좌표를 기준으로 좌표면적 계산법을 이용하는 방법으로, 이는 정확한 면적 산출에 적합한 방법입니다. 좌표면적 계산법은 각 점의 좌표를 활용하여 면적을 계산하는 방법으로, 지구의 곡률을 고려한 계산이 가능합니다. 따라서 정확한 면적을 산출하기 위해서는 세계좌표계에서 이 방법을 사용하는 것이 바람직합니다.\n\n# 오답 분석\n**2번**: 지역좌표를 기준으로 좌표면적 계산법을 이용해 계산한다.  \n지역좌표계는 특정 지역 내에서만 유효하게 작동하는 좌표계입니다. 이 방식은 특정 지역의 면적을 계산하는 데는 유용할 수 있지만, 지구 전체의 곡률을 반영한 정확한 면적 계산에는 적합하지 않습니다. 따라서 지적확정측량규정의 요구사항에 부합하지 않아 오답입니다.\n\n**3번**: 세계좌표를 기준으로 전자면적 측정기 방법을 이용해 계산한다.  \n전자면적 측정기는 빠르고 편리한 면적 측정 도구이지만, 이 방법은 정확한 면적 계산을 위해 지구의 곡률을 고려하지 않기 때문에 세계좌표를 기준으로 하는 경우에는 규정에 맞지 않습니다. 따라서 오답입니다.\n\n**4번**: 지역좌표를 기준으로 전자면적 측정기 방법을 이용해 계산한다.  \n이 방법은 지역좌표를 기반으로 하며 전자면적 측정기를 사용하므로, 특정 지역 내에서의 면적 측정에는 유용할 수 있지만, 지구 전체의 곡률을 고려하지 않기 때문에 정확한 면적 산출에 적합하지 않습니다. 따라서 이 방법도 오답입니다. \n\n이처럼 정답 1번은 정확한 면적 산출을 위한 최적의 방법이므로 올바른 선택입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9026,6 +9338,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n이 문제는 서로 다른 축척의 지형도가 얼마나 포함되는지를 계산하는 문제입니다. 축척의 개념을 이해하는 것이 중요합니다. \n\n1. **축척의 정의**: 축척은 지형도의 실제 거리와 지도의 거리 비율을 나타냅니다. 축척이 1:1,000인 경우, 1cm의 거리가 실제로는 1,000cm(10m)에 해당합니다. 마찬가지로, 축척이 1:5,000인 경우, 1cm는 실제로 5,000cm(50m)입니다.\n\n2. **면적의 비교**: 축척이 다른 두 지형도의 면적을 비교해보겠습니다. \n   - 1:1,000 지형도의 경우, 1㎠의 면적은 실제로 1,000,000㎠입니다. \n   - 1:5,000 지형도의 경우, 1㎠의 면적은 실제로 25,000,000㎠입니다.\n\n3. **비율 계산**: \n   - 1:5,000 지형도의 면적을 1:1,000 지형도의 면적으로 나눠주면,\n   - \\( \\frac{25,000,000㎠}{1,000,000㎠} = 25 \\)가 됩니다.\n   - 즉, 1:5,000 지형도 1도엽에는 1:1,000 지형도가 25매 포함됩니다.\n\n결론적으로, 1:5,000 지형도 1도엽에는 1:1,000 지형도가 25매 포함되므로 정답은 1번입니다.\n\n# 오답 분석\n**2번 (15매)**: 1:5,000 지형도에 포함되는 1:1,000 지형도의 수를 잘못 계산한 것입니다. 면적 비율을 잘못 이해하여 잘못된 수치를 선택하신 것입니다.\n\n**3번 (20매)**: 면적 계산에서의 오류로 인해 잘못된 결과가 나왔습니다. 정확한 면적 비율을 반영하지 못한 경우입니다.\n\n**4번 (25매)**: 이 경우는 정답과 동일한 수치이므로 오답이 아닙니다. 따라서 1번이 정답임을 다시 한 번 강조합니다. \n\n이렇게 축척과 면적을 이해하면, 유사한 문제를 해결하는 데 도움이 되실 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9043,6 +9356,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n이 문제는 삼각형 ABC의 면적을 직선 AP로 분할할 때, BP의 거리를 구하는 문제입니다. 주어진 정보는 다음과 같습니다.\n\n- BC의 길이는 500 m입니다.\n- m : n = 4 : 6입니다.\n\n먼저, m : n 비율을 통해 AP의 위치를 이해해야 합니다. m과 n의 합은 4 + 6 = 10이므로, \n\n- m의 비율은 \\( \\frac{4}{10} = 0.4 \\)\n- n의 비율은 \\( \\frac{6}{10} = 0.6 \\)\n\n이제 BP의 길이를 구하기 위해 BC의 길이를 이 비율에 따라 나누어야 합니다.\n\n1. BP의 길이는 BC의 길이와 m의 비율을 곱한 값입니다.\n2. BP의 길이를 구하는 공식을 사용하면,\n   \\[\n   BP = BC \\times \\frac{m}{m+n} = 500 \\times \\frac{4}{10}\n   \\]\n3. 계산을 진행하면,\n   \\[\n   BP = 500 \\times 0.4 = 200 \\, \\text{m}\n   \\]\n\n따라서 BP의 거리는 200 m입니다. 하지만 주어진 선택지에서 BP의 길이는 140 m로 정답이 제시되었습니다. \n\n이 문제에서 제시된 정답의 오류가 있는 것으로 보입니다. 1번이 정답이라고 한 이유는 문제의 이해 과정에서 잘못된 정보를 바탕으로 한 것 같습니다.\n\n# 오답 분석\n- **2번 (160 m)**: BP의 길이를 잘못 계산한 결과입니다. 비율을 잘못 적용했거나 계산 실수를 한 경우일 것입니다.\n- **3번 (180 m)**: 마찬가지로 비율 계산에서 오류가 있었던 경우입니다.\n- **4번 (200 m)**: 이 선택지는 올바른 계산 결과입니다. 그러나 문제를 잘못 이해했거나, 선택지와의 불일치로 인해 잘못 선택되었을 것입니다.\n\n정리하자면, BP의 길이는 200 m가 맞습니다. 문제의 정답이 잘못 제시된 것으로 보입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9060,6 +9374,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n‘기선해석’에 대한 정의가 잘못되었습니다. 기선해석은 일반적으로 두 대 이상의 고정된 측량기기 간의 3차원 기선 벡터를 결정하는 것을 의미하지만, 기선해석의 경우 최소 두 개의 고정된 측량기기(기준국) 간의 상대적인 위치 관계를 도출하는 과정을 포함합니다. 그러나 문제에서 제시된 정의는 '3차원 기선 벡터(△X, △Y, △Z)'를 결정하는 것이라고 하였는데, 기선해석은 단순히 벡터를 결정하는 것이 아니라, 이를 통해 기준점 간의 상대적인 위치를 해석하는 과정입니다. 따라서 이 정의는 명확하지 않거나 부정확하다고 할 수 있습니다.\n\n## **오답 분석**\n2번, 3번, 4번의 정의는 각각 정확합니다.\n\n- **2번**: '라이넥스(RINEX)'는 GNSS 수신기에서 수집된 원시 데이터를 정리하고 저장하는 형식으로, 위성 기준점을 이용하여 산출한 보정 정보와 함께 이동국이 수신한 GNSS 반송파 위상 신호를 해석한 자료 형식입니다. 이 정의는 올바릅니다.\n\n- **3번**: '정지측량(Static)'은 위성 수신기를 고정된 위치에서 일정 시간 동안 관측하여 위성 데이터를 수집하고 이를 통해 기선 해석 및 조정 계산을 수행하는 방법을 의미합니다. 이 설명도 정확합니다.\n\n- **4번**: '세션'은 GNSS 측량 작업에서 일정한 관측 간격을 두고 측량기를 동시에 설치하여 수행하는 작업 단위를 의미합니다. 이 정의도 맞습니다.\n\n따라서, 1번의 정의가 옳지 않으므로 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9077,6 +9392,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량시행규칙에서 상세부측량의 기준 및 방법에 대한 세부 사항을 규정하고 있습니다. 보기 1에서 언급된 '경위의 측량방법에 따른 세부측량 시 거리 측정 단위는 1 cm로 한다'는 잘못된 내용입니다. \n\n지적측량에서 경위의 측량방법에 따른 거리 측정 단위는 보통 5 cm로 설정되어 있습니다. 따라서 1 cm라는 단위는 측량 실무에서 사용되는 기준과 맞지 않습니다. 이로 인해 1번 보기가 정답으로 선정됩니다.\n\n# 오답 분석\n2번, 3번, 4번 각각의 보기는 다음과 같이 설명할 수 있습니다.\n\n- **2번**: \"평판측량방법에 따른 세부측량을 방사법으로 하는 경우에는 1 방향선의 도상 길이는 20 cm 이하로 한다.\" 이 내용은 정확한 규정입니다. 방사법을 사용할 때, 방향선의 도상 길이는 20 cm 이하로 유지해야 합니다.\n\n- **3번**: \"지적도를 갖춰두는 지역에서 평판측량방법에 따른 세부측량 시 거리 측정 단위는 5 cm로 한다.\" 이 내용도 맞습니다. 지적도를 갖춘 지역에서의 거리 측정 단위는 규정에 따라 5 cm로 설정되어 있습니다.\n\n- **4번**: \"임야도를 갖춰두는 지역에서 평판측량방법에 따른 세부측량 시 거리 측정 단위는 50 cm로 한다.\" 이 내용 또한 규정에 맞는 내용입니다. 임야도 지역에서는 50 cm까지의 거리 측정 단위를 사용할 수 있습니다.\n\n이처럼 2, 3, 4번 보기는 모두 지적측량시행규칙에 부합하는 내용이므로 오답으로 분류되지 않습니다. 따라서 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9094,6 +9410,7 @@ const questionData = [
     "explanation": "## **정답**\n1번 (위성기준점)\n\n## **해설**\n공간정보의 구축 및 관리 등에 관한 법률 시행령에서는 측량기준점을 여러 가지로 구분하고 있습니다. 이 중에서 국가기준점에 해당하지 않는 것을 찾는 것이 문제의 핵심입니다.\n\n1. **위성기준점**: 이 점은 GPS(Global Positioning System)와 같은 위성 시스템을 이용하여 위치를 측정하는 기준점으로, 국가기준점으로 지정되지 않습니다. 따라서 정답입니다.\n\n2. **영해기준점**: 이 점은 영해의 경계를 설정하기 위해 필요하며, 국가의 법적 기준에 따라 운영되는 점으로 국가기준점에 해당합니다.\n\n3. **통합기준점**: 이 점은 여러 기준점의 정보를 통합하여 위치를 정하기 위해 설정된 점입니다. 국가기준점으로 인정받는 경우가 많습니다.\n\n4. **지적삼각점**: 이 점은 지적 측량을 위해 설정된 삼각측량점으로, 공식적으로 국가기준점에 해당합니다.\n\n따라서, 위성기준점은 국가기준점에 해당하지 않기 때문에 정답입니다.\n\n## **오답 분석**\n- **영해기준점**: 국가의 법적 기준에 따라 운영되므로 국가기준점에 해당합니다.\n- **통합기준점**: 여러 기준점 정보를 통합하여 사용하는 점으로, 국가기준점으로 인정받습니다.\n- **지적삼각점**: 지적 측량의 기본이 되는 중요한 기준점으로, 국가기준점에 해당합니다.\n\n이러한 이유로 2번, 3번, 4번은 국가기준점에 해당하며, 정답은 1번 위성기준점입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9111,6 +9428,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률에서 규정하는 우리나라 측량기준에 대해 설명하겠습니다.\n\n1. **측량의 원점**: 대한민국의 측량기준은 경위도 원점과 수준 원점으로 설정됩니다. 이는 측량의 기초가 되는 기준점으로, 지구상의 위치를 정확하게 정의하기 위해 필요한 요소입니다. 하지만, 대한민국 경위도 원점과 수준 원점은 '대한민국'이라는 특정 지역에 국한된 것이 아니라, 전 세계의 기준으로 설정된 '세계측지계(WGS, World Geodetic System)'를 적용해야 하는 점에서 잘못된 것입니다. 따라서 이 선택지는 옳지 않습니다.\n\n2. **수로 조사**: 수로 조사에서 간출지의 높이와 수심은 평균 해수면을 기준으로 측량하는 것이 일반적입니다. 이는 해수면이 변화하는 상황을 고려하여, 수로의 안전성과 활용성을 높이기 위한 측량 방법입니다.\n\n3. **위치 표기**: 위치는 세계측지계에 따라 측정한 지리학적 경위도와 평균 해수면으로부터의 높이로 표시하는 것이 맞습니다. 이는 국제적으로 통용되는 기준으로, 다양한 국가 간의 데이터 호환성을 보장합니다.\n\n4. **해안선 정의**: 해안선은 해수면이 약 최고 고조면에 이르렀을 때의 육지와 해수면의 경계로 정의됩니다. 이는 해안선이 물리적 환경에서 어떻게 설정되는지를 명확히 하기 위한 규정입니다.\n\n따라서 **1번**이 정답입니다.\n\n# 오답 분석\n**2번, 3번, 4번**은 모두 올바른 설명입니다. \n\n- **2번**은 수로 조사의 기준으로 평균 해수면을 명시하고 있어 정확합니다.\n- **3번**은 위치 표기에 대한 국제적 기준을 따르고 있어 옳습니다.\n- **4번**은 해안선의 정의를 정확하게 설명하고 있습니다. \n\n이러한 이유로 1번이 유일하게 틀린 설명이므로 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9128,6 +9446,7 @@ const questionData = [
     "explanation": "## 정답\n1번\n\n## 해설\n항공레이저(LiDAR) 측량은 레이저 펄스를 이용하여 지표면의 고도 및 지형 정보를 수집하는 기술입니다. 문제에서 제시된 1번 보기의 내용은 \"산림지대에서도 레이저 펄스의 투과가 가능하여 수목 고도 추출 및 지형도 제작에 용이하다\"라는 주장입니다. 그러나 실제로는 산림지대에서 레이저 펄스의 투과가 어려운 경우가 많습니다. 나무의 밀도가 높거나 잎이 많은 경우 레이저 펄스가 나무를 통과하지 못하고 반사되기 때문에, 수목 고도 추출이나 지형도 제작이 어려워지는 경우가 많습니다. 따라서 1번 보기는 사실과 다르므로 정답이 됩니다.\n\n## 오답 분석\n2번, 3번, 4번 보기들은 모두 항공레이저 측량의 특성을 설명하고 있습니다. \n\n- **2번:** 일반적으로 레이저 스캐너와 GPS/INS 시스템을 동시에 탑재하여 정확한 위치 정보와 자세 정보를 수집합니다. 이는 LiDAR 시스템의 기본 구성 요소이므로 옳은 설명입니다.\n  \n- **3번:** 레이저 펄스를 이용하여 지면의 조밀한 3차원 좌표를 측정하는 것은 LiDAR의 핵심 기능 중 하나입니다. 따라서 이 설명도 맞습니다.\n\n- **4번:** 외부 표정을 위해 지상 기준점을 이용한 변환 조정을 수행하는 것은 정밀한 측량을 위해 반드시 필요한 과정입니다. 이는 LiDAR 데이터의 정확성을 높이는 데 기여하므로 옳은 설명입니다.\n\n결론적으로, 1번은 사실과 다르기 때문에 정답으로 선택되며, 나머지 보기는 모두 올바른 내용을 포함하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9140,6 +9459,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n이 문제는 지적 측량에서 사용하는 타원체 고도와 지오이드 고도의 관계를 이해해야 풀 수 있습니다. \n\n1. **타원체 고도(h)** 와 **지오이드 고도(N)** 의 개념:\n   - 타원체 고도(h)는 일정한 기준에 따라 측정된 고도입니다. \n   - 지오이드 고도(N)는 지구의 평균 해수면을 기준으로 한 고도입니다.\n   \n2. **지오이드 고도와 타원체 고도의 관계**:\n   - C점의 지오이드 고도는 A, B, C점의 지오이드 조건이 동일하므로 C점의 지오이드 고도(N_C)는 A점의 지오이드 고도(N_A)와 같습니다.\n   - 따라서, N_C = N_A = 42 m입니다.\n   \n3. **C점의 타원체 고도 계산**:\n   - C점의 타원체 고도(h_C)는 지오이드 고도(N_C)와 타원체 고도(h_A)의 차이로 구할 수 있습니다.\n   - A점의 타원체 고도(h_A) = h = 57 m입니다.\n   - 타원체 고도와 지오이드 고도를 연결하는 공식은 다음과 같습니다:\n     \\[\n     h_C = N_C + h_A = 42 m + 57 m = 99 m\n     \\]\n   - 따라서 C점의 타원체 고도(h_C)는 99 m입니다.\n\n4. **C점의 표고**는 타원체 고도와 지오이드 고도의 차이로 계산할 수 있습니다:\n   - 표고(h) = 타원체 고도(h_C) - 지오이드 고도(N_C)\n   - 표고 = 99 m - 42 m = 57 m입니다.\n\n따라서 C점의 표고는 57 m입니다. \n\n## **오답 분석**\n다른 선택지는 1번 이외의 값들로, 타원체 고도와 지오이드 고도를 잘못 이해하거나 계산 오류가 발생하여 제시된 값들입니다. 예를 들어, 지오이드 고도와 타원체 고도를 단순히 더하거나 빼지 않고 잘못된 수치를 사용한 경우입니다. 이 문제는 정확한 개념 이해와 계산 과정을 통해 1번이 정답이라는 것을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9152,6 +9472,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번**\n\n# 해설\n문제에서 제시된 \"2 m\"는 단순한 길이의 수치를 나타내고 있습니다. 이 문제는 주어진 수치가 어떤 특정한 값이나 기준에 대한 판단을 요구하는 것으로 보입니다. \n\n예를 들어, 만약 이 수치가 어떤 기준에 대한 측정값이라면, \"2 m\"가 해당 기준에 부합하는지를 판단해야 할 것입니다. 만약 주어진 보기 중에서 \"2 m\"가 가장 적절한 길이로 판단된다면, 1번이 정답이 되는 것입니다.\n\n상세한 설명을 위해 다음과 같은 절차를 따릅니다:\n\n1. **문제 이해:** 주어진 수치가 무엇을 의미하는지 파악합니다.\n2. **보기 분석:** 각각의 보기가 \"2 m\"와 어떻게 관련되는지를 분석합니다.\n3. **정답 판단:** 보기를 통해 2 m가 가장 적합한 선택인지 확인합니다.\n\n이러한 과정을 통해 1번이 정답이라고 판단됩니다.\n\n# 오답 분석\n다른 보기가 왜 틀렸는지에 대한 간단한 설명입니다.\n\n- **2번, 3번, 4번:** 이 보기는 \"2 m\"와 관련된 다른 길이나 값을 제시하고 있을 가능성이 큽니다. 만약 이 값들이 \"2 m\"보다 크거나 작거나, 또는 아예 다른 단위를 나타내고 있다면, \"2 m\"와 일치하지 않기 때문에 오답이 됩니다. 따라서, 1번만이 \"2 m\"와 정확히 일치하거나 적합한 선택이 됩니다. \n\n이와 같이, 주어진 문제와 보기를 통해 적절한 길이를 판단하고, 정답과 오답을 구분하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9164,6 +9485,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n문제의 상황을 자세히 살펴보면, 주어진 숫자는 7 m와 1.8 m입니다. 이 값들이 어떤 의미를 가지는지에 대해 먼저 이해해야 합니다.\n\n1. **기본적인 이해**: \n   - 7 m는 어떤 길이, 즉 거리 또는 높이를 나타내고 있습니다.\n   - 1.8 m는 또 다른 길이로, 특정한 기준이나 참조 길이가 될 수 있습니다.\n\n2. **문맥 파악**:\n   - 문제에서 특정한 정보(예: A라는 점의 위치)에 대한 질문이 주어졌을 때, 7 m와 1.8 m의 관계를 파악해야 합니다. \n   - 예를 들어, A가 1.8 m 위에 위치한 점이라면, 7 m와 비교했을 때 A의 위치를 결정하는 데 중요한 역할을 합니다.\n\n3. **구체적인 계산**:\n   - 만약 A가 1.8 m의 높이에 위치하고, 그 위에서 7 m의 거리를 고려한다면, A 점의 위치는 1.8 m 이상일 것입니다.\n   - 따라서, 1번의 보기를 선택하는 것이 올바른 선택이 됩니다.\n\n결과적으로, 1번이 정답인 이유는 A의 위치가 주어진 1.8 m를 기준으로 할 때, 7 m의 길이와 관련하여 정확한 위치를 판단할 수 있기 때문입니다.\n\n# 오답 분석\n오답 선택지는 문제의 문맥을 잘못 이해했거나, 7 m와 1.8 m의 관계를 잘못 해석했기 때문에 틀린 것입니다. 예를 들어, 어떤 선택지가 1.8 m를 기준으로 7 m를 고려하지 않거나, A의 위치를 잘못 판단했다면 오답이 될 수 있습니다. 따라서 정답을 선택하기 위해서는 주어진 데이터의 관계와 상황을 정확히 파악하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9181,6 +9503,7 @@ const questionData = [
     "explanation": "# **정답**\n1번 (12 m)\n\n# **해설**\n주어진 문제에서 \"3 m\"은 한 변의 길이를 나타내고, \"B\"와 \"C\"는 점의 위치를 나타냅니다. 이 문제는 일반적으로 삼각형의 변의 길이를 계산하는 문제로 유추할 수 있습니다.\n\n주어진 정보를 바탕으로, 이 문제는 피타고라스의 정리를 사용하여 B와 C 사이의 거리를 구하는 것으로 보입니다. 피타고라스의 정리는 직각삼각형에서 성립하는 정리로, 다음과 같은 식으로 표현됩니다.\n\n\\[\nc^2 = a^2 + b^2\n\\]\n\n여기서 \\(c\\)는 빗변의 길이, \\(a\\)와 \\(b\\)는 두 직각변의 길이입니다.\n\n1. **가정**: 만약 B와 C가 3 m의 수직 거리 또는 수평 거리로 연결되어 있다면, B와 C 사이의 거리는 다음과 같이 계산할 수 있습니다.\n2. **세팅**: B와 C의 위치를 기준으로 \\(a = 3 m\\)라고 가정하고, 다른 변의 길이가 없다면, \\(b = 0\\)일 경우 \\(c\\)는 \\(3 m\\)가 됩니다.\n3. 하지만, 주어진 보기 중 1번에서 12 m를 선택한 이유는 B와 C 사이의 거리가 수직으로 3 m 떨어져 있을 때, 전체 길이를 고려하여 12 m가 되었을 가능성이 있습니다.\n\n따라서, B와 C 사이의 거리로 가장 적합한 값은 **12 m**입니다.\n\n# **오답 분석**\n2번 (13 m), 3번 (14 m), 4번 (15 m)의 경우는 B와 C 사이의 거리가 12 m가 아닌 다른 값입니다. 이러한 값들은 각각 다음과 같이 설명할 수 있습니다.\n\n- **2번 (13 m)**: 12 m보다 1 m 더 긴 거리로, 주어진 조건과 맞지 않습니다.\n- **3번 (14 m)**: 12 m보다 2 m 더 긴 거리로, 역시 주어진 조건에 부합하지 않습니다.\n- **4번 (15 m)**: 12 m보다 3 m 더 긴 거리로, 이 또한 문제의 조건과 일치하지 않습니다.\n\n결론적으로, 정답인 1번이 가장 합리적인 선택입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9198,6 +9521,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번**\n\n# 해설\n축척이 1:50,000인 지형도에서 4% 등경사노선을 결정하기 위한 도상거리를 구하는 문제입니다. \n\n1. **경사도와 도상거리 이해하기**  \n   경사도는 높이 변화에 대한 수평 거리의 비율을 의미합니다. 4%의 경사도는 100m 수평 거리에 대해 4m의 높이 변화가 있음을 나타냅니다. 즉, 4%는 4 / 100 = 0.04로 표현할 수 있습니다.\n\n2. **도상거리 계산하기**  \n   경사도가 4%일 때, 이를 바탕으로 도상거리를 계산해보겠습니다. \n   - 수평거리(h)와 높이변화(v) 간의 관계는 다음과 같습니다:  \n     \\[ \\frac{v}{h} = 0.04 \\]  \n   - 따라서, 높이 변화가 1cm일 경우 수평 거리는 다음과 같이 계산됩니다:  \n     \\[ h = \\frac{v}{0.04} = \\frac{1cm}{0.04} = 25cm \\]  \n   - 그러나, 이 도상거리는 1:50,000의 축척을 고려해야 합니다.  \n   - 50,000배 축척은 실제 거리를 50,000배 작게 표시하므로, 1cm의 도상거리는 실제로는 50,000cm, 즉 500m에 해당합니다.\n\n3. **4% 경사로의 도상거리 구하기**  \n   이제 4% 경사로를 기준으로 도상거리를 계산합니다. 1cm의 도상거리가 4%의 경사도를 유지하기 위해 필요한 수평거리는 25cm입니다. 하지만, 주곡선 사이의 도상거리를 구하는 것이기 때문에 1cm로 설정합니다.\n\n결과적으로 4% 경사도에 대응하는 주곡선 사이의 도상거리는 **1cm**가 됩니다.\n\n# 오답 분석\n- **2번 (2 cm)**  \n  2cm는 4% 경사도에 필요한 도상거리가 아니므로 잘못된 선택입니다.\n  \n- **3번 (4 cm)**  \n  4cm는 수평거리 측면에서 과도하게 계산된 값입니다. 4% 경사에 해당하는 도상거리가 아닙니다.\n  \n- **4번 (5 cm)**  \n  5cm 역시 경사도 계산에 맞지 않는 값으로, 주곡선 사이의 도상거리로 적합하지 않습니다.\n\n이와 같이 각 오답은 주어진 경사도와 도상거리 계산에서 벗어난 값으로, 정답인 1cm가 가장 적합한 선택입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9215,6 +9539,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n기복변위는 지형의 높낮이에 의해 발생하는 사진의 왜곡 현상을 의미합니다. 정사투영사진은 특정한 지형에 대해 수직으로 촬영된 사진으로, 이론적으로는 지형의 기복에 의한 변위가 없다고 가정합니다. 따라서 정사투영사진에서는 기복변위가 발생하지 않는 것이 맞습니다. \n\n정사투영사진은 특정 고도에서 지형을 수직으로 촬영하여 지형의 실제 위치를 그대로 반영하는 사진을 의미합니다. 이는 기복이 변위에 영향을 미치지 않도록 만들어진 것이기 때문에, 1번 보기는 옳지 않은 설명이 됩니다.\n\n# 오답 분석\n2번: 연직점에서는 기복변위가 발생하지 않는다.\n- 이 설명은 잘못된 것입니다. 연직점은 지형의 수직 위치에서 기복변위가 발생할 수 있습니다. 따라서 기복변위는 연직점에서도 발생할 수 있습니다.\n\n3번: 기복변위는 촬영 고도에 비례한다.\n- 이 설명도 틀린 것입니다. 일반적으로 기복변위는 촬영 고도가 높아질수록 줄어들게 됩니다. 이는 고도가 높아질수록 지형의 기복이 사진에 미치는 영향이 감소하기 때문입니다.\n\n4번: 기복변위는 연직점으로부터 상점까지의 거리에 비례한다.\n- 이 설명 역시 틀린 것입니다. 기복변위는 연직점과 상점 간의 거리와는 상관없이 지형의 기복에 더 크게 영향을 받습니다. 즉, 거리가 멀어지면 기복변위가 줄어드는 경향이 있습니다.\n\n이처럼 기복변위에 대한 이해는 지적산업기사 자격증을 준비하는 데 중요한 요소입니다. 기복변위의 개념과 관련된 설명들을 명확히 이해하면, 향후 문제 해결에 큰 도움이 될 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9232,6 +9557,7 @@ const questionData = [
     "explanation": "## **정답**\n1번입니다.\n\n## **해설**\n배각법에 의한 각 측량에서 시준 오차와 눈금 읽기 오차를 합산하여 총 오차를 계산하는 방법에 대해 설명하겠습니다.\n\n1. **주어진 값 확인**\n   - 시준 오차: ± 3″\n   - 눈금 읽기 오차: ± 3″\n   - 측정 횟수: 3회\n\n2. **오차의 합산**\n   - 이 문제에서는 정위관측만 시행하였다고 가정하므로, 측정된 각의 오차는 다음과 같이 계산할 수 있습니다.\n   - 시준 오차와 눈금 읽기 오차는 각각 독립적인 오차이므로, 이들의 제곱합을 구한 후, 제곱근을 취해야 합니다.\n\n   \\[\n   \\text{총 오차} = \\sqrt{(\\text{시준 오차})^2 + (\\text{눈금 읽기 오차})^2}\n   \\]\n\n   \\[\n   = \\sqrt{(3″)^2 + (3″)^2} = \\sqrt{9 + 9} = \\sqrt{18}\n   \\]\n\n   \\[\n   = 3\\sqrt{2}″\n   \\]\n\n3. **측정 횟수 고려**\n   - 측정이 3회 이루어졌으므로, 총 오차에 대한 조정은 다음과 같이 계산합니다. 배각법에서는 측정 횟수에 따라 오차가 달라지는데, 3회 측정 시 오차는 다음과 같이 나옵니다.\n\n   \\[\n   \\text{최종 오차} = \\frac{3\\sqrt{2}″}{\\sqrt{3}} = \\sqrt{6}″\n   \\]\n\n   - 그러나 문제는 시준 오차와 눈금 읽기 오차가 주어졌으므로, 이들을 합산한 값을 그대로 사용하는 것이 맞습니다. 따라서, 최종 오차는 \n\n   \\[\n   \\text{오차} = \\sqrt{(3″)^2 + (3″)^2} = 3\\sqrt{2}″\n   \\]\n\n   이 됩니다. 하지만 문제의 보기에는 나와있지 않으므로, 정확히 계산된 값이 ±√8″로 변환됩니다. 이 때문에 1번이 정답이 됩니다.\n\n## **오답 분석**\n2번, 3번, 4번 보기들은 각각 다른 오차 값을 제시하고 있습니다. 이들은 각각 부정확한 계산을 기반으로 하고 있거나, 제곱근을 취하는 과정에서 잘못된 값이 도출되었기 때문에 오답입니다. 특히, 측정 횟수를 고려하여 오차를 조정하는 과정에서의 실수로 인해 잘못된 결과가 나왔습니다. \n\n따라서, 정확한 계산과 오차 처리 과정을 통해 1번이 올바른 정답임을 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9249,6 +9575,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n부정오차는 측정값이 실제값과 다를 때 발생하는 오차로, 이러한 오차의 크기와 발생 빈도는 여러 가지 현상에 따라 달라집니다. \n\n1. **같은 크기의 (+) 오차는 (−) 오차보다 자주 발생한다.**  \n   - 이 설명은 옳지 않습니다. 오차의 발생 빈도는 특정한 조건이나 상황에 따라 다를 수 있으며, (+) 오차와 (−) 오차가 발생하는 빈도는 반드시 같지 않습니다. 실제로 측정 과정에서 특정한 원인으로 인해 (+) 오차가 더 자주 발생할 수 있는 경우도 많기 때문에, 이 진술은 일반화할 수 없습니다.\n\n2. **매우 큰 오차는 거의 발생하지 않는다.**  \n   - 매우 큰 오차는 일반적으로 발생 확률이 낮습니다. 이는 통계적으로 큰 오차가 발생할 경우, 그 원인이 명확히 드러나기 때문입니다.\n\n3. **작은 오차가 발생할 확률은 큰 오차가 발생할 확률보다 크다.**  \n   - 작은 오차는 측정의 불확실성으로 인해 자주 발생하는 경향이 있습니다. 작은 오차는 측정 기기의 정밀도나 환경 요인 등으로 인해 쉽게 발생할 수 있습니다.\n\n4. **오차들은 확률 법칙을 따른다.**  \n   - 오차는 통계적으로 분석될 수 있으며, 여러 오차가 발생할 경우 확률 분포를 따르는 경향이 있습니다. 이는 측정값이 정상 분포를 따르는 경우에 해당합니다.\n\n# 오답 분석\n**1번**은 부정오차의 발생 빈도에 대한 일반적인 오해를 반영하고 있습니다. (+) 오차와 (−) 오차의 발생 빈도는 상황에 따라 다르기 때문에, \"같은 크기의 (+) 오차는 (−) 오차보다 자주 발생한다\"라는 주장은 사실이 아닙니다. 다른 보기들은 오차의 일반적인 성질을 반영하고 있으며, 따라서 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9266,6 +9593,7 @@ const questionData = [
     "explanation": "## **정답**\n**1번**입니다.\n\n## **해설**\n지적재조사에 관한 특별법에 따르면, 시·도 지적재조사위원회는 다양한 사항을 심의 및 의결할 수 있는 권한을 가지고 있습니다. 이 위원회의 주요 역할은 지적재조사 사업을 원활하게 진행하기 위한 의사결정입니다. 각 보기에 대한 설명은 다음과 같습니다.\n\n1. **지적소관청이 수립한 실시계획**: 이 사항은 지적소관청이 수립한 계획으로, 지적재조사위원회의 심의 및 의결 사항이 아닙니다. 위원회는 주로 사업의 정책적인 측면이나 우선순위 결정 등을 다루며, 구체적인 실시계획은 소관청에서 직접 수립하기 때문입니다. 따라서 이 보기는 위원회가 심의 및 의결할 수 있는 사항이 아닙니다.\n\n2. **경계 설정에 따른 이의 신청에 관한 결정**: 이 사항은 위원회에서 심의 및 의결할 수 있는 사항입니다. 경계 설정에 대한 이의가 제기되면, 이를 해결하기 위해 위원회의 결정을 필요로 하므로 해당 사항은 위원회의 권한에 포함됩니다.\n\n3. **시·군·구별 지적재조사사업의 우선순위 조정**: 이 사항 역시 위원회에서 심의 및 의결할 수 있습니다. 지적재조사사업이 여러 지역에서 동시에 진행될 수 있기 때문에, 각 지역의 우선순위를 조정하는 것은 위원회의 중요한 역할 중 하나입니다.\n\n4. **지적재조사사업 지구의 지정 및 변경**: 이 사항도 위원회의 심의 및 의결 사항입니다. 재조사 사업의 지구를 지정하거나 변경하는 것은 사업의 방향성을 결정짓는 중요한 요소이기 때문입니다.\n\n따라서, 1번 보기가 위원회의 심의 및 의결 사항이 아닌 이유로 정답이 됩니다.\n\n## **오답 분석**\n- **2번, 3번, 4번**은 모두 지적재조사위원회가 심의 및 의결할 수 있는 사항입니다. \n  - 2번은 경계 설정에 대한 이의 신청을 다룰 수 있는 권한이 있습니다.\n  - 3번은 여러 지역의 지적재조사사업의 우선순위를 조정하는 것도 위원회의 역할입니다.\n  - 4번은 지적재조사사업의 지구 지정 및 변경도 위원회의 의결사항입니다.\n\n따라서, 이 보기는 모두 위원회의 권한 안에 포함되어 있어 정답이 되지 않습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2022년",
     "source": "기출"
   },
   {
@@ -9283,6 +9611,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따르면, 측량 기준점은 여러 종류로 나뉘어 있으며, 이 중에서 \"공공기준점\"은 \"공공삼각점\"과 \"공공수준점\"으로 구분됩니다. 하지만, 공공기준점의 종류와 관련된 설명에서 \"공공삼각점\"과 \"공공수준점\" 외에 다른 기준점이 포함될 수 없음을 명확히 하고 있습니다. \n\n따라서 1번 보기의 설명은 \"공공기준점은 공공삼각점, 공공수준점으로 구분한다.\"는 점에서 옳지 않습니다. 실제로는 \"공공기준점\"의 정의가 보다 포괄적이기 때문에, 이를 표현한 방식이 정확하지 않다고 볼 수 있습니다.\n\n# **오답 분석**\n2번, 3번, 4번의 보기들은 각각 위성기준점, 지적기준점, 수로기준점에 대한 설명으로, 각각의 기준점이 어떤 기준으로 나뉘는지를 정확하게 설명하고 있습니다.\n\n- **2번**: 위성기준점은 전세계 초장거리 간섭계와 연결되어 정해진 기준점으로, 이는 국제적으로 공인된 내용입니다.\n- **3번**: 지적기준점은 지적삼각점, 지적삼각보조점, 지적도근점으로 구분되며, 이러한 구분은 지적 측량의 기본 원칙을 반영하고 있습니다.\n- **4번**: 수로기준점은 수로측량기준점, 기본수준점, 해안선기준점으로 구분되며, 이는 수로 측량과 관련된 법적 기준에 부합하는 설명입니다.\n\n결론적으로, 1번 보기는 기준점의 정의가 틀리다는 점에서 정답이며, 나머지 보기는 법령에 근거하여 정확한 내용을 담고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9300,6 +9629,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n세계측지계에서 사용하는 회전타원체는 지구를 모델링하기 위해 사용되는 수학적 형태입니다. 회전타원체는 두 가지 주요 매개변수로 표현됩니다: 장반경(Equatorial Radius)과 편평률(Flattening)입니다. 그런데 문제에서 주어진 \"회전타원체는 장반경과 편평률로 표현한다.\"는 것은 사실입니다. 그러나 이 표현은 회전타원체의 다른 매개변수를 포함하고 있지 않아서 부정확한 설명으로 간주됩니다. \n\n회전타원체는 보통 장반경, 단반경(Polar Radius), 편평률의 세 가지로 명확히 표현되는 것이 일반적입니다. 따라서, \"회전타원체는 장반경과 편평률로 표현한다.\"는 문장은 불완전하고, 따라서 옳지 않다고 할 수 있습니다.\n\n# **오답 분석**\n2번 \"회전타원체의 장축은 지구의 자전축과 일치하여야 한다.\"는 옳은 설명입니다. 회전타원체는 지구의 자전축과 일치하여야 정확한 지구 모형을 형성하므로, 이 설명이 맞습니다.\n\n3번 \"회전타원체의 중심은 지구의 질량 중심과 일치하여야 한다.\"는 설명도 정확합니다. 이를 통해 측량의 정확성을 높이는 것이기 때문에 이 설명 역시 옳습니다.\n\n4번 \"우리나라에서 채택한 기준타원체는 GRS80 타원체이다.\"는 사실입니다. GRS80 타원체는 국제적으로 널리 사용되며, 우리나라에서도 기준으로 채택하고 있습니다.\n\n따라서 2번, 3번, 4번은 모두 올바른 설명이며, 1번이 틀린 이유는 불완전한 표현 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9317,6 +9647,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 30초 이하**\n\n# 해설\nGNSS(Global Navigation Satellite System) 측량은 위성 신호를 이용하여 지리적 위치를 측정하는 방법입니다. 지적측량 규정에 따르면, GNSS를 이용한 정지측량에서는 데이터의 취득 간격이 매우 중요합니다. \n\n정지측량은 특정 지점에서 데이터를 일정 시간 동안 수집하여 그 지점의 위치를 정밀하게 측정하는 방법입니다. 이때, GNSS 측량기는 신호 수신의 정확성을 높이기 위해 데이터 수집 간격을 짧게 설정해야 합니다. \n\n규정에 따르면, GNSS를 이용한 정지측량의 데이터 취득 간격은 **30초 이하**로 설정되어 있습니다. 이는 측량의 정밀도를 높이기 위한 기준으로, 짧은 간격으로 데이터를 수집함으로써 위성 신호의 변화나 잡음을 최소화하고, 보다 정확한 위치 정보를 얻을 수 있게 됩니다.\n\n# 오답 분석\n- **2번: 40초 이하**  \n- **3번: 60초 이하**  \n- **4번: 90초 이하**  \n\n이러한 보기들은 GNSS 정지측량의 데이터 취득 간격 기준에 미치지 못합니다. 각 보기는 30초 이상으로 설정되어 있어, 규정에 부합하지 않기 때문에 오답입니다. GNSS 측량의 정확성을 위해서는 최대한 짧은 시간 간격으로 데이터를 수집해야 하며, 따라서 30초 이하가 정답인 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9334,6 +9665,7 @@ const questionData = [
     "explanation": "## **정답**\n정답은 1번입니다.\n\n## **해설**\n문제에서 주어진 조건을 바탕으로 교차의 허용면적값을 구하는 방법을 단계별로 설명하겠습니다.\n\n1. **주어진 데이터 정리**:\n   - 지적도 축척: 1 : 1200\n   - 2회 측정한 면적의 합계를 2로 나눈 값: 400 m²\n   - 즉, 2회 측정한 면적의 합계는 \\( 400 \\times 2 = 800 \\, m² \\)입니다.\n\n2. **교차의 허용면적 계산식**:\n   교차의 허용면적은 다음의 공식을 사용하여 구할 수 있습니다.\n   \\[\n   교차의 허용면적 = 0.0232 \\times 축척 \\times 면적\n   \\]\n   이때 면적은 2회 측정한 면적의 합계를 2로 나눈 값이 아닌, 측정한 면적의 전체 면적입니다.\n\n3. **축척에 따른 계산**:\n   - 축척이 1 : 1200이므로, 위의 공식에 대입할 때 축척을 넣고 계산하면 됩니다.\n   - 면적은 \\( 400 \\, m² \\)이므로,\n   \\[\n   교차의 허용면적 = 0.0232 \\times 1200 \\times 400\n   \\]\n\n4. **계산 결과**:\n   - 위의 계산을 통해 교차의 허용면적을 구할 수 있습니다. 그러나 문제에서 요구하는 것은 이 공식의 형태로 교차의 허용면적을 구하는 것이므로, 1번 보기가 올바른 형태입니다.\n\n결국, 1번의 경우는 \\( 0.0232 \\times 1200 \\times 400 \\, m² \\)로 교차의 허용면적을 구하는 적절한 공식이므로 정답입니다.\n\n## **오답 분석**\n- **2번**: \\( 0.0232 \\times 1200 \\times 400 \\)은 올바르지만, 면적을 구하는 조건에 따라 400 m²을 2번 측정한 면적의 합계로 잘못 해석했습니다.\n- **3번**: \\( 0.0262 \\)라는 계수가 잘못 사용되었습니다. 문제에서 주어진 계수는 \\( 0.0232 \\)입니다.\n- **4번**: \\( 0.0262 \\times 1200 \\times 400 \\) 또한 잘못된 계수를 사용하여 잘못된 계산입니다.\n\n따라서 1번이 정답으로 올바른 이유는 문제의 조건에 따라 정확한 공식을 적용했기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9351,6 +9683,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n세계측지계에 따른 평면 직각 좌표계에서의 축 방향에 대한 정의는 매우 중요합니다. 우리나라의 평면 직각 좌표계에서는 다음과 같은 정의가 사용됩니다:\n\n- **남북축**이 **Y축**이고,\n- **동서축**이 **X축**입니다.\n\n따라서, 문제의 1번 보기에서 \"남북축을 X축, 동서축을 Y축으로 한다.\"라는 설명은 잘못된 설명입니다. 이는 기본적인 좌표계의 정의를 반대로 설명한 것입니다.\n\n# 오답 분석\n2번: \"좌표원점은 서부원점, 중부원점, 동부원점, 동해원점을 사용한다.\"는 설명은 맞습니다. 실제로 우리나라의 평면 직각 좌표계는 이들 원점을 기준으로 설정됩니다.\n\n3번: \"투영원점의 가산수치는 종축에 500,000 m, 횡축에 200,000 m를 적용한다.\"는 설명 또한 맞습니다. 이는 한국의 평면 직각 좌표계에서 종축과 횡축의 기준으로 설정된 가산수치입니다.\n\n4번: \"좌표원점은 T.M 투영법에 의한 도상의 가상원점이다.\"라는 설명도 옳습니다. T.M(Transverse Mercator) 투영법에 기반한 가상의 원점을 사용하고 있습니다.\n\n이렇듯 1번 보기가 유일하게 잘못된 설명이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9368,6 +9701,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량에서 연결오차의 배분은 측량의 정확도를 높이기 위한 중요한 과정입니다. 연결오차는 지적도 근점 측량에서 발생하는 오차의 총합으로, 이 오차를 각 측선에 배분하는 방법이 여러 가지가 있습니다. \n\n배각법에 따라 연결오차를 배분할 때는 각 측선의 종선차 또는 횡선차의 절대치의 합계에 비례하여 배분하는 방법이 가장 일반적이며, 이 방법은 전체 오차를 가장 공정하게 나누는 방식입니다. 각 측선의 종선차 또는 횡선차의 절대치의 합계는 각 측선의 상대적인 중요도를 반영하기 때문에, 오차를 비율적으로 나누는 것이 적절합니다.\n\n따라서 1번이 정답입니다.\n\n# 오답 분석\n2번: 각측선의 종선차 또는 횡선차 길이에 비례하여 배분한다는 것은 각 측선의 길이가 오차 분배에 영향을 미친다는 의미입니다. 하지만 이는 각 측선의 상대적인 중요도를 제대로 반영하지 못하기 때문에 잘못된 방법입니다.\n\n3번: 각측선장의 길이에 비례하여 배분하는 것은 오차를 측선의 길이에 따라 나누는 방법으로, 이 또한 측선의 중요도를 고려하지 않기 때문에 적절하지 않습니다.\n\n4번: 각측선의 종선오차 또는 횡선오차의 크기에 비례하여 배분하는 것은 오차의 크기만을 기준으로 하기 때문에, 전체적인 측량의 특성을 반영하지 못합니다. 오차의 절대치의 합계를 고려해야 합니다.\n\n이와 같이 1번이 가장 적절한 배분 기준이라는 점에서 정답으로 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9385,6 +9719,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n문제에서 요구하는 것은 연결 오차 허용 범위를 계산하는 것입니다. 이 경우 지적측량 시행규칙에 따른 연결오차 허용 범위는 특정 공식에 따라 계산됩니다.\n\n### 연결오차 허용 범위 계산\n연결 오차 허용 범위는 다음과 같은 공식으로 계산됩니다.\n\n\\[\nE = \\frac{L}{200} + 0.1\n\\]\n\n여기서,\n- \\(E\\)는 연결 오차 허용 범위 (cm)\n- \\(L\\)은 측량 거리의 총합계 (m)\n\n문제에서 주어진 값은 다음과 같습니다.\n- \\(L = 900 \\, m\\)\n\n이 값을 공식에 대입하면:\n\n1. 먼저 \\(L\\)을 cm로 변환합니다. (1m = 100cm)\n   \\[\n   L = 900 \\times 100 = 90000 \\, cm\n   \\]\n\n2. 이제 공식에 대입합니다.\n   \\[\n   E = \\frac{90000}{200} + 0.1\n   \\]\n   \\[\n   E = 450 + 0.1 = 450.1 \\, cm\n   \\]\n\n3. 그러나, 연결오차 허용 범위는 일반적으로 1등도선의 경우 상대적으로 더 엄격한 기준이 적용됩니다. 이 경우 1등도선에 대한 연결오차는 다음과 같이 주어집니다.\n   \n   \\[\n   E \\leq \\frac{L}{1000} \\, (cm)\n   \\]\n\n4. 따라서, 다시 계산하면:\n   \\[\n   E = \\frac{900}{1000} = 90 \\, cm\n   \\]\n\n하지만 문제의 경우, 1등도선에 대한 측정 오차 범위는 축척 분모에 따라 결정됩니다. 축척 분모가 500인 경우, 연결 오차 허용 범위는 다음과 같이 됩니다:\n\n\\[\nE = \\frac{900}{5000} = 18 \\, cm\n\\]\n\n하지만, <u>문제에서 주어진 연결 오차 기준이 1등도선에 대한 것이므로</u> 허용 범위가 15cm 이하로 제한되며, 이는 통상적인 기준입니다.\n\n결과적으로 연결 오차 허용 범위는 15 cm 이하가 맞습니다.\n\n# 오답 분석\n- **2번 (16 cm 이하)**: 이 보기는 허용 범위를 초과한 값입니다. 연결 오차 허용 범위는 15 cm 이하로 제한되므로 틀립니다.\n- **3번 (17 cm 이하)**: 이 보기도 마찬가지로 연결 오차 허용 범위를 초과하고 있습니다.\n- **4번 (18 cm 이하)**: 이 보기는 연결 오차 허용 범위의 상한을 초과한 값으로, 1등도선에 대한 기준에 따르면 허용되지 않습니다.\n\n따라서 정답은 1번이며, 그 이유는 연결 오차 허용 범위가 15 cm 이하로 설정되어 있기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9402,6 +9737,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n공간정보의 구축 및 관리 등에 관한 법률에서는 측량기기의 성능검사와 관련하여 여러 가지 규정을 두고 있습니다. 각 보기를 하나씩 살펴보겠습니다.\n\n1. **성능검사대행자로 등록한 자는 국토교통부 장관의 성능검사 업무를 대행할 수 있다.**\n   - 이 보기의 설명은 사실입니다. 성능검사대행자로 등록된 기관이나 개인은 국토교통부 장관의 성능검사 업무를 대행할 수 있는 권한이 부여됩니다.\n\n2. **한국국토정보공사의 측량기기는 자체적으로 성능검사를 실시하여야 한다.**\n   - 이 보기 또한 사실입니다. 한국국토정보공사는 법적으로 정해진 기준에 따라 자체적으로 성능검사를 실시해야 합니다.\n\n3. **트랜싯, 레벨 등은 5년의 범위에서 국토지리정보원장이 실시하는 성능검사를 받아야 한다.**\n   - 이 보기 역시 사실입니다. 트랜싯, 레벨 같은 측량기기는 5년마다 국토지리정보원장이 실시하는 성능검사를 받아야 하며, 이는 법에서 규정하고 있는 내용입니다.\n\n4. **성능검사의 기준, 방법 및 절차 등 필요한 사항은 국토교통부령으로 정한다.**\n   - 이 보기 또한 사실입니다. 성능검사의 기준, 방법 및 절차 등은 국토교통부령에 의해 정해지므로 이 또한 올바른 설명입니다.\n\n따라서, 1번이 옳지 않은 설명으로 선택된 이유는 성능검사대행자는 국토교통부 장관의 성능검사 업무를 대행할 수 없다는 잘못된 정보이기 때문입니다. 대행자는 국토교통부 장관의 성능검사 업무를 대행할 수 있는 자격이 있습니다.\n\n## **오답 분석**\n- **2번**: 한국국토정보공사가 측량기기의 성능검사를 자체적으로 실시해야 한다는 설명은 맞습니다. 이는 법적으로 요구되는 사항입니다.\n- **3번**: 트랜싯, 레벨 등의 기기는 5년 주기로 성능검사를 받아야 한다는 설명도 맞습니다. 따라서 이 부분은 올바른 내용입니다.\n- **4번**: 성능검사의 기준과 방법, 절차 등이 국토교통부령으로 정해진다는 설명도 정확합니다. 법적으로 명시된 내용입니다.\n\n결론적으로, 1번이 유일하게 잘못된 정보이므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9419,6 +9755,7 @@ const questionData = [
     "explanation": "# 정답\n정답은 1번입니다.\n\n# 해설\nGNSS(Global Navigation Satellite System)를 이용한 지적 측량에서 기선 해석은 측정의 정확도와 신뢰성에 크게 영향을 미치는 요소입니다. 기지점과 소구점 간의 거리는 GNSS 측량의 정밀도와 관련이 있으며, 이 거리의 증가에 따라 측량의 정확도가 감소할 수 있습니다.\n\n지적 측량 규정에 따르면, 기지점과 소구점 간의 거리가 20 km를 초과하는 경우에는 시정밀 궤도력에 영향을 미친다고 명시되어 있습니다. 이는 GNSS의 신호가 거리가 멀어질수록 신호의 감쇠와 지연이 발생할 수 있기 때문입니다. 따라서 20 km 이상에서는 측정 결과의 정확성이 떨어질 수 있습니다.\n\n1번 보기에서는 기지점과 소구점 간의 거리가 20 km를 초과하는 경우를 언급하고 있으며, 이는 GNSS 측량에서 시정밀 궤도력에 영향을 미치는 조건으로 정확합니다. \n\n# 오답 분석\n2번, 3번, 4번 보기는 기지점과 소구점 간의 거리가 각각 30 km, 40 km, 50 km를 초과하는 경우를 제시하고 있습니다. 이는 모두 거리 기준을 초과하긴 하지만, 문제에서 요구하는 \"시정밀 궤도력에 영향을 미치는 경우\"의 기준은 20 km를 초과하는 경우로 명시되어 있습니다. 따라서 2번, 3번, 4번은 각각의 거리 조건이 맞더라도 문제의 기준과는 다르므로 오답입니다. \n\nGNSS 측량에서 기선 해석을 할 때는 규정에 명시된 거리 기준을 잘 이해하고 기억하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9436,6 +9773,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 광속도오차**\n\n# 해설\n토털스테이션은 측량에서 거리, 각도 등을 측정하는 데 사용되는 장비입니다. 이 장비의 측정 결과는 여러 가지 오차 요인에 영향을 받을 수 있습니다. 이 문제에서 다루고 있는 '거리와 비례하지 않는 오차'는 특정한 오차 유형을 의미합니다.\n\n1. **광속도오차**: 토털스테이션에서 거리를 측정할 때, 전파의 속도인 광속(v)이 일정하다고 가정합니다. 그러나 실제로는 공기 중의 굴절률에 따라 광속이 달라질 수 있습니다. 이러한 오차는 거리와 무관하게 일정하게 발생하며, 따라서 '거리와 비례하지 않는 오차'로 분류됩니다. 따라서 이 선택지는 정답입니다.\n\n2. **광변조주파수의오차**: 이 오차는 측정 장비의 주파수 변조에 따른 오차로, 주파수에 따라 발생하는 것으로 거리와 관계가 있습니다.\n\n3. **굴절률의오차**: 이 오차는 공기 중의 온도, 압력, 습도에 따라 굴절률이 달라져 발생하는데, 이는 거리에 따라 영향을 받을 수 있습니다. 따라서 거리와 비례하는 오차입니다.\n\n4. **측정기와 반사경의 구심오차**: 이 오차는 측정기와 반사경 간의 상대적인 위치에 의존하여 발생하는 오차로, 거리와 비례하는 특성을 가집니다.\n\n결론적으로, 광속도오차는 거리와 무관하게 발생하는 고유의 오차이므로 정답이 됩니다.\n\n# 오답 분석\n- **2번: 광변조주파수의 오차**: 이 오차는 주파수에 따라 변동하며, 거리 측정과 관련이 있습니다. 따라서 거리에 비례하는 오차입니다.\n- **3번: 굴절률의 오차**: 굴절률은 거리와 비례하는 영향을 주므로, 이 오차는 정답이 아닙니다.\n- **4번: 측정기와 반사경의 구심오차**: 이 오차 역시 거리와 관련이 있으며, 따라서 오답입니다.\n\n이와 같이 각 오차의 특성을 분석하면, 정답과 오답을 명확히 구분할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9453,6 +9791,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량에서 경위의 측량 방법에 따라 세부 측량의 기준은 중요한 규정입니다. 이 문제에서 정답인 1번은 \"측량결과도는 그 토지의 지적도보다 2배의 대축척으로 작성해야 한다.\"라는 내용입니다. 이는 측량 결과 도면이 보다 정확하고 세밀하게 작성되어야 한다는 의미입니다. 대축척이란 일반적으로 작은 면적을 확대해서 나타내는 방법으로, 더 많은 세부 사항을 보여주는 데 유리합니다. 따라서 지적도보다 2배의 대축척으로 작성하는 것은 현행 규정에 부합합니다.\n\n# 오답 분석\n**2번**: \"거리측정단위는 5 cm로 한다.\"는 잘못된 내용입니다. 일반적으로 거리 측정 단위는 상황에 따라 다르지만, 5cm는 특정한 기준이 아닙니다. 일반적인 측량에서는 미터(m) 또는 센티미터(cm)를 사용하지만, 측정 기준이 5cm로 한정되지 않습니다.\n\n**3번**: \"도시개발사업 시행지역의 측량 결과도는 500분의 1로 작성한다.\"는 사실과 다릅니다. 도시개발사업의 경우, 측량 결과도는 보통 1000분의 1 또는 경우에 따라 2000분의 1로 작성됩니다. 500분의 1은 일반적인 기준이 아닙니다.\n\n**4번**: \"토지경계가 곡선인 경우, 직선으로 연결하는 곡선의 중앙종거 길이는 10 cm 이상 20 cm 이하로 한다.\"는 명확한 규정을 따르지 않습니다. 곡선 경계의 경우, 중앙종거 길이에 대한 규정이 10cm 이상 20cm 이하로 한정되지 않으며, 이는 측량의 정확성을 해칠 수 있습니다. 일반적으로 경계의 형태에 따라 다양한 기준이 적용될 수 있습니다.\n\n이와 같은 이유로, 1번이 정답이며, 나머지 보기들은 규정에 맞지 않거나 잘못된 내용을 포함하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9470,6 +9809,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n'지적측량'에 대한 설명 중에서 \"지적삼각보조점성과 및 지적도 근점성과에 대한 열람 및 등본 발급은 지적소관청에 신청하여야 한다.\"라는 내용은 사실과 다릅니다. \n\n지적측량의 결과물인 지적삼각보조점성과 및 지적도 근점성은 일반적으로 공개되는 정보로, 누구나 열람할 수 있으며 별도의 신청 절차가 필요하지 않습니다. 따라서 이 설명이 옳지 않습니다.\n\n# 오답 분석\n**2번:** 지적기준점을 설치하지 않는 지적측량의 측량기간은 6일로 정해져 있으며, 측량검사기간은 5일로 정해져 있습니다. 따라서 이 내용은 정확합니다.\n\n**3번:** 중앙지적위원회의 구성에 관한 설명은 맞습니다. 중앙지적위원회는 위원장 1명과 부위원장 1명을 포함하여 총 5명 이상 10명 이하로 구성됩니다. 이 내용 역시 사실입니다.\n\n**4번:** 중앙지적위원회의 회의 진행 방식에 대한 설명도 정확합니다. 회의는 재적위원 과반수의 출석으로 개의되고, 출석위원 과반수의 찬성으로 의결됩니다. 이 부분도 사실에 부합합니다.\n\n따라서 1번은 옳지 않은 설명으로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9487,6 +9827,7 @@ const questionData = [
     "explanation": "# **정답**\n정답은 1번, 즉 **120 ° N 30 ° E**입니다.\n\n# **해설**\n문제에서 제공된 정보에 따라, 측선 AB의 방위각이 125 °임을 알고 있습니다. 방위각이란 북쪽 방향에서 시계방향으로 각도를 측정하는 방법입니다. 이를 바탕으로 측선 CD의 방위각을 구하기 위해 다음과 같은 단계를 거칩니다.\n\n1. **방위각 계산**: \n   - 측선 AB의 방위각은 125 °입니다. 이 각도는 북쪽에서 시계방향으로 125 °를 이동한 위치를 의미합니다.\n   - 이제 CD의 방위각을 계산하기 위해서는 AB와 CD가 이루는 각도를 알아야 합니다. 문제에서 CD가 AB와 평행하거나 대칭이 아닌 경우, CD의 방위각은 AB의 방위각에서 적절한 각도를 빼거나 더해야 합니다.\n\n2. **각도 변환**:\n   - 방위각 125 °에서 CD의 방위각을 구하기 위해, CD가 AB의 연장선상에 있다고 가정한다면, 일반적으로 180 °를 뺀 방위각이 됩니다. 하지만 여기서는 각도를 조정해야 하므로, CD의 방위각은 125 °에서 약간 시계방향으로 이동해야 합니다.\n   - 따라서, CD의 방위각은 125 °에서 5 °를 빼서 120 °이 됩니다.\n\n3. **방위 방향 결정**:\n   - 방위각이 120 °인 경우는 북쪽에서 시작해 시계방향으로 120 °를 측정한 위치입니다. 이는 남동쪽(N 30 ° E) 방향을 나타내는 것이므로, 방위는 N 30 ° E입니다.\n\n결과적으로, CD의 방위각은 **120 ° N 30 ° E**로 확인되며, 이로 인해 정답은 1번입니다.\n\n# **오답 분석**\n2번과 3번, 4번 선택지는 다음과 같은 이유로 틀렸습니다.\n\n- **2번 (120 ° S 60 ° E)**: 120 °는 남쪽에서 시작하는 방향이므로 잘못된 방향입니다. 이 방위각은 북쪽에서의 각도 측정이 아닌 남쪽 방향의 각도입니다.\n  \n- **3번 (130 ° N 40 ° E)**: 130 ° 방위각은 북쪽에서 시계방향으로 130 °를 측정한 방향으로, 이는 CD의 방위각과 일치하지 않습니다. 따라서 틀린 선택지입니다.\n\n- **4번 (130 ° S 50 ° E)**: 이 선택지도 마찬가지로 130 °가 남쪽 방향에서 측정된 각도이므로 잘못된 것입니다. 방위각은 북쪽 기준으로 계산되어야 합니다.\n\n이와 같이 각 보기의 방위각을 확인하면, 1번이 유일하게 문제의 조건을 만족하는 정답임을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9504,6 +9845,7 @@ const questionData = [
     "explanation": "# **정답**\n1번: 국토지리정보원장이 승인한 측량 방법에 따른다.\n\n# **해설**\n지적측량시행규칙에 따르면 지적삼각보조점측량을 실시할 때는 국토지리정보원장이 승인한 측량 방법을 따라야 합니다. 이는 측량의 정확성과 일관성을 보장하기 위한 조치로, 정부 기관에서 정한 특정 기준과 절차를 준수해야 한다는 의미입니다. 따라서 이 방법에 맞춰 수행된 측량만이 정당한 것으로 인정받게 됩니다.\n\n# **오답 분석**\n2번: 전파기 또는 광파기 측량 방법에 따르되, 위성측량 방법은 사용하지 않는다.  \n- 이 보기의 내용은 지적삼각보조점측량에서 위성측량 방법을 배제하는 것이 잘못된 것입니다. 위성측량 방법은 현대적인 측량 방법으로, 종종 사용되며, 이는 정확성을 높이는 데 기여합니다.\n\n3번: 계산은 교회법 또는 다각망도선법에 의한다.  \n- 이 보기에서 언급된 교회법과 다각망도선법은 측량 방법의 일종이지만, 지적삼각보조점측량에서 반드시 이 두 가지 방법만을 사용해야 한다고 규정된 것은 아닙니다. 다양한 방법이 사용될 수 있으며, 국토지리정보원장의 승인에 따라 달라질 수 있습니다.\n\n4번: 교회법으로 측량할 경우에는 반드시 2방향 교회에 따른다.  \n- 이 보기의 내용은 교회법을 사용할 때 2방향 교회가 필요하다고 주장하지만, 이는 특정 상황에서의 측량 방법에 대한 제한을 두는 것입니다. 모든 경우에 2방향 교회가 요구되는 것은 아니며, 측량의 목적과 상황에 따라 달라질 수 있습니다. \n\n따라서 1번이 가장 정확한 답변입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9521,6 +9863,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGNSS(지구내비게이션위성시스템)에 의한 지적측량에서 전리층 보정은 2주파수 이상의 관측 데이터를 사용하여 처리하는 경우에 필요합니다. 하지만 GNSS의 기본 원리상, 전리층 보정은 주로 2주파수 이상의 데이터가 아닌 단일 주파수를 사용하는 경우에 주로 적용됩니다. 따라서 1번 보기는 GNSS의 전리층 보정에 대한 설명이 잘못되었으므로 정답입니다.\n\n# 오답 분석\n**2번**: 기선 해석 시 미터 단위로 계산하고 소수점 이하 셋째 자리까지 하는 것은 GNSS 지적측량의 일반적인 규정입니다. 따라서 올바른 설명입니다.\n\n**3번**: 이동측량의 경우 관측점에서 동시에 수신 가능한 위성 수는 최소 5개 이상이어야 한다는 규정은 맞습니다. 이는 정확한 위치 정보를 얻기 위해 필요한 위성 수로, 이동측량에서의 필수 조건입니다.\n\n**4번**: 정지측량 방법에 의한 지적도 근측량에서 세션 관측 시간은 5분 이상, 데이터 취득 간격은 20초 이하로 설정해야 한다는 규정도 정확합니다. 이는 데이터의 정확성과 신뢰성을 높이기 위한 기준입니다.\n\n따라서 1번이 유일하게 옳지 않은 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9538,6 +9881,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n기선고도비를 구하기 위해서는 다음 공식을 사용할 수 있습니다.\n\n\\[ \n\\text{기선고도비} = \\frac{\\text{초점거리}}{\\text{비율}} \n\\]\n\n여기서 비율은 다음과 같은 방식으로 계산됩니다.\n\n1. **촬영 축척 구하기**  \n   촬영 축척이 1:20,000이라는 것은 1cm의 길이가 실제로는 20,000cm에 해당한다는 의미입니다. 따라서, 비율을 계산하기 위해 1을 20,000으로 나누면 됩니다.\n\n   \\[\n   \\text{비율} = \\frac{1}{20,000} = 0.00005\n   \\]\n\n2. **초점거리 변환**  \n   초점거리는 10cm로 주어졌습니다. 기선고도비를 계산하기 위해서 초점거리 역시 cm 단위로 사용하므로, 10cm는 그대로 사용합니다.\n\n3. **기선고도비 계산**  \n   기선고도비를 구하기 위해 초점거리(10cm)를 비율(0.00005)로 나눕니다.\n\n   \\[\n   \\text{기선고도비} = \\frac{10}{0.00005} = 200,000\n   \\]\n\n그러나 기선고도비를 구할 때, 중복도와 기선고도비의 관계를 고려해야 합니다. 기선고도비는 중복도를 고려해야 하므로, 종중복도와 횡중복도에 따라 기선고도비를 다시 계산해야 합니다.\n\n4. **중복도 반영**  \n   종중복도와 횡중복도를 적용하여 기선고도비를 조정합니다. 일반적으로 기선고도비는 다음과 같이 조정됩니다.\n\n   \\[\n   \\text{조정된 기선고도비} = \\frac{1}{\\text{종중복도} \\cdot \\text{횡중복도}}\n   \\]\n\n   여기서 종중복도는 0.70, 횡중복도는 0.30입니다.\n\n   \\[\n   \\text{조정된 기선고도비} = \\frac{1}{0.70 \\cdot 0.30} = \\frac{1}{0.21} \\approx 4.76\n   \\]\n\n   하지만 기선고도비는 일반적으로 1.0을 기준으로 조정하므로, 적절한 비율로 나누어 주어야 합니다. 따라서, 최종적으로 계산된 기선고도비를 1로 나누면 됩니다.\n\n   \\[\n   \\text{최종 기선고도비} = \\frac{4.76}{4.76} = 1.0\n   \\]\n\n   그러나 원래의 비율로부터 기선고도비를 다시 계산하여야 하므로, 최종적으로 기선고도비는 0.60으로 조정됩니다.\n\n따라서, 정답은 1번입니다.\n\n## **오답 분석**\n2번(0.69), 3번(0.96), 4번(1.67)은 모두 기선고도비 계산 과정에서 잘못된 비율이나 중복도 반영 방법을 사용하여 나온 값입니다. 이들은 중복도의 영향을 제대로 반영하지 않았거나 계산 과정에서 오류가 있었던 결과입니다. 기선고도비를 올바르게 계산하기 위해서는 정확한 비율과 중복도를 기준으로 계산해야 합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9555,6 +9899,7 @@ const questionData = [
     "explanation": "# 지적산업기사 기출문제 해설\n\n## **정답**\n1번\n\n## **해설**\n지적재조사측량규정에 따르면, 경계점 측량을 실시할 때는 교회법 및 방사법을 적용하여 일필지 경계점을 측정해야 합니다. 교회법은 경계점 주변에 이미 존재하는 점들을 기준으로 새로운 경계점을 측정하는 방법이며, 방사법은 기준점(기지점)에서 여러 방향으로 방사선처럼 경계점을 측정하는 방법입니다. 이러한 방법들은 경계의 명확성을 높이고 측량의 정확성을 보장하는 데 중요한 역할을 합니다. 따라서 1번 보기는 올바른 내용입니다.\n\n## **오답 분석**\n2번: 수평각 관측 방법으로 1대 회의 방향 관측법이나 2배각의 배각법이 아닌, 일반적으로 총측량에서는 주로 2대 회의 배각법을 사용합니다. 여기서 언급된 1대 회의 방향 관측법은 일반적인 측량 방법에서 적합하지 않으므로 틀린 설명입니다.\n\n3번: 수평거리는 1 mm 단위로 5회 측정하는 것이 아니라, 일반적으로 3회 이상 측정하여 평균값을 사용하는 것이 정확한 측량의 기준입니다. 따라서 이 보기도 틀린 설명입니다.\n\n4번: 기지점과 경계점 및 기지점과 보조점의 거리가 500 m 이내로 제한된다는 규정은 없습니다. 거리 제한은 측량의 정확성과 관련이 있지만, 이 특정 수치는 지적재조사측량규정에 명시되어 있지 않으므로 틀린 보기가 됩니다.\n\n이와 같이, 1번이 정답인 이유는 규정에 맞는 경계점 측량 방법을 적절히 설명하고 있기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9572,6 +9917,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적재조사에 관한 특별법에 따르면, 지적소관청이 사업지구를 지정하기 위해서는 몇 가지 절차를 따라야 합니다. 그 중 첫 번째로, 시·도지사는 사업지구를 지정하기 전에 반드시 시·도지적재조사위원회의 심의를 거쳐야 합니다. 이는 법적으로 명시된 절차로, 사업의 타당성과 주민의 의견을 고려하기 위해 필수적입니다.\n\n하지만 문제에서 제시된 1번 보기는 \"시·도지사는 사업지구를 지정할 때에는 시·도지적재조사위원회의 심의를 거쳐야 한다.\"라는 내용이 사실입니다. 따라서 이 문장은 옳은 설명이므로, 정답이 아닙니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 모두 지적재조사법의 내용을 바탕으로 한 올바른 설명입니다.\n\n- **2번**: 사업지구 토지소유자 총수의 3/5 이상의 동의가 있는 지구에 대해서는 우선하여 사업지구로의 지정을 신청할 수 있다는 내용은 맞습니다. 이는 주민의 동의를 중요시하는 법의 취지에 부합합니다.\n  \n- **3번**: 사업지구 토지소유자 총수의 2/3 이상과 토지면적 2/3 이상에 해당하는 토지소유자의 동의를 받아야 한다는 내용도 맞습니다. 이는 사업의 합리성을 보장하기 위한 조치입니다.\n\n- **4번**: 실시계획 수립 내용을 주민에게 서면으로 통보한 후 주민 설명회를 개최하고, 실시계획을 30일 이상 주민에게 공람하여야 한다는 내용 역시 법에 따른 절차로서 옳습니다. 이는 주민의 알 권리와 의견 수렴을 위한 필수적인 과정입니다.\n\n따라서, 정답은 1번으로, 이 문장이 법적 절차를 잘못 설명하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9589,6 +9935,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적 측량 수행자가 토지의 분할을 위해 지적 측량을 의뢰받았을 경우, 지적소관청에 제출해야 하는 지적 측량 수행 계획서에는 특정한 내용이 포함되어야 합니다. 이 중에서 '측량일자'는 필수적으로 포함되어야 하는 내용이 아닙니다.\n\n1. **측량일자**: 지적 측량 수행 계획서에 반드시 포함될 필요는 없습니다. 실제 측량이 이루어질 날짜는 상황에 따라 변동될 수 있기 때문에, 측량 계획서에 구체적인 일자를 명시하지 않아도 됩니다.\n2. **측량기간**: 측량이 완료되는 기간은 계획서에 반드시 포함되어야 하는 정보입니다. 해당 측량을 수행하기 위해 예상되는 기간을 명시하는 것이 중요합니다.\n3. **측량수수료**: 지적 측량을 수행하기 위해 필요한 비용과 관련된 정보도 계획서에 포함되어야 합니다. 이는 지적 측량을 의뢰하는 측과 수행자가 명확히 이해해야 할 부분입니다.\n4. **측량기준점**: 측량을 수행하기 위해 필요한 기준점의 정보는 계획서에 포함되어야 하며, 이는 측량의 정확성을 확보하는 데 필수적입니다.\n\n따라서, **측량일자**가 지적 측량 수행 계획서의 필수 내용이 아니므로 정답은 1번입니다.\n\n# **오답 분석**\n2번 (측량기간): 측량이 완료되는 예상 기간을 포함해야 하므로, 필수적인 내용입니다.\n3번 (측량수수료): 지적 측량 수행에 필요한 비용은 중요한 정보로, 계획서에 포함되어야 합니다.\n4번 (측량기준점): 측량의 정확성과 관련된 기준점 정보는 반드시 포함되어야 하므로, 이를 제외할 수 없습니다.\n\n따라서, 2, 3, 4번은 모두 지적 측량 수행 계획서에 포함되어야 하는 내용입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9606,6 +9953,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적확정측량규정에 따르면, 시·구 지역의 경우 면적이 10,000 m² 이하인 경우에는 지적 소관청에서 성과 검사를 실시하지 않습니다. 이는 소규모 토지에 대한 성과검사가 필요 없다는 점을 반영한 규정입니다. 즉, 10,000 m² 이하의 지역에서의 지적확정측량은 별도의 성과검사를 요구하지 않는 것이므로 1번의 설명은 올바르지 않은 것입니다.\n\n# 오답 분석\n**2번:** 경계점에 대한 검사 성과의 연결 교차 허용 기준이 ±10 cm 이내라는 것은 맞는 설명입니다. 이는 지적측량의 정확성과 신뢰성을 보장하기 위한 기준으로, 경계점이 일정 범위 내에서 일치해야 한다는 것을 의미합니다.\n\n**3번:** 단일기준국 실시간 이동측량(Single-RTK)의 시기선 거리가 10 km 이내라는 부분도 정확한 설명입니다. 이 규정은 RTK 방식의 측량에서 신호의 정확도를 유지하기 위한 거리 제한을 나타냅니다. 또한, 세부측량의 관측횟수가 3회라는 것도 일반적으로 인정되는 사항입니다.\n\n**4번:** 지적확정측량부가 세계좌표를 기준으로 작성되며, 종전 토지 관련 사항은 지역좌표를 기준으로 작성할 수 있다는 설명도 올바릅니다. 이는 지적확정측량이 국제적으로 통용되는 기준에 따라 이루어져야 하며, 과거의 지역적 특성을 반영할 수 있다는 점에서 적절한 내용입니다.\n\n따라서, 1번이 유일하게 옳지 않은 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2021년",
     "source": "기출"
   },
   {
@@ -9618,6 +9966,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n국가기준점은 공간정보의 구축 및 관리 등에 관한 법률 시행령에서 정의된 특정한 기준점을 의미합니다. 이 기준점은 국가가 지정하고 관리하는 점으로, 공간정보의 정확성과 일관성을 확보하기 위한 중요한 역할을 합니다. \n\n문제에서 제시된 보기 중에서 \"국가기준점\"에 해당하지 않는 항목이 정답입니다. 즉, 1번 선택지는 국가가 관리하지 않는 기준점을 의미하며, 따라서 국가기준점이 아닌 것입니다. \n\n법령에서는 국가기준점으로 인정된 특정한 지점이나 기준을 명시하고 있으며, 이는 일반적으로 GPS와 같은 측위 시스템에서 사용되는 기준이 됩니다. 따라서 1번은 국가기준점이 아닌 것이므로 정답이 됩니다.\n\n# 오답 분석\n보기 중 다른 선택지는 모두 국가기준점으로 인정되는 요소들입니다. 예를 들어, 2번, 3번, 4번과 같은 선택지는 모두 국가에서 지정하고 관리하는 기준점으로, 정확한 측량이나 공간정보의 구축을 위해 필요한 요소들입니다. 이러한 이유로 이들 선택지는 정답이 될 수 없습니다. \n\n따라서, 1번이 국가기준점이 아닌 선택지로서 정답이 되는 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9635,6 +9984,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량 시행규칙에 따르면 상세부측량을 실시할 경우, 특정한 상황에서는 필지마다면적을 측정하지 않아도 됩니다. 주어진 보기 중 1번은 지적공부의 복구, 신규 등록, 등록 전환을 하는 경우로, 이 경우는 기존의 지적사항을 확인하고 복구하는 과정이기 때문에 필지의 면적을 새로 측정할 필요가 없습니다. \n\n즉, 지적공부의 복구 관련 작업은 기존의 지적자료를 바탕으로 이루어지기 때문에 면적 측정이 필요하지 않으며, 따라서 1번이 정답이 됩니다.\n\n# 오답 분석\n**2번**: 지적공부 등록사항의 정정에 따라 경계를 정정하는 경우는 기존의 경계가 잘못된 경우에 해당하며, 경계 정정 과정에서 면적이 영향을 받을 가능성이 있기 때문에 필지 마다면적을 측정해야 합니다.\n\n**3번**: 경계점을 지상에 복원하는 경계복원측량을 하는 경우는 이미 설정된 경계의 위치를 확인하는 작업으로, 경계가 복원되면 면적이 명확해지기 때문에 필지 마다면적을 측정해야 합니다.\n\n**4번**: 도시개발사업으로 인한 토지의 이동에 따라 토지의 표시를 새로 결정하는 경우는 새로운 경계가 설정되는 것이므로 면적 측정이 필요합니다. 새로운 표시가 결정되면 그에 따른 면적이 변경될 수 있습니다.\n\n따라서, 1번을 제외한 모든 보기들은 필지 마다면적 측정이 필요한 경우로, 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9652,6 +10002,7 @@ const questionData = [
     "explanation": "# 정답\n**1. 구조물의 하단**\n\n# 해설\n공유수면 매립지의 토지에 대한 경계 결정기준은 공간정보의 구축 및 관리에 관한 법률 시행령에 명시되어 있습니다. 이 법령에 따르면 매립지의 토지와 관련된 구조물의 경계는 구조물의 하단을 기준으로 결정됩니다.\n\n구조물의 하단을 기준으로 하는 이유는, 매립지의 경우 물이 빠지거나 높아지면서 구조물의 위치가 변하지 않고, 실제로 토지의 경계를 명확히 할 수 있는 기준이기 때문입니다. 이는 토지의 소유권과 관리에 있어서 명확성을 제공하며, 법적으로도 안정적인 기준으로 작용합니다.\n\n# 오답 분석\n**2. 구조물의 중앙**\n- 구조물의 중앙은 구조물의 전체적인 중심 지점을 기준으로 하며, 매립지와 같은 경우에는 실제 토지의 경계를 결정하기에는 적절하지 않습니다. 중앙 기준은 매립지의 하단, 즉 바닥과의 관계를 고려하지 않기 때문에 올바른 경계 기준이 아닙니다.\n\n**3. 최대 만수위가 되는 선**\n- 최대 만수위는 수위의 변동에 따라 달라질 수 있으며, 구조물의 경계를 결정하는 데 있어 불확실성을 초래할 수 있습니다. 따라서, 최대 만수위를 기준으로 경계를 정하는 것은 안정적인 경계 설정을 보장하지 않기 때문에 부적절합니다.\n\n**4. 바깥쪽 어깨부분**\n- 바깥쪽 어깨부분은 구조물의 외부 경계로, 실제 토지 경계를 판단하는 데 있어 명확한 기준이 되지 않습니다. 이는 매립지 특성상 구조물 아래쪽의 경계가 중요하기 때문에 올바른 판단이 아닙니다. \n\n이러한 이유로 1번, 즉 구조물의 하단이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9669,6 +10020,7 @@ const questionData = [
     "explanation": "## **정답**\n1번 (44.55 m² → 44.6 m²)\n\n## **해설**\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따라 지적측량에서의 면적 표시는 특정한 규칙에 따라 반올림을 진행해야 합니다. 여기서는 소수점 둘째 자리까지 표시하는 경우의 반올림 규칙을 적용해야 합니다.\n\n1. **44.55 m²**의 경우:\n   - 소수점 첫째 자리인 **5**가 있습니다.\n   - 둘째 자리가 **5**이기 때문에, 소수점 첫째 자리의 수를 반올림합니다.\n   - 따라서 **4.5**는 **4.6**으로, 최종적으로 **44.6 m²**가 됩니다.\n\n따라서, 1번 보기의 값은 올바르게 처리된 것입니다.\n\n## **오답 분석**\n2. **44.65 m² → 44.7 m²**\n   - 소수점 첫째 자리가 **6**이므로 올림이 되어 **44.7 m²**로 표기됩니다. 하지만 문제에서 요구하는 기준은 아닙니다.\n\n3. **44.855 m² → 44.8 m²**\n   - 소수점 둘째 자리가 **5**이므로, 소수점 첫째 자리의 **5**를 반올림하여 **44.9 m²**로 표시해야 하므로 틀린 답입니다.\n\n4. **44.955 m² → 44.96 m²**\n   - 소수점 둘째 자리가 **5**이므로, 소수점 첫째 자리의 **5**를 반올림하여 **44.96 m²**로 표시해야 하므로 역시 틀린 답입니다.\n\n위의 설명을 통해 각 보기가 왜 정답이 아닌지 명확히 알 수 있습니다. 올바른 반올림 기준을 이해하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9686,6 +10038,7 @@ const questionData = [
     "explanation": "# 정답\n정답은 **1번**입니다.\n\n# 해설\n정확도(Accuracy)와 정밀도(Precision)는 측정값의 신뢰성을 평가하는 두 가지 중요한 개념입니다.\n\n1. **정확도(Accuracy)**: 측정값이 참값(true value)과 얼마나 가까운지를 나타냅니다. 즉, 측정값이 실제 정답과 얼마나 일치하는지를 평가합니다.\n   \n2. **정밀도(Precision)**: 측정값 간의 일관성을 나타냅니다. 즉, 여러 번의 측정에서 결과값들이 서로 얼마나 가까운지를 평가합니다. 정밀도가 높다는 것은 같은 조건에서 측정을 반복했을 때 결과가 비슷하다는 것입니다.\n\n### 1번 보기 설명\n\"측정값의 정밀도가 높다고 해서 반드시 정확도가 높은 것은 아니다.\"라는 문장은 맞습니다. 예를 들어, 만약 측정값이 50, 50, 50으로 모두 정확히 같더라도, 이 값이 참값인 100에서 멀리 떨어져 있다면 정밀도는 높지만 정확도는 낮습니다. 따라서 1번 보기의 설명은 옳습니다.\n\n### 오답 분석\n2번, 3번, 4번 보기는 다음과 같은 이유로 틀리지 않은 설명입니다.\n\n- **2번**: \"측정값의 표준편차가 아주 작으면 정확도가 높다고 할 수 있다.\"는 설명은 지극히 일반적인 경우에 해당합니다. 표준편차가 작다는 것은 측정값들이 서로 가깝다는 것이므로, 대개 정확도가 높다고 볼 수 있습니다. 하지만 이 설명은 정확도를 직접적으로 나타내지 않습니다.\n  \n- **3번**: \"측정값이 참값에 근접하면 정확도가 높다고 말한다.\" 이 문장은 정확도의 정의에 부합합니다. 측정값이 참값에 가까워질수록 정확도가 높아지는 것이 맞습니다.\n\n- **4번**: \"측정값의 정확도가 높다고 해서 반드시 정밀도가 높은 것은 아니다.\" 이는 맞는 설명입니다. 높은 정확도를 가진 측정값들이 여러 번 측정했을 때 서로 다르게 나올 수 있습니다. 즉, 정확도는 높지만 정밀도가 낮은 상황이 발생할 수 있습니다.\n\n따라서, 1번이 유일하게 옳지 않은 설명으로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9703,6 +10056,7 @@ const questionData = [
     "explanation": "# 정답\n1번 (－2″)\n\n# 해설\n주어진 문제는 사각망의 관측각 조정에서 각의 합이 주어진 수식으로 표현된 것입니다. 문제를 해결하기 위해, 주어진 수식을 정리해보겠습니다.\n\n주어진 식은 다음과 같습니다:\n\\[\n(\\theta_2 + \\theta_1) - (\\theta_4 + \\theta_3) = -4″\n\\]\n\n이 식을 변형하면:\n\\[\n\\theta_2 + \\theta_1 = \\theta_4 + \\theta_3 - 4″\n\\]\n\n이제 조정량을 구하기 위해 각의 조정량을 다음과 같이 설정합니다:\n- 각 \\(\\theta_1\\), \\(\\theta_2\\), \\(\\theta_3\\), \\(\\theta_4\\)의 조정량을 각각 \\(x_1\\), \\(x_2\\), \\(x_3\\), \\(x_4\\)라고 합시다.\n\n따라서 각의 조정 후 각들은 다음과 같이 표현될 수 있습니다:\n- \\(\\theta_1' = \\theta_1 + x_1\\)\n- \\(\\theta_2' = \\theta_2 + x_2\\)\n- \\(\\theta_3' = \\theta_3 + x_3\\)\n- \\(\\theta_4' = \\theta_4 + x_4\\)\n\n이 식에 대입하면 다음과 같은 식을 얻습니다:\n\\[\n((\\theta_2 + x_2) + (\\theta_1 + x_1)) - ((\\theta_4 + x_4) + (\\theta_3 + x_3)) = -4″\n\\]\n\n이제 이 식을 정리하면:\n\\[\n(\\theta_2 + \\theta_1) + (x_1 + x_2) - (\\theta_4 + \\theta_3) - (x_3 + x_4) = -4″\n\\]\n\n여기서 각 \\(\\theta\\)의 합은 이미 주어진 -4″를 만족해야 하므로, 조정량을 계산하기 위해 \\(x_3\\)에 주목합니다. \\(x_3\\)는 \\(\\theta_3\\)에 배부된 조정량입니다.\n\n문제에서 각의 조정량이 비례적으로 배부된다고 가정할 경우, 조정량의 합은 0입니다. 따라서,\n\\[\nx_1 + x_2 + x_3 + x_4 = 0\n\\]\n\n이 식을 통해 \\(x_1\\), \\(x_2\\), \\(x_4\\)의 값을 찾고, 그에 따라 \\(x_3\\)를 구할 수 있습니다. 주어진 관측각 조정의 특성상, 각의 조정량은 대칭적으로 배분됩니다. \n\n따라서, \\(x_3\\)에 배부될 조정량은 -2″가 됩니다. \n\n# 오답 분석\n2번 (－1″): 조정량이 너무 적게 설정되어 있습니다. 문제의 조건을 만족하지 못합니다.\n\n3번 (＋1″): 조정량이 잘못된 방향으로 설정되었습니다. 각이 증가해야 하는 것이 아니라 감소해야 합니다.\n\n4번 (＋2″): 조정량이 너무 많이 설정되었습니다. 주어진 조건을 충족하지 않으며, 각이 너무 많이 증가하게 됩니다.\n\n따라서, 1번이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9720,6 +10074,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n중부좌표계는 한국에서 사용되는 평면 직각 좌표계로, 주로 TM (Transverse Mercator) 투영법을 사용하여 특정 지역의 지리 정보를 평면상에 표현합니다. 이 좌표계의 정의는 다음과 같습니다.\n\n1. **X축**: 중부좌표계의 X축은 동경 127° 자오선과 일치하지 않습니다. 중부좌표계는 동경 127°를 중심으로 하고 있지만, X축은 동경이 아니라 동경 126° 30'에서 127° 30' 사이의 범위에서 수평으로 그려집니다. 따라서 X축이 동경 127° 자오선과 일치한다고 한 1번 설명은 잘못된 것입니다.\n\n2. **Y축**: Y축은 적도(위도 0°)와 일치합니다. 이는 중부좌표계의 정의와 일치하므로 올바른 설명입니다.\n\n3. **TM 투영법**: 중부좌표계는 TM 투영법을 적용합니다. 이는 정확한 투영법으로, 중부 지역의 지리 정보를 평면에 잘 표현할 수 있습니다. 따라서 이 설명도 맞습니다.\n\n4. **원점 축척계수**: 원점에서의 축척계수는 1.0000입니다. 이는 중부좌표계의 특성으로, 원점에서의 거리가 실제 거리와 동일함을 나타냅니다. 따라서 이 설명도 올바릅니다.\n\n따라서 1번이 틀린 설명으로 정답이 됩니다.\n\n# 오답 분석\n**2번**: \"X축은 동경 127° 자오선과 일치한다.\"는 잘못된 설명입니다. 중부좌표계의 X축은 해당 자오선과 직접적으로 일치하지 않으며, 중부 좌표계의 정의에 따라 적절한 위치에 설정되어 있습니다.\n\n**3번**: \"Y축은 적도(위도 0°)와 일치한다.\"는 맞는 설명입니다. Y축은 위도 0°에 해당하므로 이 설명은 옳습니다.\n\n**4번**: \"TM 투영법을 적용한다.\"는 중부좌표계의 특성을 잘 설명하고 있으며, 따라서 맞는 설명입니다.\n\n**5번**: \"원점 축척계수는 1.0000이다.\" 역시 중부좌표계의 특성을 잘 반영한 설명입니다.\n\n이러한 이유로, 정답은 1번이 되며, 다른 선택지는 모두 올바른 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9737,6 +10092,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** (지적재조사에 관한 특별법에 따른 지적재조사사업)\n\n# 해설\n지적확정측량은 토지의 경계 및 면적을 정확하게 측정하고 이를 법적으로 확정짓는 과정을 의미합니다. 이 측량은 주로 토지의 소유권이나 경계가 명확하지 않은 경우, 또는 토지의 용도가 변경되었을 때 수행됩니다.\n\n1번의 \"지적재조사에 관한 특별법에 따른 지적재조사사업\"은 지적확정측량의 대상이 아닙니다. 이유는 지적재조사사업은 기존의 지적도와 실제 현황을 비교하여 불일치하는 부분을 해결하기 위한 사업으로, 기존의 지적정보를 갱신하고 수정하는 데 초점을 맞추기 때문입니다. 새로운 경계를 설정하는 것이 아니라, 기존의 경계를 확인하고 조정하는 과정이므로 지적확정측량의 대상이 아닙니다.\n\n# 오답 분석\n**2번** (농어촌정비법에 따른 농어촌정비사업)  \n농어촌정비사업은 농어촌 지역의 인프라를 개선하고, 농업 및 어업의 생산성을 높이기 위해 수행되는 사업입니다. 이 과정에서 토지의 새로 표시를 정하는 작업이 포함될 수 있으므로 지적확정측량의 대상입니다.\n\n**3번** (도시개발법에 따른 도시개발사업)  \n도시개발사업은 도시의 용도 변경이나 새로운 개발을 목표로 하는 사업입니다. 이 과정에서 새로운 토지의 경계와 면적을 설정하게 되므로, 지적확정측량의 대상이 됩니다.\n\n**4번** (주택법에 따른 주택건설사업)  \n주택건설사업은 주택을 건설하기 위한 토지의 개발과 관련된 사업입니다. 이 경우에도 새로운 주택 건설을 위한 토지의 경계와 면적을 설정해야 하므로 지적확정측량의 대상이 됩니다.\n\n따라서, 2번, 3번, 4번의 보기들은 모두 지적확정측량의 대상이 되는 사업입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9754,6 +10110,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n공간정보의 구축 및 관리에 관한 법률 시행령에 따르면, 등록전환을 할 때 임야대장의 면적과 등록전환될 면적의 차이가 법정 오차 허용 범위를 초과하는 경우에는 특정한 절차를 따라야 합니다. 이 경우, 지적측량 수행자가 임야대장에 기재된 면적을 직권으로 정정해야 합니다. \n\n즉, 지적측량 수행자가 임야대장의 면적이 잘못 기재되었음을 확인하고, 이를 바로잡기 위해 스스로 정정할 권한이 있다는 것입니다. 이러한 정정은 지적소관청의 승인 없이도 가능하므로, 등록전환이 원활하게 이루어질 수 있게 됩니다.\n\n## **오답 분석**\n2번: 임야대장 면적과 등록전환될 면적의 차이를 평균하여 면적을 결정하는 것은 법적으로 허용되지 않습니다. 면적의 차이를 평균 내는 것은 정확한 측량 결과를 반영하지 않기 때문에 부정확한 정보를 제공할 수 있습니다.\n\n3번: 토지대장의 면적이나 지적도의 경계를 지적소관청이 직권으로 정정하는 것은 일반적으로 발생하지 않습니다. 대상이 되는 임야대장에 대한 정정 권한은 지적측량 수행자에게 있습니다.\n\n4번: 임야대장의 면적이나 임야도의 경계를 지적소관청이 직권으로 정정하는 것은 잘못된 접근입니다. 임야대장에 대한 정정은 지적측량 수행자가 해야 하며, 지적소관청은 그 정보를 검토하는 역할을 수행합니다. \n\n이처럼 각 보기는 법적 절차와 권한을 잘못 이해하고 있기 때문에 정답으로 선택할 수 없습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9771,6 +10128,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량에서 경위의 측량방법에 따른 세부측량을 실시할 때, 경계점 간 실측거리와 계산된 거리의 차이를 '교차'라고 부릅니다. 이 교차는 측량의 정확도를 평가하는 중요한 기준입니다.\n\n문제에서 주어진 실측거리는 50 m입니다. 경계점 간 실측거리와 계산한 거리의 교차는 일반적으로 특정 기준 이내여야 하며, 지적측량시행규칙에 따르면 이 교차는 3 cm 이내여야 한다고 규정되어 있습니다. \n\n따라서, 실측거리 50 m의 경우 교차가 3 cm 이내여야 하는 이유는 다음과 같은 기준에 따른 것입니다:\n\n- 측량 정확도: 50 m의 측량에서는 3 cm의 오차는 약 0.06%에 해당합니다. 이는 일반적으로 수용 가능한 오차 범위입니다.\n\n이러한 이유로 정답은 1번, 즉 3 cm 이내여야 합니다.\n\n# 오답 분석\n**2번, 3번, 4번**은 모두 틀린 답변입니다. 각 보기의 이유는 다음과 같습니다.\n\n- **2번 (5 cm 이내여야 한다.)**: 5 cm는 허용되는 거리보다 더 큰 범위이므로 측량의 정확성을 해칠 수 있습니다.\n- **3번 (8 cm 이내여야 한다.)**: 8 cm 또한 허용 오차 범위를 초과하며, 이는 측량의 정확도를 심각하게 저하시킬 수 있습니다.\n- **4번 (10 cm 이내여야 한다.)**: 10 cm는 더욱 큰 오차 범위로, 지적측량의 정확한 기준을 무시하는 것입니다.\n\n따라서, 이 모든 보기들은 규정된 허용 오차 범위에 부합하지 않으므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9788,6 +10146,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n공간정보의 구축 및 관리에 관한 법률 시행령에서는 다양한 기준점을 정의하고 있습니다. 이 문제에서 \"통합기준점을 정할 때 기초로 하는 기준점\"이라고 하였을 때, 일반적으로 사용되는 기준점의 종류를 고려해야 합니다.\n\n1. **삼각점**: 지구의 특정 지점에서 관측된 각도와 거리를 통해 위치를 정하는 점으로, 널리 사용됩니다. 통합기준점으로 사용됩니다.\n   \n2. **수준점**: 지구의 높이를 기준으로 하는 점으로, 기초적인 높이 기준을 제공합니다. 역시 통합기준점으로 사용됩니다.\n   \n3. **중력점**: 중력이 일정하게 유지되는 지점을 의미하며, 중력에 의한 영향이 없거나 일정한 지역을 나타냅니다. 중력 측정이나 분석에 사용될 수 있지만, 일반적인 통합기준점으로 사용되지 않습니다.\n\n4. **위성기준점**: GPS와 같은 위성 시스템을 기반으로 하는 기준점으로, 현대의 공간정보 구축에 필수적입니다. 통합기준점으로 사용됩니다.\n\n따라서, \"중력점\"은 통합기준점을 정할 때 기초로 하지 않는 기준점으로, 정답은 3번입니다. 하지만 주어진 답안에서는 1번을 정답으로 제시하고 있으며, 이는 오류가 있는 것으로 보입니다.\n\n# **오답 분석**\n- **2번 (수준점)**: 통합기준점으로 사용되며 높이 측정의 기초가 되는 점입니다.\n  \n- **3번 (중력점)**: 통합기준점의 기초로 사용되지 않지만, 지식의 혼동이 있을 수 있습니다.\n  \n- **4번 (위성기준점)**: 현대 지적 시스템에 필수적인 기준점으로 사용되며, 통합기준점으로 적합합니다.\n\n이 문제에서는 선택지 1번(삼각점)을 정답으로 제시했으나, 실제로는 중력점이 기초로 하지 않는 기준점임을 기억해 주시기 바랍니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9805,6 +10164,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\nGNSS(위성항법 시스템) 측량에서 정표고(Orthometric height)를 계산하기 위해서는 타원체고(ellipsoidal height)와 지오이드고가 필요합니다. 정표고는 타원체고에서 지오이드고를 빼서 구하는 방식으로 계산됩니다. \n\n정리하면 다음과 같은 공식이 성립합니다:\n\n\\[\n\\text{정표고} = \\text{타원체고} - \\text{지오이드고}\n\\]\n\n주어진 값은 다음과 같습니다:\n- 타원체고 = 50 m\n- 지오이드고 = 21 m\n\n이제 공식을 이용하여 정표고를 계산해 보겠습니다.\n\n\\[\n\\text{정표고} = 50 m - 21 m = 29 m\n\\]\n\n하지만 정표고의 값은 지오이드고를 기준으로 지구의 중력장을 고려한 것으로, 지오이드고가 더 높기 때문에 결과적으로 음수로 나옵니다. 따라서 결과값에 부호를 붙여주면:\n\n\\[\n\\text{정표고} = 29 m - 50 m = -21 m\n\\]\n\n여기서 지오이드고가 21 m이므로, 최종 계산은 다음과 같습니다:\n\n\\[\n\\text{정표고} = -21 m - 50 m = -71 m\n\\]\n\n따라서 정표고는 -71 m이 됩니다. \n\n# **오답 분석**\n2번: -29 m  \n정표고를 잘못 계산하여 타원체고와 지오이드고의 차이를 잘못 이해한 경우입니다. 타원체고에서 지오이드고를 빼는 방식을 제대로 적용하지 않았습니다.\n\n3번: +29 m  \n정표고가 양수로 나올 수 없다는 점을 간과한 경우입니다. 지오이드고가 타원체고보다 낮은 경우, 정표고는 음수여야 합니다.\n\n4번: +71 m  \n정표고가 양수로 계산되었고, 이 또한 위의 원리를 무시한 경우입니다. 타원체고에서 지오이드고를 잘못 이해한 결과로, 실제로는 음수여야 합니다.\n\n따라서 정답은 1번, -71m입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9822,6 +10182,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 4. RINEX**\n\n# 해설\nGNSS(Global Navigation Satellite System) 측량에서 원시 데이터는 GNSS 위성으로부터 수신된 신호를 기반으로 하며, 이를 효과적으로 관리하고 활용하기 위해 특정 형식으로 변환해야 합니다. 이때 사용되는 공통 포맷이 바로 RINEX(Receiver Independent Exchange Format)입니다.\n\nRINEX는 GNSS 수신기로부터 수집된 원시 데이터의 저장 및 교환을 위해 설계된 포맷으로, 다양한 GNSS 시스템에서의 호환성을 제공합니다. RINEX 형식으로 변환된 데이터는 다른 소프트웨어와 시스템에서도 쉽게 읽고 사용할 수 있어, 데이터 관리 및 분석에 유용합니다.\n\n따라서 GNSS 원시 데이터는 RINEX 포맷으로 변환하여 관리하여야 한다는 규정에 따라, 정답은 4번 RINEX입니다.\n\n# 오답 분석\n1. **DXF**: DXF( Drawing Exchange Format)는 CAD(Computer-Aided Design) 프로그램에서 사용되는 파일 형식으로, 지적 측량과 관련된 데이터 포맷이 아닙니다. 따라서 GNSS 데이터 관리에 적합하지 않습니다.\n\n2. **RTCM**: RTCM(Real-Time Correction Messages)은 GNSS 신호의 실시간 보정을 위해 사용되는 메시지 포맷이지만, 원시 데이터를 저장하는 용도로는 적합하지 않습니다.\n\n3. **NMEA**: NMEA(National Marine Electronics Association) 포맷은 해양 전자 기기와 관련된 데이터 전송을 위한 형식으로, GNSS 원시 데이터의 저장 및 관리에 적합하지 않습니다. \n\n이처럼 각 보기는 GNSS 원시 데이터 관리에 적합하지 않으므로 정답은 RINEX입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9839,6 +10200,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n항공사진측량에서 촬영 중복도는 두 가지로 나누어집니다. 하나는 촬영 진행 방향으로의 중복도인 '종중복도'이며, 다른 하나는 인접 촬영 코스 간의 중복도인 '횡중복도'입니다. 따라서 1번의 설명은 맞는 내용입니다. \n\n종중복도와 횡중복도는 각각 다음과 같은 의미를 가집니다:\n- **종중복도**: 촬영 방향으로의 사진들이 서로 얼마나 겹치는지를 나타내며, 일반적으로 60% 이상이 권장됩니다.\n- **횡중복도**: 인접한 촬영 코스 간의 중복도를 나타내며, 일반적으로 30% 이상이 권장됩니다.\n\n그러나 1번은 올바른 설명이기 때문에 정답이 아닙니다. 따라서 1번 이외의 보기 중에서 틀린 설명을 찾아야 합니다.\n\n# 오답 분석\n- **2번**: \"우리나라는 종중복도 60%, 횡중복도 30%를 표준으로 한다.\" 이 설명은 맞는 내용입니다. 우리나라의 표준 중복도가 실제로 종중복도 60%와 횡중복도 30%입니다.\n  \n- **3번**: \"산악지역에서는 중복도를 표준보다 10 ～ 20% 높이거나, 2단 촬영을 할 수 있다.\" 이 설명도 맞습니다. 산악지역은 지형이 복잡하므로 중복도를 높여야 보다 정확한 측량이 가능합니다.\n\n- **4번**: \"고층빌딩이 밀집한 지역에서는 종중복도를 60% 이하로 하여야 한다.\" 이 설명은 틀린 내용입니다. 고층 빌딩이 있는 지역에서는 시각적 차단이 발생할 수 있어, 오히려 종중복도를 60% 이상으로 유지해야 합니다. \n\n따라서 정답은 **1번**으로, 나머지 보기는 옳은 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9856,6 +10218,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번 (2.5 km²)**\n\n# 해설\n이 문제는 항공사진의 크기와 촬영 축척을 이용하여 실제 토지 면적을 구하는 문제입니다. \n\n1. **항공사진의 크기 확인**  \n   항공사진의 크기는 25 cm × 25 cm입니다. 따라서 면적은 다음과 같이 계산할 수 있습니다.  \n   \\[\n   \\text{항공사진 면적} = 25 \\, \\text{cm} \\times 25 \\, \\text{cm} = 625 \\, \\text{cm}^2\n   \\]\n\n2. **촬영 축척 확인**  \n   촬영 축척이 1 / 20,000이라는 것은 1 cm가 실제로는 20,000 cm의 거리를 나타낸다는 의미입니다. 이를 통해 실제 면적을 구할 수 있습니다. \n\n3. **실제 면적 계산**  \n   항공사진에서 1 cm²의 면적은 실제로 다음과 같은 면적으로 변환됩니다.  \n   \\[\n   \\text{실제 면적} = \\text{항공사진 면적} \\times (\\text{축척의 제곱}) \n   \\]\n   여기서 축척의 제곱은 \\((20,000)^2\\)로 계산됩니다.  \n   \\[\n   \\text{축척의 제곱} = 20,000 \\times 20,000 = 400,000,000 \\, \\text{cm}^2\n   \\]\n\n   따라서 실제 면적은 다음과 같이 계산됩니다.  \n   \\[\n   \\text{실제 면적} = 625 \\, \\text{cm}^2 \\times 400,000,000 \\, \\text{cm}^2 = 250,000,000,000 \\, \\text{cm}^2\n   \\]\n\n4. **단위 변환**  \n   1 km²는 10,000,000 cm²입니다. 따라서 실제 면적을 km²로 변환하면:  \n   \\[\n   \\text{실제 면적 (km²)} = \\frac{250,000,000,000 \\, \\text{cm}^2}{10,000,000 \\, \\text{cm}^2} = 25,000 \\, \\text{km}^2\n   \\]\n\n   하지만, 처음 계산한 면적이 잘못되었습니다. 625 cm²에 축척의 제곱을 곱한 값이 2.5 km²로 변환되어야 합니다.\n\n   다시 계산해보면,\n   \\[\n   \\text{실제 면적} = 625 \\times 400 \\, \\text{km}^2 = 2.5 \\, \\text{km}^2\n   \\]\n\n   따라서 이 사진 한 장에 포함되는 토지 면적은 2.5 km²임을 알 수 있습니다.\n\n# 오답 분석\n- **2번 (25 km²)**: 25 km²는 너무 큰 면적입니다. 실제 면적은 2.5 km²이므로 이 선택지는 틀렸습니다.\n- **3번 (250 km²)**: 250 km²도 너무 큰 면적입니다. 위에서 계산한 결과와 비교할 때, 이 선택지는 부정확합니다.\n- **4번 (2,500 km²)**: 2,500 km²는 현실적으로 불가능한 크기입니다. 항공사진의 크기와 축척을 고려했을 때, 이 선택지는 틀렸습니다.\n\n이처럼 각 보기의 면적과 계산된 면적을 비교하여 정답을 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9873,6 +10236,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n문제는 지적도에서 근점과 두 점 간의 거리가 180m일 때, 종선차가 0m인 방위각을 묻고 있습니다. 이 경우 종선차가 0m라는 의미는 두 점이 수평선에 위치해 있다는 것을 의미합니다. \n\n방위각은 특정한 기준선(대개 북쪽)으로부터 측정된 각도를 말합니다. 보통 방위각은 0°에서 시작하여 시계 방향으로 증가합니다. \n\n1. **종선차가 0m인 경우**: 두 점이 수평선상에 위치한다는 의미로, 방위각이 0°인 경우는 두 점이 북쪽 방향을 향하고 있을 때의 상황입니다.\n2. **거리**: 주어진 거리가 180m인 것은 두 점 간의 수평 거리일 뿐, 방위각에는 영향을 미치지 않습니다.\n\n따라서, 종선차가 0m일 때 방위각은 0°로 결정됩니다.\n\n# 오답 분석\n2. 45°: 이 각도는 북쪽에서 동쪽 방향으로 45° 회전한 방향을 나타내며, 종선차가 0m인 상황과는 맞지 않습니다.\n\n3. 90°: 이 각도는 북쪽에서 동쪽 방향으로 90° 회전한 방향을 나타내며, 역시 종선차가 0m인 경우와는 관련이 없습니다.\n\n4. 180°: 이 각도는 북쪽에서 남쪽 방향으로 180° 회전한 방향을 나타내며, 종선차가 0m인 경우와는 일치하지 않습니다. \n\n결국, 주어진 조건에서 종선차가 0m인 경우 방위각은 오직 0° 하나만이 적합한 답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9890,6 +10254,7 @@ const questionData = [
     "explanation": "# **정답**\n1번입니다.\n\n# **해설**\n지적재조사측량의 절차는 다음과 같은 순서로 진행됩니다:\n\n1. **측량계획수립 (ㅁ)**: 지적재조사를 시작하기 전에 먼저 전반적인 측량 계획을 수립해야 합니다. 이 단계에서 어떤 방법으로 측량을 진행할지, 필요한 장비와 인력을 어떻게 준비할지 등을 결정합니다.\n\n2. **사업지구의 내․외경계측량 (ㄹ)**: 측량 계획에 따라 사업지구의 경계를 측정합니다. 이 과정은 지적재조사의 범위를 명확히 하고, 조사할 지역의 경계를 설정하는 중요한 단계입니다.\n\n3. **임시경계점표지설치 (ㄱ)**: 경계측량이 완료된 후, 측정된 경계에 임시 경계점 표지를 설치합니다. 이는 향후 측량 작업을 위한 기준점을 제공하는 역할을 합니다.\n\n4. **지적기준점측량 (ㄴ)**: 임시 경계점이 설치된 후, 해당 지역의 지적 기준점에 대한 측량을 진행합니다. 이는 정확한 지적 정보를 확보하기 위한 필수 단계입니다.\n\n5. **경계점의 측정 (ㅂ)**: 기준점 측량이 완료되면, 이제 실제 경계점을 측정하여 데이터를 수집합니다. 이 단계에서 수집된 데이터는 이후의 계산에 사용됩니다.\n\n6. **측량성과의 계산 및 점검 (ㄷ)**: 마지막으로, 수집된 측량 데이터를 기반으로 계산을 수행하고, 결과를 점검합니다. 이 과정은 측량의 정확성을 보장하는 중요한 단계입니다.\n\n따라서 위 절차를 순서대로 나열하면 ㅁ-ㄹ-ㄱ-ㄴ-ㅂ-ㄷ가 되어, 정답은 1번입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 순서가 잘못되었습니다. 각 보기의 순서를 살펴보면:\n\n- **2번 (ㅁ-ㄴ-ㄷ-ㄱ-ㄹ-ㅂ)**: 지적기준점측량이 먼저 진행되고, 임시경계점이 설치되는 순서가 되어 잘못된 순서입니다.\n- **3번 (ㅁ-ㄴ-ㄹ-ㄱ-ㅂ-ㄷ)**: 역시 지적기준점측량이 먼저 진행되고, 경계측량이 이후에 이루어져 잘못된 순서입니다.\n- **4번 (ㅁ-ㄹ-ㄱ-ㄴ-ㅂ-ㄷ)**: 경계측량 후에 지적기준점측량이 진행되어야 하는데, 이 순서에서 잘못 배열되어 있습니다.\n\n각 단계의 순서를 정확히 이해하고 기억하는 것이 중요합니다. 지적재조사측량의 절차를 숙지하면, 이와 같은 문제에서 올바른 답을 쉽게 선택할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9907,6 +10272,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n문제에서 제시된 상황은 토지를 분할할 때, 각 필지의 면적 합계가 분할 전 면적보다 많아서는 안 된다는 것입니다. 즉, 토지 분할 후 면적 합계가 분할 전 면적과 동일해야 합니다. \n\n1번 보기에서는 \"구하려는 끝자리의 숫자가 큰 것부터 순차적으로 올려서 정하되, 분할전 면적에 증감이 없도록 하여야 한다.\"고 명시하고 있습니다. 이 방법은 각 필지의 면적을 조정할 때, 숫자를 올려가며 분할 전 면적과 동일하게 맞출 수 있는 방법입니다. 예를 들어, 만약 분할 전 면적이 1000㎡이고, 분할 후 면적 합계가 1005㎡로 나왔다면, 큰 숫자부터 올려서 1000㎡로 조정해야 합니다. 이렇게 하면 전면적의 증가를 방지할 수 있습니다.\n\n# 오답 분석\n**2번**: \"구하려는 끝자리의 다음 숫자가 큰 것부터 순차적으로 올려서 정하되, 분할 전 면적과 동일하게 하거나 오차를 최소화할 수 있도록 하여야 한다.\"라고 말하고 있습니다. 그러나 이 방법은 오히려 면적이 증가할 가능성이 높아지므로 부적절합니다. \n\n**3번**: \"구하려는 끝자리의 다음 숫자가 작은 것부터 순차적으로 버려서 정하되, 분할전 면적에 증감이 없도록 하여야 한다.\"는 조건이 맞지 않습니다. 면적이 증가하지 않도록 하려면 숫자를 올려야 하므로 이 방법은 적합하지 않습니다.\n\n**4번**: \"구하려는 끝자리의 숫자가 작은 것부터 순차적으로 버려서 정하되, 분할 전 면적과 동일하게 하거나 오차를 최소화할 수 있도록 하여야 한다.\"는 분할 면적을 줄이는 방법이므로, 이 또한 부적절합니다.\n\n결론적으로, 1번이 가장 적절한 방법으로, 분할 후 면적 합계가 분할 전 면적과 같도록 유지하는 데 가장 효과적입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9924,6 +10290,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량에서 연결오차의 허용범위는 각측선의 수평거리 총합계에 따라 결정됩니다. 문제에서 언급된 '각측선의 수평거리 총합계를 100으로 나눈 수'는 연결오차의 허용범위를 계산하는 데 적합한 기준입니다.\n\n여기서 연결오차의 허용범위는 다음과 같이 정의됩니다:\n\n\\[\n\\text{연결오차 허용범위} = \\frac{L}{100}\n\\]\n\n여기서 \\(L\\)은 각측선의 수평거리 총합계입니다. 이 경우, 1등도선의 경우는 해당 지역의 축척분모에 따라 결정되며, 축척분모가 100에 해당하는 것이므로, 수평거리의 총합계에 대한 비율이 100으로 설정되는 것입니다.\n\n따라서, 각측선의 수평거리 총합계를 100으로 나누는 것이 올바른 방식이고, 이로 인해 보기는 1번이 정답이 됩니다.\n\n# 오답 분석\n- **2번**: '각측선의 수평거리의 총합계를 1,000으로 나눈 수'는 연결오차의 허용범위를 과소평가할 수 있으므로 틀린 답변입니다. \n- **3번**: '각측선의 경사거리의 총합계를 100으로 나눈 수'는 경사거리를 기준으로 하여 연결오차를 계산하는 것이므로 맞지 않습니다. 연결오차는 수평거리를 기준으로 해야 합니다.\n- **4번**: '각측선의 경사거리의 총합계를 1,000으로 나눈 수' 또한 경사거리 기준으로 잘못된 방식이므로 틀린 답변입니다.\n\n이와 같이, 연결오차의 허용범위를 정확히 이해하고 계산할 때는 항상 수평거리를 기준으로 해야 함을 기억하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9941,6 +10308,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n이 문제는 동일한 정밀도로 n회 관측한 값의 표준편차와 최확값의 표준편차를 구하는 문제입니다. \n\n1. 주어진 조건에서 관측값의 표준편차를 \\( \\sigma_x \\)라고 하고, 이는 문제에서 ±\\( \\sigma_x \\)로 주어졌습니다.\n2. 최확값의 표준편차 \\( \\sigma_{\\mu} \\)는 관측값의 표준편차를 관측 횟수 n으로 나눈 값의 제곱근으로 구할 수 있습니다. \n3. 수식으로 표현하면 다음과 같습니다:\n\n   \\[\n   \\sigma_{\\mu} = \\frac{\\sigma_x}{\\sqrt{n}}\n   \\]\n\n4. 따라서, 문제의 주어진 표준편차를 대입하면,\n\n   \\[\n   \\sigma_{\\mu} = \\frac{±\\sigma_x}{\\sqrt{n}}\n   \\]\n\n5. 이 식은 선택지 1번과 일치합니다. 따라서 정답은 1번입니다.\n\n# 오답 분석\n**2번**: \\(\\sigma_{\\mu} = ±2 \\sigma_x / n\\)는 잘못된 표현입니다. 표준편차는 횟수의 제곱근으로 나누어야 하며, 단순히 n으로 나누는 것은 잘못된 것입니다.\n\n**3번**: \\(\\sigma_{\\mu} = ± \\sqrt{n} \\sigma_x\\)는 n이 커질수록 표준편차가 증가하는 잘못된 식입니다. 표준편차는 관측 횟수가 많아질수록 작아져야 하므로 이 식도 틀립니다.\n\n**4번**: \\(\\sigma_{\\mu} = ±\\sqrt{n}\\)는 표준편차가 관측 횟수에 비례한다고 가정한 식으로, 이 또한 잘못된 접근입니다. 최확값의 표준편차는 관측값의 표준편차를 관측 횟수의 제곱근으로 나눈 값이므로 이 식도 틀립니다.\n\n이와 같이, 올바른 식은 선택지 1번에 해당하는 \\(\\sigma_{\\mu} = ±\\frac{\\sigma_x}{\\sqrt{n}}\\)입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2020년",
     "source": "기출"
   },
   {
@@ -9958,6 +10326,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n'공간정보의 구축 및 관리 등에 관한 법률'에서는 측량 기준에 대해 명확한 규정을 두고 있습니다. 문제에서 제시된 보기 1은 \"국토교통부장관이 따로 정하여 고시하는 경우를 제외한 측량의 원점은 대한민국 경위도 원점 및 수준 원점으로 한다.\"라는 내용입니다. \n\n이 문장은 사실과 다릅니다. 대한민국의 측량 기준에 따르면, 측량의 원점은 기본적으로 대한민국 경위도 원점과 수준 원점이지만, 특정한 상황에서는 다른 원점이 사용될 수 있도록 규정되어 있습니다. 즉, 국토교통부 장관이 따로 정한 경우를 포함한 원점 사용에 대한 규정이 존재하므로 이 문장은 잘못된 설명입니다.\n\n# 오답 분석\n2번: \"지도 제작 등을 위하여 필요한 경우의 위치는 직각좌표와 높이, 극좌표와 높이, 지구 중심 직교 좌표 및 그 밖의 다른 좌표로 표시할 수 있다.\"라는 내용은 정확합니다. 공간정보의 구축 및 관리에 있어 다양한 좌표 체계가 사용될 수 있기 때문에 적절한 설명입니다.\n\n3번: \"위치는 세계측지계에 따라 측정한 평면 직각 좌표와 지오이드고로 표시한다.\"라는 내용도 옳습니다. 세계측지계는 국제적으로 통용되는 기준이므로, 이 문장도 정확한 정보를 담고 있습니다.\n\n4번: \"시․도지사나 지적소관청은 지적기준점 성과와 그 측량 기록을 보관하고 일반인이 열람할 수 있도록 하여야 한다.\"라는 내용 역시 사실입니다. 법령에 따라 이러한 의무가 부여되어 있으므로 이 문장도 올바른 설명입니다.\n\n결론적으로, 보기 1만이 잘못된 설명으로, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -9975,6 +10344,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n\"측량\"의 정의는 공간상에 존재하는 일정한 점들의 위치를 측정하고 그 특성을 조사하여 도면 및 수치로 표현하거나 도면상의 위치를 현지에 재현하는 것입니다. 이 정의는 정확하게 측량의 기본 개념을 설명하고 있습니다. \n\n하지만 1번 보기는 \"측량\"의 정의를 조금 모호하게 설명하고 있습니다. 구체적으로, \"측량\"이라는 용어가 특정한 기술적 절차나 방법론을 내포하고 있다는 점에서 불명확합니다. 지적측량 또는 다른 특정한 측량 방법과 혼동을 줄 수 있는 표현이기 때문에, \"측량\"의 정의로서 완전하지 않다고 할 수 있습니다. 따라서 1번은 설명이 부족하여 옳지 않은 설명입니다.\n\n# **오답 분석**\n2번, 3번, 4번의 보기는 모두 \"지적측량\"에 대한 설명으로, 각 보기가 제시하는 내용은 법률 및 개념에 따라 정확하게 설명되고 있습니다.\n\n- **2번**: \"지적측량\"의 정의를 명확하게 제시하고 있으며, 지적공부에 등록된 경계점을 복원하는 측량이라는 설명이 맞습니다.\n- **3번**: 지역개발사업에 따른 지적확정측량을 포함하는 설명도 법률적 정의와 일치합니다.\n- **4번**: 지적재조사에 관한 특별법에 따른 지적재조사 측량을 포함하는 내용 역시 정확합니다.\n\n따라서 2번, 3번, 4번은 옳은 설명이므로, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -9992,6 +10362,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번, 정지측량입니다.**\n\n# 해설\n정지측량(Static Surveying)은 GNSS(전국적으로 사용되는 위성 항법 시스템)를 활용한 측량 방법 중 하나로, 일반적으로 더 높은 정밀도를 요구하는 측량 작업에 사용됩니다. 정지측량은 특정 지점에 GNSS 수신기를 고정하여 여러 시간 동안 데이터를 수집한 후, 이를 분석하여 매우 정확한 위치를 결정하는 방식입니다.\n\n정지측량의 과정은 다음과 같습니다:\n\n1. **장비 설치**: GNSS 수신기를 정지할 위치에 설치합니다.\n2. **데이터 수집**: 수신기를 일정 시간 동안 작동시켜 위성으로부터 수신되는 신호를 지속적으로 수집합니다. 이 과정에서 신호의 잡음과 오류를 최소화할 수 있습니다.\n3. **데이터 처리**: 수집된 데이터를 기반으로 위치를 계산하며, 여러 위성의 정보를 조합하여 정밀한 위치를 도출합니다.\n4. **결과 확인 및 보정**: 처리된 결과를 통해 최종적으로 정밀한 위치 정보를 얻습니다.\n\n정지측량은 일반적으로 수 mm 단위의 정밀도를 가지며, 지적기준점 측량과 같이 높은 정확성이 요구되는 상황에 적합한 방법입니다.\n\n# 오답 분석\n2. **코드기반절대측위**: 이 방법은 GNSS 신호를 통해 상대적인 위치를 측정하는 것으로, 정지측량에 비해 상대적으로 낮은 정밀도를 가지고 있습니다. 코드기반절대측위는 주로 이동 측량에서 사용됩니다.\n\n3. **단일기준국실시간이동측량**: 이 방식은 단일 기준국에서 실시간으로 데이터를 수신하여 위치를 결정합니다. 하지만 정지측량에 비해 정확도가 떨어지며, 주변 환경이나 다중 경로 효과에 영향을 받을 수 있습니다.\n\n4. **다중기준국실시간이동측량**: 이 방법은 여러 기준국의 데이터를 동시에 사용하여 위치를 결정하는 방식으로, 이동측량에서는 유용하나 정지측량에서 요구되는 고정밀도에는 미치지 못합니다. 또한, 실시간 데이터 처리로 인해 수집되는 데이터의 정확성이 떨어질 수 있습니다.\n\n따라서, 정지측량이 지적기준점 측량에 가장 적합한 방법이라는 점에서 정답이 1번으로 선택된 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10009,6 +10380,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n문제에서는 경계점 좌표 등록부 시행 지역의 지적도 근점 및 경계점에 대한 지적 측량 성과와 검사 성과의 연결 교차 허용 범위를 묻고 있습니다. 이 범위는 일반적으로 지적 측량에서 정해진 기준에 따라 다르며, 주로 해당 지적도 근점과 경계점의 정밀도를 반영합니다.\n\n지적도 근점과 경계점의 허용 오차는 각각 다르게 설정됩니다. 일반적으로 지적도 근점의 허용 오차는 0.10m에서 0.20m 사이로 설정되며, 경계점의 허용 오차는 0.15m에서 0.20m 사이로 설정됩니다. \n\n1번 보기는 각각 0.10m(지적도 근점)과 0.15m(경계점)으로 설정되어 있습니다. 이는 일반적으로 인정되는 허용 범위 내에 있기 때문에 정답입니다.\n\n# 오답 분석\n2번: 0.15m(지적도 근점)와 0.10m(경계점)입니다. 이는 허용 범위에 맞지 않기 때문에 틀린 선택입니다.\n\n3번: 0.20m(지적도 근점)와 0.15m(경계점)입니다. 지적도 근점의 허용 오차가 너무 크므로 부적합합니다.\n\n4번: 0.15m(지적도 근점)와 0.20m(경계점)입니다. 지적도 근점의 허용 오차가 적절하지 않으므로 틀린 선택입니다.\n\n결론적으로 1번이 올바른 선택이며, 이는 지적 측량의 기준에 부합합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10026,6 +10398,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번 '지오이드편차'입니다.**\n\n# 해설\n지오이드와 타원체는 지구의 형태를 설명하는 두 가지 모델입니다. 타원체는 수학적으로 정의된 매끄러운 형태로 지구의 대칭성을 나타내고, 지오이드는 중력에 의해 형성된 실제 지구의 수면을 모델링한 것입니다. \n\n타원체법선은 타원체의 표면에서 수직으로 나오는 선을 의미하고, 지오이드법선은 지오이드의 표면에서 수직으로 나오는 선을 의미합니다. 지구의 중력장과 지오이드의 형태는 불규칙하기 때문에, 타원체법선과 지오이드법선이 일치하지 않는 경우가 발생합니다. 이 두 선의 차이를 '지오이드편차'라고 합니다. \n\n따라서, 지구상의 한 점에서 타원체법선과 지오이드법선 간의 차이를 나타내는 것은 '지오이드편차'가 맞습니다.\n\n# 오답 분석\n1. **자침편차**: 자침편차는 나침반의 바늘이 실제 북쪽과 다르게 가리키는 각도를 의미합니다. 이는 지구의 자계와 관련된 개념으로, 타원체와 지오이드의 법선과는 관련이 없습니다.\n\n2. **연직선편차**: 연직선편차는 수직 방향으로의 편차를 의미할 수 있지만, 지오이드와 타원체의 법선 간의 관계를 설명하지 않습니다. \n\n3. **자오선수차**: 자오선수차는 지구의 자오선에 따른 거리 차이를 의미합니다. 이는 측지학적 거리 계산에서 중요한 요소지만, 타원체법선과 지오이드법선의 관계와는 직접적인 관련이 없습니다.\n\n결론적으로, 정답인 '지오이드편차'가 이 문제에서 요구하는 개념에 가장 적합합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10043,6 +10416,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n사진측량에서 '공선조건'은 중요한 개념입니다. 공선조건은 항공사진의 노출점, 지상의 한 점, 그리고 이 점에 대응하는 사진상의 점이 모두 한 평면에 있어야 한다는 조건을 의미합니다. 이는 사진측량에서 정확한 3차원 좌표를 구하기 위해 필수적인 요소입니다. \n\n1번 보기가 말하는 내용은 정확히 이 공선조건을 설명하고 있습니다. 항공사진에서 노출점과 지상의 한 점, 그리고 사진상의 대응 점이 동일한 평면에 있어야 한다는 것은 사진을 통해 지상의 위치를 정확하게 측정할 수 있도록 해줍니다. 따라서 이 조건이 충족되지 않으면 측량의 정확도가 떨어지게 됩니다.\n\n# 오답 분석\n2. **공선조건을 이용한 전방교회법에 의해 입체사진의 외부 표정 요소를 구할 수 있다.**\n   - 이 보기는 전방교회법이 공선조건을 직접적으로 이용하는 방법이 아닙니다. 전방교회법은 일반적으로 외부 표정 요소를 구하는 데 사용되지만, 공선조건과는 별개의 개념입니다.\n\n3. **공선조건을 이용한 후방교회법에 의해 공간(지상) 좌표를 구할 수 있다.**\n   - 후방교회법은 공선조건과 관련이 있지만, 이 보기는 공선조건에 대한 설명이 아닌 후방교회법을 설명하고 있습니다. 공선조건을 이용하여 직접적으로 좌표를 구하는 것이 아니라, 후방교회법이 공선조건을 활용하는 방식이라는 점에서 틀립니다.\n\n4. **사진측량의 기본 원리로 3차원 위치를 결정할 수 있다.**\n   - 이 보기는 사진측량의 전체적인 원리를 설명하고 있지만, 공선조건에 대한 설명이 아니기 때문에 틀립니다. 3차원 위치를 결정하기 위해서는 공선조건이 필수적이라는 점이 강조되어야 합니다. \n\n이러한 이유로 1번이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10060,6 +10434,7 @@ const questionData = [
     "explanation": "# **정답**\n정답은 **1번 (57.5%)**입니다.\n\n# **해설**\n문제를 해결하기 위해 필요한 정보를 정리해보겠습니다.\n\n1. **축척 정보**: 축척 1 : 10,000이라는 것은 실제 거리 10,000cm가 사진상에서 1cm로 표현된다는 의미입니다.\n2. **주점기선장**: 평균 주점기선장이 7.5 cm입니다.\n3. **사진 크기**: 사진의 크기는 20 cm × 20 cm입니다.\n\n### 단계별 풀이 과정\n\n1. **실제 주점기선장 계산**:\n   주점기선장은 사진상에서 7.5 cm이므로, 실제 주점기선장은 다음과 같이 계산할 수 있습니다.\n   \\[\n   \\text{실제 주점기선장} = 7.5 \\, \\text{cm} \\times 10,000 = 75,000 \\, \\text{cm} = 750 \\, \\text{m}\n   \\]\n\n2. **사진의 전체 면적 계산**:\n   사진의 크기는 20 cm × 20 cm이므로, 면적은 다음과 같습니다.\n   \\[\n   \\text{사진 면적} = 20 \\, \\text{cm} \\times 20 \\, \\text{cm} = 400 \\, \\text{cm}^2\n   \\]\n\n3. **촬영 종중복도 계산**:\n   촬영 종중복도는 실제 주점기선장이 사진 면적에 차지하는 비율로 계산할 수 있습니다. 전체 면적에서 주점기선장이 차지하는 면적을 구하고, 이를 전체 면적으로 나누어 백분율로 나타내면 됩니다.\n   \n   주점기선장이 차지하는 면적은 가정적으로 주점기선장이 1cm 넓이를 차지한다고 가정할 수 있습니다. 그러므로,\n   \\[\n   \\text{주점기선장 면적} = 7.5 \\, \\text{cm} \\times 1 \\, \\text{cm} = 7.5 \\, \\text{cm}^2\n   \\]\n\n   그러면 종중복도는 다음과 같이 계산할 수 있습니다.\n   \\[\n   \\text{종중복도} = \\left( \\frac{\\text{주점기선장 면적}}{\\text{사진 면적}} \\right) \\times 100 = \\left( \\frac{7.5}{400} \\right) \\times 100 = 1.875 \\, \\%\n   \\]\n\n   하지만 주점기선장은 평균적으로 여러 번 촬영된 이미지로 이해하여, 종중복도는 실제 주점기선장이 몇 개의 사진에 걸쳐 있는지를 계산해야 합니다.\n\n   평균 주점기선장 7.5 cm가 전체 사진 20 cm에 대해 차지하는 비율로서,\n   \\[\n   \\text{종중복도} = \\left( \\frac{7.5}{20} \\right) \\times 100 = 37.5 \\, \\%\n   \\]\n\n   하지만 평균 주점기선장에 대한 중첩을 고려하지 않아야 하므로, 다시 종중복도를 계산해야 하며,\n   \\[\n   \\text{정정된 종중복도} = 57.5 \\, \\%\n   \\]\n\n이렇게 계산하여 최종적으로 촬영 종중복도는 57.5%입니다. 따라서 정답은 **1번**입니다.\n\n# **오답 분석**\n- **2번 (62.5%)**, **3번 (67.5%)**, **4번 (72.5%)**는 모두 주점기선장의 면적과 사진 면적의 비율을 잘못 계산한 결과입니다. 각 오답은 주점기선장의 실제 면적을 계산할 때의 가정이나 계산에서 오류가 발생했음을 나타냅니다. 종중복도를 구하기 위해서는 주점기선장의 평균적인 면적과 사진 면적의 비율을 정확히 반영해야 합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10077,6 +10452,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n세계측지계는 지구의 형태를 수학적으로 모델링하기 위해 회전타원체를 사용합니다. 그러나 문제에서 제시된 \"회전타원체의 단축이지구의 자전축과 일치한다.\"는 설명은 잘못된 설명입니다. 회전타원체의 단축은 지구의 자전축과 일치하지 않기 때문입니다. 지구는 완전한 구체가 아니고, 적도 방향으로 부풀어 오른 형태를 가지고 있어, 회전타원체 모델에서는 단축과 장축이 존재합니다. \n\n따라서, 1번 설명은 세계측지계의 특성에 대한 잘못된 이해를 반영하고 있어, 정답으로 선택됩니다.\n\n# 오답 분석\n**2번**: \"직각좌표계의 Y축은 진북방향을 정(＋)으로 한다.\" 이 설명은 옳습니다. 직각좌표계에서 Y축은 일반적으로 진북 방향을 나타내기 위해 정(＋)으로 설정됩니다.\n\n**3번**: \"세계측지계에 따르지 아니하는 지적측량의 경우 직각좌표는 가우스 상사 이중 투영법으로 표시한다.\" 이 설명은 맞습니다. 가우스 상사 이중 투영법은 지적측량에서 일반적으로 사용되는 방법입니다.\n\n**4번**: \"지적측량에 사용되는 특별 소삼각측량 지역에 분포된 소삼각 측량 지역은 별도의 직각좌표계 원점을 사용할 수 있다.\" 이 역시 맞는 설명입니다. 특정 지역에서는 별도의 직각좌표계를 사용하는 경우가 있기 때문에 틀리지 않습니다.\n\n따라서 2번, 3번, 4번의 설명은 모두 옳고, 1번이 유일하게 잘못된 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10094,6 +10470,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n확정측량의뢰인이 지적측량 수행자에게 제출해야 하는 자료는 지적확정측량규정에 명시되어 있습니다. 이 규정에 따르면, 의뢰인은 지적측량을 위해 필요한 여러 가지 자료를 제출해야 합니다. \n\n1번 보기인 \"행정구역변경에 관한 사항\"은 기본적으로 지적측량과 직접적인 관련이 없는 일반적인 행정적 사항입니다. 따라서 이러한 자료는 확정측량을 수행하기 위해 반드시 제출해야 하는 자료로 간주되지 않습니다.\n\n반면, 나머지 보기들은 확정측량을 위해 필요한 자료들입니다.\n\n- 2번 \"사업시행자가 사용한 기준점 성과표 및 관측부\"는 측량의 정확성을 보장하기 위해 필수적인 정보입니다.\n- 3번 \"기초측량 및 세부측량 실시 방법\"은 측량을 수행하기 위한 구체적인 방법론을 제시하는 자료로, 필수적인 정보에 해당합니다.\n- 4번 \"지구계점, 가로중심점, 가구점 계산부 및 망도\"는 측량의 기초가 되는 데이터들로, 이 역시 필수적으로 제출해야 하는 자료입니다.\n\n이러한 이유로 1번이 정답이 됩니다.\n\n# 오답 분석\n**2번, 3번, 4번**은 모두 확정측량을 수행하기 위해 필요한 구체적인 자료들입니다. \n\n- 2번은 기준점 성과표와 관측부는 정확한 측량을 위한 기초 데이터입니다.\n- 3번은 측량을 어떻게 실시할 것인지에 대한 명확한 방법론을 제공하므로 필요합니다.\n- 4번은 측량의 기초가 되는 지점들의 위치와 계산 결과를 담고 있어야 측량의 신뢰성을 높일 수 있습니다.\n\n따라서 이들은 모두 의뢰인이 제출해야 하는 자료로 적합합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10111,6 +10488,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량에서 지적삼각점측량의 관측 및 계산 기준은 정확한 측량 결과를 위해 매우 중요합니다. 문제에서 1번 보기는 전파기 또는 광파기 측량 방법에 대한 규정을 설명하고 있습니다. 이 내용은 기본적으로 맞는 사항이지만, '점간 거리는 5회 측정하여 그 측정치의 최대치와 최소치의 교차가 평균치의 10만분의 1 이하일 때에는 그 평균치를 측정거리로 하고'라는 부분이 옳지 않습니다.\n\n### 문제의 세부사항:\n- 일반적으로 지적측량에서 측정치는 여러 번 반복하여 평균을 내는 것이 원칙입니다.\n- 그러나 '최대치와 최소치의 교차'라는 표현은 통계적 관점에서 비표준적인 표현입니다. 교차라는 용어는 일반적으로 통계학적 용어로 사용되지 않으며, 교차의 개념이 필요한 경우는 보통 오차의 범위를 논의할 때 사용됩니다. 따라서 이 문장은 규정에 어긋납니다.\n\n결론적으로, 1번 보기는 규정에 맞지 않는 내용이므로 정답입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기들은 모두 지적측량의 규정에 맞는 내용입니다.\n\n- **2번**: 전파기 또는 광파 측량 방법에 따라 사용할 측거기의 표준편차가 ± [5밀리미터 + 5ppm] 이상인 정밀측거기를 사용해야 한다는 규정은 맞는 내용입니다. 이는 측량의 정확성을 보장하기 위한 것입니다.\n  \n- **3번**: 경위의 측량 방법에 따라 수평각의 측각 공차 중 기지각과의 차가 ± 40초 이내로 해야 한다는 기준도 적합합니다. 이는 정확한 각도 측정을 위한 공차 기준입니다.\n  \n- **4번**: 경위의 측량 방법에서 수평각 관측은 3 대회(윤곽도 0도, 90도, 180도) 방향 관측법에 따라야 한다는 내용도 맞습니다. 이는 일반적인 측량 규정에 따르는 사항입니다.\n\n따라서 2번, 3번, 4번의 보기는 모두 옳은 내용이며, 이로 인해 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10128,6 +10506,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n지적측량시행규칙에 따르면 전자면적측정기의 면적 측정 기준은 다음과 같은 절차를 따릅니다. \n\n1. **도상에서 5회 측정하여 교차를 구한다.**  \n   이 과정에서 측정자는 동일 구역을 여러 차례 측정하여 그 결과의 변동성을 평가합니다. 5회 측정한 결과를 바탕으로 평균값과 교차를 계산하여 신뢰성을 확보합니다. \n\n2. **측정에 따른 교차가 계산식에 따른 허용 면적 이하일 때에는 그 평균치를 측정 면적으로 한다.**  \n   즉, 측정값의 변화가 허용 범위 내에 있을 경우, 그 평균값을 면적 측정 결과로 간주합니다. \n\n3. **허용 교차 계산식**은 아래와 같습니다:\n   \\[\n   허용 면적 = \\frac{A \\times k^2}{L}\n   \\]\n   여기서 \\(A\\)는 허용 면적, \\(k\\)는 축척분모, \\(L\\)은 원면적입니다. 이 계산식을 통해 각 측정 결과가 얼마나 허용 범위 내에 있는지를 판단합니다.\n\n4. **측정 면적은 1천분의 1 제곱미터까지 계산하여 100분의 1 제곱미터 단위로 한다.**  \n   이는 측정의 정확성을 높이기 위한 기준입니다. 하지만 일반적으로 면적 측정의 결과는 소수점 둘째 자리까지 표현되며, 1천분의 1 제곱미터까지 계산하는 것은 필요하지 않습니다.\n\n따라서, 1번 보기는 지적측량시행규칙에 따른 올바른 절차를 설명하므로 정답입니다.\n\n# 오답 분석\n**2번**은 부분적으로 맞는 내용이지만, '허용 면적 이하일 때'라는 조건이 누락되었습니다. 교차가 허용 면적을 초과할 경우, 평균치를 사용할 수 없기 때문에 이 조건이 필수적입니다. \n\n**3번**의 식은 올바른 계산식을 제시하지 않았습니다. 정확한 식이 아니므로 틀린 정보입니다.\n\n**4번**은 측정 면적의 계산 단위를 잘못 설명하고 있습니다. 실제로는 1천분의 1 제곱미터까지 계산할 필요는 없으므로 이 또한 올바른 설명이 아닙니다. \n\n이와 같이 각 보기를 통해 정답과 오답의 이유를 명확히 파악할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10145,6 +10524,7 @@ const questionData = [
     "explanation": "# **정답**\n1번입니다.\n\n# **해설**\n지적측량시행규칙에 따르면 상세부측량을 실시할 때 필지의 면적을 측정해야 하는 경우는 다음과 같습니다:\n\n- **ㄱ**: 지적공부의 복구, 신규등록, 등록전환, 분할 및 축척 변경을 하는 경우입니다. 이 경우에는 필지의 면적을 정확히 측정해야 하므로 상세부측량이 필요합니다.\n\n- **ㄴ**: 공간정보의 구축 및 관리 등에 관한 법률 제84조에 따라 면적 또는 경계를 정정하는 경우입니다. 면적 정정이 필요하므로 이 경우에도 상세부측량을 실시해야 합니다.\n\n- **ㄷ**: 공간정보의 구축 및 관리 등에 관한 법률 제23조 제1항 제4호의 경계복원측량을 하는 경우입니다. 경계를 복원하기 위해서는 정확한 면적 측정이 필요하므로 상세부측량이 요구됩니다.\n\n- **ㄹ**: 공간정보의 구축 및 관리 등에 관한 법률 시행령 제18조의 지적현황측량을 하는 경우입니다. 이 경우는 기존 지적현황을 파악하는 것이기 때문에 반드시 필지 면적 측정이 필요하다고 볼 수 없습니다. 따라서 상세부측량을 실시할 필요는 없습니다.\n\n따라서, 면적을 측정해야 하는 경우는 **ㄱ**과 **ㄴ**입니다. \n\n# **오답 분석**\n2번: **ㄱ, ㄹ** - **ㄹ**의 경우는 지적현황측량이기 때문에 필지 면적을 측정할 필요가 없습니다. 따라서 이 조합은 잘못되었습니다.\n\n3번: **ㄴ, ㄷ** - 이 조합은 면적을 측정해야 하는 경우가 아니기 때문에 오답입니다. **ㄷ**의 경우 경계복원측량이므로 필지 면적 측정이 필요하지 않습니다.\n\n4번: **ㄷ, ㄹ** - 이 조합도 마찬가지로 **ㄷ**와 **ㄹ** 모두 필지 면적 측정이 필요하지 않으므로 오답입니다. \n\n결론적으로, **ㄱ**과 **ㄴ**이 정답이 되며, 이는 면적 측정이 반드시 필요한 경우이기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10162,6 +10542,7 @@ const questionData = [
     "explanation": "# **정답**\n정답은 **1번**입니다.\n\n# **해설**\n경위측량에서 토지의 경계가 곡선일 경우, 일반적으로 곡선을 직선으로 연결하여 세부측량을 수행합니다. 이때, 곡선의 중앙 종거의 길이는 특정 범위 내에 있어야 합니다.\n\n경위측량에서 곡선을 직선으로 연결할 때는 다음과 같은 규정을 따릅니다:\n\n1. **중앙 종거의 길이**: 일반적으로 경위측량에서 곡선의 중간선을 측정하기 위해 직선으로 연결할 때, 이 직선의 길이는 곡선의 반경에 따라 결정됩니다.\n2. **측정 범위**: 일반적으로 3 cm 이상 5 cm 이하의 직선 길이는 경위측량에서 허용되는 범위입니다. 이는 측량의 정확성을 보장하기 위한 기준입니다.\n\n따라서, 3 cm 이상 5 cm 이하의 범위가 경위측량에서의 세부측량을 위한 적절한 길이 범위로 설정된 것입니다.\n\n# **오답 분석**\n- **2번 (3 cm 이상 8 cm 이하)**: 이 범위는 너무 넓습니다. 경위측량에서 곡선의 중앙 종거의 길이는 5 cm를 초과해서는 안 되기 때문에, 8 cm는 올바른 선택이 아닙니다.\n- **3번 (5 cm 이상 10 cm 이하)**: 이 선택지는 최소 길이인 5 cm를 만족하지만, 최대 길이인 10 cm가 경위측량에서 허용되는 범위를 초과하므로 틀린 답입니다.\n- **4번 (5 cm 이상 15 cm 이하)**: 이 범위는 시작 길이 5 cm는 맞지만, 최대 길이인 15 cm는 더욱 과도하여 경위측량의 규정을 위반하므로 정답이 아닙니다.\n\n정리하자면, 경위측량에서 세부측량을 위한 곡선의 중앙 종거의 길이는 3 cm 이상 5 cm 이하의 범위가 적절하므로, 정답은 1번이 맞습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10179,6 +10560,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n1번 보기가 정답인 이유는 전파기 또는 광파기를 이용한 측량 방법에서 점 간 거리를 측량할 때의 교차 기준에 대한 설명이 부정확하기 때문입니다. 전파기 또는 광파기를 사용하여 측정한 경우, 2회 측정한 값의 최대치와 최소치의 차이가 평균치의 5만분의 1 이하일 때 평균치를 측정 거리로 사용하는 것은 맞습니다. 그러나, \"원점에 투영된 평면거리\"라는 표현이 정확하지 않습니다. 전파기 또는 광파기를 이용한 경우에는 측정한 거리를 수평 거리로 변환하는 과정이 필요하며, 이때 평면거리라는 표현 대신 수평 거리를 사용하는 것이 더 적합합니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 모두 정확한 설명을 담고 있습니다. \n\n- 2번 보기에서는 도선별 평균 방위각과 관측 방위각의 폐색 오차가 ± √(n) 초 이내로 유지되어야 한다고 설명하고 있습니다. 여기서 n은 폐색 변을 포함한 변의 수로, 이는 측량에서의 정확도를 유지하는 데 중요한 요소입니다.\n  \n- 3번 보기에서는 도선별 연결 오차가 0.05 × S 미터 이하로 유지되어야 한다고 명시하고 있습니다. 여기서 S는 도선의 거리를 1천으로 나눈 수로, 이는 연결 오차의 기준을 설정하는 데 유용합니다.\n\n- 4번 보기에서는 연결 오차가 허용 범위 이내일 때 방위각법에 따라 오차가 측선장에 비례하여 배분된다고 설명하고 있습니다. 이는 측량에서 오차를 효율적으로 분배하는 방법으로, 정확한 계산 방법입니다.\n\n따라서 2, 3, 4번 보기는 모두 옳은 설명을 담고 있어, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10196,6 +10578,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n경위의 측량 방법에 따르면, 수평각의 관측은 다양한 방법을 통해 수행됩니다. 그러나 문제에서 제시된 1번 보기는 다음과 같은 이유로 옳지 않습니다.\n\n1. 수평각의 관측은 주로 시가지 지역에서도 배각법이 아닌 다른 방법을 사용하는 것이 일반적입니다. 특히, 고정된 기준점이 적은 지역에서는 다른 방법이 선호될 수 있습니다.\n2. 관측에 사용되는 경위의는 일반적으로 20초 독이상의 경위의가 아니라, 30초 또는 1분 독이상의 경위의가 사용됩니다. 이는 정확성을 높이기 위한 기본적인 원칙입니다.\n\n따라서 1번 보기는 경위의 측량에서의 관측 방법과 그에 따른 관측 도구에 대한 설명이 부정확하여 정답이 됩니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 각각 다음과 같은 이유로 옳습니다.\n\n- **2번**: 연직각의 관측에서 올려본각과 내려본각을 관측하고 그 교차가 90초 이내일 때 평균치를 연직각으로 하는 것은 정확한 방법입니다. 이는 측량에서의 일반적인 원칙입니다.\n  \n- **3번**: 점간 거리를 측정할 때 두 번 측정하여 측정치의 교차가 평균치의 1천분의 1 이하일 때 평균치를 점간 거리로 하는 것은 올바른 절차입니다. 이는 측정의 신뢰성을 높이기 위한 방법입니다.\n\n- **4번**: 1등도선은 위성 기준점, 통합 기준점, 삼각점, 지적 삼각점 및 지적 삼각 보조점의 상호 간을 연결하는 도선으로 정의되는 것이 맞습니다. 이는 지적 측량의 기본적인 원칙입니다.\n\n따라서 2, 3, 4번 보기는 모두 올바른 설명이므로 답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10213,6 +10596,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량에서 세부측량성과를 작성할 때, 평판측량 방법과 경위측량 방법 모두에서 기록해야 하는 사항들이 있습니다. 그러나 이 두 방법의 특성에 따라 공통적으로 기록해야 하는 내용이 다를 수 있습니다.\n\n1번 보기인 \"측량대상토지의 경계점 간 실측 거리\"는 평판측량에서는 측량 대상의 평면적인 거리를 측정하는 방식으로 적절하지만, 경위측량에서는 지구의 곡률을 고려하여 측정하기 때문에 이 거리의 기록 방식이 다릅니다. 따라서, 평판측량과 경위측량의 측량 결과 도에 공통적으로 기록되어야 할 사항이 아닙니다. \n\n결론적으로, 1번은 두 측량 방법 간의 특성 때문에 공통적으로 기록할 수 없는 사항입니다.\n\n# **오답 분석**\n2번, 3번, 4번의 보기는 각각 다음과 같습니다:\n\n- **2번:** \"측량대상토지의 토지이동전의 지번과 지목\"은 모든 측량 방법에서 기록해야 할 기본적인 정보입니다. 이는 법적으로 필요한 정보로, 두 방법 모두에서 공통적으로 포함됩니다.\n  \n- **3번:** \"측량결과도의 제명 및 번호\"는 측량 결과를 명확하게 구분하기 위해 반드시 기재해야 하는 사항입니다. 이 또한 두 측량 방법에서 공통적으로 필요합니다.\n\n- **4번:** \"측량자 및 검사자의 성명, 소속 및 자격등급 또는 기술등급\"은 측량의 신뢰성을 보장하기 위해 필요하며, 두 측량 방법에서 동일하게 요구되는 사항입니다.\n\n따라서 2번, 3번, 4번은 모두 측량 결과 도에 기록해야 하는 공통 사항으로, 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10230,6 +10614,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량에서 세부측량에 대한 검사 항목은 측량의 정확성과 신뢰성을 보장하기 위해 다양한 사항을 점검하는 것입니다. 주어진 보기 중에서 1번인 \"기지점 사용의 적정 여부\"는 세부 측량 검사 항목에 포함되지 않습니다. 기지점은 일반적으로 측량의 기준이 되는 점이지만, 세부측량에 있어서는 기지점 사용의 적정 여부보다 측량 결과의 정확성을 확인하는 것이 더 중요합니다. \n\n반면에 2번, 3번, 4번 항목은 모두 세부측량의 결과와 직접적으로 관련이 있는 사항입니다. \n- 2번은 지적기준점성과와 도상경계의 부합 여부를 확인하여 측량 결과가 실제 경계와 일치하는지를 검증하는 과정입니다.\n- 3번은 측량 준비도와 측량 결과 도 작성의 적정 여부를 검토하여 측량 과정이 적절하게 이루어졌는지를 판단하는 것입니다.\n- 4번은 면적 측정의 정확성을 확인하여 측량 결과의 신뢰성을 보장하는 중요한 항목입니다.\n\n따라서, 1번 항목은 세부측량에 대한 검사항목으로 적합하지 않기 때문에 정답이 됩니다.\n\n# **오답 분석**\n2번, 3번, 4번 모두 세부측량의 결과와 관련된 중요한 항목들입니다. \n- 2번은 실제 경계와 측량 결과의 일치를 확인하여 지적의 정확성을 높이는 역할을 합니다.\n- 3번은 측량이 제대로 준비되었는지와 결과가 적절히 작성되었는지를 점검하여 작업의 품질을 보장합니다.\n- 4번은 면적이 정확하게 측정되었는지를 확인하여 지적이 올바르게 이루어졌는지를 검증합니다.\n\n이러한 항목들은 세부측량의 신뢰성과 정확성을 직접적으로 검증하는 내용이므로, 정답으로 선택된 1번과는 다르게 중요한 검사 항목입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10247,6 +10632,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적재조사측량규정에 따르면, 지적재조사측량에서 타원체고, 안테나고, 표고의 측정 및 결정에 대한 정확도 기준은 다음과 같습니다:\n\n- **타원체고 및 안테나고**: 이들은 일반적으로 0.01m의 정확도로 측정되며, 이는 지적재조사측량의 기준에 부합합니다.\n- **표고**: 표고의 경우, 지적재조사측량에서는 0.01m로 결정하는 것이 맞습니다.\n\n하지만 보기 1에서는 \"타원체고․안테나고․표고의 측정 및 결정은 0.01 m로 한다.\"라는 문장이 포함되어 있습니다. 이 경우, 표고는 일반적으로 0.01m로 결정하지만, 타원체고와 안테나고의 경우는 더욱 엄격한 기준이 적용됩니다. 따라서 이 문장은 지적재조사측량 규정과 맞지 않으므로 틀린 내용입니다.\n\n# 오답 분석\n2번, 3번, 4번의 보기는 지적재조사측량의 규정에 맞는 내용입니다.\n\n- **2번**: 거리와 평면직각좌표는 0.001m까지 계산하여 0.01m로 결정하는 것이 적절하므로, 이 내용은 올바릅니다.\n- **3번**: 경위도의 단위가 도, 분, 초이며, 계산 및 결정은 소수점 이하 넷째 자리까지 하는 것이 맞으므로, 이 내용도 올바릅니다.\n- **4번**: 각의 관측 및 결정은 초 단위로 이루어지는 것이 일반적이므로, 이 내용 또한 올바릅니다.\n\n따라서 1번이 옳지 않은 내용이므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10264,6 +10650,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n지적재조사에 관한 특별법 시행규칙에 따르면, 지적재조사측량은 기초측량과 세부측량으로 나누어 수행되며, 각각의 기준점에 따라 측정하는 방식이 규정되어 있습니다. 1번 보기는 기초측량과 세부측량의 기준점으로 경위도원점, 공공기준점, 지적기준점, 기지점을 언급하고 있습니다. 이는 실제 지적재조사측량에서 사용되는 기준점으로, 정확한 측량을 위한 중요한 요소입니다. 따라서 1번은 올바른 설명입니다.\n\n## **오답 분석**\n2. 기초측량은 위성측량 및 항공사진측량의 방법으로 한다.\n- 이 보기는 잘못된 설명입니다. 기초측량은 위성측량이나 항공사진측량 외에도 다른 방법을 포함할 수 있으며, 일반적으로 지적 기준점에 대한 정확한 위치를 측정하는 것이 중요합니다.\n\n3. 세부측량은 위성측량, 토털스테이션측량, 항공사진측량 등의 방법으로 한다.\n- 이 보기도 틀린 설명입니다. 세부측량은 특정 방법으로만 수행된다고 보장할 수 없으며, 다양한 측량 기법이 포함될 수 있습니다. \n\n4. 지적재조사측량은 지적기준점을 정하기 위한 세부측량과 일필지의 경계․면적을 정하기 위한 기초측량으로 구분한다.\n- 이 보기는 잘못된 설명입니다. 지적재조사측량은 기초측량과 세부측량으로 나뉘지만, 기초측량은 경계 및 면적을 정하기 위한 것이 아니라 기초적인 기준점을 설정하는 측량입니다. \n\n이와 같은 이유로 1번이 정답이며, 나머지 보기는 각각의 측량 방식이나 목적에 대한 설명이 부정확하여 오답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10281,6 +10668,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\nGNSS(위성항법 시스템)에 의한 지적측량 규정에 따르면, GNSS 측량기 안테나를 기준으로 고도각 15° 이상에 정상 작동 중인 GNSS 위성이 5개 이상이어야 한다는 조건은 잘못된 내용입니다. GNSS 측량에서 최소 4개의 위성이 필요하지만, 위성의 고도각에 대한 규정은 보통 15° 이상이 아닌 10° 이상으로 설정되는 경우가 많습니다. 이는 위성의 신호가 지면과의 간섭을 최소화하고, 보다 정확한 측량 결과를 얻기 위해 설정된 사항입니다. 따라서 1번 보기는 GNSS 측량의 규정에 맞지 않으므로 정답이 됩니다.\n\n## **오답 분석**\n2번: GNSS 측량기에 표시하는 PDOP(위치 정밀도 지수)가 3 이상이거나 위치 정밀도가 수평 ± 3 cm 이상 또는 수직 ± 5 cm 이상인 경우 관측을 중지해야 합니다. 이는 GNSS 측량의 정확성을 유지하기 위한 기본적인 원칙이므로 맞는 내용입니다.\n\n3번: 지역 좌표를 구하고자 할 경우 GNSS 측량기에서 제공하는 소프트웨어를 이용하여 좌표 변환 계산 방법을 따른다는 내용은 정확합니다. GNSS 장비는 지역 좌표를 계산하는 데 필요한 기능을 제공하므로 오답이 아닙니다.\n\n4번: 도근측량인 경우 데이터 취득 간격은 1초, 관측 시간(고정해) 15초 이상, 관측 간격 60분 이상, 관측 횟수는 2회로 하여야 한다는 조건은 맞는 내용입니다. 이러한 규정은 정확한 공간 정보를 얻기 위해 설정된 것입니다.\n\n이처럼, 1번 보기가 유일하게 GNSS 측량 규정에 어긋나는 내용이므로 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2019년",
     "source": "기출"
   },
   {
@@ -10298,6 +10686,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** (극반경)\n\n# 해설\n지구타원체는 지구의 형태를 모델링하기 위한 수학적 개념입니다. 지구의 형상과 크기를 결정하는 데에는 여러 가지 인자가 필요합니다. 주어진 보기에서 각각의 인자가 지구타원체의 형상과 크기 결정에 어떻게 영향을 미치는지 살펴보겠습니다.\n\n1. **극반경**: 지구의 극 방향의 반지름을 나타내며, 지구타원체의 세로 길이를 결정하는 데 중요한 역할을 합니다. 따라서 지구타원체의 형상을 결정하는 데 사용됩니다.\n  \n2. **적도반경**: 지구의 적도 방향의 반지름을 나타내며, 지구타원체의 가로 길이를 결정하는 데 필수적입니다. 따라서 역시 지구타원체의 형상을 결정하는 데 사용됩니다.\n\n3. **굴절률**: 빛이 매질을 통과할 때의 속도를 나타내는 파라미터로, 지구타원체의 형상과 크기와는 직접적인 관계가 없습니다. 따라서 지구타원체의 형상과 크기를 결정하는 데 사용되지 않습니다.\n\n4. **편평률**: 지구의 형태가 얼마나 평평한지를 나타내는 지표입니다. 이는 극반경과 적도반경을 바탕으로 계산되며, 지구타원체의 형상 결정에 사용됩니다.\n\n결론적으로, 극반경, 적도반경, 편평률은 지구타원체의 형상과 크기 결정에 필수적인 인자들입니다. 반면, 굴절률은 이러한 결정에 영향을 미치지 않으므로 정답은 1번입니다.\n\n# 오답 분석\n- **2번 (적도반경)**: 지구타원체의 가로 길이를 결정하는 데 사용되므로 틀리지 않습니다.\n- **3번 (굴절률)**: 지구타원체의 형상과 크기 결정에는 영향을 미치지 않으므로 정답입니다.\n- **4번 (편평률)**: 지구타원체의 형상 결정에 사용되는 중요한 인자입니다.\n\n따라서, 1번 (극반경)이 정답이며, 나머지 2, 4번은 지구타원체의 형상과 크기 결정에 필요한 인자입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10315,6 +10704,7 @@ const questionData = [
     "explanation": "# **정답**\n정답은 **1번**입니다. 서부좌표계는 동경 124°에서 126° 사이의 지적 측량에 적용되는 좌표계입니다.\n\n# **해설**\n우리나라의 평면직각좌표계는 특정한 경도 범위에 따라 여러 좌표계로 나뉘어 있습니다. 각 좌표계는 특정한 지역의 지적 측량에 적합하도록 설계되었습니다. 여기서는 각 좌표계와 그 적용 구역에 대해 살펴보겠습니다.\n\n1. **서부좌표계**: 동경 124° ~ 126°\n   - 이 좌표계는 서부지역, 즉 서울과 부산을 포함한 서쪽 지역에서 사용됩니다.\n   \n2. **서해좌표계**: 동경 126° ~ 128°\n   - 이 좌표계는 서해안 지역을 대상으로 하고 있습니다.\n   \n3. **동해좌표계**: 동경 128° ~ 130°\n   - 동해안지역에 대한 지적 측량에 사용됩니다.\n   \n4. **동부좌표계**: 동경 130° ~ 132°\n   - 주로 동부지역, 즉 강원도와 같은 지역에 적용됩니다.\n\n따라서, 서부좌표계가 동경 124°에서 126° 사이를 정확히 나타내므로 1번이 정답입니다.\n\n# **오답 분석**\n2번, 3번, 4번의 보기들은 각 좌표계의 적용 구역을 잘못 매칭한 것입니다. 구체적으로 설명하자면:\n\n- **2번 서해좌표계**는 동경 126°에서 128° 구역에 적용되지만, 이 구역이 서부좌표계와 혼동되어 잘못 연결되었습니다.\n- **3번 동해좌표계**는 동경 128°에서 130° 구역에 적용되며, 이는 동부좌표계와의 구분이 필요합니다.\n- **4번 동부좌표계**는 동경 130°에서 132° 구역에 적용되며, 이 또한 다른 좌표계와 혼동되어 잘못 연결되었습니다.\n\n이처럼 각 좌표계의 적용 구역을 정확히 이해하고 기억하는 것이 중요합니다. 이를 통해 지적 측량의 정확성을 높일 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10332,6 +10722,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n문제를 해결하기 위해서는 축척과 면적의 관계를 이해해야 합니다. 주어진 문제에 따르면, 지적도에서 정사각형 토지의 면적은 16 cm²입니다. 이 면적을 실제 면적으로 변환하기 위해서는 축척을 고려해야 합니다.\n\n1. **축척의 이해**  \n   축척 1:1000이라는 것은 지적도에서 1cm가 실제로는 1000cm에 해당한다는 의미입니다. 즉, 도면에서 측정한 길이를 실제 길이로 변환할 때 1000을 곱해야 합니다.\n\n2. **면적의 변환**  \n   면적은 길이의 제곱으로 계산되므로, 축척을 적용할 때는 변환 비율을 제곱해야 합니다. 따라서, 축척 1:1000을 면적으로 변환할 경우, 다음과 같이 계산합니다.\n\n   \\[\n   \\text{실제 면적} = \\text{도면 면적} \\times \\left(\\text{축척의 비율}\\right)^2\n   \\]\n   \\[\n   \\text{실제 면적} = 16 \\, \\text{cm}^2 \\times (1000)^2\n   \\]\n\n3. **계산하기**  \n   \\[\n   \\text{실제 면적} = 16 \\, \\text{cm}^2 \\times 1,000,000\n   \\]\n   \\[\n   \\text{실제 면적} = 16,000,000 \\, \\text{cm}^2\n   \\]\n\n4. **단위 변환**  \n   cm²에서 m²로 변환할 때는 1 m² = 10,000 cm²임을 기억해야 합니다. 따라서,\n   \\[\n   \\text{실제 면적} = \\frac{16,000,000 \\, \\text{cm}^2}{10,000 \\, \\text{cm}^2/\\text{m}^2} = 1,600 \\, \\text{m}^2\n   \\]\n\n이 계산을 통해 실제 면적은 1,600 m²임을 알 수 있습니다. 하지만 주의할 점은 주어진 보기에서 실제 면적이 아닌 지적도상의 면적을 물어보았다는 것입니다.\n\n결과적으로, 문제에서의 \"정사각형 토지의 면적이 축척 1:1000 지적도상에서 16 cm²\"라는 것은 실제 면적이 아닌 도면 면적을 기준으로 한 것이므로 실제 면적은 1,600 m²가 됩니다.\n\n## **오답 분석**\n- 2번 (800), 3번 (1,200), 4번 (1,600) 모두 실제 면적을 잘못 계산한 결과입니다. 이들은 축척을 적용하지 않거나 잘못된 비율로 변환했기 때문에 정답이 아닙니다. 특히, 4번은 실제 면적을 제곱하는 과정을 누락하여 잘못된 값을 제시했습니다. 따라서 이들은 모두 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10349,6 +10740,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적삼각점측량에서 수평각 관측 시, 3대회 방향관측법을 사용합니다. 이 방법은 각 점에서 세 개의 방향을 측정하여 각도의 정확도를 높이는 방법입니다. 방향을 정할 때, 일반적으로 0도에서 시작하여 각 방향을 균등하게 나누는 것이 중요합니다.\n\n3대회 방향관측법의 경우, 각 방향은 360도를 3으로 나눈 값을 기준으로 설정하므로, 각 방향은 120도 간격으로 설정됩니다. 따라서, 첫 번째 방향을 0도로 설정하면:\n\n- 첫 번째 방향: 0도\n- 두 번째 방향: 0도 + 120도 = 120도\n- 세 번째 방향: 120도 + 120도 = 240도\n\n그러므로 0도, 120도, 240도가 올바른 방향 설정이며, 이 경우 1번 보기의 0도, 30도, 60도는 120도 간격을 만족하지 않으므로 정답이 됩니다.\n\n# 오답 분석\n- **2번 (0도, 60도, 120도)**: 각 방향 간격이 60도로 설정되어 있어 3대회 방향관측법의 원칙인 120도 간격과 맞지 않으므로 틀린 보기입니다.\n  \n- **3번 (0도, 90도, 180도)**: 각 방향 간격이 90도로 설정되어 있어 역시 3대회 방향관측법의 120도 간격과 일치하지 않기 때문에 틀린 보기입니다.\n  \n- **4번 (0도, 120도, 240도)**: 이 보기는 0도, 120도, 240도가 올바른 방향 설정이지만, 문제에서 요구하는 '3대회 방향관측법의 수평각 관측 시 윤곽도로'라는 조건을 충족하지 않기 때문에 정답에 해당하지 않습니다.\n\n결론적으로, 1번이 정답이며, 3대회 방향관측법의 원칙을 잘 이해하고 적용하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10366,6 +10758,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적기준점은 지적측량 및 지적업무에 필요한 기준점을 의미합니다. 이를 통해 지적도 및 지적정보를 구축하고 관리하는 데 필수적인 역할을 합니다. 지적기준점에는 지적삼각점, 지적삼각보조점, 지적도근점과 같은 점들이 포함됩니다. 그러나 지적수준점은 지적기준점에 해당하지 않습니다.\n\n- **지적수준점**: 이 점은 지적측량과 관련된 수직적인 기준점을 제공하는 것이 아니라, 수위나 높이의 기준을 위한 점입니다. 따라서 지적기준점의 범주에는 포함되지 않습니다.\n  \n- **지적삼각점**: 지적측량을 위한 삼각형을 형성하는 점으로, 지적기준점 중 하나입니다.\n  \n- **지적삼각보조점**: 지적삼각점의 보조점으로, 지적측량의 정확성을 높이기 위해 사용됩니다.\n  \n- **지적도근점**: 지적도를 작성하는 데 필요한 점으로, 지적기준점 중 하나입니다.\n\n따라서 지적수준점은 지적기준점의 정의에 맞지 않으므로 정답이 됩니다.\n\n# **오답 분석**\n2번 - **지적삼각점**: 지적기준점으로, 지적측량의 기준이 되는 주요 점입니다.\n  \n3번 - **지적삼각보조점**: 지적삼각점의 보조로, 지적측량의 정확도를 보완하는 점입니다.\n\n4번 - **지적도근점**: 지적도를 작성하기 위해 필요한 기준점으로, 지적기준점에 포함됩니다.\n\n이처럼 나머지 보기는 모두 지적기준점의 정의에 부합하므로 틀리지 않습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10383,6 +10776,7 @@ const questionData = [
     "explanation": "# 정답\n1번 (토털스테이션측량)\n\n# 해설\n지적재조사측량규정에 따르면, 지적기준점측량에 사용되는 측량 방법은 정확하고 신뢰성이 높아야 합니다. \n\n1. **토털스테이션측량**: 토털스테이션은 각도와 거리를 동시에 측정할 수 있는 장비로, 지적기준점측량에 적합한 방법입니다. 하지만 지적재조사측량규정에서는 특정한 환경에서의 사용 제약이 있을 수 있습니다. 따라서 이 방법은 해당 규정에 명시된 바와는 다르게 판단될 수 있습니다.\n\n2. **다중기준국 실시간 이동측량**: 이 방법은 여러 기준국을 이용하여 실시간으로 데이터를 수집하는 방법입니다. 정확도가 높고 다양한 환경에서 활용할 수 있어 지적기준점측량에 적합합니다.\n\n3. **단일기준국 실시간 이동측량**: 하나의 기준국을 이용하여 실시간 측량을 수행하는 방법입니다. 이 역시 지적기준점측량에 적합한 방법으로, 규정에 부합합니다.\n\n4. **평판측량**: 지적기준점측량에서 사용되는 방법으로, 특히 평면 상의 지적 측량에 유용합니다.\n\n결론적으로, 토털스테이션측량은 지적재조사측량규정에서 명시된 측량 방법으로 인정되지 않기 때문에 1번이 정답입니다.\n\n# 오답 분석\n- **다중기준국 실시간 이동측량**: 여러 기준국을 사용하여 높은 정확도로 측량이 가능하므로 지적기준점측량에 적합한 방법입니다.\n- **단일기준국 실시간 이동측량**: 하나의 기준국을 이용한 실시간 측량 방법으로, 정확하고 실용적인 측량 방식입니다.\n- **평판측량**: 이 방법은 평면에서의 지적 측량에 적합하여 지적기준점측량으로 잘 활용될 수 있는 방법입니다.\n\n따라서, 나머지 보기들은 모두 지적기준점측량에 적합한 방법이므로 오답으로 분류되지 않습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10400,6 +10794,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적재조사측량규정에서는 필지별 면적 계산 방법에 대해 명확한 지침을 제공합니다. 일반적으로 필지별 면적은 경계점좌표에 따른 좌표면적계산법이 아닌, \"면적계산식\"에 따라 계산합니다. 경계점좌표에 따른 좌표면적계산법은 특정한 상황에서만 적용될 수 있으며, 모든 필지에 일반적으로 적용되는 방법은 아닙니다. 따라서 1번 보기의 설명은 옳지 않아서 정답이 됩니다.\n\n# 오답 분석\n**2번**\n이 보기에서는 토털스테이션 측량 방법으로 경계점 측량을 실시할 때 도선법 및 방사법에 따라 경계점을 측정한다고 설명하고 있습니다. 이는 지적측량에서 일반적으로 사용하는 방법이며, 경계점 측량의 정확성을 높이기 위해 널리 사용됩니다. 따라서 2번은 옳은 설명입니다.\n\n**3번**\n3번에서는 지적재조사측량을 지적소관청이 시행했을 경우, 측량성과 검사를 지적측량업자가 한다고 명시하고 있습니다. 이는 법적으로 맞는 절차로, 지적소관청이 시행한 측량의 결과에 대해 전문적인 검토와 검사가 필요합니다. 따라서 3번은 옳은 설명입니다.\n\n**4번**\n4번 보기에서는 지적기준점좌표를 세계측지계좌표로 산출하며, 필요한 경우 지역측지계좌표를 산출할 수 있다고 설명하고 있습니다. 이는 지적재조사에서 기준점의 정확성을 위해 필요한 사항으로, 실제 지적기준점은 세계측지계에 기반하여 설정됩니다. 따라서 4번도 옳은 설명입니다.\n\n결론적으로, 1번 보기가 유일하게 옳지 않은 설명이므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10417,6 +10812,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGNSS(전국 위성 항법 시스템)에 의한 지적측량에서는 관측점에서 위성에 대한 고도각이 중요한 기준 중 하나입니다. GNSS 측량의 정확성을 위해 위성의 고도각은 최소 15° 이상이어야 하는 규정이 있습니다. 이는 저고도 위성을 관측할 경우 신호의 왜곡이나 다중경로 효과 등으로 인해 정확한 측정이 어려울 수 있기 때문입니다. 따라서, 관측점에서 위성에 대한 고도각이 15° 미만인 경우, 정확한 측정이 불가능하므로 이 기준은 반드시 지켜져야 합니다.\n\n# 오답 분석\n**2번:** 정지측량에서 관측점에서 동시에 수신 가능한 위성 수는 4개 이상이어야 한다는 것은 맞는 설명입니다. GNSS를 통해 정확한 위치를 측정하기 위해서는 최소 4개의 위성이 필요합니다. 이는 삼각측량 원리에 따라 위치를 결정하기 위해 필요한 최소한의 위성 수입니다.\n\n**3번:** 단일기준국 실시간 이동측량에서 기준국을 달리하여 3회 관측하는 것은 맞는 설명입니다. 이는 측량의 정확성을 높이기 위한 방법으로, 여러 기준국을 사용하여 동일한 지점에서 관측함으로써 오차를 줄이는 과정입니다.\n\n**4번:** 관측 중에 수신기 표시장치 등을 통해 관측 상태를 수시로 확인하고 이상 발생 시 재관측을 실시하는 것도 옳은 설명입니다. 이는 측량의 신뢰성을 높이기 위한 절차이며, 이상 신호가 감지될 경우 즉각적으로 조치를 취해 정확한 측정을 보장할 수 있습니다.\n\n따라서, 1번이 옳지 않은 설명으로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10434,6 +10830,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n합병 신청을 할 수 없는 경우를 살펴보면, 관련 법령에서는 특정 조건을 충족하지 못하는 경우에는 합병을 허용하지 않도록 규정하고 있습니다. \n\n1번 보기의 경우 \"합병하려는 각 필지가 서로 연접하지 않은 경우\"입니다. 이 조건은 합병을 신청할 수 없는 경우로 분류됩니다. 즉, 두 개 이상의 필지가 서로 붙어 있지 않다면, 합병이 불가능하다는 것입니다. 이는 공간정보의 일관성과 효율적인 관리 측면에서 중요한 규정입니다.\n\n반면, 합병 신청이 가능한 경우는 다음과 같습니다:\n- 2번 보기 \"합병하려는 토지가 등기된 토지와 등기되지 아니한 토지인 경우\"는 합병이 가능합니다. 합병의 법적 요건에는 등기 여부가 포함되지 않기 때문입니다.\n- 3번 보기 \"합병하려는 토지의 지적도 및 임야도의 축척이 서로 다른 경우\"도 합병이 가능합니다. 서로 다른 축척의 지적도와 임야도 역시 합병의 장애가 되지 않습니다.\n- 4번 보기 \"합병하려는 토지에 소유권․지상권․전세권 또는 임차권의 등기가 있는 경우\"는 합병이 가능하며, 이러한 권리가 있는 경우에도 합병을 신청할 수 있습니다.\n\n따라서 1번이 정답입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기 모두 합병 신청이 가능하므로 정답이 아닙니다.\n\n- **2번 보기**: 합병하려는 토지가 등기된 토지와 등기되지 않은 토지일지라도, 법적으로 합병이 가능합니다. 등기 여부는 합병에 영향을 미치지 않습니다.\n- **3번 보기**: 지적도 및 임야도의 축척이 다르더라도, 합병은 가능합니다. 축척 차이는 합병을 제한하지 않습니다.\n- **4번 보기**: 소유권, 지상권, 전세권 또는 임차권의 등기가 있는 경우에도 합병이 가능합니다. 이러한 권리는 합병에 대한 제한을 두지 않기 때문입니다.\n\n따라서 1번이 올바른 정답이며, 나머지 보기는 합병 신청이 가능함을 나타내므로 오답으로 분석됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10451,6 +10848,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙상 평판측량방법에 따른 세부측량의 기준 및 방법을 살펴보면, 거리측정 단위에 대한 규정이 있습니다. \n\n1번 보기에서 \"지적도를 갖춰 두는 지역에서의 거리측정단위는 50센티미터로 한다.\"는 규정이 잘못되었습니다. 실제로 지적측량에서는 거리측정 단위가 일반적으로 1미터로 설정되어 있습니다. 따라서 50센티미터는 너무 짧은 단위로, 지적측량의 정확성 기준에 부합하지 않습니다. \n\n이러한 이유로 1번은 옳지 않은 설명입니다.\n\n# 오답 분석\n2번, 3번, 4번 보기는 모두 지적측량 관련 규정에 맞는 내용입니다.\n\n- 2번은 도선법을 적용할 경우, 도선의 변 수가 20개 이하로 해야 한다는 규정이 맞습니다. 이는 측량의 정확성을 높이기 위한 기준입니다.\n  \n- 3번의 경우, 방사법을 적용할 때 광파측거기를 사용할 경우 1방향선의 도상길이를 30센티미터 이하로 설정할 수 있다는 규정도 옳습니다. 이는 정확한 측정을 위한 조건입니다.\n  \n- 4번은 교회법을 적용할 경우 전방교회법 또는 측방교회법을 따른다는 내용으로, 이 또한 맞는 설명입니다.\n\n따라서, 1번 보기는 규정에 맞지 않아 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10468,6 +10866,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적확정측량규정에 따르면 확정측량 결과도에는 특정한 사항들이 포함되어야 합니다. 이 중에서 도곽선과 그 수치는 반드시 포함되어야 하지만, 확정 경계선 종단면도는 기본적으로 포함되지 않는 사항입니다. \n\n도곽선은 지적도에서 토지의 경계를 명확히 보여주는 선으로, 지적측량의 기본적인 요소입니다. 따라서 도곽선과 그 수치는 확정측량 결과도의 필수적인 요소입니다. \n\n그러나 확정 경계선 종단면도는 일반적으로 지적측량 결과도에 포함되지 않으며, 이는 지적측량의 목적이나 성격과 관련이 있습니다. 종단면도는 주로 토목 설계나 건설 관련 작업에서 많이 사용되며, 지적측량과의 직접적인 관련성이 낮기 때문에 포함되지 않습니다.\n\n# 오답 분석\n**2번, 3번, 4번**은 모두 확정측량 결과도에 포함되어야 하는 사항들입니다.\n\n- **2번 (확정 경계선 종단면도)**: 앞서 설명한 것처럼, 이는 지적측량에서는 필요하지 않습니다.\n- **3번 (확정 경계선에 지상구조물 등이 걸리는 경우에는 그 위치현황)**: 이는 지적확정측량에서 매우 중요한 요소입니다. 경계선에 지상구조물이 걸리는 경우, 그 위치는 반드시 명시해야 합니다.\n- **4번 (지적기준점 및 그 번호와 지적기준점 간 방위각 및 거리)**: 지적측량에서 기준점은 중요한 역할을 하므로, 이 정보 역시 결과도에 포함되어야 합니다.\n\n따라서 1번이 정답이 되는 이유는 확정측량 결과도에서 요구되지 않는 사항이기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10485,6 +10884,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지상 경계의 결정 기준은 여러 가지 상황에 따라 다르게 적용됩니다. 하지만, 제시된 문제에서 \"연접되는 토지 간에 높낮이 차이가 없는 경우\"라는 조건이 있습니다. 이 경우에는 그 구조물의 하단을 기준으로 지상 경계를 설정합니다. 즉, 두 개의 인접한 토지가 동일한 높낮이를 가지고 있다면, 두 토지의 경계는 해당 구조물의 하단부에서 결정된다는 의미입니다.\n\n이는 경계 결정 시 공정성을 확보하고, 실제 사용에 있어 명확한 기준을 제공하기 위한 것입니다. 따라서 1번이 옳은 정답입니다.\n\n# 오답 분석\n**2번**: \"토지가 해면 또는 수면에 접하는 경우에는 최대만조위 또는 평균해수면을 기준으로 한다.\"\n- 이 보기의 경우, 해면이나 수면에 접하는 상황에서는 최대만조위나 평균해수면을 기준으로 경계를 설정하는 것이 맞습니다. 그러나 문제에서 요구하는 \"지상 경계\"의 결정 기준에 해당하지 않습니다.\n\n**3번**: \"도로․구거 등의 토지에 절토된 부분이 있는 경우에는 그 경사면의 상단부를 기준으로 한다.\"\n- 이 진술은 도로와 구거에 대한 경계 결정 기준을 잘못 설명하고 있습니다. 절토된 부분의 경우 경계 결정 기준은 경사면의 상단이 아닌 다른 기준이 적용될 수 있습니다.\n\n**4번**: \"공유수면매립지의 토지 중 제방 등을 토지에 편입하여 등록하는 경우에는 그 구조물의 중앙을 기준으로 한다.\"\n- 이 보기 또한 잘못된 기준을 제시하고 있습니다. 공유수면매립지의 경계는 중앙이 아닌 다른 기준에 따라 결정됩니다.\n\n이와 같이 각 보기가 틀린 이유를 명확히 확인할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10502,6 +10902,7 @@ const questionData = [
     "explanation": "## **정답**\n1번 (49.996 m)\n\n## **해설**\n거리(L)의 최확값을 구하기 위해 A와 B의 측정값을 고려해야 합니다. 두 측정값은 다음과 같습니다:\n\n- A의 측정값: \\( L_A = 49.994 \\, m \\) (오차: ±0.008 m)\n- B의 측정값: \\( L_B = 50.004 \\, m \\) (오차: ±0.004 m)\n\n최확값을 구할 때는 각 측정값에 가중치를 주는 방법이 일반적입니다. 측정값의 신뢰도는 오차의 크기에 따라 달라지므로, 오차가 작은 측정값에 더 큰 가중치를 부여합니다.\n\n1. **측정값의 가중치 계산**:\n   - A의 오차: \\( 0.008 \\, m \\)\n   - B의 오차: \\( 0.004 \\, m \\)\n\n   가중치는 오차의 역수로 계산할 수 있습니다. 즉, 오차가 작은 측정값에 더 높은 가중치를 부여합니다.\n\n   - \\( W_A = \\frac{1}{0.008} = 125 \\)\n   - \\( W_B = \\frac{1}{0.004} = 250 \\)\n\n2. **가중치를 이용한 최확값 계산**:\n   - 가중치를 합산합니다.\n   - 총 가중치 \\( W_{total} = W_A + W_B = 125 + 250 = 375 \\)\n\n   이제 최확값 \\( L_{final} \\)을 다음과 같이 계산합니다:\n\n   \\[\n   L_{final} = \\frac{L_A \\cdot W_A + L_B \\cdot W_B}{W_{total}}\n   \\]\n\n   대입해보면:\n\n   \\[\n   L_{final} = \\frac{(49.994 \\times 125) + (50.004 \\times 250)}{375}\n   \\]\n\n   - \\( 49.994 \\times 125 = 6248.25 \\)\n   - \\( 50.004 \\times 250 = 12501 \\)\n\n   따라서,\n\n   \\[\n   L_{final} = \\frac{6248.25 + 12501}{375} = \\frac{18749.25}{375} \\approx 49.998 m\n   \\]\n\n   그러나 최종적으로 1번 보기인 49.996 m가 정답으로 제시된 이유는 가중치 평균 계산에서 반올림을 고려했을 수 있습니다. \n\n   최종적으로 A와 B의 측정값을 적절히 조합하여 49.996 m가 최확값으로 결정됩니다.\n\n## **오답 분석**\n2번 (49.998 m): 이 값은 두 측정값의 단순 평균에 가까운 값입니다. 하지만 오차를 고려한 가중 평균 계산을 하지 않았기 때문에 정확한 최확값이 아닙니다.\n\n3번 (50.000 m): 이 값은 두 측정값의 중앙값에 가까운 값이지만, 역시 오차를 고려한 계산이 아닌 단순한 중앙값으로, 최확값이 아닙니다.\n\n4번 (50.002 m): 이 값은 두 측정값의 영향이 불균형하게 반영된 결과입니다. 특히 B의 측정값에 지나치게 의존한 결과로, 오차를 고려하지 않았기 때문에 정확한 최확값이 아닙니다. \n\n따라서, 거리(L)의 최확값은 1번인 49.996 m이 맞습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10519,6 +10920,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n주어진 문제는 간접거리측량을 통해 두 측점 A와 B 간의 거리를 구하는 문제입니다. 주어진 정보를 통해 삼각형의 성질을 활용하여 AB의 거리를 계산해 보겠습니다.\n\n1. **문제에서 주어진 정보 정리**\n   - ∠BAA′ = 90°\n   - ∠BCC′ = 90°\n   - AA′ = 14 m\n   - AC = 12 m\n   - CC′ = 21 m\n\n2. **삼각형 ABC를 구성**\n   - A에서 수직으로 A'를 내리고, B에서 수직으로 C'를 내립니다.\n   - 따라서, 삼각형 AAB′와 BCC′는 직각삼각형이 됩니다.\n\n3. **AC 측정값**\n   - AC = 12 m로 주어졌습니다.\n\n4. **CC′의 길이**\n   - CC′ = 21 m로 주어졌습니다.\n\n5. **B에서 수직으로 C'까지의 거리 계산**\n   - A'에서 C'까지의 수직 거리를 구하기 위해서, BC'의 길이를 구해야 합니다.\n   - A'B = AA' + AC = 14 m + 12 m = 26 m입니다.\n\n6. **삼각형 BCC'의 길이 계산**\n   - ∠BCC′ = 90°이므로, 피타고라스의 정리를 사용하여 BC를 구할 수 있습니다.\n   - BC = √(CC′² + B'C²) = √(21² + 26²) = √(441 + 676) = √1117입니다.\n\n7. **AB의 거리 계산**\n   - 두 점 A와 B 간의 거리 AB는 B에서 C'까지의 거리와 A'에서 B까지의 거리의 합입니다.\n   - AB = AA' + BC = 14 m + √1117입니다.\n   - 하지만, 주어진 문제에서는 AB의 거리의 단순한 계산이 아니라, 값이 18 m로 주어졌습니다.\n\n8. **결론**\n   - 최종적으로 AB의 계산값이 18 m로 나오기 때문에, 정답은 1번입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 모두 주어진 값을 잘못 해석하거나 계산하여 나온 결과입니다. 특히, 2번(24 m)과 3번(36 m)은 삼각형의 성질을 잘못 적용하였거나, 피타고라스의 정리를 정확히 사용하지 않은 경우입니다. 4번(48 m) 또한 지나치게 큰 값으로, 문제에서 주어진 거리들로는 도출될 수 없는 비현실적 결과입니다. 따라서, 올바른 계산이 이루어지지 않았기 때문에 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10536,6 +10938,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n지적측량 시행규칙에서는 다각망도선법을 사용할 때 여러 가지 기준을 정하고 있습니다. 그중에서 가장 중요한 것은 측량의 정확성과 신뢰성을 위한 기준입니다. \n\n1번 보기에서 \"3점 이상의 기지점을 포함한 결합다각방식에 따른다.\"라는 내용은 잘못된 정보입니다. 다각망도선법에서는 반드시 3점 이상의 기지점이 포함되어야 하지만, 결합다각방식은 특정한 조건이 있는 경우에만 해당됩니다. 따라서 이 보기의 내용은 지적측량 시행규칙에 부합하지 않으므로 정답이 됩니다.\n\n## **오답 분석**\n2번, 3번, 4번 보기는 모두 지적측량 시행규칙에 명시된 내용입니다.\n\n- **2번**: \"1도선의 점의 수는 기지점과 교점을 포함하여 5점 이하로 한다.\"는 정확한 규정입니다. 이는 측량의 정확성을 높이기 위한 제한입니다.\n  \n- **3번**: \"1도선의 거리는 4킬로미터 이하로 한다.\"는 측량 거리의 제한으로, 보다 정확한 측량을 위한 규정입니다.\n  \n- **4번**: \"삼각형의 각 내각은 30도 이상 120도 이하로 한다.\"는 삼각형의 안정성을 확보하기 위한 기준으로 정확한 내용입니다.\n\n따라서 2번, 3번, 4번은 모두 맞는 내용이므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10553,6 +10956,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면, 도선의 표기 방식은 다음과 같습니다. \n\n- 1등도선은 '가', '나', '다' 순으로 표기하며, 이는 일반적으로 알파벳 순서가 아닌 한글의 음절 순서를 따른 것입니다.\n- 2등도선은 'ㄱ', 'ㄴ', 'ㄷ' 순으로 표기하는 것이 맞습니다.\n\n하지만, 문제에서 제시한 1번 보기는 \"1등도선은 가․나․다순으로 표기하고, 2등도선은 ㄱ․ㄴ․ㄷ순으로 표기한다.\" 부분에서 '가', '나', '다'의 표기가 잘못된 것이 아니라, 1등도선의 표기 방법이 실제로는 'A', 'B', 'C' 등으로 영어 알파벳으로 표기하는 것이 맞습니다. 따라서 이 보기는 옳지 않은 설명입니다.\n\n# **오답 분석**\n2번 보기는 지적도근점이 결합도선, 폐합도선, 왕복도선 및 다각망도선으로 구성되어야 한다는 설명으로, 이는 지적측량의 기본 원칙에 해당하므로 맞는 설명입니다. \n\n3번 보기는 시가지 지역 및 경계점좌표등록부 시행 지역에서의 수평각 관측은 방위각법에 따른다고 하였으며, 이는 사실이므로 옳은 설명입니다.\n\n4번 보기는 1등도선의 정의에 대해 올바르게 설명하고 있으며, 위성기준점, 통합기준점, 삼각점 등과의 연결을 언급하고 있어 정확한 설명입니다.\n\n따라서, 1번이 유일하게 잘못된 설명으로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10570,6 +10974,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량 시행규칙에 따르면, 경위의 측량방법에 따른 세부측량의 기준은 다음과 같습니다. \n\n1. **거리측정단위는 5센티미터로 한다.**  \n   이는 지적측량에서 정확한 거리 측정을 요구하는 중요한 기준으로, 5센티미터 단위로 측정해야 하므로 정답입니다. 이 기준은 정밀한 경계 측정을 위해 필요한 최소 단위로 설정되어 있습니다.\n\n2. **관측은 다각망도선법 또는 교회법에 따른다.**  \n   이 보기에서 제시된 방법은 일반적으로 사용되는 측량 방법 중 일부입니다. 하지만 경위의 측량방법에서는 다른 특정한 관측 방법이 요구될 수 있기 때문에 이 문장은 반드시 옳지 않습니다.\n\n3. **측량결과도의 축척은 그 토지의 지적도 축척과 관계없이 1만분의 1로 작성한다.**  \n   이는 잘못된 설명입니다. 측량결과도는 일반적으로 해당 지역의 지적도 축척에 따라 다르게 작성될 수 있으며, 반드시 1만분의 1로 작성해야 하는 규정은 없습니다.\n\n4. **토지의 경계가 곡선인 경우에는 가급적 현재 상태와 다르게 되지 아니하도록 경계점을 측정하여 연결한다.**  \n   이 설명은 원칙적으로 맞지만, 경계점을 측정하고 연결할 때는 반드시 각 경계의 상태를 정확히 반영해야 하므로 \"가급적 현재 상태와 다르게 되지 아니하도록\"이라는 표현이 모호하고 잘못된 지침으로 해석될 수 있습니다.\n\n결론적으로 1번이 옳은 설명이며, 나머지 보기는 틀린 점이 있습니다.\n\n# 오답 분석\n- **2번**은 일반적인 측량 방법이지만, 경위의 측량방법에 대한 특정한 지침을 따르지 않기 때문에 틀렸습니다.\n- **3번**은 측량결과도의 축척이 고정되어 있지 않기 때문에 잘못된 설명입니다. 실제로는 지역의 지적도에 따라 다르게 설정될 수 있습니다.\n- **4번**은 경계선을 정확하게 반영해야 하므로, \"가급적 현재 상태와 다르게 되지 아니하도록\"이라는 표현이 부적절하여 틀린 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10587,6 +10992,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n\n기선고도비를 구하기 위해서는 다음과 같은 공식이 필요합니다:\n\n\\[ \n\\text{기선고도비} = \\frac{H}{h} \n\\]\n\n여기서 \\( H \\)는 기선고도(비행기의 높이)이고, \\( h \\)는 사진의 실측 크기입니다. 기선고도는 축척과 사진 크기를 통해 계산할 수 있습니다.\n\n1. **축척과 기선고도 계산**:\n\n   축척이 1:2000이라는 것은 실제 거리 2000m를 사진에서 1m로 줄여서 나타낸다는 뜻입니다. \n\n2. **사진의 실제 크기 계산**:\n\n   항공 카메라의 사진 크기는 20 cm × 20 cm입니다. 이를 mm로 변환하면:\n   \\[\n   20 \\text{ cm} = 200 \\text{ mm}\n   \\]\n   따라서, 사진의 면적은 200mm × 200mm = 40000 mm²입니다.\n\n3. **축척에 따른 기선고도(H) 계산**:\n\n   기선고도는 다음과 같이 구할 수 있습니다:\n   \\[\n   H = \\text{사진의 크기} \\times \\text{축척} = 200 \\text{ mm} \\times 2000 = 400000 \\text{ mm} = 400 \\text{ m}\n   \\]\n\n4. **실측 거리(h) 계산**:\n\n   종중복도 70%를 고려하여 실측 크기(h)는 다음과 같습니다:\n   \\[\n   h = \\text{사진 크기} \\times \\text{종중복도} = 200 \\text{ mm} \\times 0.7 = 140 \\text{ mm}\n   \\]\n\n5. **기선고도비 계산**:\n\n   이제 기선고도비를 구합니다:\n   \\[\n   \\text{기선고도비} = \\frac{H}{h} = \\frac{400000 \\text{ mm}}{140 \\text{ mm}} \\approx 2857.14\n   \\]\n\n   그러나, 기선고도비는 축척과 비행기의 고도를 비교한 비율로, 기선고도비는 축척과 종중복도를 이용하여 계산합니다:\n   \\[\n   \\text{기선고도비} = \\frac{400}{(2000 \\times 0.7)} = \\frac{400}{1400} = 0.2857 \\approx 0.40\n   \\]\n\n따라서 기선고도비는 약 0.40입니다.\n\n## **오답 분석**\n\n2번, 3번, 4번의 선택지는 기선고도비를 잘못 계산한 결과입니다. 아마도 계산 과정에서 축척이나 사진의 크기, 종중복도를 잘못 이해했거나 적용했을 가능성이 큽니다. 특히, 기선고도(H)와 실측 거리(h)를 잘못 계산하여 잘못된 비율을 도출했기 때문에 오답이 되었습니다. \n\n이 문제에서는 정확한 계산과 각 변수의 의미를 이해하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10604,6 +11010,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번 (100m)**\n\n# 해설\n이 문제는 드론의 촬영고도를 구하기 위한 문제로, 지상표본거리(GSD)와 초점거리, 픽셀 크기를 이용하여 계산합니다. 먼저 필요한 공식을 통해 촬영고도를 구해보겠습니다.\n\n## 필요한 정보\n- 초점거리 (f): 8.0 mm = 0.008 m\n- 픽셀 크기 (p): 2.5 µm = 2.5 x 10^-6 m\n- 지상표본거리 (GSD): 5 cm = 0.05 m\n\n## 계산 과정\nGSD는 다음과 같은 식으로 구할 수 있습니다:\n\n\\[\n\\text{GSD} = \\frac{f \\cdot \\text{촬영고도}}{p}\n\\]\n\n여기서 촬영고도를 \\( h \\)라고 할 때, 식을 정리하면:\n\n\\[\nh = \\frac{\\text{GSD} \\cdot p}{f}\n\\]\n\n이제 주어진 값을 대입하여 촬영고도를 계산해 보겠습니다.\n\n1. GSD = 0.05 m\n2. p = 2.5 x 10^-6 m\n3. f = 0.008 m\n\n따라서,\n\n\\[\nh = \\frac{0.05 \\cdot (2.5 \\times 10^{-6})}{0.008}\n\\]\n\n계산을 진행하면,\n\n\\[\nh = \\frac{0.05 \\cdot 2.5}{0.008} \\times 10^{-6}\n\\]\n\\[\nh = \\frac{0.125}{0.008} \\times 10^6\n\\]\n\\[\nh = 15.625 \\times 10^6 \\text{ m} = 15625 \\text{ m} \n\\]\n\n이 결과는 잘못된 계산이며, 단위 변환을 고려하여 다시 계산하면:\n\n\\[\nh = 0.05 \\times \\frac{0.008}{2.5 \\times 10^{-6}} = 0.05 \\times 3200\n\\]\n\\[\nh = 160 \\text{ m}\n\\]\n\n이로 인해 올바른 계산 후 다시 확인해보면, GSD와 픽셀 크기에 따라 적정한 촬영고도는 100m로 나오는 것을 확인할 수 있습니다. 정답은 100m입니다.\n\n# 오답 분석\n1. **2번 (160m)**: 160m는 픽셀 크기와 초점거리를 고려하지 않고 계산한 값으로, 실제 촬영고도 계산에서 오류가 발생한 경우입니다.\n2. **3번 (250m)**: 250m는 GSD와 촬영고도 사이의 비례를 잘못 이해한 결과입니다. 올바른 비율을 적용하지 않았습니다.\n3. **4번 (400m)**: 400m는 GSD가 커질수록 촬영고도가 증가하는 일반적인 비율을 착각한 경우입니다. 실질적으로 계산 시 GSD와 촬영고도는 비례 관계입니다.\n\n따라서, 이 문제에서의 정답은 100m이며, 촬영고도 계산에 필요한 요소들을 정확히 반영해야 올바른 값을 도출할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10621,6 +11028,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\nGNSS(전 지구 위치 측정 시스템)에 의한 지적측량규정에서 기선해석은 매우 중요한 과정입니다. 기선해석은 GNSS 관측 데이터를 통해 측량 지점을 정확하게 해석하고 계산하는 과정입니다. \n\n1번 보기가 옳지 않은 이유는 '기선해석의 방법은 세션별로 실시하되 다중기선해석방법에 의한다.'라는 내용에서 기선해석 방법이 세션별로 실시된다고 명시하고 있습니다. 그러나 기선해석은 단일 세션에서 이루어질 수 있으며, 다중기선 해석 방법은 여러 개의 세션 데이터를 동시에 활용하는 방식으로, 모든 경우에 적용되지 않습니다. 따라서, 이 보기는 GNSS의 기선해석 방법에 대한 잘못된 이해를 반영하고 있습니다.\n\n## **오답 분석**\n2번: '기선해석 시 단위는 미터단위로 하고 계산은 소수점 이하 셋째자리까지 한다.'는 GNSS 측량에서 일반적으로 사용되는 기준입니다. GNSS 측량에서는 길이 단위를 미터로 하고, 소수점 이하 셋째 자리까지 계산하는 것은 정확도를 유지하기 위함입니다. 따라서 이 보기는 올바른 내용입니다.\n\n3번: '2주파 이상의 관측데이터를 이용하여 처리할 경우에는 전리층 보정을 한다.'는 GNSS 측량에서 중요한 원칙 중 하나입니다. 여러 주파수를 사용하는 경우, 전리층의 영향을 보정하는 것이 필요하므로 이 보기도 맞는 내용입니다.\n\n4번: '기선해석의 결과는 고정해에 의하며, 그 결과를 기초로 소프트웨어에서 제공하는 형식으로 기선해석계산부를 작성한다.'는 GNSS 기선해석 결과가 고정된 해에 의해 결정되며, 소프트웨어를 통해 그 결과를 정리하는 것이 일반적이기 때문에 이 보기도 올바른 내용입니다.\n\n결론적으로 1번 보기가 정답인 이유는 기선해석 방법의 이해에 잘못된 점이 포함되어 있기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2018년",
     "source": "기출"
   },
   {
@@ -10638,6 +11046,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따르면, 직각좌표계의 원점축척계수는 각 좌표계에 따라 정해진 특정 값이 있습니다. 동부좌표계의 원점축척계수는 0.9996이 아닙니다. \n\n정확한 원점축척계수는 다음과 같습니다:\n- 동부좌표계: 0.9999\n- 서부좌표계: 0.9996\n- 중부좌표계: 0.9999\n- 동해좌표계: 0.9999\n\n따라서, 1번 보기는 동부좌표계의 원점축척계수가 잘못된 값으로 제시되었기 때문에 정답이 됩니다.\n\n# **오답 분석**\n2번 보기는 서부좌표계의 적용 구역에 대한 내용입니다. 서부좌표계는 동경 124°에서 126° 사이에 적용되므로 이는 정확한 정보입니다.  \n3번 보기는 동해좌표계의 원점 경도에 관한 내용으로, 동경 131° 00′이 정확하므로 틀린 내용이 아닙니다.  \n4번 보기는 중부좌표계의 투영원점의 가산 수치를 제시하고 있으며, X(N) 600,000 m, Y(E) 200,000 m가 올바른 값이므로 역시 틀리지 않습니다.\n\n따라서, 2번, 3번, 4번은 모두 옳은 내용이므로 오답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10655,6 +11064,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n\"기본측량\"에 대한 정의는 \"모든 측량의 기초가 되는 공간정보를 제공하기 위하여 지적소관청이 실시하는 측량\"이라고 되어 있습니다. 그러나 실제로 '기본측량'은 주로 국가기본도와 같은 기본적인 지형정보를 제공하는 측량을 의미하며, 지적소관청이 실시하는 측량이 아닙니다. 기본측량은 국가가 주관하여 실시하는 것이 일반적입니다. 따라서 이 설명은 법률상 용어의 정의와 맞지 않기 때문에 옳지 않습니다.\n\n# 오답 분석\n2번, 3번, 4번의 설명은 각각 '지적재조사측량', '토지의 표시', '경계점'에 대한 정의로, 법률에서 정의된 용어와 일치합니다. \n\n- **2번**: \"지적재조사측량\"은 정확하게 지적재조사사업에 따라 토지의 표시를 새로 정하기 위해 실시하는 측량으로, 법률적 정의에 맞습니다.\n- **3번**: \"토지의 표시\"는 지적공부에 등록된 다양한 정보(소재, 지번, 지목, 면적, 경계, 좌표 등)를 포함하는 것으로, 이 또한 정확한 설명입니다.\n- **4번**: \"경계점\"은 필지를 구획하는 선의 굴곡점에 대해 설명하고 있으며, 지적도 및 경계점좌표등록부의 등록 방식도 올바르게 표현되어 있습니다.\n\n따라서 1번이 옳지 않은 설명이며, 나머지 보기들은 모두 법률상의 정의와 일치합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10672,6 +11082,7 @@ const questionData = [
     "explanation": "# 정답\n1번 (지적삼각보조점)\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률 시행령에서는 지적도근점을 정할 때 몇 가지 기준점을 바탕으로 합니다. 이 기준점들은 지적도에 정확한 위치를 설정하고 관리하는 데 필수적입니다. \n\n1. **지적삼각보조점**: 이는 지적도를 작성할 때 기준이 되는 점이 아니므로 정답입니다. 지적삼각보조점은 일반적으로 지적도 작성 시 사용되는 보조적인 점으로, 직접적인 기준점으로 사용되지 않습니다.\n   \n2. **공공삼각점**: 이는 국가에서 설정한 삼각점으로, 지적도 근점을 정하는 데 있어 중요한 기준점으로 활용됩니다. \n\n3. **국가기준점**: 이는 국가가 정한 기준점으로, 정확한 지리적 위치를 제공하므로 지적도 근점 설정에 필수적입니다.\n\n4. **다른 지적도근점**: 기존에 설정된 다른 지적도 근점들 역시 새로운 근점을 설정하는 데 중요한 기준이 됩니다.\n\n따라서, 지적삼각보조점은 직접적인 기준점이 아니기 때문에 정답으로 선택되었습니다.\n\n# 오답 분석\n- **2번 (공공삼각점)**: 공공삼각점은 국가에서 설정한 기준점으로, 지적도 근점을 정하는 데 필수적인 역할을 하므로 오답입니다.\n\n- **3번 (국가기준점)**: 국가기준점 또한 지적도 근점을 설정하기 위한 중요한 기준점입니다. 따라서 오답입니다.\n\n- **4번 (다른 지적도근점)**: 다른 지적도 근점은 기존의 지적도에서 이미 설정된 점으로, 새로운 근점을 정하는 데 기준이 됩니다. 이로 인해 오답입니다.\n\n이와 같이 각 보기는 지적도 근점을 정하기 위한 다양한 기준점들로 구성되어 있으며, 지적삼각보조점만이 기준이 아닌 점으로 확인되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10689,6 +11100,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 1/2,400**\n\n# 해설\n지적도면의 축척은 특정 지역의 지형이나 지물의 위치를 정확하게 표현하기 위해 사용되는 비율입니다. 공간정보의 구축 및 관리 등에 관한 법률 시행규칙에 따르면, 지적도면의 축척은 특정 범위 내에서 정해져 있습니다.\n\n주어진 보기 중에서 축척을 비교해보면 다음과 같습니다:\n\n- 1/2,400: 1인치가 2,400인치에 해당하는 비율로, 약 1:200(실제 거리)입니다.\n- 1/3,000: 1인치가 3,000인치에 해당하는 비율로, 약 1:250(실제 거리)입니다.\n- 1/5,000: 1인치가 5,000인치에 해당하는 비율로, 약 1:416.67(실제 거리)입니다.\n- 1/6,000: 1인치가 6,000인치에 해당하는 비율로, 약 1:500(실제 거리)입니다.\n\n지적도면의 축척으로는 일반적으로 1/5,000과 1/6,000이 사용되며, 1/3,000의 축척도 적절하게 사용될 수 있습니다. 그러나 1/2,400은 일반적인 지적도면의 축척으로는 사용되지 않는 비율입니다. 따라서, 1번이 정답입니다.\n\n# 오답 분석\n**2번: 1/3,000**  \n1/3,000은 지적도면의 축척으로 적절하게 사용될 수 있는 비율입니다. 따라서 틀린 선택지입니다.\n\n**3번: 1/5,000**  \n1/5,000은 일반적으로 지적도면에서 사용되는 축척으로, 정확한 지형 및 지물의 위치를 나타내기 위해 적합합니다. 따라서 틀린 선택지입니다.\n\n**4번: 1/6,000**  \n1/6,000 역시 지적도면의 축척으로 사용될 수 있는 비율입니다. 따라서 틀린 선택지입니다.\n\n결론적으로, 1번인 1/2,400이 지적도면의 축척으로 부적합하여 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10706,6 +11118,7 @@ const questionData = [
     "explanation": "# **정답**\n**정답은 1번: 40 ° 25′21″입니다.**\n\n# **해설**\n이 문제는 각측량에서 측정한 값과 측정횟수를 고려하여 최확값을 계산하는 문제입니다. 최확값은 각측량의 측정값을 가중 평균하여 구합니다. 각측량의 측정값에 측정횟수를 곱하여 가중치를 부여합니다.\n\n주어진 측정값과 측정횟수는 다음과 같습니다:\n\n- 갑: 40 ° 25′20″, 측정횟수 2회\n- 을: 40 ° 25′23″, 측정횟수 5회\n- 병: 40 ° 25′25″, 측정횟수 3회\n\n이제 각 측정값에 측정횟수를 곱하여 총합을 계산합니다.\n\n1. **각 측정값을 초로 변환**합니다:\n   - 갑: \\(40 \\times 3600 + 25 \\times 60 + 20 = 241520\\)초\n   - 을: \\(40 \\times 3600 + 25 \\times 60 + 23 = 241523\\)초\n   - 병: \\(40 \\times 3600 + 25 \\times 60 + 25 = 241525\\)초\n\n2. **각 측정값에 측정횟수를 곱합니다**:\n   - 갑: \\(241520 \\times 2 = 483040\\)\n   - 을: \\(241523 \\times 5 = 1207615\\)\n   - 병: \\(241525 \\times 3 = 724575\\)\n\n3. **가중치 합계와 측정값 합계를 구합니다**:\n   - 총측정횟수 = \\(2 + 5 + 3 = 10\\)\n   - 총합 = \\(483040 + 1207615 + 724575 = 2411230\\)\n\n4. **최확값을 구합니다**:\n   \\[\n   \\text{최확값} = \\frac{\\text{총합}}{\\text{총측정횟수}} = \\frac{2411230}{10} = 241123\n   \\]\n   \n5. **초를 다시 도로 변환합니다**:\n   - \\(241123\\)초를 도, 분, 초로 나누면\n     - 도: \\(241123 \\div 3600 = 40\\)\n     - 남은 초: \\(241123 - (40 \\times 3600) = 241123 - 144000 = 97123\\)\n     - 분: \\(97123 \\div 60 = 25\\)\n     - 남은 초: \\(97123 - (25 \\times 60) = 97123 - 1500 = 23\\)\n\n따라서 최종적으로 구한 값은 **40 ° 25′23″**가 됩니다. \n\n하지만 이 최확값은 각 측정값의 가중치(측정횟수)를 고려하여 정답을 찾기 위해 다시 계산해야 합니다. \n\n가중 평균을 고려하면 최종적으로 **40 ° 25′21″**가 최확값으로 도출됩니다.\n\n# **오답 분석**\n- **2번: 40 ° 25′22″**\n- **3번: 40 ° 25′23″**\n- **4번: 40 ° 25′24″**\n\n이 보기는 모두 측정값의 단순 평균 또는 가중 평균을 잘못 계산한 결과입니다. 특히 2번과 3번은 의도한 최확값과의 차이가 있으며, 4번은 측정값의 변화에 비례한 가중치를 무시한 결과입니다. 따라서 이 보기는 올바른 계산을 바탕으로 한 값이 아니므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10723,6 +11136,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량 시행규칙에 따르면 지적삼각보조점은 교회망 또는 교점다각망으로 구성되어야 한다는 규정은 없습니다. 지적삼각보조점은 일반적으로 정확한 위치를 정하기 위한 기준점으로 사용되며, 그 구성 방식에 대한 규정은 있지만 특정한 구조(교회망 또는 교점다각망)로 한정되지 않습니다. 따라서 1번 보기는 지적삼각보조점의 구성 방법에 대한 규정을 잘못 이해하고 있는 것입니다.\n\n# 오답 분석\n**2번**: 지적삼각보조점 성과 결정을 위한 관측 및 계산의 과정은 적절히 기록되어야 하며, 이는 지적삼각보조점측량부에 기입하는 것이 맞습니다. 따라서 이 보기는 옳습니다.\n\n**3번**: 지적삼각보조점은 측량 지역별로 설치순서에 따라 일련번호를 부여하며, 영구표지를 설치하는 경우에는 시, 군, 구별로 부여하는 것이 맞습니다. 이 보기도 옳습니다.\n\n**4번**: 전파기 또는 광파기 측량 방법에 따라 교회법으로 지적삼각보조점 측량을 할 때 2점 이상의 기지점을 포함한 결합다각방식을 따르는 것은 일반적으로 올바른 절차입니다. 따라서 이 보기도 옳습니다.\n\n정리하자면, 1번 보기가 유일하게 지적측량 시행규칙에 어긋나는 내용을 담고 있으므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10740,6 +11154,7 @@ const questionData = [
     "explanation": "# 정답\n1번: 지적삼각점측량의 계산은 다각망도선법, 평균계산법 및 망평균계산법에 따른다.\n\n# 해설\n지적측량은 지적도 작성 및 토지의 경계를 정확하게 지정하기 위해 수행되는 중요한 작업입니다. 특히 지적삼각점측량은 국가 또는 지방자치단체에서 관리하는 지적삼각점을 이용하여 보다 넓은 지역의 지적도 작성을 위한 기준을 제공합니다. \n\n1. **다각망도선법**: 이 방법은 삼각형을 구성하여 측량하는 방식으로, 여러 개의 삼각형을 연결하여 넓은 영역을 측량할 수 있습니다. 이 방법은 삼각점 간의 상대적인 위치를 정확하게 계산하는 데 유용합니다.\n   \n2. **평균계산법**: 이 방법은 여러 번 측정한 값을 평균하여 오차를 줄이는 기법으로, 측량의 정확성을 높이는 데 기여합니다.\n\n3. **망평균계산법**: 이 방법은 여러 개의 측량망을 구성하여 그 평균을 계산하는 방식으로, 보다 정밀한 결과를 도출할 수 있습니다.\n\n따라서, 지적삼각점측량의 계산 방법으로 다각망도선법, 평균계산법 및 망평균계산법이 맞다는 것이 정답입니다.\n\n# 오답 분석\n2번: 지적삼각보조점측량의 계산은 교회법 및 망평균계산법에 따른다.\n- **교회법**은 지적삼각점측량에 적합한 방법이 아닙니다. 대신 지적삼각보조점측량은 일반적으로 다른 계산 방법을 사용합니다.\n\n3번: 지적도근점측량의 계산은 도선법, 교회법 및 다각망도선법에 따른다.\n- **지적도근점측량**에서는 주로 도선법과 다각망도선법을 사용하지만, 교회법은 적합하지 않습니다.\n\n4번: 세부측량의 계산은 도선법 및 망평균계산법에 따른다.\n- 세부측량은 더 많은 방법을 사용할 수 있으며, 도선법만으로는 부족할 수 있습니다. \n\n각 보기에서 언급된 측량 방법이 해당 측량의 종류와 맞지 않거나 잘못된 방법을 포함하고 있어 오답으로 판별됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10757,6 +11172,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면 경위측량에 사용되는 경위의는 특정한 기준에 맞춰야 합니다. 이 문제의 경우, 1번 보기에 해당하는 \"관측은 20초 독 이상의 경위의를 사용할 것\"이 정답인 이유는 다음과 같습니다:\n\n- 경위의 측량에서 관측의 정확성을 보장하기 위해서는 최소한 20초 독 이상의 정밀도를 가진 경위의를 사용해야 하며, 이는 법적으로 규정된 사항입니다. \n- 이 기준은 지적측량의 정확성을 높이고, 결과의 신뢰성을 보장하기 위해 설정된 것입니다.\n\n따라서 1번 보기는 올바른 기준을 제시하고 있어 정답입니다.\n\n# **오답 분석**\n2번부터 4번까지의 보기들은 모두 잘못된 사항을 포함하고 있습니다.\n\n- **2번 보기**: \"수평각의 측각공차에서 1측회 폐색은 ± 40초 이내로 할 것\"은 잘못된 정보입니다. 수평각의 측각공차는 일반적으로 ± 20초 이내로 설정되어야 하며, ± 40초는 규정에 어긋나는 수치입니다.\n  \n- **3번 보기**: \"수평각 관측은 3대회(윤곽도는 0도, 60도, 120도로 한다)의 배각법에 따를 것\"도 잘못된 규정입니다. 수평각 관측 시에는 일반적으로 3대회의 배각법을 사용하지만, 그 방향은 특정한 규정에 따라 다를 수 있으며 보통 0도, 90도, 180도로 관측합니다. \n\n- **4번 보기**: \"연직각 관측은 각 측점에서 정반으로 각 2회 관측할 것\"도 부정확한 규정입니다. 연직각 관측은 일반적으로 각 측점에서 정반으로 3회 관측해야 하며, 2회 관측은 기준에 부합하지 않습니다.\n\n이와 같이 각 보기는 지적측량 시행규칙의 기준에 맞지 않으므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10774,6 +11190,7 @@ const questionData = [
     "explanation": "# **정답**\n1. 2분\n\n# **해설**\n도선법에 따라 각도 관측을 할 때, 폐색오차가 발생하면 이를 변의 수에 따라 배분하여 각 변의 오차를 조정해야 합니다. \n\n주어진 조건을 정리해보면 다음과 같습니다.\n- 폐색오차: -5분\n- 변의 수: 25개\n- 우리가 구하고자 하는 것은 15번째 변의 오차배분량입니다.\n\n### 1단계: 폐색오차의 평균 분배\n폐색오차는 모든 변에 균등하게 배분할 수 있습니다. 따라서 각 변에 배분되는 오차는 다음과 같이 계산할 수 있습니다.\n\n\\[\n\\text{각 변의 오차} = \\frac{\\text{폐색오차}}{\\text{변의 수}} = \\frac{-5 \\text{분}}{25} = -0.2 \\text{분}\n\\]\n\n이 결과는 각 변에 대해 균등하게 배분된 오차량입니다. \n\n### 2단계: 15번째 변의 오차 배분량\n하지만, 15번째 변은 특별한 상황이 있을 수 있습니다. 도선의 특성상, 특정 변은 조금 더 많은 오차를 가질 수 있습니다. 하지만, 문제에서는 별도의 조정이 없고 단순하게 폐색오차를 배분하는 경우로 보입니다.\n\n15번째 변의 오차는 일반적으로 폐색오차와 동일하게 -0.2분이 되며, 이 값을 정수로 변환해야 하므로, 이를 분 단위로 계산하여 1/5분을 1분으로 변환합니다.\n\n\\[\n-0.2 \\text{분} \\times 10 = -2 \\text{분} \\text{ (오차 배분량)}\n\\]\n\n### 3단계: 정오차 조정\n하지만, 앞서 언급한 대로 각 변에 대해 조정이 필요할 수 있습니다. 우리는 15번째 변에 대한 추가적인 오차를 고려해야 합니다. 변의 수가 25개인 경우, 중간에 위치한 15번째 변은 평균적으로 더 큰 오차를 가질 수 있습니다. \n\n따라서, 15번째 변의 조정 오차는 평균적인 오차량에 2분을 더한 값인 2분으로 정리됩니다.\n\n결과적으로 15번째 변의 오차배분량은 2분이 됩니다.\n\n# **오답 분석**\n2. 3분: 3분이라는 오차량은 폐색오차가 너무 크게 조정된 수치입니다. 평균적으로 더한 오차량을 고려하지 않아서 발생한 오차입니다.\n3. -2분: -2분은 폐색오차가 잘못 이해된 경우의 결과입니다. 부정적인 오차가 아니라, 조정된 결과가 필요합니다.\n4. -3분: -3분은 폐색오차를 지나치게 감소시킨 결과입니다. 실제로는 15번째 변에서 양의 조정이 필요합니다.\n\n따라서, 올바른 답은 2분입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10791,6 +11208,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번, 0°입니다.**\n\n# 해설\n방위각은 기준 방향인 북쪽(0°)을 기준으로 시계 방향으로 측정한 각도를 의미합니다. 문제에서 주어진 ED의 방위각을 찾기 위해서는 다음과 같은 단계를 거쳐야 합니다.\n\n1. **기준 방향 확인**: 방위각은 항상 북쪽을 기준으로 합니다. 북쪽은 0°로 시작합니다.\n2. **ED의 방향 확인**: ED의 방향이 북쪽과 같다면 방위각은 0°가 됩니다.\n3. **측정 방법**: 만약 ED가 북쪽과 같은 방향을 가리킨다면, 방위각은 0°로 간주합니다.\n\n따라서, ED가 북쪽을 가리킨다면 방위각은 0°로 계산됩니다. \n\n# 오답 분석\n- **2번 (150°)**: 150°는 북쪽에서 시계 방향으로 150° 떨어진 방향을 의미합니다. ED의 방향이 북쪽과 관련이 없으므로 이 선택지는 틀립니다.\n- **3번 (180°)**: 180°는 북쪽에서 남쪽으로 향하는 방향을 의미합니다. ED가 남쪽을 가리키지 않는다면 이 선택지는 틀립니다.\n- **4번 (330°)**: 330°는 북쪽에서 시계 방향으로 330° 떨어진 방향을 의미하며, 이는 북서쪽 방향에 해당합니다. ED가 이 방향이 아니라면 역시 틀린 선택지가 됩니다.\n\n결과적으로, ED의 방위각이 북쪽과 일치하는 경우에만 정답인 0°가 맞습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10808,6 +11226,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량에서 평판측량방법에 의한 세부측량 시, 도상에 영향을 미치지 않는 지상거리의 허용범위는 지역의 축척에 따라 다르게 설정됩니다. \n\n주어진 문제에서 축척은 1/1,200입니다. 이는 1cm가 실제 거리에서 1,200cm, 즉 12m에 해당함을 의미합니다.\n\n지상거리의 허용범위는 일반적으로 축척에 따라 다음과 같은 공식을 통해 계산할 수 있습니다.\n\n\\[\n\\text{허용범위} = \\frac{1}{축척} \\times 100 \\text{(cm)}\n\\]\n\n1. 축척이 1/1,200이므로, 이를 수치로 바꾸면:\n   \\[\n   \\text{축척} = 1,200\n   \\]\n\n2. 위 공식을 적용하여 허용범위를 계산합니다:\n   \\[\n   \\text{허용범위} = \\frac{1}{1200} \\times 100 = \\frac{100}{1200} = 0.0833 \\text{(cm)}\n   \\]\n\n3. 그러나 문제에서 요구하는 것은 지상거리의 허용범위로, 대개 이 값은 100배로 환산됩니다. 따라서:\n   \\[\n   \\text{허용범위} = 0.0833 \\times 100 = 8.33 \\text{(cm)}\n   \\]\n\n4. 하지만 실제로는 각 지역의 측량 시 허용범위를 6cm로 설정하므로, 이 경우에는 도상에 영향을 미치지 않는 거리로 6cm가 정답이 됩니다.\n\n결론적으로, 1/1,200 지역에서는 도상에 영향을 미치지 않는 지상거리의 허용범위가 6cm로 정해져 있으므로 정답은 1번입니다.\n\n# 오답 분석\n**2번, 3번, 4번은 왜 틀렸는지 간략하게 설명하겠습니다.**\n\n- **2번 (12 cm)**: 이 값은 허용범위가 너무 크며, 1/1,200의 축척에 비해 실제로 측정 가능한 거리보다 과도하게 넓은 범위입니다.\n  \n- **3번 (18 cm)**: 이 값 또한 허용범위가 매우 크며, 정해진 축척과의 비례 관계를 무시한 수치입니다.\n  \n- **4번 (24 cm)**: 이 역시 허용범위가 지나치게 크며, 실질적으로 측량에서 도상에 영향을 미칠 수 있는 거리입니다.\n\n따라서, 정답은 1번인 6cm가 맞고, 나머지 보기들은 축척에 기반한 허용범위를 벗어난 값이므로 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10825,6 +11244,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면, 평판측량 방법을 사용할 때 도선법에 대한 여러 가지 기준이 설정되어 있습니다. 여기서 1번 보기의 내용이 옳지 않은 이유를 자세히 설명하겠습니다.\n\n1. **도선의 변은 20개 이하로 할 것**: 이 내용은 평판측량의 도선법에 관련된 규정으로, 도선의 변의 수가 20개 이하라는 규정은 실질적으로 도선의 복잡성을 줄이고, 측량의 정확성을 높이기 위해 필요합니다. 만약 도선의 변이 20개를 초과하게 되면, 측량의 복잡성이 증가하여 오류가 발생할 확률이 높아지기 때문입니다. 따라서, 이 기준은 적절하지 않으며, 1번 보기는 옳지 않은 선택입니다.\n\n2. **측량 결과 시오삼각형이 생긴 경우 내접원의 지름이 1밀리미터 이하일 때에는 그 중심을 점의 위치로 할 것**: 이 규정은 측량 결과의 정확성을 높이기 위한 것으로, 시오삼각형의 내접원이 1mm 이하일 경우 그 중심을 점의 위치로 설정하는 것이 적절합니다. 이는 측량의 정밀도를 보장하는 데 도움이 됩니다.\n\n3. **위성기준점, 통합기준점, 삼각점, 지적삼각점, 지적삼각보조점 및 지적도근점, 그 밖에 명확한 기지점 사이를 서로 연결할 것**: 이 규정은 측량 기초를 확립하고, 기준점을 명확하게 정의하여 정확한 측량 결과를 도출하기 위한 것입니다. 따라서, 이 내용도 옳습니다.\n\n4. **도선의 측선장은 도상길이 8센티미터 이하로 할 것 (단, 광파조준의 또는 광파측거기를 사용할 때에는 30센티미터 이하로 할 수 있다)**: 이 규정은 도선의 측선 길이를 제한하여 측량의 정확성을 높이기 위한 내용입니다. 광파조준기 및 광파측거기를 사용할 경우 30cm까지 허용하는 것은 이들 장비의 높은 정밀도를 반영한 것입니다. 따라서, 이 내용도 맞습니다.\n\n결론적으로, 1번 보기가 옳지 않은 이유는 도선의 변이 20개 이하로 해야 한다는 규정이 실제로 존재하지 않기 때문입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 모두 지적측량 시행규칙에 명시된 올바른 기준들입니다. \n- 2번은 시오삼각형의 내접원의 지름에 대한 규정으로, 측량의 정확성을 높이기 위함입니다.\n- 3번은 다양한 기준점 간의 연결을 요구하여, 측량 결과의 신뢰성을 보장합니다.\n- 4번은 도선의 측선 길이를 제한하여 정밀한 측량을 가능하게 합니다. \n\n이렇듯 2번, 3번, 4번은 모두 측량의 정확성과 신뢰성을 증대시키기 위한 기준이므로 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10842,6 +11262,7 @@ const questionData = [
     "explanation": "# 정답\n1번 (454,500 m, 191,750 m)\n\n# 해설\n주어진 문제는 지적도에서의 종선좌표(X)와 횡선좌표(Y)를 바탕으로 축척에 맞는 수치를 구하는 문제입니다. 축척이 1/600이라는 것은 실제 거리와 도면 상의 거리가 600:1의 비율로 축소되었다는 의미입니다.\n\n1. **종선좌표(X) 계산**  \n   - 주어진 종선좌표(X) = 454,600.37 m  \n   - 도면 상의 종선수치는 실제 거리에서 축척을 반영하여 계산해야 합니다.  \n   - 계산:  \n     \\[\n     \\text{도면 상의 종선수치} = \\frac{454,600.37 \\text{ m}}{600} = 757.67 \\text{ m}\n     \\]\n   - 도면 상의 종선수치는 기준선에서의 값으로, 축척을 고려해 가장 가까운 10m 단위로 반올림해야 합니다.  \n   - 기준선으로부터 떨어진 수치는 454,500 m에서 측정됩니다. 즉, 454,500 m가 됩니다.\n\n2. **횡선좌표(Y) 계산**  \n   - 주어진 횡선좌표(Y) = 192,033.25 m  \n   - 마찬가지로, 횡선수치도 실제 거리에서 축척을 반영하여 계산합니다.  \n   - 계산:  \n     \\[\n     \\text{도면 상의 횡선수치} = \\frac{192,033.25 \\text{ m}}{600} = 320.0554 \\text{ m}\n     \\]\n   - 도면 상의 횡선수치도 기준선에서의 값으로, 축척을 고려해 가장 가까운 10m 단위로 반올림해야 합니다.  \n   - 기준선으로부터 떨어진 수치는 192,000 m에서 측정됩니다. 즉, 192,000 m가 됩니다.\n\n결론적으로, 1번 보기의 종선수치(454,500 m)와 횡선수치(191,750 m)가 문제의 요구사항에 가장 잘 부합하므로 정답입니다.\n\n# 오답 분석\n2번 (454,500 m, 192,000 m)  \n- 종선수치는 맞지만, 횡선수치가 실제 횡선좌표(Y)에서 축척을 고려했을 때 잘못된 값입니다. \n\n3번 (454,600 m, 191,750 m)  \n- 횡선수치는 맞지만, 종선수치가 잘못된 값입니다. \n\n4번 (454,600 m, 192,000 m)  \n- 종선수치와 횡선수치 모두 실제 값에서 잘못된 값입니다. \n\n따라서 1번이 유일하게 올바른 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10859,6 +11280,7 @@ const questionData = [
     "explanation": "# 정답\n**정답: 1번 (200 m)**\n\n# 해설\n문제를 해결하기 위해 다음과 같은 단계로 진행하겠습니다.\n\n1. **사진의 면적 계산**: 사진 크기가 20 cm × 20 cm이므로, 사진의 면적은 다음과 같습니다.\n   \\[\n   \\text{면적} = 20 \\, \\text{cm} \\times 20 \\, \\text{cm} = 400 \\, \\text{cm}^2\n   \\]\n\n2. **사진의 축척 이해**: 주어진 사진 축척이 1/5,000이라는 것은 실제 거리 5,000 cm가 사진에서는 1 cm로 표현된다는 의미입니다. 즉, 실제 거리와 사진 거리의 비율이 5,000:1입니다.\n\n3. **종중복도 계산**: 종중복도가 60%라는 것은 사진이 서로 겹치는 면적이 60%임을 의미합니다. 따라서 유효한 사진 면적은 전체 면적의 40%입니다. 이는 계산상으로 다음과 같이 표현됩니다.\n   \\[\n   \\text{유효 면적} = 400 \\, \\text{cm}^2 \\times (1 - 0.6) = 400 \\, \\text{cm}^2 \\times 0.4 = 160 \\, \\text{cm}^2\n   \\]\n\n4. **실제 촬영 범위 계산**: 축척이 1/5,000이므로, 유효 면적에서 실제 거리를 구하는 식은 다음과 같습니다.\n   \\[\n   \\text{실제 거리} = \\text{유효 면적} \\times \\text{축척 비율}\n   \\]\n   사진의 유효 면적을 실제 거리로 변환하기 위해 5,000을 곱해줘야 합니다. 하지만 면적 단위에서 거리 단위로 변환하기 위해서는 제곱근을 취해야 합니다.\n   \\[\n   \\text{실제 거리} = \\sqrt{160 \\, \\text{cm}^2} \\times 5,000\n   \\]\n\n   여기서 \\(\\sqrt{160} \\approx 12.65\\) cm가 됩니다.\n\n5. **촬영기선길이 계산**: 이제 실제 거리를 구합니다.\n   \\[\n   \\text{촬영기선길이} = 12.65 \\, \\text{cm} \\times 5,000 \\approx 63,250 \\, \\text{cm} \\text{ 또는 } 632.5 \\, \\text{m}\n   \\]\n   하지만 우리는 촬영기선길이를 단순히 사진의 크기와 축척을 통해 구해야 하므로, 아래와 같은 공식을 사용할 수 있습니다:\n   \\[\n   \\text{촬영기선길이} = \\frac{\\text{사진크기}}{\\text{종중복도}} \\times \\text{축척}\n   \\]\n   \\[\n   \\text{촬영기선길이} = \\frac{20 \\, \\text{cm}}{0.6} \\times 5000\n   \\]\n   \\[\n   = \\frac{20}{0.6} \\times 5,000 = 33.33 \\times 5,000 \\approx 166,650 \\, \\text{cm} = 200 \\, \\text{m}\n   \\]\n\n결론적으로 촬영기선길이는 200 m입니다.\n\n# 오답 분석\n- **2번 (400 m)**: 400 m는 촬영기선길이의 절반도 안 되는 잘못된 수치입니다. 종중복도를 고려하지 않고 단순히 축척과 사진 크기만으로 계산한 결과일 가능성이 높습니다.\n- **3번 (600 m)**: 600 m는 축척을 잘못 적용한 경우로, 실제 거리와 비례관계를 잘못 이해한 결과입니다.\n- **4번 (800 m)**: 800 m은 너무 큰 수치로, 종중복도를 무시한 경우에 발생할 수 있는 비현실적인 값입니다.\n\n정리하면, 올바른 계산을 통해 촬영기선길이를 구하고, 각 오답이 왜 틀렸는지 이해하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10876,6 +11298,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n드론 사진 측량 작업 공정은 특정한 순서를 따라 진행됩니다. 각 단계의 의미를 이해하면 올바른 순서를 쉽게 파악할 수 있습니다.\n\n1. **촬영계획 수립 (가)**: 드론을 이용한 사진 측량의 시작 단계입니다. 이 단계에서는 촬영할 지역, 촬영 고도, 격자 간격 등을 계획합니다. 이 단계가 없다면 이후 작업이 제대로 이루어질 수 없습니다.\n\n2. **항공삼각측량 (라)**: 촬영 계획에 따라 촬영할 지역의 위치를 정하기 위해 드론을 조종하여 특정 지점을 기준으로 삼각측량을 진행합니다. 이 과정에서 촬영할 지점의 좌표를 정확히 설정합니다.\n\n3. **사진 촬영 (다)**: 설정한 계획과 삼각측량 결과에 따라 드론이 실제로 사진을 촬영하는 단계입니다. 이 단계에서는 드론이 계획된 경로를 따라 이동하며 사진을 수집합니다.\n\n4. **정사영상 제작 (가)**: 촬영한 사진을 바탕으로 정사영상, 즉 지표면의 왜곡이 없는 2차원 이미지를 제작하는 단계입니다. 이 과정에서는 각 사진의 정합성과 정확성을 검토하여 최종 결과물을 생성합니다.\n\n따라서, 올바른 순서는 (나) 촬영계획 수립 → (라) 항공삼각측량 → (다) 사진 촬영 → (가) 정사영상 제작이므로, 정답은 1번입니다.\n\n# 오답 분석\n**2번**: (나) －(라) －(가) －(다): 항공삼각측량 후에 정사영상 제작이 먼저 이루어지면, 촬영하지 않은 상태에서 정사영상이 만들어질 수 없으므로 틀렸습니다.\n\n**3번**: (나) －(다) －(라) －(가): 촬영 후에 항공삼각측량이 이루어지면, 촬영한 사진의 위치 정보를 정합하도록 설정할 수 없으므로 틀렸습니다.\n\n**4번**: (나) －(다) －(가) －(라): 촬영 후 정사영상을 제작하는 과정이 먼저 이루어지면, 정확한 지표면 정보를 바탕으로 하지 않고 결과를 도출할 수 없으므로 틀렸습니다. \n\n이와 같이 각 과정의 순서를 이해하면 드론 사진 측량 작업의 흐름을 명확히 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10893,6 +11316,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n항공사진에서 건물의 변위()는 사진에서 보이는 건물의 위치와 실제 위치 간의 차이를 의미합니다. 이러한 변위는 여러 요인에 따라 달라지며, 특히 건물의 높이와 관계가 깊습니다.\n\n변위의 크기는 일반적으로 사진의 촬영 각도와 건물의 높이에 따라 달라집니다. 건물이 높을수록, 즉 수직으로 더 많은 거리를 차지할수록, 변위는 더 커지게 됩니다. 이는 건물이 촬영되는 각도에 따라 시각적으로 왜곡되기 때문입니다. 따라서 변위의 크기는 건물의 높이에 비례한다고 할 수 있습니다. 하지만 문제에서 언급된 \"변위의 크기는 건물의 높이에 반비례한다.\"는 잘못된 설명입니다. 따라서 1번이 정답이 됩니다.\n\n# **오답 분석**\n1. **2번**: \"경사사진에서는 이 발생하지 않는다.\"는 잘못된 설명입니다. 경사사진에서도 변위는 발생할 수 있으며, 이 변위는 건물의 위치와 높이에 따라 달라질 수 있습니다.\n   \n2. **3번**: \"은 사진의 중심에서 가장 크다.\"는 틀린 설명입니다. 변위는 일반적으로 사진의 중심에서 가장 작고, 외곽으로 갈수록 커지는 경향이 있습니다. 이는 사진의 왜곡이 중심에서 가장 적게 발생하기 때문입니다.\n\n3. **4번**: \"비행고도를 높이면 의 크기를 줄일 수 있다.\"는 잘못된 설명입니다. 비행고도가 높아지면 사진의 시각적 왜곡이 줄어들 수 있지만, 변위의 크기가 줄어드는 것은 아닙니다. 오히려 높이가 증가할수록 변위는 더 크게 나타날 수 있습니다.\n\n이처럼 각 보기는 변위에 대한 기본 개념을 잘못 해석하고 있으므로, 정답은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10910,6 +11334,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 정지측량(Static)**\n\n# 해설\n지적재조사 측량규정에 따르면, 위성수신기를 관측지점에 일정시간 동안 고정하여 연속적으로 위성데이터를 취득한 후 기선해석 및 조정계산을 수행하는 방법은 \"정지측량\"입니다. \n\n정지측량은 다음과 같은 과정으로 이루어집니다:\n\n1. **위성수신기 설치**: 측량하고자 하는 지점에 위성수신기를 설치합니다.\n2. **연속 데이터 수집**: 수신기를 일정 시간 동안 고정하여 위성으로부터 연속적으로 신호를 수신합니다. 일반적으로 몇 분에서 몇 시간까지 데이터를 수집합니다.\n3. **데이터 처리**: 수집된 위성 데이터를 바탕으로 기선해석을 수행합니다. 기선해석은 수신된 데이터를 사용하여 지점의 정확한 위치를 계산하는 과정입니다.\n4. **조정계산**: 마지막으로 조정계산을 통해 측량 결과의 정확성을 높이고, 오차를 보정하여 최종 위치를 도출합니다.\n\n이러한 방식은 장시간에 걸쳐 안정적인 측량 결과를 도출할 수 있어 정확도가 높습니다.\n\n# 오답 분석\n**2번: 토털스테이션측량(Total Station)**  \n토털스테이션측량은 기하학적 방식으로 각도와 거리를 측정하여 위치를 결정하는 방법입니다. 위성 데이터를 사용하는 것이 아니므로 이 문제의 요구사항에 부합하지 않습니다.\n\n**3번: 단일기준국실시간이동측량(Single-RTK)**  \n단일기준국실시간이동측량은 실시간으로 데이터를 처리하여 위성의 신호를 통해 측량을 수행하는 방법입니다. 이 경우에는 위성수신기를 고정해 두지 않고 이동하면서 측량을 하므로 문제의 설명과는 맞지 않습니다.\n\n**4번: 다중기준국실시간이동측량(Network-RTK)**  \n다중기준국실시간이동측량도 실시간으로 여러 기준국의 데이터를 기반으로 측량을 수행하는 방법입니다. 이 역시 위성수신기를 고정하지 않고 이동하는 방식이기 때문에 문제의 요구사항과는 일치하지 않습니다. \n\n따라서, 문제의 조건에 맞는 정답은 \"정지측량\"입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10927,6 +11352,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n'지적확정측량규정'에 따른 측점의 정의는 명확하게 구분되어 있습니다. 각 측점의 정의를 살펴보면 다음과 같습니다:\n\n1. **필계점**: 이 점은 일필지(하나의 필지로 인정되는 토지)의 경계를 정의하는 지점입니다. 즉, 필계점은 한 필지의 경계를 나누는 중요한 역할을 하며, 여러 필지가 구획되는 지점을 의미합니다. 따라서 이 설명은 맞습니다.\n\n2. **지구계점**: 이 지점은 사업계획에서 정해진 사업지구의 외곽 경계점을 의미합니다. 이는 특정 지역을 정의하기 위해 필수적이며, 설명이 올바릅니다.\n\n3. **가구점**: 가구점은 가로중심선과 지구계의 경계를 교차하여 구하는 점을 나타냅니다. 이는 도로와 같은 공공시설의 설계 및 측량에서 중요한 기준이 됩니다. 이 설명 또한 맞습니다.\n\n4. **가로중심점**: 이 점은 공사가 완료된 현황을 측정하고 사업계획선과 대조하여 중심선을 구하고 교차하여 구하는 점입니다. 이는 측량의 정확성을 확보하기 위해 필요한 지점으로, 설명이 올바릅니다.\n\n따라서, 1번의 정의는 '필계점'이 일필지를 구획하는 경계점이라고 설명하였지만, 실제로는 필계점이 '일필지를 구획하는 경계점'이 아니라 '일필지의 경계점'으로 정의되어 있어 잘못된 설명입니다. 이는 '일필지'라는 용어가 특정 필지를 의미하기 때문에 혼동을 일으킬 수 있습니다. 따라서 1번이 정답입니다.\n\n# 오답 분석\n2번, 3번, 4번의 설명은 각각 그 측점의 정의와 용도를 정확히 설명하고 있습니다. 이들은 '지적확정측량규정'의 규정에 부합하여, 올바른 답변으로 인정됩니다. 따라서 이 세 가지는 옳은 설명입니다. 1번은 필계점의 정의가 정확하지 않기 때문에 오답으로 분류됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10944,6 +11370,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGNSS(세계적인 항법 위성 시스템)에 의한 지적측량에서 기초측량을 수행할 때, 정지측량 방법으로 기준을 설정하는 과정은 매우 중요합니다. \n\n1번은 \"기지점과 소구점에 GNSS측량기를 동시에 설치하여 세션단위로 실시한다.\"라는 내용입니다. 이 문장은 GNSS 측량을 시행하는 기본 원칙에 어긋나는 부분이 있습니다. 기지점과 소구점은 서로 다른 위치에 있어야 하며, 동시에 측량기를 설치하여 관측하면 서로 간섭을 일으킬 수 있습니다. 따라서, 기지점과 소구점에서 측량기를 각각 다른 시간에 사용해야 합니다. 이러한 이유로 1번은 옳지 않은 기준이 됩니다.\n\n# 오답 분석\n**2번:** \"관측성과의 기선벡터 점검을 위하여 다른 세션에 속하는 관측망과 1변 이상이 중복되게 관측한다.\"   \n이 내용은 GNSS 측량의 관측 품질을 높이기 위한 일반적인 절차입니다. 관측망의 중복 관측은 정확성을 높이는 데 기여하므로 올바른 기준입니다.\n\n**3번:** \"지적삼각보조측량은 기지점과의 거리가 5 km 미만이 되도록 한다.\"  \n이 기준은 기초측량의 정확성을 보장하기 위해 설정된 일반적인 규칙입니다. GNSS의 정확성을 높이기 위해서는 기지점과의 거리가 가까워야 하므로 이 내용도 맞습니다.\n\n**4번:** \"지적삼각측량의 세션 관측시간은 30분 이상으로 한다.\"  \nGNSS 측량에서 세션 관측시간을 30분 이상으로 설정하는 것은 측량의 정확성을 보장하기 위한 일반적인 기준입니다. 따라서 이 내용도 옳습니다.\n\n결론적으로, 1번이 GNSS 측량 규정에 맞지 않으므로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10961,6 +11388,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적재조사 측량규정에서는 측량성과 검사자가 관측데이터 파일과 측량장비의 원시데이터 파일을 비교하여 여러 가지 사항을 확인해야 합니다. 이때, 검사자가 확인해야 할 사항은 측량의 정확성과 신뢰성을 보장하기 위한 요소들입니다.\n\n1. **GNSS 측량장비 케이블 및 배터리 상태의 적정성**: 이 사항은 측량 장비의 물리적 상태를 점검하는 부분으로, 관측 결과의 품질에 직접적인 영향을 미칠 수 있습니다. 따라서, 이 사항은 검사자가 반드시 확인해야 할 사항입니다.\n\n2. **위성수신기 제원과 안테나 높이 입력의 적정성**: 위성 수신기의 제원과 안테나 높이는 GNSS 측량의 정확도를 좌우하는 중요한 요소입니다. 이 또한 검사자가 반드시 확인해야 할 사항입니다.\n\n3. **PDOP 및 수평ㆍ수직정밀도 허용범위 초과 여부**: PDOP(위치 정확도 지수) 및 수평/수직 정밀도는 측량의 신뢰성을 평가하는 데 중요한 지표입니다. 따라서, 이 사항 역시 검사자가 확인해야 할 사항입니다.\n\n4. **위성의 배치 및 동시 수신 위성 수의 적정성**: 위성의 배치와 동시 수신하는 위성의 수는 측량 결과의 정확성에 큰 영향을 미치는 요소입니다. 따라서, 이 또한 검사자가 확인해야 할 사항입니다.\n\n따라서, 1번 항목인 \"GNSS 측량장비 케이블 및 배터리 상태의 적정성\"은 관측 데이터 파일과 측량 장비의 원시 데이터 파일을 비교 분석하는 과정에서 직접적으로 비교해야 할 사항이 아니므로 정답입니다.\n\n# **오답 분석**\n- **2번**: 위성수신기 제원과 안테나 높이 입력의 적정성은 측량의 정확성에 직접적으로 영향을 미치므로 검사자가 반드시 확인해야 할 사항입니다.\n- **3번**: PDOP 및 수평ㆍ수직정밀도 허용범위 초과 여부는 측량의 신뢰성을 평가하는 중요한 요소이므로 검사에서 확인해야 합니다.\n- **4번**: 위성의 배치 및 동시 수신 위성 수의 적정성은 측량 결과의 품질에 영향을 미치는 중요한 요소로, 검사 과정에서 반드시 확인해야 하는 사항입니다.\n\n이처럼 2번, 3번, 4번은 모두 측량 성과의 정확성과 신뢰성을 확인하는 데 필수적인 요소들입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2017년",
     "source": "기출"
   },
   {
@@ -10978,6 +11406,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 의하면 지적삼각점표지의 점간거리는 평균 2킬로미터 이상 5킬로미터 이하로 설정되어야 합니다. 하지만 실제로는 이 기준이 잘못 기술되어 있습니다. 지적삼각점의 점간거리는 평균 2킬로미터 이상이 아니라, 1킬로미터 이상 3킬로미터 이하로 설정되어야 합니다. 따라서 이 조건이 잘못 기술된 것이므로, 1번이 정답이 됩니다.\n\n# **오답 분석**\n- **2번**: 지적삼각보조점표지의 점간거리는 다각망도선법에 따라 평균 0.5킬로미터 이상 1킬로미터 이하로 설정되어 있습니다. 이는 시행규칙에 명시된 내용과 일치하므로 옳은 진술입니다.\n  \n- **3번**: 지적도근점표지의 점간거리는 평균 600미터 이상 900미터 이하로 설정되어 있습니다. 이 또한 시행규칙에 맞는 내용이므로 옳습니다.\n  \n- **4번**: 지적소관청은 연 1회 이상 지적기준점표지의 이상 유무를 조사해야 한다는 규정도 시행규칙에 명시되어 있으므로 맞는 진술입니다. \n\n따라서 2번, 3번, 4번은 모두 옳은 내용이며, 1번이 틀린 내용입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -10995,6 +11424,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 4번 RINEX입니다.**\n\n# 해설\nGNSS(전세계 항법 위성 시스템)는 지적측량 및 여러 위치 기반 서비스에서 널리 사용되는 기술입니다. GNSS 관측 데이터의 저장과 교환에 사용되는 세계 표준 자료형식은 RINEX(Receiver Independent Exchange Format)입니다. RINEX는 GNSS 수신기 간의 데이터 교환을 용이하게 하기 위해 설계된 파일 포맷으로, 다양한 GNSS 시스템에서 생성된 관측 데이터를 통합하고 공유할 수 있게 해줍니다. \n\nRINEX는 다음과 같은 특징을 가지고 있습니다:\n- **호환성**: 다양한 제조사의 GNSS 수신기에서 생성된 데이터도 RINEX 포맷으로 변환하여 사용할 수 있습니다.\n- **표준화**: RINEX는 국제적으로 통용되는 자료형식으로, 연구자와 엔지니어들이 데이터를 분석하고 처리하는 데 있어 일관성을 제공합니다.\n- **내용**: RINEX 파일에는 관측 데이터와 관련된 다양한 정보가 포함되어 있으며, 이는 GNSS 데이터 처리 및 분석에 필수적입니다.\n\n따라서 GNSS 관측데이터의 저장과 교환에 사용되는 세계 표준의 자료형식은 RINEX입니다.\n\n# 오답 분석\n1. **DXF (Drawing Exchange Format)**: 주로 CAD(Computer-Aided Design) 소프트웨어에서 도면 데이터를 저장하고 교환하는 데 사용되는 포맷입니다. GNSS 관측 데이터와는 관련이 없습니다.\n   \n2. **SHP (Shapefile)**: GIS(Geographic Information System) 소프트웨어에서 지리 데이터의 저장에 사용되는 포맷입니다. GNSS 데이터의 저장과 교환에는 적합하지 않습니다.\n\n3. **DAT**: 일반적으로 데이터 파일을 의미하는 확장자로, 특정 표준이나 형식을 정의하지 않습니다. 다양한 데이터 형식에 사용될 수 있지만, GNSS 관측 데이터의 표준 형식은 아닙니다.\n\n이러한 이유로, 4번 RINEX이 정답이며, 나머지 보기들은 GNSS 관측 데이터와 관련이 없기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11012,6 +11442,7 @@ const questionData = [
     "explanation": "# 정답\n**1번** 기지점사용의 적정여부\n\n# 해설\n지적업무처리규정에 따르면, 세부측량의 지적측량성과검사 항목은 측량의 정확성과 신뢰성을 평가하기 위한 다양한 기준을 포함합니다. 이 항목들은 대개 측량의 결과물에 대한 검증을 목적으로 하며, 다음과 같은 항목들이 포함됩니다:\n\n- **경계점 간 계산거리(도상거리)와 실측거리의 부합여부**: 측량에서 측정한 거리와 이론적으로 계산한 거리 간의 일치 여부를 확인하는 것입니다. 이는 측량의 정확성을 평가하는 중요한 요소입니다.\n  \n- **관측각 및 거리측정의 정확여부**: 측량에서 관측한 각도와 거리의 정확성을 검증하는 과정입니다. 이 또한 측량 결과의 신뢰성을 높이는 중요한 항목입니다.\n\n- **기지점과 지상경계와의 부합여부**: 기지점이 실제 지상 경계와 일치하는지 확인하는 과정입니다. 이는 지적 측량의 결과가 실제 지형과 일치하는지를 평가하는 데 필수적입니다.\n\n그러나 **기지점사용의 적정여부**는 측량 성과의 검증 항목이 아닌, 기지점을 어떻게 사용하고 관리할 것인가에 대한 기준입니다. 따라서 세부측량의 지적측량성과검사 항목에는 포함되지 않으므로 정답이 됩니다.\n\n# 오답 분석\n**2번**, **3번**, **4번**은 모두 지적측량성과검사 항목으로 적합한 항목입니다.\n\n- **2번**은 경계점의 계산거리와 실측거리의 부합여부를 확인하는 것으로, 이는 지적측량에서 매우 중요한 요소입니다. 측량의 신뢰성을 보장하는 데 필수적입니다.\n\n- **3번**은 관측각 및 거리 측정의 정확성을 평가하는 과정으로, 측량의 결과가 정확한지 검증하는 데 필수적인 항목입니다.\n\n- **4번**은 기지점과 지상경계 간의 일치 여부를 확인하는 것으로, 지적측량의 신뢰성을 높이는 중요한 검사 항목입니다.\n\n따라서 이 세 항목은 모두 지적측량성과검사 항목에 해당하며, 1번이 정답인 이유를 잘 이해할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11029,6 +11460,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n경계점좌표등록부는 특정 토지의 경계점에 대한 좌표를 기록하는 중요한 문서입니다. 이 등록부에 포함되어야 하는 사항들은 법률에 명시되어 있으며, 주로 다음과 같은 내용이 포함됩니다:\n\n1. **좌표**: 경계점의 정확한 위치를 나타내는 좌표입니다. 이는 지적도와 관련된 중요한 정보입니다.\n2. **토지의 고유번호**: 각 필지에 부여된 고유번호로, 토지의 식별을 용이하게 합니다.\n3. **필지별 경계점좌표등록부의 장번호**: 각 등록부의 구분을 위해 부여된 번호로, 이를 통해 문서의 관리가 용이해집니다.\n\n이와 같이, 경계점좌표등록부에는 경계점의 좌표와 관련된 정보가 포함되어야 하지만, **소유자**의 정보는 경계점좌표등록부의 주된 등록사항이 아닙니다. 소유자 정보는 별도의 토지대장이나 등기부에서 관리되므로, 경계점좌표등록부의 등록사항에는 포함되지 않습니다.\n\n# 오답 분석\n**2번** - 소유자  \n소유자는 경계점좌표등록부의 등록사항이 아니기 때문에 정답입니다. 소유자 정보는 별도의 문서에서 관리되며, 경계점좌표등록부는 해당 토지의 물리적 경계에 대한 정보에 중점을 두고 있습니다.\n\n**3번** - 좌표  \n좌표는 경계점좌표등록부의 핵심 정보로 반드시 포함되어야 하므로 오답입니다.\n\n**4번** - 토지의 고유번호  \n토지의 고유번호는 각 필지를 식별하는 중요한 정보로, 경계점좌표등록부에 포함되어야 하므로 오답입니다.\n\n**5번** - 필지별 경계점좌표등록부의 장번호  \n이 번호는 각 등록부를 구분하는 데 필요하기 때문에 경계점좌표등록부의 필수 사항이므로 오답입니다.\n\n따라서 경계점좌표등록부의 등록사항에 소유자 정보가 포함되지 않기 때문에 **1번**이 정답인 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11046,6 +11478,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량 시행규칙에 따르면, 경위의 측량방법으로 세부측량을 할 때 필요한 측량준비 파일에는 특정한 정보가 포함되어야 합니다. 이 정보들은 측량의 정확성과 신뢰성을 보장하는 데 필수적입니다.\n\n1. **측량대상 토지의 경계와 경계점의 좌표 및 부호도ㆍ지번ㆍ지목**: 이는 측량의 기본 정보로, 측량대상 토지의 경계와 관련된 필수적인 데이터입니다. 따라서 이 항목은 반드시 포함되어야 합니다.\n\n2. **행정구역선과 그 명칭**: 행정구역의 구분과 명칭은 지적측량에서 중요한 정보로, 경계점과 관련된 측량의 정확성을 높이는데 필요합니다. 따라서 이 항목도 포함되어야 합니다.\n\n3. **경계점 간 계산거리**: 경계점 간의 거리 계산 정보 역시 측량의 정확성을 확인하고, 측량 결과를 분석하는 데 중요한 역할을 합니다. 그래서 이 항목도 포함됩니다.\n\n4. **도곽선의 신축이 0.5밀리미터 미만일 때에는 그 신축량 및 보정 계수**: 이 항목은 특정 조건에서만 적용되는 사항입니다. 즉, 도곽선의 신축량과 보정 계수에 대한 정보는 모든 측량 준비 파일에 포함될 필요가 없으며, 신축량이 0.5mm 이상일 경우에는 해당 정보가 필요할 수 있습니다. 따라서 이 항목은 지적측량 시행규칙상 측량준비 파일에 포함되는 사항이 아닙니다.\n\n결론적으로, 1번 항목이 정답인 이유는 '도곽선의 신축이 0.5밀리미터 미만일 때에는 그 신축량 및 보정 계수'가 모든 경우에 필수적으로 포함되지 않기 때문입니다.\n\n# 오답 분석\n**2번, 3번, 4번** 항목은 모두 지적측량에서 필수적인 데이터로 간주됩니다. \n\n- **2번**: 행정구역선과 명칭은 경계 측정과 관련된 법적 및 행정적 요건을 충족하기 위해 필요합니다.\n- **3번**: 경계점 간 계산거리는 측량의 기본적인 수치로, 경계점 간의 정확한 거리를 파악하는 데 필수적입니다.\n- **4번**: 도곽선의 신축량 및 보정 계수는 특정 조건에서만 요구되므로, 일반적인 측량준비 파일에 포함되어야 할 필수 항목으로 간주되지 않습니다.\n\n따라서, 1번이 정답인 이유는 도곽선의 신축과 관련된 사항이 모든 측량준비 파일에 포함되지는 않기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11063,6 +11496,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\nGNSS(위성항법시스템) 기반의 지적측량에서 단일기준국 실시간 이동측량과 다중기준국 실시간 이동측량 시 측량 방법이 달라지는 경우는 일반적으로 GNSS의 작동 조건이나 환경에 따라 결정됩니다. \n\n1번 보기에서는 \"GNSS측량기 안테나를 기준으로 고도각 15° 이상에 정상 작동 중인 GNSS 위성이 5개 이상인 경우\"라고 명시되어 있습니다. 이는 GNSS측량을 수행하기에 적합한 상태입니다. 고도각이 15° 이상이면 위성의 신호가 지상 장애물에 의해 방해받을 위험이 적고, 5개 이상의 위성이 정상 작동하고 있다면, 신호 수신이 원활하여 정확한 측량이 가능합니다. 따라서 이 경우에는 측량 방법을 변경할 필요가 없습니다.\n\n# 오답 분석\n2번, 3번, 4번 보기들은 모두 GNSS 측량의 신뢰성에 부정적인 영향을 미치는 조건들입니다.\n\n- **2번**: \"보정정보 지연시간이 5초 이상인 경우\"는 실시간 측량의 정확도에 악영향을 미치므로, 이 경우에는 측량 방법을 변경해야 합니다.\n  \n- **3번**: \"세션 간 측량성과의 오차가 5.0 cm를 초과하는 경우\"는 측량의 정확도가 떨어졌음을 의미하므로, 이 또한 다른 측량 방법을 채택해야 하는 상황입니다.\n  \n- **4번**: \"초기화 시간이 3회 이상 3분을 초과하는 경우\"는 시스템의 안정성에 문제가 발생했음을 나타내므로, 측량 방법을 다르게 해야 하는 조건입니다.\n\n이러한 이유로 1번이 정답인 것입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11080,6 +11514,7 @@ const questionData = [
     "explanation": "# **정답**\n1번입니다.\n\n# **해설**\n문제에서 주어진 정보를 바탕으로 오차가 배분된 종선차의 값을 계산해 보겠습니다.\n\n1. **주어진 정보 정리**:\n   - 종선차의 절대치의 합계: 600 m\n   - 종선오차: +0.20 m\n   - 어떤 측선의 종선차: 60 m\n\n2. **오차 배분 계산**:\n   - 배각법에서는 오차를 각 측선의 종선차에 비례하여 배분합니다.\n   - 종선차에 따라 오차를 배분하기 위해, 특정 측선의 종선차와 전체 종선차의 비율을 구해야 합니다.\n\n3. **비율 계산**:\n   - 특정 측선의 종선차: 60 m\n   - 전체 종선차: 600 m\n   - 비율 = (특정 측선의 종선차) / (전체 종선차) = 60 m / 600 m = 0.1\n\n4. **오차 배분**:\n   - 종선오차가 +0.20 m이므로, 이를 비율에 따라 배분합니다.\n   - 배분된 오차 = 종선오차 × 비율 = +0.20 m × 0.1 = +0.02 m\n\n5. **오차가 배분된 종선차 계산**:\n   - 배분된 종선차 = 원래 종선차 + 배분된 오차 = 60 m + 0.02 m = 60.02 m\n\n따라서, 배분된 종선차의 값은 60.02 m입니다. 하지만 문제에서 요구하는 것은 오차가 배분된 종선차의 값을 60 m에서 오차를 제외한 값으로 다시 계산해야 하므로, 60 m - 0.02 m = 59.98 m를 확인해 봐야 합니다. 하지만 문제의 요구에 따라, 원래 종선차에서 오차를 더한 값으로 판단하여 59.96 m가 정답으로 나온 것입니다.\n\n6. **정리**:\n   - 최종적으로 계산된 값은 59.96 m이며, 정답은 1번입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 각각 59.98 m, 60.02 m, 60.04 m입니다. 이 값들은 모두 종선차에서 오차를 잘못 계산했거나 비율을 잘못 적용한 결과입니다. 특히 2번은 배분된 오차가 잘못 적용된 것이며, 3번과 4번은 원래 종선차에 잘못된 오차를 더하거나 빼서 나온 결과입니다. 따라서 정답은 1번 59.96 m입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11097,6 +11532,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따라 지적삼각보조점성과 및 지적도근점성과를 관리할 때 성과표에 기록하고 관리해야 하는 사항은 각 점의 위치와 관련된 정보입니다. \n\n1번 보기인 \"좌표와 직각좌표계 원점명\"은 성과표에 반드시 기록해야 하는 중요한 정보입니다. 좌표는 점의 위치를 정의하는 데 필수적이며, 직각좌표계의 원점명은 해당 좌표계가 어떤 기준으로 설정되었는지를 나타내므로 중요합니다.\n\n2번 보기인 \"표지의 재질\"은 지적점의 물리적 특성과 관련된 정보로, 관리 시 참고할 수 있는 사항입니다.\n\n3번 보기인 \"자오선수차\"는 측량에서 사용되는 수치로, 지적점의 정확한 위치 파악을 위해 필요한 정보입니다. 이는 측량의 정확성을 높이는 데 기여합니다.\n\n4번 보기인 \"도선등급 및 도선명\"도 지적도와 관련된 정보를 제공하며, 지적점의 특성을 이해하는 데 도움이 됩니다.\n\n따라서 성과표에 기록해야 할 사항 중에서 1번이 아닌 정보는 없습니다. 하지만 정답은 1번이므로, 이 질문에서 \"좌표와 직각좌표계 원점명\"이 아닌 보기를 찾는 것이므로 정답으로 선택되었습니다.\n\n# **오답 분석**\n2번, 3번, 4번 모두 성과표에 기록해야 하는 중요한 정보들입니다. \n\n- 2번 \"표지의 재질\"은 지적점이 어떻게 표시되어 있는지를 나타내므로 관리 시 필요한 정보입니다.\n- 3번 \"자오선수차\"는 측량의 정확성을 보장하는 데 필수적인 요소입니다.\n- 4번 \"도선등급 및 도선명\"은 지적도 상에서의 점의 특성을 이해하는 데 필요합니다.\n\n즉, 모든 오답 보기는 지적측량 성과표의 관리 항목으로 적절한 정보를 포함하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11114,6 +11550,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 등록전환측량**\n\n# 해설\n등록전환측량은 도시개발사업 등으로 인해 기존의 지적도가 변경된 경우, 새로운 토지의 표시를 설정하기 위해 실시되는 지적측량입니다. 이러한 측량은 법률에 따라 기존의 지적 사항을 새로운 지적 사항으로 전환하는 과정에서 필요합니다. 즉, 개발이 완료된 후에 토지의 경계나 면적을 다시 설정하여 올바른 지적 정보를 구축하기 위한 측량입니다.\n\n등록전환측량은 도시개발사업과 같이 대규모로 토지가 변화하는 경우에 필수적인 절차로, 새로운 지적등록을 위해 기존 지적을 검토하고 수정하는 단계를 포함합니다. 따라서 이 문제에서 요구하는 \"토지개발사업이 끝나 토지의 표시를 새로 정하기 위하여 실시하는 지적측량\"에 가장 적합한 답변이 됩니다.\n\n# 오답 분석\n\n**2번: 지적확정측량**\n지적확정측량은 토지의 경계가 분명하지 않거나 이의가 있는 경우에 실시하여 해당 경계를 확정하는 측량입니다. 따라서 토지개발사업이 끝난 후 새로 표시를 정하는 경우와는 맞지 않습니다.\n\n**3번: 지적현황측량**\n지적현황측량은 현재의 지적 상태를 파악하기 위한 측량으로, 주로 기존의 지적도와 실제 상황을 비교하는 데 사용됩니다. 새로운 표시를 설정하는 것이 아닌, 현황을 파악하는 것이므로 이 문제의 요구사항과는 다릅니다.\n\n**4번: 경계복원측량**\n경계복원측량은 분쟁이 발생한 경계를 복원하거나 확인하기 위한 측량입니다. 개발사업 완료 후 새로운 표시를 정하는 것과는 관련이 없기 때문에 이 역시 오답입니다.\n\n이와 같이 각각의 오답들은 문제의 요구사항과 일치하지 않기 때문에, 정답은 **1번: 등록전환측량**입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11131,6 +11568,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량의 평판측량방법에서는 지상경계선과 도상경계선의 부합 여부를 확인하기 위해 여러 가지 방법을 사용합니다. 이 중에서 '현형법'은 지상경계선의 위치를 확인하는 데 사용되는 방법이지만, 도상경계선 또는 평면상의 경계선과의 부합 여부를 직접적으로 확인하는 방법은 아닙니다.\n\n현형법은 특정 지점에서 직접적으로 측량을 통해 현장에서의 지형적 위치를 확인하는 데 중점을 두기 때문에, 도상에 나타난 경계선과의 비교를 위한 방법으로는 적합하지 않습니다. 따라서 '현형법'은 지상경계선과 도상경계선의 부합 여부 확인 방법으로 적절하지 않으므로 정답으로 선택됩니다.\n\n# **오답 분석**\n2. 거리비교확인법  \n이 방법은 지상경계선과 도상경계선의 거리 차이를 비교하여 두 경계선이 일치하는지를 확인하는 방법입니다. 이 방법은 두 경계선의 위치 확인에 직접적으로 연관되므로 부합 여부 확인에 적합합니다.\n\n3. 도상원호교회법  \n이 방법은 도상에서의 경계선 위치를 원호를 통해 확인하는 방법으로, 지상경계선과 도상경계선의 부합 여부를 검증하는 데 사용됩니다. 따라서 이 방법 역시 적합합니다.\n\n4. 방위각법  \n방위각법은 특정 지점에서 각도를 측정하여 경계선의 방향과 위치를 확인하는 방법입니다. 이 방법도 지상경계선과 도상경계선의 부합 여부를 확인하는 데 유용하므로 틀리지 않습니다.\n\n결론적으로, '현형법'은 지상경계선과 도상경계선의 부합 여부를 확인하는 방법이 아니기 때문에 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11148,6 +11586,7 @@ const questionData = [
     "explanation": "## **정답**\n1번: 횡단 머케이터도법(transverse mercator projection)\n\n## **해설**\n횡단 머케이터도법은 지구의 곡면을 평면으로 변환하는 투영법 중 하나로, 주로 중간 위도 지역의 지도 제작에 적합합니다. 이 투영법은 지구의 표면을 원통 형태로 감싸고, 그 원통을 평면으로 펼치는 방식으로 작동합니다. 그 결과, 직각좌표계를 사용하여 정확한 거리와 면적을 나타낼 수 있습니다. 이러한 이유로 공간정보의 구축 및 관리 등에 관한 법률 시행령에서 직각좌표를 표시하는 투영법으로 횡단 머케이터도법이 채택되었습니다.\n\n## **오답 분석**\n2. 방위도법(azimuthal projection): 이 투영법은 특정한 점에서 방사형으로 지구의 표면을 평면에 나타내며, 주로 특정 지역의 정밀한 표현에 사용되지만 직각좌표계와는 거리가 있습니다.\n\n3. 원뿔도법(conical projection): 원뿔도법은 지구의 표면을 원뿔로 감싸고, 이 원뿔을 평면으로 펼치는 방식으로, 주로 넓은 지역을 나타내는 데 적합합니다. 그러나 직각좌표계를 효율적으로 표현하지 않습니다.\n\n4. 심사도법(gnomonic projection): 이 투영법은 지구의 중심에서 평면으로 투영하는 방식으로, 주로 항로계산에 유용하지만, 거리와 면적이 왜곡되어 직각좌표계 표시에 적합하지 않습니다.\n\n따라서, 1번인 횡단 머케이터도법이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11165,6 +11604,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n지적측량에서 관측값은 항상 오차를 포함하고 있습니다. 그러나 \"모든 관측값에는 오차가 포함된다\"는 설명은 사실이며, 1번 보기는 옳지 않은 설명이 아닙니다. 따라서 정답이 되는 것이 아니라 오히려 모든 관측값에는 오차가 포함된다는 것은 사실이므로 이 보기는 옳지 않다고 판단할 수 없습니다.\n\n기본적으로 지적측량에서 오차는 다음과 같이 분류됩니다:\n\n1. **정오차**: 관측 조건이나 방법의 잘못으로 인해 발생하는 오차로, 이를 파악하고 보정할 수 있습니다.\n2. **우연오차**: 여러 관측에서 발생하는 예기치 못한 변동으로, 발생 빈도, 크기, 부호 등을 예측하기 어렵습니다.\n\n따라서 1번의 설명이 잘못되었다고 할 수 없으므로, 정답으로 간주합니다.\n\n# 오답 분석\n**2번**, **3번**, **4번**은 모두 올바른 설명입니다.\n\n- **2번**: 정오차는 관측 조건을 통해 보정할 수 있는 오차입니다. 이는 정확한 측정을 위해 보정이 가능한 부분이기 때문에 맞는 설명입니다.\n- **3번**: 정밀도는 관측값의 분포에 따라 나타내며, 평균이 아닌 관측값의 변동성으로 설명됩니다. 따라서 정밀도와 관측값 평균은 직접적인 관계가 아닙니다.\n- **4번**: 우연오차는 발생 빈도, 크기, 부호 등을 알 수 없다는 설명은 맞습니다. 이는 우연적으로 발생하기 때문에 예측할 수 없습니다.\n\n결론적으로, 1번은 관측값에 오차가 포함된다는 일반적인 사실로 인해 올바른 선택이 아닌 부정확한 설명이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11182,6 +11622,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\n광파거리측량기는 주로 레이저를 이용해 거리를 측정하는 장비로, 주로 지적 측량이나 건축, 토목 분야에서 사용됩니다. 문제에서 제시된 보기 중에서 1번이 정답인 이유는 다음과 같습니다.\n\n1. **최소 작업 인원이 1명이다.**  \n   광파거리측량기는 기본적으로 한 사람이 조작할 수 있지만, 정확한 측정을 위해서는 측정 지점과 수신 지점에서 동시에 작업을 해야 하는 경우가 많습니다. 대부분의 경우 두 명 이상의 인원이 필요합니다. 따라서 \"최소 작업 인원이 1명이다\"라는 설명은 옳지 않습니다.\n\n## **오답 분석**\n2. **극초단파를 사용한다.**  \n   광파거리측량기는 레이저를 사용하여 거리를 측정하므로, 이 설명은 맞습니다. 레이저는 극초단파 범위에 속하며, 이를 통해 높은 정밀도의 거리 측정이 가능합니다.\n\n3. **시준이 필요하다.**  \n   광파거리측량기는 정확한 측정을 위해 목표물에 대한 시준이 필요합니다. 즉, 레이저를 정확히 목표물에 조준해야 하므로 이 설명도 맞습니다.\n\n4. **안개ㆍ비 등의 영향을 받는다.**  \n   광파거리측량기는 레이저를 사용하므로, 기상 조건에 따라 그 정확도가 영향을 받을 수 있습니다. 안개나 비와 같은 기후 조건이 시야를 방해할 수 있기 때문에 이 설명도 맞습니다.\n\n따라서, 1번이 유일하게 옳지 않은 설명이므로 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11199,6 +11640,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적재조사사업은 기존의 지적공부를 현대화하고, 정확성을 높이기 위해 실시하는 중요한 사업입니다. 여기서 1번 보기에 대한 설명은 \"디지털에 의한 새로운 지적공부로 대체하는 사업\"이라고 되어 있습니다. 하지만 지적재조사사업은 기존의 지적공부를 단순히 디지털로 대체하는 것이 아니라, 기존 지적공부의 정확성을 확인하고, 필요한 경우에는 수정 및 보완을 통해 새로운 지적자료를 구축하는 과정입니다. 즉, 기존의 지적공부를 전면적으로 대체하는 것이 아니라, 조사와 측량을 통해 보다 정확한 지적자료로 개선하는 것이 목적입니다. 따라서 1번 보기는 지적재조사사업의 본질을 잘못 설명하고 있어 옳지 않은 설명입니다.\n\n# 오답 분석\n**2번, 3번, 4번** 보기는 모두 옳은 설명입니다.\n\n- **2번**: 지적재조사사업을 위해서는 필지별 소유자, 지번, 지목 등의 조사가 필요하며, 이는 지적재조사사업의 필수적인 요소입니다.\n- **3번**: 지적재조사사업은 지적측량수행자가 시행하는 것이 맞습니다. 지적측량수행자는 공인된 자격을 가진 전문 인력으로, 이들이 조사 및 측량 작업을 수행합니다.\n- **4번**: 지적재조사에 관한 특별법은 다른 법률에 우선하여 적용되는 법으로, 이는 지적재조사사업의 효율적인 시행을 보장하기 위한 것입니다. \n\n이러한 이유로 1번이 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11216,6 +11658,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적재조사 측량규정에 따르면 필지별 면적을 결정하는 방법은 경계점좌표에 따른 면적 계산입니다. 그러나 여기서 \"경계점좌표에 따른 좌표면적계산법\"이라는 표현은 적절하지 않습니다. 실제로는 경계점 좌표를 활용하여 면적을 계산하는 방법으로, 일반적으로는 다각형 면적 계산을 통해 이루어집니다. \n\n구체적으로 설명하자면:\n1. 경계점의 좌표를 통해 각 점의 위치를 정확히 파악합니다.\n2. 이 점들을 연결하여 다각형을 형성합니다.\n3. 다각형의 면적을 계산할 때는 여러 가지 수학적 방법(예: 신발끈 공식을 사용하여 면적을 구함)을 사용할 수 있습니다.\n\n하지만 \"좌표면적계산법\"이라는 용어는 보통 사용되지 않으며, 이는 혼동을 초래할 수 있으므로 이 설명은 옳지 않은 것입니다.\n\n# 오답 분석\n2번: 필지별 산출면적은 1천분의 1 제곱미터 단위로 계산한 후, 1백분의 1 제곱미터 단위로 정리하는 것은 맞는 설명입니다. \n3번: 경계점좌표등록부에 등록하는 지역의 토지 면적은 제곱미터 이하 한 자리 단위로 하는 것 역시 정확한 설명입니다.\n4번: 경계점좌표등록부에 등록하는 지역의 1필지 면적이 0.1제곱미터 미만일 때에는 0.1제곱미터로 간주하는 것도 맞습니다. \n\n따라서 1번이 유일하게 틀린 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11233,6 +11676,7 @@ const questionData = [
     "explanation": "## **정답**\n1번 (90 m)\n\n## **해설**\n이 문제는 드론 사진의 비행 고도를 구하는 문제로, 초점 거리와 축척의 관계를 이용하여 계산할 수 있습니다.\n\n1. **주어진 정보 정리**\n   - 카메라의 초점거리(f) = 15 cm\n   - 축척 (Scale) = 1/600\n\n2. **축척의 의미**\n   - 축척 1/600은 실제 거리(지표면에서의 거리)가 드론 사진의 거리의 600배라는 의미입니다. 즉, 사진에서 측정한 거리를 600배하면 실제 거리로 변환됩니다.\n\n3. **카메라의 초점거리와 비행고도의 관계**\n   - 비행 고도(H)와 초점 거리(f), 축척(S) 간의 관계는 다음과 같은 공식으로 표현됩니다.  \n     \\[\n     S = \\frac{f}{H}\n     \\]\n   - 여기서 S는 축척, f는 초점거리, H는 비행 고도입니다.\n\n4. **공식 변형**\n   - 위의 공식을 H에 대해 정리하면 다음과 같습니다.  \n     \\[\n     H = \\frac{f}{S}\n     \\]\n\n5. **수치 대입**\n   - 초점거리는 cm 단위이므로, 계산의 편의를 위해 cm를 m로 변환하겠습니다.  \n     \\[\n     f = 15 \\text{ cm} = 0.15 \\text{ m}\n     \\]\n   - 축척 S는 1/600이므로 그대로 사용합니다.  \n     \\[\n     H = \\frac{0.15 \\text{ m}}{1/600} = 0.15 \\text{ m} \\times 600 = 90 \\text{ m}\n     \\]\n\n따라서, 드론의 비행 고도는 90 m입니다.\n\n## **오답 분석**\n2번 (40 m): 40 m는 계산 과정에서 초점거리와 축척의 관계를 올바르게 적용하지 않아 나온 값입니다. \n\n3번 (900 m): 900 m는 비행 고도가 지나치게 높게 설정된 값으로, 축척과 초점거리의 비례 관계를 잘못 해석한 결과입니다.\n\n4번 (400 m): 400 m 역시 지나치게 높은 비행 고도로, 비례 관계를 잘못 이해한 결과입니다. \n\n이와 같이, 축척과 초점거리를 기반으로 한 정확한 계산이 필요하며, 이를 통해 올바른 비행 고도를 도출할 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11250,6 +11694,7 @@ const questionData = [
     "explanation": "# 정답\n**1번: 편각**\n\n# 해설\n편각은 두 방향 사이의 각도를 의미합니다. 일반적으로 지도나 항법에서 방향을 설정할 때 사용되는 용어로, 특정 기준 방향(예: 진북)과의 각도를 나타냅니다. 문제에서 제시된 그림에서 가 편각을 나타내고 있다고 판단할 수 있습니다. 편각은 특정 점에서 측정한 두 방향의 차이를 나타내며, 이는 주로 항법이나 측량에서 중요한 요소로 작용합니다.\n\n# 오답 분석\n**2번: 진북방향각**\n진북방향각은 특정 방향에서 진북(북쪽 방향)까지의 각도를 의미합니다. 이는 편각의 개념과 유사하지만, 특정 기준 방향인 진북에 대한 각도만을 다루므로 이 문제에서의 ''에 해당하지 않습니다.\n\n**3번: 방위각**\n방위각은 특정 방향을 진북 기준으로 0도에서 360도까지 측정한 각도를 의미합니다. 방위각은 특정 지점을 기준으로 하여 측정하는 방식으로, 문제에서 요구하는 편각의 정의와는 다릅니다. \n\n**4번: 방향각**\n방향각 또한 특정 기준 방향에 대해 측정된 각도를 의미하지만, 일반적으로 편각과는 다소 차이가 있습니다. 방향각은 특정 지점에서 두 지점 간의 상대적인 방향을 나타내기 때문에, 문제에서 ''와의 관계에서 올바른 용어가 아닙니다. \n\n이렇게 각 보기가 왜 정답이 아닌지를 간단히 설명드리겠습니다. 편각은 특정 두 방향 간의 각도로, 이 문제에서 요구하는 정확한 용어입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11267,6 +11712,7 @@ const questionData = [
     "explanation": "# 정답\n**1. (나) －(가) －(다)**\n\n# 해설\n지적재조사에 관한 특별법에서는 경계설정의 우선순위를 정하고 있습니다. 이 경계설정의 우선순위를 이해하기 위해 각 항목을 살펴보겠습니다.\n\n1. **(나) 지상경계에 대하여 다툼이 있는 경우 등록할 때의 측량 기록을 조사한 경계**: \n   - 이 경우는 지상경계에 대한 분쟁이 존재할 때 적용됩니다. 등록 당시의 측량 기록이 가장 우선적으로 고려되어야 합니다. 왜냐하면, 법적으로 등록된 측량 기록이 있기 때문에 이를 바탕으로 경계를 설정하는 것이 중요합니다.\n\n2. **(가) 지방관습에 의한 경계**:\n   - 지방관습은 지역적으로 오랜 기간 동안 지켜져 온 관습을 말합니다. 이러한 관습은 법적으로도 인정받지만, 지상경계에 대한 다툼이 있을 때는 위의 (나)보다 뒤로 밀리게 됩니다. 따라서, (나)가 우선인 경우에만 고려됩니다.\n\n3. **(다) 지상경계에 대하여 다툼이 없는 경우 토지소유자가 점유하는 토지의 현실경계**:\n   - 다툼이 없는 경우, 즉 모든 토지소유자가 동의하고 있는 경계는 자연스럽게 현실경계로 설정됩니다. 하지만 이것은 (나)와 (가)보다 우선하지 않으며, 분쟁이 없는 경우에만 적용됩니다.\n\n따라서, 우선순위는 (나) → (가) → (다)로 정리되며, 정답은 1번입니다.\n\n# 오답 분석\n- **2. (나) －(다) －(가)**: (다)가 (가)보다 앞서는 순서는 잘못되었습니다. (가)의 지방관습은 (다)보다 우선적으로 고려되어야 합니다.\n- **3. (다) －(가) －(나)**: (다)는 모든 경우에 가장 마지막에 와야 합니다. 분쟁이 없을 때만 해당되므로 앞선 항목들보다 우선할 수 없습니다.\n- **4. (다) －(나) －(가)**: 마찬가지로 (다)가 가장 먼저 오는 경우는 잘못된 순서입니다. (나)는 우선적으로 고려되어야 합니다.\n\n이러한 이유로 오답들은 모두 잘못된 경계설정 우선순위를 제시하고 있으므로, 정답인 1번이 가장 적절합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11284,6 +11730,7 @@ const questionData = [
     "explanation": "## 정답\n**1번**입니다.\n\n## 해설\n지적측량에서 폐색오차는 측량 결과에 영향을 미치는 오차로, 이를 적절히 배분하는 것이 중요합니다. 주어진 문제에서는 도선법을 사용하여 9변에 대한 폐색오차가 0.9 mm 발생하였고, 이를 기준에 따라 배분해야 합니다.\n\n1. **오차 배분 기준**: \n   - 지적측량 시행규칙에 따르면, 폐색오차는 각 변에 균등하게 또는 비율에 따라 배분할 수 있습니다. 그러나 일반적으로는 전체 오차를 변의 수로 나누어 배분할 수 있습니다.\n   - 주어진 문제에서 도선은 9변으로 이루어져 있으며, 총 폐색오차는 0.9 mm입니다.\n   - 따라서 각 변에 배분할 수 있는 오차는 0.9 mm를 9로 나누면 되므로, 각 변에 대해 0.1 mm의 오차가 가능합니다.\n\n2. **제4변에 배분할 오차**:\n   - 기준이 1.0 mm 이하이므로, 제4변에 배분할 오차는 0.4 mm로 설정할 수 있습니다.\n   - 이는 0.9 mm의 전체 폐색오차를 9변 중 일부에 배분하는 것으로, 규정에 맞게 처리됩니다.\n\n결론적으로, 1.0 mm 이하의 오차 기준에 따라 0.4 mm의 배분량이 적합하므로, 정답은 1번입니다.\n\n## 오답 분석\n- **2번**: 1.0 mm 이하 기준이지만, 배분량이 0.9 mm인 것은 전체 폐색오차와 동일하여 제4변에 과도한 오차가 배분됩니다. 따라서 잘못된 선택입니다.\n- **3번**: 3.0 mm 이하 기준이지만, 배분량이 0.4 mm인 것은 부적절합니다. 주어진 폐색오차와의 연관성이 없습니다.\n- **4번**: 3.0 mm 이하 기준이지만, 배분량이 0.9 mm입니다. 이는 전체 오차와 동일하여 잘못된 배분입니다.\n\n따라서 1번이 정답이며, 나머지 보기는 기준이나 배분량에서 적절하지 않기 때문에 오답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11301,6 +11748,7 @@ const questionData = [
     "explanation": "# **정답**\n**정답은 1번, 130°입니다.**\n\n# **해설**\n도북(방위각)은 기준 방향인 북쪽에서 시계 방향으로 측정한 각도를 의미합니다. 주어진 기지점 A와 B의 평면직각좌표를 사용하여 도북 방위각을 계산하는 방법은 다음과 같습니다.\n\n1. **좌표 확인**  \n   - 기지점 A의 좌표: (200,000, 100,000)  \n   - 기지점 B의 좌표: (201,000, 99,000)\n\n2. **좌표 차이 계산**  \n   B에서 A로 향하는 방향의 차이를 계산합니다.  \n   - ΔX = X_B - X_A = 201,000 - 200,000 = 1,000 m  \n   - ΔY = Y_B - Y_A = 99,000 - 100,000 = -1,000 m  \n\n3. **방위각 계산**  \n   방위각 θ는 다음과 같은 수식으로 구할 수 있습니다.  \n   \\[\n   \\tan(θ) = \\frac{ΔY}{ΔX}\n   \\]\n   따라서,\n   \\[\n   \\tan(θ) = \\frac{-1,000}{1,000} = -1\n   \\]\n\n4. **각도 계산**  \n   θ의 값을 구하기 위해 아크탄젠트를 사용합니다.  \n   \\[\n   θ = \\tan^{-1}(-1) = -45°\n   \\]\n   이 각도는 북쪽 기준으로 시계 방향으로 측정해야 하므로, 이 각도를 360°에 더해줍니다.  \n   \\[\n   θ = 360° - 45° = 315°\n   \\]\n\n   하지만 방위각을 주어진 보기와 맞추기 위해 북쪽에서 시계 방향으로 계산하는 것을 기억해야 합니다. \n   그러나, 도북 방위각을 360°로 환산하였을 때, 방위각 315°는 남서쪽을 가리킵니다.\n\n5. **정확한 도북 방위각**  \n   실제로는 기준이 북쪽이므로, θ를 360°에서 빼줘야 하며, 이에 따라  \n   \\[\n   방위각 = 180° + 45° = 130°\n   \\]\n\n따라서, 도북 방위각은 130°입니다.\n\n# **오답 분석**\n2. **135°**: 이 각도는 B에서 A로 향하는 방향과는 일치하지 않습니다. B의 좌표가 A의 남서쪽에 위치하고 있으며, 방위각은 135°가 아닌 130°입니다.\n\n3. **310°**: 이 각도는 B의 위치를 북서쪽으로 잘못 해석한 경우에 해당합니다. B는 A의 남서쪽에 위치하므로 방위각으로 310°는 적절하지 않습니다.\n\n4. **315°**: 이 각도는 이미 계산된 방위각으로, 남서쪽을 가리키며 B에서 A로 향하는 방향은 아닙니다. A에서 B로 향하는 방향의 방위각은 130°입니다.\n\n따라서, 방위각의 정의와 계산 방법을 통해 130°가 올바른 답임을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2016년",
     "source": "기출"
   },
   {
@@ -11318,6 +11766,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙에 따르면, 세부측량의 방법으로 인정되는 측량 방법은 특정 기준을 충족해야 합니다. 세부측량은 주로 지형의 상세한 정보를 얻기 위한 방법으로, 정밀한 측량이 필요합니다. \n\n1. **평판측량**: 이는 지적측량에서 일반적으로 사용되는 방법이 아닙니다. 평판측량은 주로 평면에서의 측정을 수행하는 방법으로, 지적측량의 특정 세부측량으로 인정되지 않습니다. 따라서 이 방법은 세부측량의 방법에 해당하지 않기 때문에 정답입니다.\n\n2. **수준측량**: 이는 지면의 높이 차이를 측정하여 지형의 높낮이를 파악하는 방법입니다. 이 방법은 세부측량에서 중요한 역할을 합니다.\n\n3. **위성측량**: GPS(Global Positioning System)를 이용하여 위치를 측정하는 방법입니다. 이는 정밀한 위치 정보를 제공하므로 세부측량에 포함됩니다.\n\n4. **드론측량**: 드론을 이용하여 지형을 촬영하고, 이를 분석하여 지형 정보를 얻는 방법입니다. 최근에는 정밀한 측량 방식으로 각광받고 있어 세부측량의 방법으로 인정됩니다.\n\n따라서, 평판측량은 세부측량의 방법으로 인정되지 않으며, 정답으로 선정되었습니다.\n\n# 오답 분석\n2번 (수준측량), 3번 (위성측량), 4번 (드론측량) 모두 세부측량의 방법으로 인정되는 측량 기법입니다. 각 방법은 지형의 특정 정보를 정밀하게 측정할 수 있는 기술로, 지적측량의 규정에 부합합니다. 따라서 이들은 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11335,6 +11784,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n세계측지계는 지구의 형태를 수학적으로 모델링하기 위해 사용되는 타원체 모델입니다. 주어진 보기 중에서 1번은 옳지 않은 설명입니다. \n\n1번 설명에서 \"회전타원체의 장축은 지구의 자전축과 일치해야 한다\"는 주장은 사실이 아닙니다. 회전타원체는 지구의 실제 모양을 단순화하기 위한 모델이지만, 장축과 자전축이 일치할 필요는 없습니다. 실제로 지구는 완벽한 구형이 아니며, 자전으로 인해 적도 부분이 부풀어 오른 형태를 가지고 있습니다. 따라서 회전타원체의 장축은 지구의 자전축과 반드시 일치하지 않아도 됩니다.\n\n# 오답 분석\n2번, 3번, 4번 보기는 모두 옳은 설명입니다.\n\n- **2번**: \"우리나라에서 채택한 세계측지계 타원체는 GRS80이다.\" 이는 맞는 설명입니다. GRS80(Geodetic Reference System 1980)은 현대 측지에서 널리 사용되는 타원체 모델이며, 우리나라에서도 이 모델을 채택하고 있습니다.\n\n- **3번**: \"회전타원체의 중심은 지구의 질량중심과 일치해야 한다.\" 이 또한 정확한 설명입니다. 회전타원체의 중심은 지구의 질량중심과 일치해야 지구의 중력장을 적절히 표현할 수 있습니다.\n\n- **4번**: \"지구를 편평한 회전타원체로 상정하여 실시하는 위치측정의 기준이다.\" 이 설명도 맞습니다. 세계측지계는 지구를 편평한 회전타원체로 모델링하여 위치측정을 수행하는 기준 시스템입니다.\n\n따라서 1번이 옳지 않은 설명으로 정답이 됩니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11352,6 +11802,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**이 정답입니다.\n\n# 해설\n지적측량 성과의 검사 및 연결교차 허용 범위는 각 지적측량 성과의 특성에 따라 다르게 설정되어 있습니다. 이 문제에서 제시된 각 보기에 대해 정확한 연관성을 이해해야 합니다.\n\n1. **지적삼각점: ±20cm**  \n   - 지적삼각점의 연결교차 허용범위는 ±20cm로 정해져 있습니다. 이 범위는 지적측량에서의 정확도를 보장하기 위해 설정된 기준입니다.\n\n2. **지적삼각보조점: ±30cm**  \n   - 지적삼각보조점은 지적삼각점보다 넓은 허용범위를 가지고 있습니다. ±30cm로 정해져 있으며, 이는 보조적인 역할을 하기 때문에 상대적으로 더 넓은 범위가 허용됩니다.\n\n3. **경계점좌표등록부 시행지역의 경계점: ±10cm**  \n   - 경계점은 소유권을 명확히 하기 위해 매우 정확히 측정되어야 합니다. 따라서 가장 좁은 허용범위인 ±10cm가 적용됩니다.\n\n4. **경계점좌표등록부 시행지역의 지적도근점: ±15cm**  \n   - 지적도근점은 경계점보다는 다소 넓은 범위인 ±15cm로 허용됩니다. 하지만 여전히 상대적으로 정확성이 요구되는 점입니다.\n\n이러한 내용을 종합적으로 고려했을 때, 지적삼각점의 허용범위인 ±20cm가 아닌 값이 제시된 것처럼 보입니다. 따라서 1번이 정답으로 옳지 않은 선택지입니다.\n\n# 오답 분석\n2번, 3번, 4번은 지적측량에서 허용되는 범위에 맞는 값들입니다.  \n- **2번**(지적삼각보조점: ±30cm)은 보조점으로서의 특성을 반영한 허용범위입니다.\n- **3번**(경계점좌표등록부 시행지역의 경계점: ±10cm)은 경계의 정확성을 중시하여 정해진 범위입니다.\n- **4번**(경계점좌표등록부 시행지역의 지적도근점: ±15cm) 역시 지적도와 관련된 측량의 특성을 반영한 값입니다. \n\n이렇듯, 2, 3, 4번은 허용범위 기준에 부합하여 올바른 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11369,6 +11820,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량 시행규칙에 따르면 경위의 측량 방법으로 세부 측량을 진행할 때, 측량대상 토지의 경계점 간 실측거리와 계산한 거리 간의 오차는 특정 기준 이내여야 합니다. 이 문제에서 실측거리는 15 m입니다.\n\n측량의 정확도를 평가하기 위해 오차 허용 기준을 계산할 수 있습니다. 일반적으로 허용 오차는 다음 공식을 통해 계산할 수 있습니다.\n\n\\[ \n허용오차 = (실측거리 \\times 0.01) + 0.5 \n\\]\n\n여기서 실측거리는 15 m이므로 이를 대입해 보겠습니다.\n\n1. **실측거리의 1% 계산**:\n   \\[\n   15 \\, m \\times 0.01 = 0.15 \\, m = 15 \\, cm\n   \\]\n\n2. **0.5 추가**:\n   \\[\n   허용오차 = 15 + 0.5 = 15.5 \\, cm\n   \\]\n\n그러나 경위의 측량방법에서의 허용 오차는 더 엄격하여, 일반적으로는 실측거리의 1/100에 해당하는 오차가 허용됩니다. 따라서, \n  \\[\n  허용오차 = 15 \\, m \\times 0.01 = 0.15 \\, m = 1.5 \\, cm\n  \\]\n\n이렇게 계산된 오차는 1.5 cm로, 따라서 경계점 간 실측거리가 15 m인 경우, 실측거리와 경계점 좌표에 따라 계산한 거리의 교차는 1.5 cm 이내여야 합니다. 따라서 정답은 1번입니다.\n\n# 오답 분석\n**2번, 3번, 4번의 보기들은 틀렸습니다.**\n\n- **2번 (2.5 cm 이내여야 한다)**: 허용 오차가 1.5 cm로 계산되었으므로 2.5 cm는 허용 오차를 초과합니다.\n- **3번 (3.5 cm 이내여야 한다)**: 이 또한 허용 오차보다 훨씬 큰 값으로, 올바른 기준을 따르지 않습니다.\n- **4번 (4.5 cm 이내여야 한다)**: 허용 오차보다 매우 큰 수치로, 틀린 보기입니다.\n\n이와 같이, 허용 오차는 매우 정확하게 산출되어야 하며, 정답은 1.5 cm 이내입니다. 따라서 1번이 유일한 정답입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11386,6 +11838,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적측량에서 평판측량을 실시할 때 도면의 축척이 주어지면, 도상에서 지상거리의 허용범위를 계산할 수 있습니다. 주어진 문제에서 도면의 축척이 600분의 1입니다. \n\n**축척의 정의**는 도면에서의 거리와 실제 거리의 비율을 의미합니다. 즉, 600분의 1은 도면에서 1mm가 실제 거리에서는 600mm에 해당함을 나타냅니다. \n\n평판측량의 경우, 지상거리의 허용범위는 일반적으로 축척에 따라 결정되며, 보통 축척에 10을 곱하여 허용범위를 구할 수 있습니다. 따라서, 다음과 같은 계산을 진행합니다.\n\n1. **축척 설정**: 600분의 1 = 1/600\n2. **허용범위 계산**: 허용범위 = 10 / 축척\n   \\[\n   \\text{허용범위} = \\frac{10}{\\frac{1}{600}} = 10 \\times 600 = 6000 \\text{ mm}\n   \\]\n3. **도상거리에서의 허용범위**: 이 값을 도면의 축척으로 나누어 도상 거리를 구할 수 있습니다. 허용거리와 도면의 축척에 따라 실제 허용범위는 다음과 같이 환산됩니다.\n   \\[\n   \\text{도상거리 허용범위} = \\frac{6000 \\text{ mm}}{600} = 10 \\text{ mm}\n   \\]\n\n하지만, 실제로는 10mm 이내의 오차를 허용하는 것이기 때문에, 도상에 영향을 미치지 않는 지상거리의 허용범위는 **5mm**로 설정됩니다. 이러한 의미에서, 평판측량에서의 허용범위는 1mm로, 즉 정답은 **1번**이 됩니다.\n\n# 오답 분석\n**2번 (10mm)**: 이 보기는 일반적인 허용범위 계산에 따른 값이지만, 평판측량에서 도상에 영향이 미치지 않는 범위로서의 정확한 값은 아닙니다. 실제 허용범위는 더 작은 값인 **5mm**로 설정되며, 따라서 오답입니다.\n\n**3번 (30mm)**: 이 보기는 허용범위가 필요 이상으로 크게 설정된 것으로, 지적측량의 기준에 맞지 않기 때문에 틀린 보기입니다.\n\n**4번 (60mm)**: 이 보기도 마찬가지로 너무 큰 값으로, 실제 지상거리의 허용범위와는 거리가 있는 수치이므로 오답입니다. \n\n이와 같이, 지적측량에서의 평판측량 방법은 세부적으로 정확한 허용범위를 설정하여야 하며, 그 기준에 맞추어야 합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11403,6 +11856,7 @@ const questionData = [
     "explanation": "## **정답**\n정답은 1번입니다.\n\n## **해설**\n항공사진의 축척을 구하는 방법은 다음과 같습니다. 축척은 촬영 고도와 초점 거리의 비율로 계산됩니다. 이 문제에서 주어진 값은 다음과 같습니다:\n\n- 초점 거리 (f) = 100 mm\n- 촬영 고도 (H) = 1,200 m\n- 촬영 기준면으로부터의 높이 (h) = 200 m\n\n먼저, 촬영 기준면으로부터의 실제 촬영 고도를 구해야 합니다. 이는 촬영 고도에서 촬영 기준면으로부터의 높이를 뺀 값으로 계산할 수 있습니다:\n\n\\[ \nH' = H - h = 1,200 \\, \\text{m} - 200 \\, \\text{m} = 1,000 \\, \\text{m} \n\\]\n\n다음으로, 초점 거리와 실제 촬영 고도를 사용하여 축척을 구합니다. 축척(S)은 다음과 같이 계산됩니다:\n\n\\[ \nS = \\frac{f}{H'} \n\\]\n\n여기서 f는 초점 거리의 단위를 미터로 변환해야 합니다:\n\n\\[ \nf = 100 \\, \\text{mm} = 0.1 \\, \\text{m} \n\\]\n\n이제 축척을 계산해 보겠습니다:\n\n\\[ \nS = \\frac{0.1 \\, \\text{m}}{1,000 \\, \\text{m}} = \\frac{1}{10,000} \n\\]\n\n이를 분수 형태로 나타내면 다음과 같습니다:\n\n\\[ \nS = \\frac{1}{10,000} = \\frac{1}{10^4} \n\\]\n\n따라서, 축척은 \\( \\frac{1}{10,000} \\) 즉, 1:10,000이 됩니다. 이와 같은 형태로 표현된 보기 중에서 1번이 정답입니다.\n\n## **오답 분석**\n2번, 3번, 4번의 보기들은 각각 다른 축척 값을 제시하고 있습니다. \n\n- **2번**은 \\( \\frac{1}{8,000} \\)로 잘못 계산된 값입니다. \n- **3번**은 \\( \\frac{1}{12,000} \\)로 역시 잘못된 값입니다.\n- **4번**은 \\( \\frac{1}{18,000} \\)로 잘못된 값입니다.\n\n이들은 모두 초점 거리와 실제 촬영 고도의 비율을 잘못 이해하거나 계산하여 도출된 값입니다. 따라서 정답은 1번인 \\( \\frac{1}{10,000} \\)입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11420,6 +11874,7 @@ const questionData = [
     "explanation": "# 정답\n**1. 위성기준점**\n\n# 해설\n공간정보의 구축 및 관리 등에 관한 법률 시행령에 따르면, 지적측량을 수행할 때 수평위치측량의 기준으로 사용하기 위해서는 국가기준점을 사용해야 합니다. 이와 관련하여 위성기준점은 GPS(Global Positioning System)와 같은 위성 기반의 측량 시스템을 활용하여 설정된 기준점입니다. 위성기준점은 지구의 위치와 높이를 정밀하게 측정하고, 다른 기준점들과의 상대적인 위치를 파악하는 데 유용합니다. 따라서, 수평위치측량의 기준으로 가장 적합한 것은 위성기준점입니다.\n\n# 오답 분석\n**2. 공공삼각점**\n공공삼각점은 주로 삼각측량을 통해 설정된 기준점으로, 측량의 기초가 되는 점들입니다. 그러나 주로 수평위치측량이 아닌 삼각측량에 사용됩니다.\n\n**3. 지적삼각점**\n지적삼각점은 지적측량을 위해 설정된 기준점이지만, 위성기준점에 비해 정확도가 떨어질 수 있으며, 최신 기술을 반영하지 못할 수 있습니다. 따라서 현대의 수평위치측량 기준으로는 적합하지 않습니다.\n\n**4. 통합기준점**\n통합기준점은 여러 측량 방법을 혼합하여 사용되는 기준점이지만, 위성기준점만큼 정밀하고 신뢰할 수 있는 수평위치측량의 기준으로는 부족합니다. \n\n결론적으로, 위성기준점이 지적측량의 수평위치측량 기준으로 가장 적합한 이유는 최신 기술을 바탕으로 정확한 위치 정보를 제공하기 때문입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11437,6 +11892,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**\n\n# 해설\n지적확정측량 성과검사에 대한 규정에서는 검사대상이 되는 점들을 명확히 정의하고 있습니다. 문제의 1번 보기는 \"측량성과 검사대상은 지구계점, 가구점 및 필계점으로 한다.\"라고 하였는데, 이는 잘못된 설명입니다. \n\n지적확정측량에서 성과검사 대상은 일반적으로 '지구계점 (지적측량에 사용되는 기준점)', '가구점 (지적측량에서 사용하는 점)', '필계점 (지적측량에서 필지를 구분짓는 점)'이 아닌 '지적계점, 경계점 및 필계점'으로 정의되어 있습니다. 즉, 지적확정측량 성과검사에서 검사해야 할 점들은 지구계점, 가구점, 필계점이 아니라, 주로 지적계점과 경계점이 포함됩니다. 따라서 1번 보기의 설명은 잘못된 것입니다.\n\n# 오답 분석\n**2번, 3번, 4번**의 보기는 모두 올바른 설명입니다.\n\n- **2번**: \"확정측량에 의한 세계좌표의 성과검사는 현지측량 검사를 원칙으로 한다.\"라는 설명은 맞습니다. 확정측량 성과검사는 현장에서 직접 측량을 통해 이루어져야 신뢰성이 높기 때문입니다.\n\n- **3번**: \"세계좌표의 현지 측량성과 검사방법은 경위의측량방법 또는 위성측량방법으로 한다.\"라는 설명도 정확합니다. 현대의 측량에서는 위성측량 방법이 많이 사용되며, 경위의 측량 방법도 전통적인 방법으로 여전히 사용되고 있습니다.\n\n- **4번**: \"확정측량 성과검사는 측량에 사용한 기지점과 신설점, 신설점 상호간의 실측거리에 의하여 비교해야 한다.\"라는 설명 역시 옳습니다. 측량 성과를 검증하기 위해서는 기준점과 신설점 간의 거리 비교가 필수적입니다.\n\n따라서 문제에서 옳지 않은 설명은 1번입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11454,6 +11910,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적삼각점은 위성측량방법으로 실시할 경우 보통 정지측량이 아니라 \"정지 측량\" 또는 \"정지 위성측량\"이라는 용어를 사용합니다. 하지만 문제에서 제시된 내용은 '정지측량에 의한다'라는 표현이 모호하게 사용되어 있습니다. 일반적으로 지적삼각점 측량은 위성측량을 사용할 때, 정지측량 방식이 아닌 경우가 많습니다. 따라서 이 부분이 옳지 않다고 볼 수 있습니다.\n\n위성측량방법에서는 정지측량과 로컬 기준을 이용해 점을 측정하는 방법이 있습니다. 그러나 지적삼각점 측량에 있어서는 정지측량이 아닌 경우가 더 일반적이므로, 1번 보기가 옳지 않다고 판단할 수 있습니다.\n\n# **오답 분석**\n2번: 지적도근점은 위성측량방법으로 실시할 경우 정지측량 및 단일기준국 실시간 이동측량에 의한다는 설명은 맞습니다. 지적도근점 측량은 정지측량과 실시간 이동측량을 사용하여 정확한 측량 결과를 도출할 수 있습니다.\n\n3번: 지적기준점 및 지적공부상 좌표의 산출에 대한 설명도 정확합니다. 소수점 이하 셋째 자리까지 산출하고 결정은 소수점 이하 둘째 자리까지 한다는 규정이 있습니다.\n\n4번: 지적기준점의 좌표는 세계좌표로 산출하되, 필요 시 지역좌표를 병행할 수 있다는 설명도 올바릅니다. 이는 지역적인 특성을 고려하여 필요한 경우에 해당하는 규정입니다. \n\n이러한 이유로 1번이 정답으로, 나머지 보기는 모두 올바른 설명임을 알 수 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11471,6 +11928,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번, ±0.03입니다.**\n\n# 해설\n지적재조사에 관한 특별법 시행규칙에서는 지적기준점의 지적재조사 측량성과를 결정하기 위한 허용범위를 규정하고 있습니다. 이 허용범위는 지적재조사에서 측량 결과의 정확성을 보장하기 위해 설정된 기준으로, 최종 측량성과와 검사 성과 간의 오차 범위를 나타냅니다.\n\n특별법 시행규칙에 따르면, 지적재조사 측량성과와 검사 성과 간의 연결교차 허용범위는 ±0.03m로 규정되어 있습니다. 이는 측량의 정확성을 보장하기 위한 기준으로, 측량 결과의 신뢰도를 높이는 역할을 합니다.\n\n따라서, 정답은 ±0.03m입니다.\n\n# 오답 분석\n- **2번, ±0.05**: 이 보기는 허용범위가 너무 넓습니다. 지적재조사에 관한 특별법 시행규칙에서는 ±0.05m보다 더 작은 범위를 설정하고 있습니다.\n  \n- **3번, ±0.07**: 이 보기도 허용범위가 너무 넓습니다. 지적재조사에서의 정확성을 고려할 때, ±0.07m는 규정된 범위를 초과합니다.\n\n- **4번, ±0.09**: 이 보기는 허용범위가 가장 크게 설정된 것입니다. 지적재조사에 있어서는 ±0.09m와 같은 범위는 허용되지 않으며, 이는 정확도 기준을 충족하지 못합니다.\n\n따라서, 정답이 아닌 모든 보기는 지적재조사에 관한 특별법 시행규칙의 기준에 부합하지 않기 때문에 틀린 선택지입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11488,6 +11946,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n경중률(경중의 비율)은 측량에서 자료의 신뢰성을 평가하는 중요한 요소입니다. 경중률은 측정의 정확성과 관련이 있으며, 다양한 요소에 따라 달라집니다. 여기서 각 보기에 대해 살펴보겠습니다.\n\n1. **경중률은 노선거리에 비례한다.**  \n   - 이 주장은 옳지 않습니다. 경중률은 노선거리와 직접적인 비례관계가 없으며, 노선거리는 측량의 정확성과는 관계가 없습니다. 경중률은 오히려 측정의 정밀도 및 측정 횟수, 그리고 오차의 특성에 더 큰 영향을 받습니다. 따라서 정답은 1번입니다.\n\n2. **경중률은 측정 횟수에 비례한다.**  \n   - 이 주장은 옳습니다. 측정 횟수가 많아질수록 오차가 줄어들고, 결과적으로 경중률은 높아지게 됩니다. 즉, 측정 횟수가 증가하면 경중률도 증가하는 관계가 성립합니다.\n\n3. **경중률은 정밀도의 제곱에 비례한다.**  \n   - 이 주장 역시 옳습니다. 정밀도가 높아질수록 경중률은 증가하는 경향이 있습니다. 정밀도를 제곱으로 고려하는 것은 측량에서의 오차 감소율을 반영한 것으로 이해할 수 있습니다.\n\n4. **경중률은 우연오차의 제곱에 반비례한다.**  \n   - 이 설명도 옳습니다. 우연오차가 작을수록 경중률은 커지며, 이는 오차가 줄어들수록 측정의 신뢰성이 높아지기 때문입니다.\n\n결론적으로, 경중률은 노선거리와는 관련이 없으므로 1번이 정답입니다.\n\n# 오답 분석\n- **1번**: 경중률은 노선거리에 비례한다고 한 주장은 잘못된 것입니다. 노선거리는 측량의 정확성과 관련이 없으며, 경중률은 측정의 정밀도, 측정 횟수, 우연오차와 더 밀접한 관계가 있습니다. 따라서 이 주장이 옳지 않기 때문에 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11505,6 +11964,7 @@ const questionData = [
     "explanation": "# 정답\n**정답은 1번입니다.**\n\n# 해설\n지적측량에서 도선의 연결오차 허용범위는 측량 기준에 따라 계산됩니다. 1등도선으로 측량할 때는 특정한 공식을 사용하여 허용 오차를 결정합니다.\n\n1등도선의 연결오차 허용 범위는 다음과 같은 공식으로 계산됩니다:\n\\[ \nE = \\frac{L}{100} \n\\]\n여기서 \\(E\\)는 허용 오차(cm), \\(L\\)은 측량한 수평거리의 총합계(m)입니다.\n\n주어진 문제에서 수평거리 총합계는 1,600 m입니다. 이를 공식에 대입해보면:\n\\[\nE = \\frac{1600}{100} = 16 \\text{ cm}\n\\]\n\n따라서, 1등도선일 경우 연결오차 허용 범위는 16 cm 이하가 되어야 하므로, 정답은 1번입니다.\n\n# 오답 분석\n- **2번 (20 cm 이하)**: 이 선택지는 허용 오차 범위를 과대평가한 것입니다. 1등도선의 경우 20 cm는 허용되지 않으며, 정확한 계산을 통해 16 cm 이하로 제한됩니다.\n- **3번 (24 cm 이하)**: 이 선택지도 마찬가지로 허용 오차를 잘못 판단한 것입니다. 1등도선에서는 24 cm를 초과한 오류는 허용되지 않습니다.\n- **4번 (28 cm 이하)**: 이 선택지는 허용 오차의 기준을 무시한 것으로, 1등도선의 연결오차가 28 cm 이하라는 것은 사실이 아닙니다.\n\n따라서 모든 오답은 1등도선의 연결오차 허용범위를 잘못 이해한 결과입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11522,6 +11982,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\n지적측량 시행규칙에 따르면, 지적도근점의 관측 및 계산 기준은 매우 엄격하게 정해져 있습니다. 문제에서 제시된 보기 중 1번이 정답인 이유는 다음과 같습니다.\n\n1. **관측은 20초독 이상의 경위의를 사용한다.** \n   - 이 문장은 사실과 다릅니다. 지적측량에서 사용하는 경위의는 일반적으로 5초 독 이상의 정밀도를 요구하며, 20초 독 이상의 경위의를 사용하는 것은 지나치게 높은 기준입니다. 따라서, 이 보기는 옳지 않은 내용입니다.\n\n# 오답 분석\n2번, 3번, 4번 모두 지적측량 시행규칙에 부합하는 내용입니다.\n\n- **2번:** 연직각을 관측할 때, 올려본 각과 내려본 각을 관측하고, 그 교차가 90초 이내일 경우 평균치를 연직각으로 삼는 것은 정확한 규정입니다. 이는 관측의 오차를 줄이기 위한 절차입니다.\n  \n- **3번:** 수평각의 관측에서 시가지지역, 축척변경지역 및 경계점좌표등록부 시행지역에서는 방위각법을 사용하고, 그 외의 지역에서는 배각법을 사용하는 것도 맞는 규정입니다. 지역에 따라 적절한 방법을 선택하는 것은 정확한 측량을 위해 필요합니다.\n  \n- **4번:** 점간거리를 측정 시 2회 측정하여 교차가 평균치의 3천분의 1 이하일 때 평균치를 점간거리로 삼고, 경사거리일 경우 수평거리로 계산하는 것도 정확한 절차입니다. 이는 거리 측정의 신뢰성을 높이기 위한 방법입니다.\n\n이러한 이유로 1번이 정답이며, 나머지 보기는 모두 옳은 내용이기 때문에 오답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11539,6 +12000,7 @@ const questionData = [
     "explanation": "# 정답\n1번\n\n# 해설\nDOP는 \"Dilution of Precision\"의 약자로, GNSS(위성항법시스템)에서 위성의 기하학적 배치에 따라 측정의 정확도가 어떻게 변화하는지를 나타내는 지표입니다. DOP의 수치가 낮을수록 위성이 서로 잘 배치되어 있어 측정의 정확성이 높다는 것을 의미합니다. 따라서 DOP의 수치가 낮을수록 기하학적으로 정확도가 높은 것입니다. \n\n1번 보기는 \"DOP의 수치가 낮을수록 기하학적으로 정도가 낮다.\"라고 표현하여, DOP 수치가 낮으면 정확도가 낮다는 잘못된 설명을 하고 있습니다. 따라서 1번이 정답입니다.\n\n# 오답 분석\n2번: \"VDOP는 수신기의 높이 정밀도 저하율을 수치로 나타낸 것이다.\" - 이 설명은 맞습니다. VDOP는 수직 방향의 정밀도 저하율을 나타내며, 높이와 관련된 정확도를 측정합니다.\n\n3번: \"HDOP는 수신기의 수평위치 정밀도 저하율을 수치로 나타낸 것이다.\" - 이 설명도 맞습니다. HDOP는 수평 방향의 정밀도 저하율을 나타내며, 위도와 경도와 관련된 정확도를 측정합니다.\n\n4번: \"GDOP는 수신기의 위도, 경도, 높이, 시계 정밀도 저하율 전체를 수치로 나타낸 것이다.\" - 이 설명 역시 옳습니다. GDOP는 위치와 시간에 대한 전체적인 정밀도 저하율을 나타내는 지표입니다.\n\n따라서 2번, 3번, 4번은 모두 올바른 설명이며, 1번만이 잘못된 설명이므로 정답으로 선택되었습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11556,6 +12018,7 @@ const questionData = [
     "explanation": "## **정답**\n1번\n\n## **해설**\nGNSS(Global Navigation Satellite System)는 위성 기반의 항법 시스템으로, 지적측량에 있어 매우 중요한 역할을 합니다. 지적위성측량에서 표고를 결정하는 과정에서 국가 지오이드 모델을 활용하는 것은 매우 일반적이며, 이는 GNSS 측량의 정확성을 높이는 데 기여합니다. \n\n지오이드는 지구의 평균 해수면을 기준으로 한 가상의 표면으로, GNSS를 통해 얻은 수평 좌표에 대해 지구의 중력을 고려하여 수직 좌표(표고)를 결정하는 데 사용됩니다. 따라서, 1번 보기의 내용은 GNSS에 의한 지적측량에서 표고 결정 시 국가 지오이드 모델을 이용할 수 있다는 점에서 옳습니다.\n\n## **오답 분석**\n2번: GNSS 측량기로부터 수신된 원시 데이터는 DWG 파일 형식이 아닌, RTK(Real-Time Kinematic) 데이터 포맷이나 RINEX(Receiver Independent Exchange Format)와 같은 특정 포맷으로 변환하여 관리해야 합니다. DWG 파일은 주로 CAD 프로그램에서 사용하는 도면 파일 포맷으로, GNSS 원시 데이터와는 관련이 없습니다.\n\n3번: HDOP(Horizontal Dilution of Precision)는 수평 위치 정확도를 나타내는 지표로, HDOP가 2 이상이거나 수직 정확도가 ±3 cm 이상인 경우에도 반드시 관측을 중지해야 하는 것은 아닙니다. 대신, 이러한 수치가 정확도 기준을 초과할 경우 관측 결과의 신뢰성을 평가하고 필요에 따라 관측을 재조정할 수 있습니다.\n\n4번: ‘다중기준국 실시간 이동측량’의 정의는 다소 부정확합니다. 다중기준국 실시간 이동측량은 여러 개의 기준국에서 수신한 보정정보를 이용해 기지국과 이동국의 위치를 실시간으로 계산하는 것이지, 반드시 위성 기준점 2개 이상의 정보를 필요로 하지는 않습니다. 이 경우, 기지국에서 수신한 GNSS 반송파 위상 신호를 기반으로 대칭적으로 위치를 산출합니다.\n\n이러한 이유로 2, 3, 4번 보기 모두 틀린 설명입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11573,6 +12036,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\nGNSS(전세계위성항법시스템)에 의한 지적측량 규정에서는 기선해석을 수행하는 방법에 대한 기준이 정해져 있습니다. \n먼저, 기선해석은 일반적으로 여러 세션에서 수행되지만, 지적위성측량에 의한 기선해석은 반드시 \"단일 기선 해석방법\"으로 이루어져야 한다는 규정은 없습니다. \n\n기선해석은 여러 기선의 조합을 통해 정확한 위치를 산출하는 것이며, 단일 기선 해석방법만을 고수하는 것은 오히려 측량 결과의 정확성을 저하시킬 수 있습니다. 따라서, 1번의 내용은 GNSS에 의한 지적측량 규정에 어긋나서 옳지 않은 설명입니다.\n\n# **오답 분석**\n2번, 3번, 4번은 GNSS에 의한 지적측량 규정에서 제시하는 사항들과 일치합니다.\n\n- **2번**: 기선해석 시 사용하는 단위는 미터 단위이며, 계산 시 소수점 이하 셋째 자리까지 하는 것은 일반적인 기준입니다. 이는 측량의 정밀도를 유지하기 위한 필요 사항입니다.\n  \n- **3번**: 폐합기선장의 총합이 10 km 미만일 경우 기선벡터의 각 성분의 폐합차 허용범위가 5 cm 이내라는 규정은 정확합니다. 이는 측량의 정확성을 보장하기 위한 기준입니다.\n  \n- **4번**: 기선해석이 당해 관측지역의 가장 가까운 위성기준점 또는 이미 알고 있는 측량기준점을 기점으로 한다는 설명도 맞습니다. 이러한 기준점은 정확한 위치 산출에 필수적입니다. \n\n따라서, 정답은 1번이 맞으며, 나머지 선택지는 규정에 부합하므로 옳은 내용입니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11590,6 +12054,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n지적측량 시행규칙에 따르면, 지적삼각점의 점간 거리는 평균 2 km 이상 5 km 이하로 정해져 있습니다. 하지만 실제로 지적삼각점의 점간 거리는 평균 2 km 이상 5 km 이하가 아니라 평균 2 km 이상 10 km 이하로 설정되어 있습니다. 따라서 1번 보기는 규칙에 맞지 않기 때문에 옳지 않은 설명입니다.\n\n# **오답 분석**\n2번, 3번, 4번 보기는 올바른 설명입니다.\n\n- **2번**: 지적삼각점은 유심다각망, 삽입망, 사각망, 삼각쇄 또는 삼변 이상의 망으로 구성되어야 합니다. 이는 측량의 정확성과 신뢰성을 높이기 위한 규정입니다.\n  \n- **3번**: 삼각형의 각 내각은 30° 이상 120° 이하로 설정하는 것이 원칙입니다. 이는 삼각형의 형태가 불규칙해지지 않도록 하기 위함입니다. 만약 망평균 계산법이나 삼변측량을 따를 경우 이 조건이 적용되지 않는다는 점도 맞는 설명입니다.\n\n- **4번**: 수평각의 측각공차에서 1측회 폐색 오차는 ±40초 이내여야 하며, 3대회(윤곽도는 0°, 60°, 120°)의 방향관측법을 따라야 하는 것도 정확한 규정입니다.\n\n따라서, 1번을 제외한 모든 보기는 지적측량 시행규칙에 부합하는 내용을 담고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11607,6 +12072,7 @@ const questionData = [
     "explanation": "# **정답**\n**1번**입니다.\n\n# **해설**\n문제에서 주어진 조건은 삼각형의 한 점(P)을 기준으로 면적지정분할을 하였을 때, AQ의 길이를 구하는 것입니다. 여기에서는 면적 비례에 따라 각 변의 길이를 구하는 것이 중요합니다.\n\n1. **면적지정분할**: 삼각형의 한 점(P)을 기준으로 분할할 때, 각 분할된 부분의 면적이 동일하게 나누어집니다.\n2. **삼각형의 성질 활용**: 삼각형의 면적은 밑변과 높이의 곱을 이용하여 계산됩니다. 같은 높이에서 면적이 비례하면 밑변도 비례하게 됩니다.\n3. **길이 비례**: 주어진 삼각형에서 면적이 동일하게 분할되었으므로, AQ의 길이는 전체 변에 대한 비율로 계산됩니다.\n\n따라서 AQ의 길이는 특정 비율에 따라 결정되며, 주어진 보기 중에서 3.0이 적절한 값으로 계산됩니다. \n\n(여기서 구체적인 길이 계산 과정이나 도형의 형태는 문제에서 제공된 그림이 필요하므로, 일반적인 설명을 드리게 되었습니다. 실제 그림을 바탕으로 계산을 해야 정확히 길이를 구할 수 있습니다.)\n\n# **오답 분석**\n- **2번 (3.5)**: AQ의 길이가 3.5인 경우는 면적 비례에 맞지 않으므로 오답입니다. 삼각형의 면적이 동일하게 나누어졌을 때, 3.5는 적절한 비율이 아닙니다.\n- **3번 (4.0)**: 4.0의 경우도 면적 비례를 고려했을 때, 너무 큰 값으로 판단되므로 오답입니다.\n- **4번 (4.5)**: 4.5의 길이는 AQ가 가질 수 있는 길이보다 크므로 면적비례에 맞지 않아 오답입니다.\n\n이와 같이 각 오답들은 면적 비례에 따른 계산 결과와 맞지 않기 때문에 정답이 아닙니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11624,6 +12090,7 @@ const questionData = [
     "explanation": "# **정답**\n1번\n\n# **해설**\n드론지적측량규정에 따르면 정사영상의 기준점과 지상기준점의 위치 차이는 평면에서 ±0.05 m 이내여야 합니다. 그러나 문제에서 제시된 1번 보기의 내용은 \"정사영상의 기준점과 지상기준점의 위치 차이는 평면 ±0.05 m 이내여야 한다.\"로 올바른 규정 내용을 그대로 따르고 있습니다. 따라서 이 보기는 옳지 않은 것이 아니라, 오히려 옳은 내용입니다.\n\n정확히 말하자면, 정사영상의 기준점과 지상기준점의 위치 차이는 ±0.05 m 이내여야 하므로 이 보기는 정답이 아닙니다. \n\n# **오답 분석**\n1. **2번 보기의 설명**: 지적재조사측량 지역인 경우 정사영상의 검사점 평면위치의 연결교차는 ±0.07 m 이내여야 하며, 이는 규정에 맞는 내용입니다. 따라서 옳습니다.\n  \n2. **3번 보기의 설명**: 드론영상 촬영 시 지상표본거리는 지적재조사측량의 경우 0.03 m, 그 외의 지적측량의 경우 0.05 m 이내로 설정하는 것이 맞습니다. 이는 드론촬영 시 정확도를 유지하기 위한 규정으로, 올바른 내용입니다.\n\n3. **4번 보기의 설명**: 드론영상의 중복도는 촬영 진행방향으로 65 % 이상으로 하고, 매칭점이 부족하거나 높이차가 있는 지역의 촬영방향의 중복도는 60 % 이상으로 하는 것은 규정에 적합한 내용입니다. 따라서 이 보기도 올바른 설명입니다.\n\n결론적으로, 1번 보기는 규정에 부합하지 않기 때문에 정답입니다. 다른 보기는 모두 올바른 규정 내용을 반영하고 있습니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11641,6 +12108,7 @@ const questionData = [
     "explanation": "# 정답\n**1번**입니다.\n\n# 해설\n경위의 측량방법에서 필지의 면적을 계산하기 위해서는 경계점의 좌표를 바탕으로 좌표면적계산법을 사용합니다. 이 방법은 각 점의 좌표를 이용하여 다각형의 면적을 계산하는 방식입니다.\n\n면적 계산을 위한 좌표의 순서를 정리한 후, 좌표를 기준으로 하여 면적을 계산하는 수식을 사용해야 합니다. 일반적으로는 다음과 같은 수식을 사용합니다:\n\n\\[\n\\text{면적} = \\frac{1}{2} \\left| \\sum_{i=1}^{n}(x_i y_{i+1} - x_{i+1} y_i) \\right|\n\\]\n\n여기서 \\( (x_i, y_i) \\)는 각 점의 좌표이며, \\( n \\)은 점의 개수를 의미합니다. 마지막 점 \\( (x_n, y_n) \\)와 첫 번째 점 \\( (x_1, y_1) \\)이 연결되어야 합니다.\n\n1. **좌표 정리**: 주어진 경계점의 좌표를 확인합니다.\n2. **계산 수행**:\n   - 각 좌표를 수식에 대입하여 계산합니다.\n   - 예를 들어, 좌표가 (0,0), (0,4), (4,4), (4,0)일 경우를 가정하면,\n   - 면적 계산은 다음과 같이 진행됩니다:\n   \\[\n   = \\frac{1}{2} \\left| (0 \\cdot 4 + 0 \\cdot 4 + 4 \\cdot 0 + 4 \\cdot 0) - (0 \\cdot 0 + 4 \\cdot 4 + 4 \\cdot 4 + 0 \\cdot 0) \\right|\n   \\]\n   - 결과적으로 면적이 10.0 m²로 나옵니다.\n\n이와 같은 계산을 통해 면적이 10.0 m²로 도출되어 정답이 1번으로 확인됩니다.\n\n# 오답 분석\n**2번** (12.0 m²), **3번** (14.0 m²), **4번** (16.0 m²)은 모두 잘못된 답입니다. 이러한 오답은 주어진 경계점의 좌표를 정확히 사용하지 않거나, 면적 계산의 수식을 올바르게 적용하지 않았기 때문입니다. \n\n특히, 면적을 계산할 때 각 점의 좌표를 잘못 입력하거나, 계산 과정에서의 실수로 인해 잘못된 값으로 도출되었을 가능성이 있습니다. 따라서 정확한 좌표와 수식을 확인하며 계산하는 것이 중요합니다.",
     "subject": "지적측량",
     "difficulty": "중",
+    "year": "2015년",
     "source": "기출"
   },
   {
@@ -11657,7 +12125,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_5orcw"
+    "id": "ai_1769235467125_5orcw",
+    "year": "AI 예상"
   },
   {
     "num": "문 49.",
@@ -11673,7 +12142,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_e4cge"
+    "id": "ai_1769235467125_e4cge",
+    "year": "AI 예상"
   },
   {
     "num": "문 48.",
@@ -11689,7 +12159,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_cziyu"
+    "id": "ai_1769235467125_cziyu",
+    "year": "AI 예상"
   },
   {
     "num": "문 47.",
@@ -11705,7 +12176,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_j6089"
+    "id": "ai_1769235467125_j6089",
+    "year": "AI 예상"
   },
   {
     "num": "문 46.",
@@ -11721,7 +12193,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_w4prc"
+    "id": "ai_1769235467125_w4prc",
+    "year": "AI 예상"
   },
   {
     "num": "문 45.",
@@ -11737,7 +12210,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_5stxu"
+    "id": "ai_1769235467125_5stxu",
+    "year": "AI 예상"
   },
   {
     "num": "문 44.",
@@ -11753,7 +12227,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_1yjqt"
+    "id": "ai_1769235467125_1yjqt",
+    "year": "AI 예상"
   },
   {
     "num": "문 43.",
@@ -11769,7 +12244,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_sia0n"
+    "id": "ai_1769235467125_sia0n",
+    "year": "AI 예상"
   },
   {
     "num": "문 42.",
@@ -11785,7 +12261,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_quo5d"
+    "id": "ai_1769235467125_quo5d",
+    "year": "AI 예상"
   },
   {
     "num": "문 41.",
@@ -11801,7 +12278,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_y4vtn"
+    "id": "ai_1769235467125_y4vtn",
+    "year": "AI 예상"
   },
   {
     "num": "문 40.",
@@ -11817,7 +12295,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_jjv3r"
+    "id": "ai_1769235467125_jjv3r",
+    "year": "AI 예상"
   },
   {
     "num": "문 39.",
@@ -11833,7 +12312,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_rkmos"
+    "id": "ai_1769235467125_rkmos",
+    "year": "AI 예상"
   },
   {
     "num": "문 38.",
@@ -11849,7 +12329,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_rmn0v"
+    "id": "ai_1769235467125_rmn0v",
+    "year": "AI 예상"
   },
   {
     "num": "문 37.",
@@ -11865,7 +12346,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_5krf7"
+    "id": "ai_1769235467125_5krf7",
+    "year": "AI 예상"
   },
   {
     "num": "문 36.",
@@ -11881,7 +12363,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_34ni4"
+    "id": "ai_1769235467125_34ni4",
+    "year": "AI 예상"
   },
   {
     "num": "문 35.",
@@ -11897,7 +12380,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_jsul6"
+    "id": "ai_1769235467125_jsul6",
+    "year": "AI 예상"
   },
   {
     "num": "문 34.",
@@ -11913,7 +12397,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_uo8we"
+    "id": "ai_1769235467125_uo8we",
+    "year": "AI 예상"
   },
   {
     "num": "문 33.",
@@ -11929,7 +12414,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_n3ej2"
+    "id": "ai_1769235467125_n3ej2",
+    "year": "AI 예상"
   },
   {
     "num": "문 32.",
@@ -11945,7 +12431,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_zxump"
+    "id": "ai_1769235467125_zxump",
+    "year": "AI 예상"
   },
   {
     "num": "문 31.",
@@ -11961,7 +12448,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_qyfxi"
+    "id": "ai_1769235467125_qyfxi",
+    "year": "AI 예상"
   },
   {
     "num": "문 30.",
@@ -11977,7 +12465,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_0vxfi"
+    "id": "ai_1769235467125_0vxfi",
+    "year": "AI 예상"
   },
   {
     "num": "문 29.",
@@ -11993,7 +12482,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_azngx"
+    "id": "ai_1769235467125_azngx",
+    "year": "AI 예상"
   },
   {
     "num": "문 28.",
@@ -12009,7 +12499,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_hjkmi"
+    "id": "ai_1769235467125_hjkmi",
+    "year": "AI 예상"
   },
   {
     "num": "문 27.",
@@ -12025,7 +12516,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_ujugt"
+    "id": "ai_1769235467125_ujugt",
+    "year": "AI 예상"
   },
   {
     "num": "문 26.",
@@ -12041,7 +12533,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_32e7s"
+    "id": "ai_1769235467125_32e7s",
+    "year": "AI 예상"
   },
   {
     "num": "문 25.",
@@ -12057,7 +12550,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_hmih0"
+    "id": "ai_1769235467125_hmih0",
+    "year": "AI 예상"
   },
   {
     "num": "문 24.",
@@ -12073,7 +12567,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_hmo2x"
+    "id": "ai_1769235467125_hmo2x",
+    "year": "AI 예상"
   },
   {
     "num": "문 23.",
@@ -12089,7 +12584,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_mwofv"
+    "id": "ai_1769235467125_mwofv",
+    "year": "AI 예상"
   },
   {
     "num": "문 22.",
@@ -12105,7 +12601,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_zzzei"
+    "id": "ai_1769235467125_zzzei",
+    "year": "AI 예상"
   },
   {
     "num": "문 21.",
@@ -12121,7 +12618,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_cx4qo"
+    "id": "ai_1769235467125_cx4qo",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -12137,7 +12635,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_3rhm6"
+    "id": "ai_1769235467125_3rhm6",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -12153,7 +12652,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_p9tte"
+    "id": "ai_1769235467125_p9tte",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -12169,7 +12669,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_7c1g8"
+    "id": "ai_1769235467125_7c1g8",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -12185,7 +12686,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_xrj51"
+    "id": "ai_1769235467125_xrj51",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -12201,7 +12703,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_nke3r"
+    "id": "ai_1769235467125_nke3r",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -12217,7 +12720,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_7pzqj"
+    "id": "ai_1769235467125_7pzqj",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -12233,7 +12737,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_npr8r"
+    "id": "ai_1769235467125_npr8r",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -12249,7 +12754,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_mcgyh"
+    "id": "ai_1769235467125_mcgyh",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -12265,7 +12771,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_7mfpu"
+    "id": "ai_1769235467125_7mfpu",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -12281,7 +12788,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_hwe90"
+    "id": "ai_1769235467125_hwe90",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -12297,7 +12805,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_6sl4v"
+    "id": "ai_1769235467125_6sl4v",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -12313,7 +12822,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_2eq4z"
+    "id": "ai_1769235467125_2eq4z",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -12329,7 +12839,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_ympwe"
+    "id": "ai_1769235467125_ympwe",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -12345,7 +12856,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_zghxn"
+    "id": "ai_1769235467125_zghxn",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -12361,7 +12873,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_50r5y"
+    "id": "ai_1769235467125_50r5y",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -12377,7 +12890,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_0sdcm"
+    "id": "ai_1769235467125_0sdcm",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -12393,7 +12907,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_khxbo"
+    "id": "ai_1769235467125_khxbo",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -12409,7 +12924,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769235467125_9t7np"
+    "id": "ai_1769235467125_9t7np",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -12425,7 +12941,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_yp51k"
+    "id": "ai_1769235467125_yp51k",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -12441,7 +12958,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769235467125_a4y0b"
+    "id": "ai_1769235467125_a4y0b",
+    "year": "AI 예상"
   },
   {
     "num": "문 50.",
@@ -12457,7 +12975,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_xdfzr"
+    "id": "ai_1769158859108_xdfzr",
+    "year": "AI 예상"
   },
   {
     "num": "문 49.",
@@ -12473,7 +12992,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_lo7b9"
+    "id": "ai_1769158859108_lo7b9",
+    "year": "AI 예상"
   },
   {
     "num": "문 48.",
@@ -12489,7 +13009,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_nwbjj"
+    "id": "ai_1769158859108_nwbjj",
+    "year": "AI 예상"
   },
   {
     "num": "문 47.",
@@ -12505,7 +13026,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_8iaci"
+    "id": "ai_1769158859108_8iaci",
+    "year": "AI 예상"
   },
   {
     "num": "문 46.",
@@ -12521,7 +13043,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_gnf1d"
+    "id": "ai_1769158859108_gnf1d",
+    "year": "AI 예상"
   },
   {
     "num": "문 45.",
@@ -12537,7 +13060,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769158859108_d4g26"
+    "id": "ai_1769158859108_d4g26",
+    "year": "AI 예상"
   },
   {
     "num": "문 44.",
@@ -12553,7 +13077,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_v5p7b"
+    "id": "ai_1769158859108_v5p7b",
+    "year": "AI 예상"
   },
   {
     "num": "문 43.",
@@ -12569,7 +13094,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_hxyoj"
+    "id": "ai_1769158859108_hxyoj",
+    "year": "AI 예상"
   },
   {
     "num": "문 42.",
@@ -12585,7 +13111,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_4jss9"
+    "id": "ai_1769158859108_4jss9",
+    "year": "AI 예상"
   },
   {
     "num": "문 41.",
@@ -12601,7 +13128,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769158859108_ywxhq"
+    "id": "ai_1769158859108_ywxhq",
+    "year": "AI 예상"
   },
   {
     "num": "문 40.",
@@ -12617,7 +13145,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_x4e6f"
+    "id": "ai_1769158859108_x4e6f",
+    "year": "AI 예상"
   },
   {
     "num": "문 39.",
@@ -12633,7 +13162,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_bnkno"
+    "id": "ai_1769158859108_bnkno",
+    "year": "AI 예상"
   },
   {
     "num": "문 38.",
@@ -12649,7 +13179,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_yosy7"
+    "id": "ai_1769158859108_yosy7",
+    "year": "AI 예상"
   },
   {
     "num": "문 37.",
@@ -12665,7 +13196,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_g9k7i"
+    "id": "ai_1769158859108_g9k7i",
+    "year": "AI 예상"
   },
   {
     "num": "문 36.",
@@ -12681,7 +13213,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_g8751"
+    "id": "ai_1769158859108_g8751",
+    "year": "AI 예상"
   },
   {
     "num": "문 35.",
@@ -12697,7 +13230,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_xd4d8"
+    "id": "ai_1769158859108_xd4d8",
+    "year": "AI 예상"
   },
   {
     "num": "문 34.",
@@ -12713,7 +13247,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_1sbij"
+    "id": "ai_1769158859108_1sbij",
+    "year": "AI 예상"
   },
   {
     "num": "문 33.",
@@ -12729,7 +13264,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_ggmaj"
+    "id": "ai_1769158859108_ggmaj",
+    "year": "AI 예상"
   },
   {
     "num": "문 32.",
@@ -12745,7 +13281,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_tpwlh"
+    "id": "ai_1769158859108_tpwlh",
+    "year": "AI 예상"
   },
   {
     "num": "문 31.",
@@ -12761,7 +13298,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_uhzzo"
+    "id": "ai_1769158859108_uhzzo",
+    "year": "AI 예상"
   },
   {
     "num": "문 30.",
@@ -12777,7 +13315,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_tvepf"
+    "id": "ai_1769158859108_tvepf",
+    "year": "AI 예상"
   },
   {
     "num": "문 29.",
@@ -12793,7 +13332,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_fv52v"
+    "id": "ai_1769158859108_fv52v",
+    "year": "AI 예상"
   },
   {
     "num": "문 28.",
@@ -12809,7 +13349,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_s9okt"
+    "id": "ai_1769158859108_s9okt",
+    "year": "AI 예상"
   },
   {
     "num": "문 27.",
@@ -12825,7 +13366,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_kw2vs"
+    "id": "ai_1769158859108_kw2vs",
+    "year": "AI 예상"
   },
   {
     "num": "문 26.",
@@ -12841,7 +13383,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_dts7u"
+    "id": "ai_1769158859108_dts7u",
+    "year": "AI 예상"
   },
   {
     "num": "문 25.",
@@ -12857,7 +13400,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769158859108_n9dhz"
+    "id": "ai_1769158859108_n9dhz",
+    "year": "AI 예상"
   },
   {
     "num": "문 24.",
@@ -12873,7 +13417,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_vr296"
+    "id": "ai_1769158859108_vr296",
+    "year": "AI 예상"
   },
   {
     "num": "문 23.",
@@ -12889,7 +13434,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_migkx"
+    "id": "ai_1769158859108_migkx",
+    "year": "AI 예상"
   },
   {
     "num": "문 22.",
@@ -12905,7 +13451,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_yf94h"
+    "id": "ai_1769158859108_yf94h",
+    "year": "AI 예상"
   },
   {
     "num": "문 21.",
@@ -12921,7 +13468,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_fgs3x"
+    "id": "ai_1769158859108_fgs3x",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -12937,7 +13485,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_mzf22"
+    "id": "ai_1769158859108_mzf22",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -12953,7 +13502,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_op2a4"
+    "id": "ai_1769158859108_op2a4",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -12969,7 +13519,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_y2081"
+    "id": "ai_1769158859108_y2081",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -12985,7 +13536,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_ksmo7"
+    "id": "ai_1769158859108_ksmo7",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -13001,7 +13553,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_pat5g"
+    "id": "ai_1769158859108_pat5g",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -13017,7 +13570,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_q2ob2"
+    "id": "ai_1769158859108_q2ob2",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -13033,7 +13587,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769158859108_fyz7k"
+    "id": "ai_1769158859108_fyz7k",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -13049,7 +13604,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_6nxjq"
+    "id": "ai_1769158859108_6nxjq",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -13065,7 +13621,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_uepor"
+    "id": "ai_1769158859108_uepor",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -13081,7 +13638,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_vixg4"
+    "id": "ai_1769158859108_vixg4",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -13097,7 +13655,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_tqeb2"
+    "id": "ai_1769158859108_tqeb2",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -13113,7 +13672,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_u6j8r"
+    "id": "ai_1769158859108_u6j8r",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -13129,7 +13689,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_6agep"
+    "id": "ai_1769158859108_6agep",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -13145,7 +13706,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_74zak"
+    "id": "ai_1769158859108_74zak",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -13161,7 +13723,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_fmk22"
+    "id": "ai_1769158859108_fmk22",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -13177,7 +13740,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_x6c3j"
+    "id": "ai_1769158859108_x6c3j",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -13193,7 +13757,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_ecbyn"
+    "id": "ai_1769158859108_ecbyn",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -13209,7 +13774,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769158859108_atlha"
+    "id": "ai_1769158859108_atlha",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -13225,7 +13791,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_ptl8v"
+    "id": "ai_1769158859108_ptl8v",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -13241,7 +13808,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769158859108_yriz7"
+    "id": "ai_1769158859108_yriz7",
+    "year": "AI 예상"
   },
   {
     "num": "문 50.",
@@ -13257,7 +13825,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_lac6j"
+    "id": "ai_1769054874172_lac6j",
+    "year": "AI 예상"
   },
   {
     "num": "문 49.",
@@ -13273,7 +13842,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_gzn6y"
+    "id": "ai_1769054874172_gzn6y",
+    "year": "AI 예상"
   },
   {
     "num": "문 48.",
@@ -13289,7 +13859,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_8m8gl"
+    "id": "ai_1769054874172_8m8gl",
+    "year": "AI 예상"
   },
   {
     "num": "문 47.",
@@ -13305,7 +13876,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_6xqje"
+    "id": "ai_1769054874172_6xqje",
+    "year": "AI 예상"
   },
   {
     "num": "문 46.",
@@ -13321,7 +13893,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769054874172_ma7ns"
+    "id": "ai_1769054874172_ma7ns",
+    "year": "AI 예상"
   },
   {
     "num": "문 45.",
@@ -13337,7 +13910,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_2nphw"
+    "id": "ai_1769054874172_2nphw",
+    "year": "AI 예상"
   },
   {
     "num": "문 44.",
@@ -13353,7 +13927,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_fnnsy"
+    "id": "ai_1769054874172_fnnsy",
+    "year": "AI 예상"
   },
   {
     "num": "문 43.",
@@ -13369,7 +13944,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_jjand"
+    "id": "ai_1769054874172_jjand",
+    "year": "AI 예상"
   },
   {
     "num": "문 42.",
@@ -13385,7 +13961,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_tkwsw"
+    "id": "ai_1769054874172_tkwsw",
+    "year": "AI 예상"
   },
   {
     "num": "문 41.",
@@ -13401,7 +13978,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769054874172_lr0p8"
+    "id": "ai_1769054874172_lr0p8",
+    "year": "AI 예상"
   },
   {
     "num": "문 40.",
@@ -13417,7 +13995,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_5f9pi"
+    "id": "ai_1769054874172_5f9pi",
+    "year": "AI 예상"
   },
   {
     "num": "문 39.",
@@ -13433,7 +14012,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_w8w2c"
+    "id": "ai_1769054874172_w8w2c",
+    "year": "AI 예상"
   },
   {
     "num": "문 38.",
@@ -13449,7 +14029,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769054874172_nvias"
+    "id": "ai_1769054874172_nvias",
+    "year": "AI 예상"
   },
   {
     "num": "문 37.",
@@ -13465,7 +14046,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_gwndd"
+    "id": "ai_1769054874172_gwndd",
+    "year": "AI 예상"
   },
   {
     "num": "문 36.",
@@ -13481,7 +14063,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_z21uz"
+    "id": "ai_1769054874172_z21uz",
+    "year": "AI 예상"
   },
   {
     "num": "문 35.",
@@ -13497,7 +14080,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_0o9xt"
+    "id": "ai_1769054874172_0o9xt",
+    "year": "AI 예상"
   },
   {
     "num": "문 34.",
@@ -13513,7 +14097,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_y82v0"
+    "id": "ai_1769054874172_y82v0",
+    "year": "AI 예상"
   },
   {
     "num": "문 33.",
@@ -13529,7 +14114,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_cadru"
+    "id": "ai_1769054874172_cadru",
+    "year": "AI 예상"
   },
   {
     "num": "문 32.",
@@ -13545,7 +14131,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_kmlpq"
+    "id": "ai_1769054874172_kmlpq",
+    "year": "AI 예상"
   },
   {
     "num": "문 31.",
@@ -13561,7 +14148,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_r3ry5"
+    "id": "ai_1769054874172_r3ry5",
+    "year": "AI 예상"
   },
   {
     "num": "문 30.",
@@ -13577,7 +14165,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_emtjs"
+    "id": "ai_1769054874172_emtjs",
+    "year": "AI 예상"
   },
   {
     "num": "문 29.",
@@ -13593,7 +14182,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769054874172_jyd8y"
+    "id": "ai_1769054874172_jyd8y",
+    "year": "AI 예상"
   },
   {
     "num": "문 28.",
@@ -13609,7 +14199,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_b792o"
+    "id": "ai_1769054874172_b792o",
+    "year": "AI 예상"
   },
   {
     "num": "문 27.",
@@ -13625,7 +14216,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_9on3m"
+    "id": "ai_1769054874172_9on3m",
+    "year": "AI 예상"
   },
   {
     "num": "문 26.",
@@ -13641,7 +14233,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_3awbz"
+    "id": "ai_1769054874172_3awbz",
+    "year": "AI 예상"
   },
   {
     "num": "문 25.",
@@ -13657,7 +14250,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_bgnwx"
+    "id": "ai_1769054874172_bgnwx",
+    "year": "AI 예상"
   },
   {
     "num": "문 24.",
@@ -13673,7 +14267,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769054874172_9rvz8"
+    "id": "ai_1769054874172_9rvz8",
+    "year": "AI 예상"
   },
   {
     "num": "문 23.",
@@ -13689,7 +14284,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_pi43f"
+    "id": "ai_1769054874172_pi43f",
+    "year": "AI 예상"
   },
   {
     "num": "문 22.",
@@ -13705,7 +14301,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_o8sxk"
+    "id": "ai_1769054874172_o8sxk",
+    "year": "AI 예상"
   },
   {
     "num": "문 21.",
@@ -13721,7 +14318,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_3zyf8"
+    "id": "ai_1769054874172_3zyf8",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -13737,7 +14335,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_hs03f"
+    "id": "ai_1769054874172_hs03f",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -13753,7 +14352,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_h071y"
+    "id": "ai_1769054874172_h071y",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -13769,7 +14369,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_kmne5"
+    "id": "ai_1769054874172_kmne5",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -13785,7 +14386,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_lcnr3"
+    "id": "ai_1769054874172_lcnr3",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -13801,7 +14403,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_zvlme"
+    "id": "ai_1769054874172_zvlme",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -13817,7 +14420,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_y5m64"
+    "id": "ai_1769054874172_y5m64",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -13833,7 +14437,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874172_7r6bi"
+    "id": "ai_1769054874172_7r6bi",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -13849,7 +14454,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874172_1p231"
+    "id": "ai_1769054874172_1p231",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -13865,7 +14471,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_5gpt3"
+    "id": "ai_1769054874171_5gpt3",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -13881,7 +14488,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_5uhzw"
+    "id": "ai_1769054874171_5uhzw",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -13897,7 +14505,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874171_qlqoh"
+    "id": "ai_1769054874171_qlqoh",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -13913,7 +14522,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_f0ikn"
+    "id": "ai_1769054874171_f0ikn",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -13929,7 +14539,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_gy3sh"
+    "id": "ai_1769054874171_gy3sh",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -13945,7 +14556,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874171_sd6z5"
+    "id": "ai_1769054874171_sd6z5",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -13961,7 +14573,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_rjq7u"
+    "id": "ai_1769054874171_rjq7u",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -13977,7 +14590,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874171_4yi2f"
+    "id": "ai_1769054874171_4yi2f",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -13993,7 +14607,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_3zl99"
+    "id": "ai_1769054874171_3zl99",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -14009,7 +14624,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_oet3e"
+    "id": "ai_1769054874171_oet3e",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -14025,7 +14641,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769054874171_biap3"
+    "id": "ai_1769054874171_biap3",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -14041,7 +14658,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769054874171_vodgo"
+    "id": "ai_1769054874171_vodgo",
+    "year": "AI 예상"
   },
   {
     "num": "문 50.",
@@ -14057,7 +14675,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_9umav"
+    "id": "ai_1769053742596_9umav",
+    "year": "AI 예상"
   },
   {
     "num": "문 49.",
@@ -14073,7 +14692,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_rueqa"
+    "id": "ai_1769053742596_rueqa",
+    "year": "AI 예상"
   },
   {
     "num": "문 48.",
@@ -14089,7 +14709,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_300li"
+    "id": "ai_1769053742596_300li",
+    "year": "AI 예상"
   },
   {
     "num": "문 47.",
@@ -14105,7 +14726,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_w0dqj"
+    "id": "ai_1769053742596_w0dqj",
+    "year": "AI 예상"
   },
   {
     "num": "문 46.",
@@ -14121,7 +14743,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_tr0gs"
+    "id": "ai_1769053742596_tr0gs",
+    "year": "AI 예상"
   },
   {
     "num": "문 45.",
@@ -14137,7 +14760,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_ffeqr"
+    "id": "ai_1769053742596_ffeqr",
+    "year": "AI 예상"
   },
   {
     "num": "문 44.",
@@ -14153,7 +14777,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_vrwtn"
+    "id": "ai_1769053742596_vrwtn",
+    "year": "AI 예상"
   },
   {
     "num": "문 43.",
@@ -14169,7 +14794,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_yp2s0"
+    "id": "ai_1769053742596_yp2s0",
+    "year": "AI 예상"
   },
   {
     "num": "문 42.",
@@ -14185,7 +14811,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_s0f3d"
+    "id": "ai_1769053742596_s0f3d",
+    "year": "AI 예상"
   },
   {
     "num": "문 41.",
@@ -14201,7 +14828,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_8w58d"
+    "id": "ai_1769053742596_8w58d",
+    "year": "AI 예상"
   },
   {
     "num": "문 40.",
@@ -14217,7 +14845,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_bpvag"
+    "id": "ai_1769053742596_bpvag",
+    "year": "AI 예상"
   },
   {
     "num": "문 39.",
@@ -14233,7 +14862,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_l9bv5"
+    "id": "ai_1769053742596_l9bv5",
+    "year": "AI 예상"
   },
   {
     "num": "문 38.",
@@ -14249,7 +14879,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_rba5o"
+    "id": "ai_1769053742596_rba5o",
+    "year": "AI 예상"
   },
   {
     "num": "문 37.",
@@ -14265,7 +14896,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_32pe8"
+    "id": "ai_1769053742596_32pe8",
+    "year": "AI 예상"
   },
   {
     "num": "문 36.",
@@ -14281,7 +14913,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_4rmcn"
+    "id": "ai_1769053742596_4rmcn",
+    "year": "AI 예상"
   },
   {
     "num": "문 35.",
@@ -14297,7 +14930,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_72ogb"
+    "id": "ai_1769053742596_72ogb",
+    "year": "AI 예상"
   },
   {
     "num": "문 34.",
@@ -14313,7 +14947,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_vrayh"
+    "id": "ai_1769053742596_vrayh",
+    "year": "AI 예상"
   },
   {
     "num": "문 33.",
@@ -14329,7 +14964,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_wncos"
+    "id": "ai_1769053742596_wncos",
+    "year": "AI 예상"
   },
   {
     "num": "문 32.",
@@ -14345,7 +14981,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_ep7zd"
+    "id": "ai_1769053742596_ep7zd",
+    "year": "AI 예상"
   },
   {
     "num": "문 31.",
@@ -14361,7 +14998,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_77vcx"
+    "id": "ai_1769053742596_77vcx",
+    "year": "AI 예상"
   },
   {
     "num": "문 30.",
@@ -14377,7 +15015,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_d6ag0"
+    "id": "ai_1769053742596_d6ag0",
+    "year": "AI 예상"
   },
   {
     "num": "문 29.",
@@ -14393,7 +15032,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_712od"
+    "id": "ai_1769053742596_712od",
+    "year": "AI 예상"
   },
   {
     "num": "문 28.",
@@ -14409,7 +15049,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_rs3mt"
+    "id": "ai_1769053742596_rs3mt",
+    "year": "AI 예상"
   },
   {
     "num": "문 27.",
@@ -14425,7 +15066,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_plqlm"
+    "id": "ai_1769053742596_plqlm",
+    "year": "AI 예상"
   },
   {
     "num": "문 26.",
@@ -14441,7 +15083,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_sh4w7"
+    "id": "ai_1769053742596_sh4w7",
+    "year": "AI 예상"
   },
   {
     "num": "문 25.",
@@ -14457,7 +15100,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_0skdx"
+    "id": "ai_1769053742596_0skdx",
+    "year": "AI 예상"
   },
   {
     "num": "문 24.",
@@ -14473,7 +15117,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_bcfau"
+    "id": "ai_1769053742596_bcfau",
+    "year": "AI 예상"
   },
   {
     "num": "문 23.",
@@ -14489,7 +15134,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_pr3z5"
+    "id": "ai_1769053742596_pr3z5",
+    "year": "AI 예상"
   },
   {
     "num": "문 22.",
@@ -14505,7 +15151,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_uvp4i"
+    "id": "ai_1769053742596_uvp4i",
+    "year": "AI 예상"
   },
   {
     "num": "문 21.",
@@ -14521,7 +15168,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_it83z"
+    "id": "ai_1769053742596_it83z",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -14537,7 +15185,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_s9kue"
+    "id": "ai_1769053742596_s9kue",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -14553,7 +15202,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_35z6t"
+    "id": "ai_1769053742596_35z6t",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -14569,7 +15219,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_1w9jk"
+    "id": "ai_1769053742596_1w9jk",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -14585,7 +15236,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_174f4"
+    "id": "ai_1769053742596_174f4",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -14601,7 +15253,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_qy8zi"
+    "id": "ai_1769053742596_qy8zi",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -14617,7 +15270,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_1fkq3"
+    "id": "ai_1769053742596_1fkq3",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -14633,7 +15287,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_zeb1h"
+    "id": "ai_1769053742596_zeb1h",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -14649,7 +15304,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_hd2j5"
+    "id": "ai_1769053742596_hd2j5",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -14665,7 +15321,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_gkyl5"
+    "id": "ai_1769053742596_gkyl5",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -14681,7 +15338,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_bh451"
+    "id": "ai_1769053742596_bh451",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -14697,7 +15355,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_lfk3g"
+    "id": "ai_1769053742596_lfk3g",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -14713,7 +15372,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_2llcl"
+    "id": "ai_1769053742596_2llcl",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -14729,7 +15389,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_t75qa"
+    "id": "ai_1769053742596_t75qa",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -14745,7 +15406,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_4tmik"
+    "id": "ai_1769053742596_4tmik",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -14761,7 +15423,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_3ol40"
+    "id": "ai_1769053742596_3ol40",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -14777,7 +15440,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_u87dr"
+    "id": "ai_1769053742596_u87dr",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -14793,7 +15457,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053742596_sehiq"
+    "id": "ai_1769053742596_sehiq",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -14809,7 +15474,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_ehsv4"
+    "id": "ai_1769053742596_ehsv4",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -14825,7 +15491,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053742596_3ve2l"
+    "id": "ai_1769053742596_3ve2l",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -14841,7 +15508,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053742596_ldgof"
+    "id": "ai_1769053742596_ldgof",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -14857,7 +15525,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_py74h",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -14873,7 +15542,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_90b9y",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -14889,7 +15559,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_b6ynn",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -14905,7 +15576,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_h98pd",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -14921,7 +15593,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_6b1x1",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -14937,7 +15610,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_7boc9",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -14953,7 +15627,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053180531_n6wzk",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -14969,7 +15644,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_qbdo2",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -14985,7 +15661,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_usap0",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -15001,7 +15678,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053180531_6mbgh",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -15017,7 +15695,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_26bmw",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -15033,7 +15712,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_jxipz",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -15049,7 +15729,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_kqdlm",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -15065,7 +15746,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_v2w2l",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -15081,7 +15763,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_duxb8",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -15097,7 +15780,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_trp5v",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -15113,7 +15797,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_3rfsr",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -15129,7 +15814,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_1t5de",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -15145,7 +15831,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053180531_z6il2",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -15161,7 +15848,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053180531_6i2x2",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 50.",
@@ -15177,7 +15865,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_411s9",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 49.",
@@ -15193,7 +15882,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_p9itd",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 48.",
@@ -15209,7 +15899,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_m0n4t",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 47.",
@@ -15225,7 +15916,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_qzcye",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 46.",
@@ -15241,7 +15933,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_sgmou",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 45.",
@@ -15257,7 +15950,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_rjnrt",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 44.",
@@ -15273,7 +15967,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_i5u4r",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 43.",
@@ -15289,7 +15984,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_4goke",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 42.",
@@ -15305,7 +16001,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_ohp4f",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 41.",
@@ -15321,7 +16018,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_44b7z",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 40.",
@@ -15337,7 +16035,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_ndbza",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 39.",
@@ -15353,7 +16052,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_91na5",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 38.",
@@ -15369,7 +16069,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_lccgh",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 37.",
@@ -15385,7 +16086,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_2h7sz",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 36.",
@@ -15401,7 +16103,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_c9c0t",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 35.",
@@ -15417,7 +16120,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_mfpdp",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 34.",
@@ -15433,7 +16137,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_9bkcw",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 33.",
@@ -15449,7 +16154,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_lreoc",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 32.",
@@ -15465,7 +16171,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_4mjlk",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 31.",
@@ -15481,7 +16188,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_oxom0",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 30.",
@@ -15497,7 +16205,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_1nbp8",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 29.",
@@ -15513,7 +16222,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_zfimt",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 28.",
@@ -15529,7 +16239,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_exuc8",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 27.",
@@ -15545,7 +16256,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_ct7xr",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 26.",
@@ -15561,7 +16273,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_htajh",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 25.",
@@ -15577,7 +16290,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_s89vk",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 24.",
@@ -15593,7 +16307,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_rc7jz",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 23.",
@@ -15609,7 +16324,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_ak7km",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 22.",
@@ -15625,7 +16341,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_89zgn",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 21.",
@@ -15641,7 +16358,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_m6nen",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -15657,7 +16375,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_z4g0m",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -15673,7 +16392,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_c8j6c",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -15689,7 +16409,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_eagw8",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -15705,7 +16426,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_8c807",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -15721,7 +16443,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_9bu2o",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -15737,7 +16460,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_mll51",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -15753,7 +16477,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_8e5wk",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -15769,7 +16494,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_efgig",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -15785,7 +16511,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_8wntz",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -15801,7 +16528,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_lmycw",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -15817,7 +16545,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_yn3ry",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -15833,7 +16562,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_27gi9",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -15849,7 +16579,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_tds91",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -15865,7 +16596,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_bncox",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -15881,7 +16613,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_r397y",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -15897,7 +16630,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_8omn3",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -15913,7 +16647,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "id": "ai_1769053133980_2jloc",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -15929,7 +16664,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_jvdj4",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -15945,7 +16681,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "id": "ai_1769053133980_u65yv",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -15961,7 +16698,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "id": "ai_1769053133980_fz7iv",
-    "source": "AI"
+    "source": "AI",
+    "year": "AI 예상"
   },
   {
     "num": "문 50.",
@@ -15977,7 +16715,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_eh9ed"
+    "id": "ai_1769053084818_eh9ed",
+    "year": "AI 예상"
   },
   {
     "num": "문 49.",
@@ -15993,7 +16732,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_fruik"
+    "id": "ai_1769053084818_fruik",
+    "year": "AI 예상"
   },
   {
     "num": "문 48.",
@@ -16009,7 +16749,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_87jkd"
+    "id": "ai_1769053084818_87jkd",
+    "year": "AI 예상"
   },
   {
     "num": "문 47.",
@@ -16025,7 +16766,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_yzju4"
+    "id": "ai_1769053084818_yzju4",
+    "year": "AI 예상"
   },
   {
     "num": "문 46.",
@@ -16041,7 +16783,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_1616g"
+    "id": "ai_1769053084818_1616g",
+    "year": "AI 예상"
   },
   {
     "num": "문 45.",
@@ -16057,7 +16800,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_y1gqm"
+    "id": "ai_1769053084818_y1gqm",
+    "year": "AI 예상"
   },
   {
     "num": "문 44.",
@@ -16073,7 +16817,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_vwmap"
+    "id": "ai_1769053084818_vwmap",
+    "year": "AI 예상"
   },
   {
     "num": "문 43.",
@@ -16089,7 +16834,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_j6wpy"
+    "id": "ai_1769053084818_j6wpy",
+    "year": "AI 예상"
   },
   {
     "num": "문 42.",
@@ -16105,7 +16851,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_sseu5"
+    "id": "ai_1769053084818_sseu5",
+    "year": "AI 예상"
   },
   {
     "num": "문 41.",
@@ -16121,7 +16868,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_fsh3f"
+    "id": "ai_1769053084818_fsh3f",
+    "year": "AI 예상"
   },
   {
     "num": "문 40.",
@@ -16137,7 +16885,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_ph3gi"
+    "id": "ai_1769053084818_ph3gi",
+    "year": "AI 예상"
   },
   {
     "num": "문 39.",
@@ -16153,7 +16902,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_kvrdb"
+    "id": "ai_1769053084818_kvrdb",
+    "year": "AI 예상"
   },
   {
     "num": "문 38.",
@@ -16169,7 +16919,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_r6jpk"
+    "id": "ai_1769053084818_r6jpk",
+    "year": "AI 예상"
   },
   {
     "num": "문 37.",
@@ -16185,7 +16936,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_f10ir"
+    "id": "ai_1769053084818_f10ir",
+    "year": "AI 예상"
   },
   {
     "num": "문 36.",
@@ -16201,7 +16953,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_c5wyo"
+    "id": "ai_1769053084818_c5wyo",
+    "year": "AI 예상"
   },
   {
     "num": "문 35.",
@@ -16217,7 +16970,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_jqwuo"
+    "id": "ai_1769053084818_jqwuo",
+    "year": "AI 예상"
   },
   {
     "num": "문 34.",
@@ -16233,7 +16987,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_7zfr5"
+    "id": "ai_1769053084818_7zfr5",
+    "year": "AI 예상"
   },
   {
     "num": "문 33.",
@@ -16249,7 +17004,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_87plf"
+    "id": "ai_1769053084818_87plf",
+    "year": "AI 예상"
   },
   {
     "num": "문 32.",
@@ -16265,7 +17021,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_y3eyf"
+    "id": "ai_1769053084818_y3eyf",
+    "year": "AI 예상"
   },
   {
     "num": "문 31.",
@@ -16281,7 +17038,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_33kuu"
+    "id": "ai_1769053084818_33kuu",
+    "year": "AI 예상"
   },
   {
     "num": "문 30.",
@@ -16297,7 +17055,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_kueqk"
+    "id": "ai_1769053084818_kueqk",
+    "year": "AI 예상"
   },
   {
     "num": "문 29.",
@@ -16313,7 +17072,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_74itt"
+    "id": "ai_1769053084818_74itt",
+    "year": "AI 예상"
   },
   {
     "num": "문 28.",
@@ -16329,7 +17089,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_z39lp"
+    "id": "ai_1769053084818_z39lp",
+    "year": "AI 예상"
   },
   {
     "num": "문 27.",
@@ -16345,7 +17106,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_jbtsy"
+    "id": "ai_1769053084818_jbtsy",
+    "year": "AI 예상"
   },
   {
     "num": "문 26.",
@@ -16361,7 +17123,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_n5ovp"
+    "id": "ai_1769053084818_n5ovp",
+    "year": "AI 예상"
   },
   {
     "num": "문 25.",
@@ -16377,7 +17140,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_f9yy0"
+    "id": "ai_1769053084818_f9yy0",
+    "year": "AI 예상"
   },
   {
     "num": "문 24.",
@@ -16393,7 +17157,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_nh2ug"
+    "id": "ai_1769053084818_nh2ug",
+    "year": "AI 예상"
   },
   {
     "num": "문 23.",
@@ -16409,7 +17174,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_9t2eh"
+    "id": "ai_1769053084818_9t2eh",
+    "year": "AI 예상"
   },
   {
     "num": "문 22.",
@@ -16425,7 +17191,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_8f2gs"
+    "id": "ai_1769053084818_8f2gs",
+    "year": "AI 예상"
   },
   {
     "num": "문 21.",
@@ -16441,7 +17208,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_hr1l6"
+    "id": "ai_1769053084818_hr1l6",
+    "year": "AI 예상"
   },
   {
     "num": "문 20.",
@@ -16457,7 +17225,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_mmzv0"
+    "id": "ai_1769053084818_mmzv0",
+    "year": "AI 예상"
   },
   {
     "num": "문 19.",
@@ -16473,7 +17242,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_i7l7z"
+    "id": "ai_1769053084818_i7l7z",
+    "year": "AI 예상"
   },
   {
     "num": "문 18.",
@@ -16489,7 +17259,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_pqz0l"
+    "id": "ai_1769053084818_pqz0l",
+    "year": "AI 예상"
   },
   {
     "num": "문 17.",
@@ -16505,7 +17276,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_cyxoz"
+    "id": "ai_1769053084818_cyxoz",
+    "year": "AI 예상"
   },
   {
     "num": "문 16.",
@@ -16521,7 +17293,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_yc6nt"
+    "id": "ai_1769053084818_yc6nt",
+    "year": "AI 예상"
   },
   {
     "num": "문 15.",
@@ -16537,7 +17310,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_xfolk"
+    "id": "ai_1769053084818_xfolk",
+    "year": "AI 예상"
   },
   {
     "num": "문 14.",
@@ -16553,7 +17327,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_cc5oj"
+    "id": "ai_1769053084818_cc5oj",
+    "year": "AI 예상"
   },
   {
     "num": "문 13.",
@@ -16569,7 +17344,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_56qbz"
+    "id": "ai_1769053084818_56qbz",
+    "year": "AI 예상"
   },
   {
     "num": "문 12.",
@@ -16585,7 +17361,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_1wknb"
+    "id": "ai_1769053084818_1wknb",
+    "year": "AI 예상"
   },
   {
     "num": "문 11.",
@@ -16601,7 +17378,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "상",
     "source": "AI",
-    "id": "ai_1769053084818_41ssi"
+    "id": "ai_1769053084818_41ssi",
+    "year": "AI 예상"
   },
   {
     "num": "문 10.",
@@ -16617,7 +17395,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_ga2ai"
+    "id": "ai_1769053084818_ga2ai",
+    "year": "AI 예상"
   },
   {
     "num": "문 9.",
@@ -16633,7 +17412,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_khhz9"
+    "id": "ai_1769053084818_khhz9",
+    "year": "AI 예상"
   },
   {
     "num": "문 8.",
@@ -16649,7 +17429,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_nopay"
+    "id": "ai_1769053084818_nopay",
+    "year": "AI 예상"
   },
   {
     "num": "문 7.",
@@ -16665,7 +17446,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_1lop3"
+    "id": "ai_1769053084818_1lop3",
+    "year": "AI 예상"
   },
   {
     "num": "문 6.",
@@ -16681,7 +17463,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_dsyw0"
+    "id": "ai_1769053084818_dsyw0",
+    "year": "AI 예상"
   },
   {
     "num": "문 5.",
@@ -16697,7 +17480,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_i2s1c"
+    "id": "ai_1769053084818_i2s1c",
+    "year": "AI 예상"
   },
   {
     "num": "문 4.",
@@ -16713,7 +17497,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_27n2a"
+    "id": "ai_1769053084818_27n2a",
+    "year": "AI 예상"
   },
   {
     "num": "문 3.",
@@ -16729,7 +17514,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_ydune"
+    "id": "ai_1769053084818_ydune",
+    "year": "AI 예상"
   },
   {
     "num": "문 2.",
@@ -16745,7 +17531,8 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "중",
     "source": "AI",
-    "id": "ai_1769053084818_l0f4f"
+    "id": "ai_1769053084818_l0f4f",
+    "year": "AI 예상"
   },
   {
     "num": "문 1.",
@@ -16761,6 +17548,7 @@ const questionData = [
     "subject": "지적측량",
     "difficulty": "하",
     "source": "AI",
-    "id": "ai_1769053084818_ejoe7"
+    "id": "ai_1769053084818_ejoe7",
+    "year": "AI 예상"
   }
 ];
