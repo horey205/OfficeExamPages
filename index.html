@@ -45,16 +45,20 @@
 
                 <div class="subject-grid">
                     <!-- 지적측량 -->
-                    <div class="subject-card glass" onclick="selectSubject('지적측량')" style="cursor:pointer">
-                        <h4>📐 지적측량</h4>
-                        <p style="font-size:0.9rem; opacity:0.8; margin-top:10px;">기출문제와 AI모의고사 풀기</p>
+                    <div class="subject-card glass" onclick="startQuiz('study')" style="cursor:pointer; padding: 25px;">
+                        <div style="background:rgba(16, 185, 129, 0.15); width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 15px auto; font-size: 1.8rem;">
+                            📐
+                        </div>
+                        <h4>지적측량 기출문제</h4>
+                        <p style="font-size:0.9rem; opacity:0.8; margin-top:10px;">2015 - 2026년 공무원 기출문제 완벽 학습</p>
+                        <button class="primary-btn" style="width:100%; margin-top:15px;" onclick="startQuiz('study')">기출문제 학습하기</button>
                     </div>
                 </div>
             </div>
             <div class="stats-overview">
                 <div class="stat-card glass">
-                    <span class="val" id="total-q-count">320+</span>
-                    <span class="lbl">총 문항 수</span>
+                    <span class="val" id="total-q-count">244</span>
+                    <span class="lbl">기출 문항 수</span>
                 </div>
             </div>
             <div style="margin-top: 40px; text-align: center;">

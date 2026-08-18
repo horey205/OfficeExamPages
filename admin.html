@@ -220,9 +220,6 @@
             <div class="nav-actions" style="display:flex; gap: 10px; align-items: center;">
                 <button class="primary-btn"
                     style="background:var(--admin-primary); padding: 8px 12px; font-size: 0.8rem;"
-                    onclick="document.getElementById('import-modal').classList.remove('hidden')">🚀 AI 대량 가져오기</button>
-                <button class="primary-btn"
-                    style="background:var(--admin-primary); padding: 8px 12px; font-size: 0.8rem;"
                     onclick="addNewQuestion()">+ 1건 추가</button>
                 <button id="github-btn" class="primary-btn"
                     style="background:#6366f1; padding: 8px 12px; font-size: 0.8rem;" onclick="uploadToGithub()">☁️
@@ -235,14 +232,9 @@
         <div class="sidebar-menu glass"
             style="position:fixed; left:20px; top:100px; bottom:20px; width:60px; display:flex; flex-direction:column; gap:15px; padding:15px 10px; align-items:center; z-index:90;">
 
-            <div title="기출(측량) 보기" onclick="filterCategory('off_survey')" class="sidebar-btn"
+            <div title="기출(지적측량) 보기" onclick="filterCategory('off_survey')" class="sidebar-btn"
                 style="background:#10b981;">
-                측량 <span id="badge-off_survey" class="count-badge">0</span>
-            </div>
-
-            <div title="AI신규(측량) 보기" onclick="filterCategory('cust_survey')" class="sidebar-btn"
-                style="background:#ec4899;">
-                AI측 <span id="badge-cust_survey" class="count-badge">0</span>
+                기출 <span id="badge-off_survey" class="count-badge">0</span>
             </div>
 
             <div title="전체 보기" onclick="filterCategory('all')" class="sidebar-btn"
@@ -362,14 +354,13 @@
 
     <script>
         let data = {
-            off_survey: [], cust_survey: []
+            off_survey: []
         };
         let currentEdit = { cat: '', idx: -1 };
         let activeFilter = 'all'; // Moved here
 
         if (typeof questionData !== 'undefined') {
-            data.off_survey = questionData.filter(q => (q.source === '기출' || !q.source) && q.subject === '지적측량');
-            data.cust_survey = questionData.filter(q => (q.source && q.source !== '기출') && q.subject === '지적측량');
+            data.off_survey = questionData.filter(q => (q.source === '기출' || !q.source) && (q.subject === '지적측량' || !q.subject));
             renderList();
         }
 
@@ -377,8 +368,7 @@
             const list = document.getElementById('question-list');
             let html = '';
             const configs = [
-                { id: 'off_survey', title: '🏛️ 기출 (지적측량)', color: '#10b981' },
-                { id: 'cust_survey', title: '🚀 신규 (지적측량)', color: '#ec4899' }
+                { id: 'off_survey', title: '🏛️ 기출 (지적측량)', color: '#10b981' }
             ];
 
             configs.forEach(conf => {
@@ -467,8 +457,8 @@
 
         function addNewQuestion() {
             const subject = "지적측량";
-            const cat = "cust_survey";
-            const newQ = { id: `new_${Date.now()}`, num: "신규", text: "내용입력", options: ["1", "2", "3", "4"], answer: 1, explanation: "", subject, source: "예상", difficulty: "중", image: null };
+            const cat = "off_survey";
+            const newQ = { id: `manual_${Date.now()}`, num: "신규", text: "내용입력", options: ["1", "2", "3", "4"], answer: 1, explanation: "", subject, source: "기출", year: "2026년", difficulty: "중", image: null };
             data[cat].unshift(newQ);
             loadQuestion(cat, 0);
 

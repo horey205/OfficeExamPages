@@ -29,55 +29,27 @@ function selectSubject(subject) {
     document.getElementById('mode-selection').classList.remove('hidden');
 }
 
-function startQuiz(mode) {
-    currentMode = mode;
-    console.log(`[StartQuiz] Mode: ${mode}, Subject: ${selectedSubject}`);
+function startQuiz(mode = 'study') {
+    currentMode = 'study';
+    selectedSubject = '지적측량';
+    console.log(`[StartQuiz] Starting 지적측량 기출문제`);
 
-    // Filter by Subject
-    let subjectFiltered = allQuestions.filter(q => q.subject && q.subject.includes(selectedSubject));
-
-    // Filter by Source based on Mode
-    let filtered = [];
-    if (mode === 'study') {
-        // Study Mode -> Past Questions ONLY (source is '기출' OR missing)
-        filtered = subjectFiltered.filter(q => q.source === '기출' || !q.source);
-    } else {
-        // Exam Mode -> AI/New Questions ONLY
-        filtered = subjectFiltered.filter(q => q.source && q.source !== '기출');
-    }
+    // Filter by Subject (지적측량) & Source (기출)
+    let filtered = allQuestions.filter(q => (q.subject === '지적측량' || !q.subject) && (q.source === '기출' || !q.source));
     console.log(`[Filter] Final Count: ${filtered.length}`);
 
     if (filtered.length === 0) {
-        alert("해당 조건의 문항이 없습니다. (문제 데이터를 확인하세요)");
+        alert("기출문제 데이터가 없습니다.");
         return;
     }
 
-    if (mode === 'exam') {
-        // --- Mock Exam: Pick 20 questions (4 High, 12 Medium, 4 Low) ---
-        const hardQ = filtered.filter(q => q.difficulty === '상').sort(() => 0.5 - Math.random());
-        const midQ = filtered.filter(q => (q.difficulty === '중' || !q.difficulty)).sort(() => 0.5 - Math.random());
-        const easyQ = filtered.filter(q => q.difficulty === '하').sort(() => 0.5 - Math.random());
-
-        currentQuiz = [
-            ...hardQ.slice(0, 4),
-            ...midQ.slice(0, 12),
-            ...easyQ.slice(0, 4)
-        ];
-
-        if (currentQuiz.length < 20) {
-            const extra = filtered.filter(q => !currentQuiz.includes(q)).sort(() => 0.5 - Math.random());
-            currentQuiz = [...currentQuiz, ...extra.slice(0, 20 - currentQuiz.length)];
-        }
-        currentQuiz = currentQuiz.sort(() => 0.5 - Math.random());
-    } else {
-        // --- Study Mode: Load all questions in order or shuffled ---
-        currentQuiz = [...filtered].sort(() => 0.5 - Math.random());
-    }
-
+    // Load questions (shuffled for dynamic learning)
+    currentQuiz = [...filtered].sort(() => 0.5 - Math.random());
     currentIndex = 0;
     score = 0;
 
     document.getElementById('mode-selection').classList.add('hidden');
+    document.getElementById('landing').classList.add('hidden');
     document.getElementById('quiz').classList.remove('hidden');
 
     showQuestion();
